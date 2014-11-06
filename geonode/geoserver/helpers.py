@@ -1011,6 +1011,20 @@ def geoserver_upload(
 
     if 'shp' not in files:
         data = base_file
+    #workaround to ensure goog prj is sent to geoserver to detect correct native epsg31370 if lambert belge 1972
+    else:
+        base, ext = os.path.splitext(base_file)
+        prjFile = base + '.prj'
+        if os.path.exists(prjFile):
+            with open(prjFile, 'r+') as file:
+                old = file.read()
+                logger.warn(old)
+                #regex = re.compile(r'(belg.*lambert.*72)')
+		if re.search('(belg.*lambert.*72)', old, re.IGNORECASE) is not None:
+                    logger.warn('lb 72 detected, overriding prj file before upload to geoserver')
+                    file.seek(0)
+		    file.write('PROJCS["Belge 1972 / Belgian Lambert 72", GEOGCS["Belge 1972", DATUM["Reseau National Belge 1972", SPHEROID["International 1924", 6378388.0, 297.0, AUTHORITY["EPSG","7022"]], TOWGS84[-106.8686, 52.2978, -103.7239, 0.3366, 0.457, -1.8422, -1.2747], AUTHORITY["EPSG","6313"]], PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], UNIT["degree", 0.017453292519943295], AXIS["Geodetic longitude", EAST], AXIS["Geodetic latitude", NORTH], AUTHORITY["EPSG","4313"]], PROJECTION["Lambert_Conformal_Conic_2SP", AUTHORITY["EPSG","9802"]], PARAMETER["central_meridian", 4.367486666666666], PARAMETER["latitude_of_origin", 90.0], PARAMETER["standard_parallel_1", 51.166667233333335], PARAMETER["false_easting", 150000.013], PARAMETER["false_northing", 5400088.438], PARAMETER["scale_factor", 1.0], PARAMETER["standard_parallel_2", 49.833333900000014], UNIT["m", 1.0], AXIS["Easting", EAST], AXIS["Northing", NORTH], AUTHORITY["EPSG","31370"]]')
+                    file.close()
 
     try:
         store, gs_resource = create_store_and_resource(name,
