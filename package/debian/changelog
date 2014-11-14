@@ -1,3 +1,34 @@
+geonode (2.4.0+alpha26) trusty; urgency=high
+
+  * [086481] Disable test_configure_time temporarily, refs #1767
+  * [2fcb1d] Make flake8 happy
+  * [b6cc3d] Pass geoserver variable to map download to avoid incorrect redirection
+  * [4f6121] Pass geoserver variable to map download to avoid incorrect redirection
+
+ -- Ariel Nunez <ingenieroariel@gmail.com>  Thu, 13 Nov 2014 13:13:21 -0500
+
+geonode (2.4.0+alpha25) trusty; urgency=high
+
+  * [6fa68e] Adedd python-django-bootstrap3-datetimepicker to the control file
+
+ -- Ariel Nunez <ingenieroariel@gmail.com>  Thu, 13 Nov 2014 11:37:21 -0500
+
+geonode (2.4.0+alpha24) trusty; urgency=high
+
+  [ Ian Schneider ]
+  * [99e8db] upload cleanup + tests
+  * [b12ad5] uploader integration tests running and passing
+  * [2c1272] continued upload fixes
+  * [dfb20f] uploader client-side fixes
+
+  [ Ariel Nunez ]
+  * [263622] Upgrade to gsconfig 0.6.11
+  * [d52294] Updated integration tests to try to fix timezone issue
+  * [60c077] Updated integration tests to try to fix timezone issue (second time)
+  * [8a75a7] Fixes map download
+
+ -- Ariel Nunez <ingenieroariel@gmail.com>  Thu, 13 Nov 2014 11:33:15 -0500
+
 geonode (2.4.0+alpha23) trusty; urgency=high
 
   [ Simone Dalmasso ]

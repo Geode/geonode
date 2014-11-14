@@ -41,7 +41,6 @@ from geonode.utils import DEFAULT_TITLE
 from geonode.utils import DEFAULT_ABSTRACT
 from geonode.utils import default_map_config
 from geonode.utils import resolve_object
-from geonode.utils import http_client
 from geonode.utils import layer_from_viewer_config
 from geonode.maps.forms import MapForm
 from geonode.security.views import _perms_info_json
@@ -57,6 +56,11 @@ if 'geonode.geoserver' in settings.INSTALLED_APPS:
     # should be moved to geonode.geoserver.
     from geonode.geoserver.helpers import ogc_server_settings
 
+    # Use the http_client with one that knows the username
+    # and password for GeoServer's management user.
+    from geonode.geoserver.helpers import http_client
+else:
+    from geonode.utils import http_client
 
 logger = logging.getLogger("geonode.maps.views")
 
@@ -588,6 +592,7 @@ def map_download(request, mapid, template='maps/map_download.html'):
                         downloadable_layers.append(lyr)
 
     return render_to_response(template, RequestContext(request, {
+        "geoserver": ogc_server_settings.PUBLIC_LOCATION,
         "map_status": map_status,
         "map": map_obj,
         "locked_layers": locked_layers,
