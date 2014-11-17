@@ -4,14 +4,15 @@
 # 
 # Translators:
 # BJ Jang <qgis.tr.kr@gmail.com>, 2014
+# ingenieroariel <ingenieroariel@gmail.com>, 2014
 # Minpa Lee <mapplus@gmail.com>, 2013-2014
 # Minpa Lee <mapplus@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-24 09:59-0500\n"
-"PO-Revision-Date: 2014-11-11 22:38+0000\n"
+"POT-Creation-Date: 2014-11-14 09:56-0500\n"
+"PO-Revision-Date: 2014-11-14 16:58+0000\n"
 "Last-Translator: ingenieroariel <ingenieroariel@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/geonode/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -20,11 +21,11 @@ msgstr ""
 "Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: utils.py:37
+#: utils.py:38
 msgid "Invalid permission level."
 msgstr "유효하지 않은 권한 수준."
 
-#: utils.py:461
+#: utils.py:473
 msgid "Permission Denied"
 msgstr "사용 권한이 거부되었습니다"
 
@@ -144,958 +145,6 @@ msgstr "데이터가 3개월마다 갱신됩니다"
 msgid "No information provided"
 msgstr "제공된 정보가 없습니다"
 
-#: base/enumerations.py:81
-msgid "Afghanistan"
-msgstr "아프가니스탄"
-
-#: base/enumerations.py:82
-msgid "Aland Islands"
-msgstr "올란드 제도"
-
-#: base/enumerations.py:83
-msgid "Albania"
-msgstr "알바니아"
-
-#: base/enumerations.py:84
-msgid "Algeria"
-msgstr "알제리"
-
-#: base/enumerations.py:85
-msgid "American Samoa"
-msgstr "아메리칸 사모아"
-
-#: base/enumerations.py:86
-msgid "Andorra"
-msgstr "안도라"
-
-#: base/enumerations.py:87
-msgid "Angola"
-msgstr "앙골라"
-
-#: base/enumerations.py:88
-msgid "Anguilla"
-msgstr "앵귈라"
-
-#: base/enumerations.py:89
-msgid "Antigua and Barbuda"
-msgstr "앤티가 바부다"
-
-#: base/enumerations.py:90
-msgid "Argentina"
-msgstr "아르헨티나"
-
-#: base/enumerations.py:91
-msgid "Armenia"
-msgstr "아르메니아"
-
-#: base/enumerations.py:92
-msgid "Aruba"
-msgstr "아루바"
-
-#: base/enumerations.py:93
-msgid "Australia"
-msgstr "오스트레일리아"
-
-#: base/enumerations.py:94
-msgid "Austria"
-msgstr "오스트리아"
-
-#: base/enumerations.py:95
-msgid "Azerbaijan"
-msgstr "아제르바이젠"
-
-#: base/enumerations.py:96
-msgid "Bahamas"
-msgstr "바하마"
-
-#: base/enumerations.py:97
-msgid "Bahrain"
-msgstr "바레인"
-
-#: base/enumerations.py:98
-msgid "Bangladesh"
-msgstr "방글라데시"
-
-#: base/enumerations.py:99
-msgid "Barbados"
-msgstr "바베이도스"
-
-#: base/enumerations.py:100
-msgid "Belarus"
-msgstr "벨라루스"
-
-#: base/enumerations.py:101
-msgid "Belgium"
-msgstr "벨기에"
-
-#: base/enumerations.py:102
-msgid "Belize"
-msgstr "벨리즈"
-
-#: base/enumerations.py:103
-msgid "Benin"
-msgstr "베냉"
-
-#: base/enumerations.py:104
-msgid "Bermuda"
-msgstr "버뮤다"
-
-#: base/enumerations.py:105
-msgid "Bhutan"
-msgstr "부탄"
-
-#: base/enumerations.py:106
-msgid "Bolivia"
-msgstr "볼리비아"
-
-#: base/enumerations.py:107
-msgid "Bosnia and Herzegovina"
-msgstr "보스니아 헤르체고비나"
-
-#: base/enumerations.py:108
-msgid "Botswana"
-msgstr "보츠와나"
-
-#: base/enumerations.py:109
-msgid "Brazil"
-msgstr "브라질"
-
-#: base/enumerations.py:110
-msgid "British Virgin Islands"
-msgstr "영국령 버진 아일랜드"
-
-#: base/enumerations.py:111
-msgid "Brunei Darussalam"
-msgstr "브루나이"
-
-#: base/enumerations.py:112
-msgid "Bulgaria"
-msgstr "불가리아"
-
-#: base/enumerations.py:113
-msgid "Burkina Faso"
-msgstr "부르키나 파소"
-
-#: base/enumerations.py:114
-msgid "Burundi"
-msgstr "부룬디"
-
-#: base/enumerations.py:115
-msgid "Cambodia"
-msgstr "캄보디아"
-
-#: base/enumerations.py:116
-msgid "Cameroon"
-msgstr "카메룬"
-
-#: base/enumerations.py:117
-msgid "Canada"
-msgstr "캐나다"
-
-#: base/enumerations.py:118
-msgid "Cape Verde"
-msgstr "카보베르데"
-
-#: base/enumerations.py:119
-msgid "Cayman Islands"
-msgstr "케이맨 제도"
-
-#: base/enumerations.py:120
-msgid "Central African Republic"
-msgstr "중앙 아프리카 공화국"
-
-#: base/enumerations.py:121
-msgid "Chad"
-msgstr "차드"
-
-#: base/enumerations.py:122
-msgid "Channel Islands"
-msgstr "채널 제도"
-
-#: base/enumerations.py:123
-msgid "Chile"
-msgstr "칠레"
-
-#: base/enumerations.py:124
-msgid "China"
-msgstr "중국"
-
-#: base/enumerations.py:125
-msgid "China - Hong Kong"
-msgstr "홍콩"
-
-#: base/enumerations.py:126
-msgid "China - Macao"
-msgstr "마카오"
-
-#: base/enumerations.py:127
-msgid "Colombia"
-msgstr "콜롬비아"
-
-#: base/enumerations.py:128
-msgid "Comoros"
-msgstr "코모로"
-
-#: base/enumerations.py:129
-msgid "Congo"
-msgstr "콩고"
-
-#: base/enumerations.py:130
-msgid "Cook Islands"
-msgstr "쿡 제도"
-
-#: base/enumerations.py:131
-msgid "Costa Rica"
-msgstr "코스타리카"
-
-#: base/enumerations.py:132
-msgid "Cote d'Ivoire"
-msgstr "코트디부아르"
-
-#: base/enumerations.py:133
-msgid "Croatia"
-msgstr "크로아티아"
-
-#: base/enumerations.py:134
-msgid "Cuba"
-msgstr "쿠바"
-
-#: base/enumerations.py:135
-msgid "Cyprus"
-msgstr "키프로스"
-
-#: base/enumerations.py:136
-msgid "Czech Republic"
-msgstr "체코"
-
-#: base/enumerations.py:137
-msgid "Democratic People's Republic of Korea"
-msgstr "조선 민주주의 인민 공화국"
-
-#: base/enumerations.py:138
-msgid "Democratic Republic of the Congo"
-msgstr "콩고 민주공화국"
-
-#: base/enumerations.py:139
-msgid "Denmark"
-msgstr "덴마크"
-
-#: base/enumerations.py:140
-msgid "Djibouti"
-msgstr "지부티"
-
-#: base/enumerations.py:141
-msgid "Dominica"
-msgstr "도미니카"
-
-#: base/enumerations.py:142
-msgid "Dominican Republic"
-msgstr "도미니카 공화국"
-
-#: base/enumerations.py:143
-msgid "Ecuador"
-msgstr "에콰도르"
-
-#: base/enumerations.py:144
-msgid "Egypt"
-msgstr "이집트"
-
-#: base/enumerations.py:145
-msgid "El Salvador"
-msgstr "엘살바도르"
-
-#: base/enumerations.py:146
-msgid "Equatorial Guinea"
-msgstr "적도 기니"
-
-#: base/enumerations.py:147
-msgid "Eritrea"
-msgstr "에리트레아"
-
-#: base/enumerations.py:148
-msgid "Estonia"
-msgstr "에스토니아"
-
-#: base/enumerations.py:149
-msgid "Ethiopia"
-msgstr "에티오피아"
-
-#: base/enumerations.py:150
-msgid "Faeroe Islands"
-msgstr "페로 제도"
-
-#: base/enumerations.py:151
-msgid "Falkland Islands (Malvinas)"
-msgstr "포클랜드 제도 (말비나스)"
-
-#: base/enumerations.py:152
-msgid "Fiji"
-msgstr "피지"
-
-#: base/enumerations.py:153
-msgid "Finland"
-msgstr "핀란드"
-
-#: base/enumerations.py:154
-msgid "France"
-msgstr "프랑스"
-
-#: base/enumerations.py:155
-msgid "French Guiana"
-msgstr "프랑스령 기아나"
-
-#: base/enumerations.py:156
-msgid "French Polynesia"
-msgstr "프랑스령 폴리네이사"
-
-#: base/enumerations.py:157
-msgid "Gabon"
-msgstr "가봉"
-
-#: base/enumerations.py:158
-msgid "Gambia"
-msgstr "감비아"
-
-#: base/enumerations.py:159
-msgid "Georgia"
-msgstr "그루지야"
-
-#: base/enumerations.py:160
-msgid "Germany"
-msgstr "독일"
-
-#: base/enumerations.py:161
-msgid "Ghana"
-msgstr "가나"
-
-#: base/enumerations.py:162
-msgid "Gibraltar"
-msgstr "지브롤터"
-
-#: base/enumerations.py:163
-msgid "Greece"
-msgstr "그리스"
-
-#: base/enumerations.py:164
-msgid "Greenland"
-msgstr "그린란드"
-
-#: base/enumerations.py:165
-msgid "Grenada"
-msgstr "그레나다"
-
-#: base/enumerations.py:166
-msgid "Guadeloupe"
-msgstr "과들루프"
-
-#: base/enumerations.py:167
-msgid "Guam"
-msgstr "괌"
-
-#: base/enumerations.py:168
-msgid "Guatemala"
-msgstr "과테말라"
-
-#: base/enumerations.py:169
-msgid "Guernsey"
-msgstr "겐사이"
-
-#: base/enumerations.py:170
-msgid "Guinea"
-msgstr "기니"
-
-#: base/enumerations.py:171
-msgid "Guinea-Bissau"
-msgstr "기니비사우"
-
-#: base/enumerations.py:172
-msgid "Guyana"
-msgstr "가이아나"
-
-#: base/enumerations.py:173
-msgid "Haiti"
-msgstr "아이티"
-
-#: base/enumerations.py:174
-msgid "Holy See (Vatican City)"
-msgstr "교황청 (바티칸 시티)"
-
-#: base/enumerations.py:175
-msgid "Honduras"
-msgstr "온두라스"
-
-#: base/enumerations.py:176
-msgid "Hungary"
-msgstr "헝가리"
-
-#: base/enumerations.py:177
-msgid "Iceland"
-msgstr "아이슬란드"
-
-#: base/enumerations.py:178
-msgid "India"
-msgstr "인도"
-
-#: base/enumerations.py:179
-msgid "Indonesia"
-msgstr "인도네시아"
-
-#: base/enumerations.py:180
-msgid "Iran"
-msgstr "이란"
-
-#: base/enumerations.py:181
-msgid "Iraq"
-msgstr "이라크"
-
-#: base/enumerations.py:182
-msgid "Ireland"
-msgstr "아일랜드"
-
-#: base/enumerations.py:183
-msgid "Isle of Man"
-msgstr "맨섬"
-
-#: base/enumerations.py:184
-msgid "Israel"
-msgstr "이스라엘"
-
-#: base/enumerations.py:185
-msgid "Italy"
-msgstr "이탈리아"
-
-#: base/enumerations.py:186
-msgid "Jamaica"
-msgstr "자메이카"
-
-#: base/enumerations.py:187
-msgid "Japan"
-msgstr "일본"
-
-#: base/enumerations.py:188
-msgid "Jersey"
-msgstr "저지"
-
-#: base/enumerations.py:189
-msgid "Jordan"
-msgstr "요르단"
-
-#: base/enumerations.py:190
-msgid "Kazakhstan"
-msgstr "카자흐스탄"
-
-#: base/enumerations.py:191
-msgid "Kenya"
-msgstr "케냐"
-
-#: base/enumerations.py:192
-msgid "Kiribati"
-msgstr "키리바시"
-
-#: base/enumerations.py:193
-msgid "Kuwait"
-msgstr "쿠웨이트"
-
-#: base/enumerations.py:194
-msgid "Kyrgyzstan"
-msgstr "키르기스스탄"
-
-#: base/enumerations.py:195
-msgid "Lao People's Democratic Republic"
-msgstr "라오스 인민 민주 공화국"
-
-#: base/enumerations.py:196
-msgid "Latvia"
-msgstr "라트비아"
-
-#: base/enumerations.py:197
-msgid "Lebanon"
-msgstr "레바논"
-
-#: base/enumerations.py:198
-msgid "Lesotho"
-msgstr "레소토"
-
-#: base/enumerations.py:199
-msgid "Liberia"
-msgstr "라이베리아"
-
-#: base/enumerations.py:200
-msgid "Libyan Arab Jamahiriya"
-msgstr "리비아"
-
-#: base/enumerations.py:201
-msgid "Liechtenstein"
-msgstr "리히텐슈타인"
-
-#: base/enumerations.py:202
-msgid "Lithuania"
-msgstr "리투아니아"
-
-#: base/enumerations.py:203
-msgid "Luxembourg"
-msgstr "룩셈부르크"
-
-#: base/enumerations.py:204
-msgid "Macedonia"
-msgstr "마케도니아"
-
-#: base/enumerations.py:205
-msgid "Madagascar"
-msgstr "마다가스카르"
-
-#: base/enumerations.py:206
-msgid "Malawi"
-msgstr "말라위"
-
-#: base/enumerations.py:207
-msgid "Malaysia"
-msgstr "말레이시아"
-
-#: base/enumerations.py:208
-msgid "Maldives"
-msgstr "몰디브"
-
-#: base/enumerations.py:209
-msgid "Mali"
-msgstr "말리"
-
-#: base/enumerations.py:210
-msgid "Malta"
-msgstr "몰타"
-
-#: base/enumerations.py:211
-msgid "Marshall Islands"
-msgstr "마셜 제도"
-
-#: base/enumerations.py:212
-msgid "Martinique"
-msgstr "마르티니크"
-
-#: base/enumerations.py:213
-msgid "Mauritania"
-msgstr "모리타니"
-
-#: base/enumerations.py:214
-msgid "Mauritius"
-msgstr "모리셔스"
-
-#: base/enumerations.py:215
-msgid "Mayotte"
-msgstr "마요트"
-
-#: base/enumerations.py:216
-msgid "Mexico"
-msgstr "멕시코"
-
-#: base/enumerations.py:217
-msgid "Micronesia, Federated States of"
-msgstr "미크로네시아 연방"
-
-#: base/enumerations.py:218
-msgid "Monaco"
-msgstr "모나코"
-
-#: base/enumerations.py:219
-msgid "Mongolia"
-msgstr "몽고"
-
-#: base/enumerations.py:220
-msgid "Montenegro"
-msgstr "몬테네그로"
-
-#: base/enumerations.py:221
-msgid "Montserrat"
-msgstr "몬트세라트"
-
-#: base/enumerations.py:222
-msgid "Morocco"
-msgstr "모로코"
-
-#: base/enumerations.py:223
-msgid "Mozambique"
-msgstr "모잠비크"
-
-#: base/enumerations.py:224
-msgid "Myanmar"
-msgstr "미얀마"
-
-#: base/enumerations.py:225
-msgid "Namibia"
-msgstr "나미비아"
-
-#: base/enumerations.py:226
-msgid "Nauru"
-msgstr "나우루어"
-
-#: base/enumerations.py:227
-msgid "Nepal"
-msgstr "네팔"
-
-#: base/enumerations.py:228
-msgid "Netherlands"
-msgstr "네덜란드"
-
-#: base/enumerations.py:229
-msgid "Netherlands Antilles"
-msgstr "네덜란드령 앤틸리스 제도"
-
-#: base/enumerations.py:230
-msgid "New Caledonia"
-msgstr "뉴 칼레도니아"
-
-#: base/enumerations.py:231
-msgid "New Zealand"
-msgstr "뉴질랜드"
-
-#: base/enumerations.py:232
-msgid "Nicaragua"
-msgstr "니카라과"
-
-#: base/enumerations.py:233
-msgid "Niger"
-msgstr "니제르"
-
-#: base/enumerations.py:234
-msgid "Nigeria"
-msgstr "나이지리아"
-
-#: base/enumerations.py:235
-msgid "Niue"
-msgstr "니우에"
-
-#: base/enumerations.py:236
-msgid "Norfolk Island"
-msgstr "노퍽 제도"
-
-#: base/enumerations.py:237
-msgid "Northern Mariana Islands"
-msgstr "북 마리아나 제도"
-
-#: base/enumerations.py:238
-msgid "Norway"
-msgstr "노르웨이"
-
-#: base/enumerations.py:239
-msgid "Occupied Palestinian Territory"
-msgstr "팔레스타인"
-
-#: base/enumerations.py:240
-msgid "Oman"
-msgstr "오만"
-
-#: base/enumerations.py:241
-msgid "Pakistan"
-msgstr "파키스탄"
-
-#: base/enumerations.py:242
-msgid "Palau"
-msgstr "팔라우"
-
-#: base/enumerations.py:243
-msgid "Panama"
-msgstr "파나마"
-
-#: base/enumerations.py:244
-msgid "Papua New Guinea"
-msgstr "파푸아뉴기니"
-
-#: base/enumerations.py:245
-msgid "Paraguay"
-msgstr "파라과이"
-
-#: base/enumerations.py:246
-msgid "Peru"
-msgstr "페루"
-
-#: base/enumerations.py:247
-msgid "Philippines"
-msgstr "필리핀"
-
-#: base/enumerations.py:248
-msgid "Pitcairn"
-msgstr "핏케언 제도"
-
-#: base/enumerations.py:249
-msgid "Poland"
-msgstr "폴란드"
-
-#: base/enumerations.py:250
-msgid "Portugal"
-msgstr "포르투갈"
-
-#: base/enumerations.py:251
-msgid "Puerto Rico"
-msgstr "푸에르토리코"
-
-#: base/enumerations.py:252
-msgid "Qatar"
-msgstr "카타르"
-
-#: base/enumerations.py:253
-msgid "Republic of Korea"
-msgstr "대한민국"
-
-#: base/enumerations.py:254
-msgid "Republic of Moldova"
-msgstr "몰도바 공화국"
-
-#: base/enumerations.py:255
-msgid "Reunion"
-msgstr "레위니웅"
-
-#: base/enumerations.py:256
-msgid "Romania"
-msgstr "루마니아"
-
-#: base/enumerations.py:257
-msgid "Russian Federation"
-msgstr "러시아"
-
-#: base/enumerations.py:258
-msgid "Rwanda"
-msgstr "르완다"
-
-#: base/enumerations.py:259
-msgid "Saint-Barthelemy"
-msgstr "박뗄레미"
-
-#: base/enumerations.py:260
-msgid "Saint Helena"
-msgstr "세인트헬레나"
-
-#: base/enumerations.py:261
-msgid "Saint Kitts and Nevis"
-msgstr "세인트키츠네비스"
-
-#: base/enumerations.py:262
-msgid "Saint Lucia"
-msgstr "세인트루시아"
-
-#: base/enumerations.py:263
-msgid "Saint-Martin (French part)"
-msgstr "세인트마틴(프랑스령)"
-
-#: base/enumerations.py:264
-msgid "Saint Pierre and Miquelon"
-msgstr "생피에르앤드미클롱"
-
-#: base/enumerations.py:265
-msgid "Saint Vincent and the Grenadines"
-msgstr "세인트빈센트그레나딘"
-
-#: base/enumerations.py:266
-msgid "Samoa"
-msgstr "사모아"
-
-#: base/enumerations.py:267
-msgid "San Marino"
-msgstr "산마리노"
-
-#: base/enumerations.py:268
-msgid "Sao Tome and Principe"
-msgstr "상투메 프린시페"
-
-#: base/enumerations.py:269
-msgid "Saudi Arabia"
-msgstr "사우디아라비아"
-
-#: base/enumerations.py:270
-msgid "Senegal"
-msgstr "세네갈"
-
-#: base/enumerations.py:271
-msgid "Serbia"
-msgstr "세르비아"
-
-#: base/enumerations.py:272
-msgid "Seychelles"
-msgstr "세이셀 공화국"
-
-#: base/enumerations.py:273
-msgid "Sierra Leone"
-msgstr "시에라리온"
-
-#: base/enumerations.py:274
-msgid "Singapore"
-msgstr "싱가포르"
-
-#: base/enumerations.py:275
-msgid "Slovakia"
-msgstr "슬로바키아"
-
-#: base/enumerations.py:276
-msgid "Slovenia"
-msgstr "슬로베니아"
-
-#: base/enumerations.py:277
-msgid "Solomon Islands"
-msgstr "솔로몬 제도"
-
-#: base/enumerations.py:278
-msgid "Somalia"
-msgstr "소말리아"
-
-#: base/enumerations.py:279
-msgid "South Africa"
-msgstr "남아프리카"
-
-#: base/enumerations.py:280
-msgid "South Sudan"
-msgstr "남 수단"
-
-#: base/enumerations.py:281
-msgid "Spain"
-msgstr "스페인"
-
-#: base/enumerations.py:282
-msgid "Sri Lanka"
-msgstr "스리랑카"
-
-#: base/enumerations.py:283
-msgid "Sudan"
-msgstr "수단"
-
-#: base/enumerations.py:284
-msgid "Suriname"
-msgstr "수리남"
-
-#: base/enumerations.py:285
-msgid "Svalbard and Jan Mayen Islands"
-msgstr "스발바르 얀 마옌 제도"
-
-#: base/enumerations.py:286
-msgid "Swaziland"
-msgstr "스와질란드"
-
-#: base/enumerations.py:287
-msgid "Sweden"
-msgstr "스웨덴"
-
-#: base/enumerations.py:288
-msgid "Switzerland"
-msgstr "스위스"
-
-#: base/enumerations.py:289
-msgid "Syrian Arab Republic"
-msgstr "시리아 아랍 공화국"
-
-#: base/enumerations.py:290
-msgid "Tajikistan"
-msgstr "타지키스탄"
-
-#: base/enumerations.py:291
-msgid "Thailand"
-msgstr "태국"
-
-#: base/enumerations.py:292
-msgid "Timor-Leste"
-msgstr "동 티모르"
-
-#: base/enumerations.py:293
-msgid "Togo"
-msgstr "토고"
-
-#: base/enumerations.py:294
-msgid "Tokelau"
-msgstr "토켈라우"
-
-#: base/enumerations.py:295
-msgid "Tonga"
-msgstr "통가"
-
-#: base/enumerations.py:296
-msgid "Trinidad and Tobago"
-msgstr "트리니다드 토바고"
-
-#: base/enumerations.py:297
-msgid "Tunisia"
-msgstr "튀니지"
-
-#: base/enumerations.py:298
-msgid "Turkey"
-msgstr "터키"
-
-#: base/enumerations.py:299
-msgid "Turkmenistan"
-msgstr "투르크메니스탄"
-
-#: base/enumerations.py:300
-msgid "Turks and Caicos Islands"
-msgstr "터크스케이 커스 제도"
-
-#: base/enumerations.py:301
-msgid "Tuvalu"
-msgstr "투발루"
-
-#: base/enumerations.py:302
-msgid "Uganda"
-msgstr "우간다"
-
-#: base/enumerations.py:303
-msgid "Ukraine"
-msgstr "우크라이나"
-
-#: base/enumerations.py:304
-msgid "United Arab Emirates"
-msgstr "아랍에미리트"
-
-#: base/enumerations.py:305
-msgid "United Kingdom"
-msgstr "영국"
-
-#: base/enumerations.py:306
-msgid "United Republic of Tanzania"
-msgstr "탄자니아"
-
-#: base/enumerations.py:307
-msgid "United States of America"
-msgstr "미국"
-
-#: base/enumerations.py:308
-msgid "United States Virgin Islands"
-msgstr "미국령 버진 아일랜드"
-
-#: base/enumerations.py:309
-msgid "Uruguay"
-msgstr "우루과이"
-
-#: base/enumerations.py:310
-msgid "Uzbekistan"
-msgstr "우즈베키스탄"
-
-#: base/enumerations.py:311
-msgid "Vanuatu"
-msgstr "바누아투"
-
-#: base/enumerations.py:312
-msgid "Venezuela (Bolivarian Republic of)"
-msgstr "베네수엘라 (볼리바르 공화국)"
-
-#: base/enumerations.py:313
-msgid "Viet Nam"
-msgstr "베트남"
-
-#: base/enumerations.py:314
-msgid "Wallis and Futuna Islands"
-msgstr "월리스 푸투나 제도"
-
-#: base/enumerations.py:315
-msgid "Western Sahara"
-msgstr "서사하라"
-
-#: base/enumerations.py:316
-msgid "Yemen"
-msgstr "예멘"
-
-#: base/enumerations.py:317
-msgid "Zambia"
-msgstr "잠비아"
-
-#: base/enumerations.py:318
-msgid "Zimbabwe"
-msgstr "짐바브웨"
-
 #: base/forms.py:35 base/templates/base/resourcebase_info_panel.html:46
 #: documents/templates/documents/document_metadata.html:51
 #: layers/templates/layers/layer_metadata.html:53
@@ -1107,219 +156,223 @@ msgstr "카테고리"
 msgid "Category is required."
 msgstr "카테고리가 필요합니다."
 
-#: base/models.py:41 services/models.py:85
+#: base/models.py:40 services/models.py:85
 msgid "function performed by the responsible party"
 msgstr "책임 집단이 수행하는 기능"
 
-#: base/models.py:232
+#: base/models.py:244
 msgid "reference date for the cited resource"
 msgstr "인용된 자원에 대한 참조 날짜"
 
-#: base/models.py:233
+#: base/models.py:245
 msgid "identification of when a given event occurred"
 msgstr "지정된 이벤트가 발생했을 때의 식별자"
 
-#: base/models.py:234
+#: base/models.py:246
 msgid "version of the cited resource"
 msgstr "인용된 자원의 버전"
 
-#: base/models.py:235
+#: base/models.py:247
 msgid "brief narrative summary of the content of the resource(s)"
 msgstr "자원(들)의 내용에 대한 간단한 요약"
 
-#: base/models.py:236
+#: base/models.py:248
 msgid "summary of the intentions with which the resource(s) was developed"
 msgstr "자원(들)을 개발하는데 사용된 목적 요약"
 
-#: base/models.py:237
+#: base/models.py:249
 msgid ""
 "frequency with which modifications and deletions are made to the data after "
 "it is first produced"
 msgstr "데이터가 처음 생성된 후 수정 또는 삭제되는 주기"
 
-#: base/models.py:239
+#: base/models.py:251
 msgid ""
 "commonly used word(s) or formalised word(s) or phrase(s) used to describe "
 "the subject (space or comma-separated"
 msgstr "주제를 설명하는 데 사용되는 일반적으로 사용되는 단어(들) 또는 정형화된 단어(들) 또는 구문(들) (공백 또는 쉼표로 구분 "
 
-#: base/models.py:241
+#: base/models.py:253
 msgid "keyword identifies a location"
 msgstr "키워드는 위치를 식별합니다"
 
-#: base/models.py:242
+#: base/models.py:254
 msgid "limitation(s) placed upon the access or use of the data."
 msgstr "데이터의 접근 또는 사용에 대한 제약사항(들)"
 
-#: base/models.py:243
+#: base/models.py:255
 msgid ""
 "other restrictions and legal prerequisites for accessing and using the "
 "resource or metadata"
 msgstr "자원 또는 메타데이터를 사용하거나 접근하기 위한 기타 제약사항 및 법적 전제조건"
 
-#: base/models.py:245
+#: base/models.py:257
 msgid "license of the dataset"
 msgstr "데이터셋의 라이센스"
 
-#: base/models.py:246
+#: base/models.py:258
 msgid "language used within the dataset"
 msgstr "데이터셋에서 사용된 언어"
 
-#: base/models.py:247
+#: base/models.py:259
 msgid ""
 "high-level geographic data thematic classification to assist in the grouping"
 " and search of available geographic data sets."
 msgstr "사용가능한 지리 데이터셋을 검색하거나 그룹화하기 위한 고수준 지리 데이터 주제 분류"
 
-#: base/models.py:249
+#: base/models.py:261
 msgid "method used to represent geographic information in the dataset."
 msgstr "데이터셋의 지리 정보를 표현하는 방법"
 
-#: base/models.py:250
+#: base/models.py:262
 msgid "time period covered by the content of the dataset (start)"
 msgstr "데이터셋에 포함된 시간적 범위(시작)"
 
-#: base/models.py:251
+#: base/models.py:263
 msgid "time period covered by the content of the dataset (end)"
 msgstr "데이터셋에 포함된 시간적 범위(끝)"
 
-#: base/models.py:252
+#: base/models.py:264
 msgid ""
 "information about on-line sources from which the dataset, specification, or "
 "community profile name and extended metadata elements can be obtained"
 msgstr "데이터셋, 명세, 커뮤니티 프로필 이름 및 확장 메타데이터 요소를 얻을 수 있는 온라인 자원에 대한 정보"
 
-#: base/models.py:254
+#: base/models.py:266
 msgid "detailed text description of what the online resource is/does"
 msgstr "온라인 자원에 대한 자세한 설명"
 
-#: base/models.py:255
+#: base/models.py:267
 msgid ""
 "general explanation of the data producer's knowledge about the lineage of a "
 "dataset"
 msgstr "데이터 연혁에 대한 데이터 생산자의 일반적인 설명"
 
-#: base/models.py:261
+#: base/models.py:273
 msgid "title"
 msgstr "제목"
 
-#: base/models.py:261
+#: base/models.py:273
 msgid "name by which the cited resource is known"
 msgstr "인용된 리소스를 식별하는 이름"
 
-#: base/models.py:262
+#: base/models.py:274
 msgid "date"
 msgstr "날짜"
 
-#: base/models.py:263
+#: base/models.py:275
 msgid "date type"
 msgstr "날짜 유형"
 
-#: base/models.py:265
+#: base/models.py:277
 msgid "edition"
 msgstr "판"
 
-#: base/models.py:266
+#: base/models.py:278
 msgid "abstract"
 msgstr "요약"
 
-#: base/models.py:267
+#: base/models.py:279
 msgid "purpose"
 msgstr "목적"
 
-#: base/models.py:268
+#: base/models.py:280
 msgid "maintenance frequency"
 msgstr "갱신 주기"
 
-#: base/models.py:271 groups/models.py:41 people/models.py:86
+#: base/models.py:283 groups/models.py:41 people/models.py:88
 msgid "keywords"
 msgstr "키워드"
 
-#: base/models.py:272
+#: base/models.py:284
 msgid "keywords region"
 msgstr "키워드 영역"
 
-#: base/models.py:275
+#: base/models.py:287
 msgid "restrictions"
 msgstr "제약사항"
 
-#: base/models.py:279
+#: base/models.py:291
 msgid "restrictions other"
 msgstr "기타 제약사항"
 
-#: base/models.py:284
+#: base/models.py:296
 msgid "language"
 msgstr "언어"
 
-#: base/models.py:295
+#: base/models.py:307
 msgid "temporal extent start"
 msgstr "시간적 범위 시작"
 
-#: base/models.py:297
+#: base/models.py:309
 msgid "temporal extent end"
 msgstr "시간적 범위 끝"
 
-#: base/models.py:300
+#: base/models.py:312
 msgid "supplemental information"
 msgstr "부가 정보"
 
-#: base/models.py:301
+#: base/models.py:313
 msgid "any other descriptive information about the dataset"
 msgstr "데이터셋에 대한 또 다른 정보"
 
-#: base/models.py:304
+#: base/models.py:316
 msgid "distribution URL"
 msgstr "배포 URL"
 
-#: base/models.py:306
+#: base/models.py:318
 msgid "distribution description"
 msgstr "배포 설명"
 
-#: base/models.py:310
+#: base/models.py:322
 msgid "data quality statement"
 msgstr "데이터 품질"
 
-#: base/models.py:325
+#: base/models.py:337
 msgid "CSW typename"
 msgstr "CSW 유형이름"
 
-#: base/models.py:327
+#: base/models.py:339
 msgid "CSW schema"
 msgstr "CSW 스키마"
 
-#: base/models.py:332
+#: base/models.py:344
 msgid "CSW source"
 msgstr "CSW 원본"
 
-#: base/models.py:333
+#: base/models.py:345
 msgid "CSW insert date"
 msgstr "CSW 입력 일자"
 
-#: base/models.py:334
+#: base/models.py:346
 msgid "CSW type"
 msgstr "CSW 유형"
 
-#: base/models.py:335
+#: base/models.py:347
 msgid "CSW anytext"
 msgstr "CSW 부가정보"
 
-#: base/models.py:336
+#: base/models.py:348
 msgid "CSW WKT geometry"
 msgstr "CSW WKT 지오메트리"
 
-#: base/models.py:349
+#: base/models.py:361
 msgid "Should this resource be advertised in home page?"
 msgstr "이 리소스를 홈페이지에 게재해야 합니까?"
 
-#: base/models.py:663
+#: base/models.py:362
+msgid "Should this resource be published and searchable?"
+msgstr "이 자원은 게시 및 검색해야 하는가?"
+
+#: base/models.py:682
 msgid "For example \"kml\""
 msgstr "예를 들어 \"kml\""
 
-#: base/models.py:665
+#: base/models.py:684
 msgid "For example \"View in Google Earth\""
 msgstr "예를 들어 \"구글 어스에서 보기\""
 
-#: base/models.py:666
+#: base/models.py:685
 msgid "For example \"text/xml\""
 msgstr "예를 들어  \"text/xml\""
 
@@ -1369,7 +422,7 @@ msgid "Date"
 msgstr "날짜"
 
 #: base/templates/base/resourcebase_info_panel.html:34
-#: layers/templates/layers/layer_detail.html:288
+#: layers/templates/layers/layer_detail.html:300
 msgid "Type"
 msgstr "유형"
 
@@ -1419,28 +472,28 @@ msgstr "부가정보"
 msgid "Spatial Representation Type"
 msgstr "공간 표현 유형"
 
-#: documents/forms.py:59 groups/models.py:42 layers/forms.py:86
-#: maps/forms.py:72 people/forms.py:82
+#: documents/forms.py:68 groups/models.py:42 layers/forms.py:95
+#: maps/forms.py:81 people/forms.py:82
 msgid "A space or comma-separated list of keywords"
 msgstr "공백 또는 쉼표로 구분된 키워드 목록"
 
-#: documents/forms.py:174 documents/forms.py:242
+#: documents/forms.py:183 documents/forms.py:251
 msgid "Document must be a file or url."
 msgstr "문서는 파일 또는 URL이어야 합니다."
 
-#: documents/forms.py:178 documents/forms.py:246
+#: documents/forms.py:187 documents/forms.py:255
 msgid "A document cannot have both a file and a url."
 msgstr "문서는 파일과 URL을 동시에 적용할 수 없습니다."
 
-#: documents/forms.py:191 documents/forms.py:259
+#: documents/forms.py:200 documents/forms.py:268
 msgid "This file type is not allowed"
 msgstr "이 파일 유형은 허용되지 않습니다"
 
-#: documents/forms.py:209
+#: documents/forms.py:218
 msgid "Link to"
 msgstr "링크 "
 
-#: documents/forms.py:231
+#: documents/forms.py:240
 msgid "Permissions must be valid JSON."
 msgstr "권한은 유효한 JSON이어야 합니다."
 
@@ -1563,118 +616,117 @@ msgstr "다운로드"
 msgid "You do not have permission to view this document"
 msgstr "이 문서를 볼 권한이 없습니다."
 
-#: documents/templates/documents/document_detail.html:40
+#: documents/templates/documents/document_detail.html:42
 msgid "External Resource"
 msgstr "외부 리소스"
 
-#: documents/templates/documents/document_detail.html:45
+#: documents/templates/documents/document_detail.html:48
 #: layers/templates/layers/_actions.html:3
 #: maps/templates/maps/map_detail.html:35 templates/_actions.html:3
 msgid "Info"
 msgstr "정보"
 
-#: documents/templates/documents/document_detail.html:47
+#: documents/templates/documents/document_detail.html:50
 #: layers/templates/layers/_actions.html:6
 #: maps/templates/maps/map_detail.html:38 templates/_actions.html:5
 msgid "Share"
 msgstr "공유"
 
-#: documents/templates/documents/document_detail.html:49
+#: documents/templates/documents/document_detail.html:52
 #: layers/templates/layers/_actions.html:8
 #: maps/templates/maps/map_detail.html:41
 msgid "Ratings"
 msgstr "평가"
 
-#: documents/templates/documents/document_detail.html:50
+#: documents/templates/documents/document_detail.html:53
 #: layers/templates/layers/_actions.html:9
 #: maps/templates/maps/map_detail.html:42 templates/_comments.html:12
 msgid "Comments"
 msgstr "댓글"
 
-#: documents/templates/documents/document_detail.html:68
+#: documents/templates/documents/document_detail.html:71
 msgid "Rate this document"
 msgstr "이 문서 평가"
 
-#: documents/templates/documents/document_detail.html:72
+#: documents/templates/documents/document_detail.html:75
 #: layers/templates/layers/layer_detail.html:113
 #: maps/templates/maps/map_detail.html:58
 msgid "Average Rating"
 msgstr "평점"
 
-#: documents/templates/documents/document_detail.html:86
-#: documents/templates/documents/document_detail.html:88
-#: documents/templates/documents/document_detail.html:90
-#: documents/templates/documents/document_detail.html:101
-#: documents/templates/documents/document_detail.html:126
+#: documents/templates/documents/document_detail.html:91
+#: documents/templates/documents/document_detail.html:93
+#: documents/templates/documents/document_detail.html:95
+#: documents/templates/documents/document_detail.html:107
 msgid "Download Document"
 msgstr "문서 다운로드"
 
-#: documents/templates/documents/document_detail.html:94
-#: layers/templates/layers/layer_detail.html:153
-#: layers/templates/layers/layer_detail.html:161
+#: documents/templates/documents/document_detail.html:100
+#: layers/templates/layers/layer_detail.html:156
+#: layers/templates/layers/layer_detail.html:164
 msgid "Download Metadata"
 msgstr "메타데이터 다운로드"
 
-#: documents/templates/documents/document_detail.html:111
-#: documents/templates/documents/document_detail.html:136
-#: layers/templates/layers/layer_detail.html:146
-#: layers/templates/layers/layer_detail.html:171
-#: layers/templates/layers/layer_detail.html:203
-#: maps/templates/maps/map_detail.html:92
-#: maps/templates/maps/map_detail.html:120
+#: documents/templates/documents/document_detail.html:117
+#: documents/templates/documents/document_detail.html:147
+#: layers/templates/layers/layer_detail.html:149
+#: layers/templates/layers/layer_detail.html:174
+#: layers/templates/layers/layer_detail.html:216
+#: maps/templates/maps/map_detail.html:95
+#: maps/templates/maps/map_detail.html:127
 #: templates/_bulk_permissions_form.html:19
 msgid "Close"
 msgstr "닫기"
 
-#: documents/templates/documents/document_detail.html:119
+#: documents/templates/documents/document_detail.html:124
+#: documents/templates/documents/document_detail.html:131
 msgid "Edit Document"
 msgstr "문서 편집"
 
-#: documents/templates/documents/document_detail.html:130
-#: layers/templates/layers/layer_detail.html:193
+#: documents/templates/documents/document_detail.html:136
+#: layers/templates/layers/layer_detail.html:196
 msgid "Edit Metadata"
 msgstr "메타데이터 편집"
 
-#: documents/templates/documents/document_detail.html:131
+#: documents/templates/documents/document_detail.html:139
 msgid "Replace this Document"
 msgstr "이 문서 교체"
 
-#: documents/templates/documents/document_detail.html:132
+#: documents/templates/documents/document_detail.html:142
 msgid "Remove this Document"
 msgstr "이 문서 제거"
 
-#: documents/templates/documents/document_detail.html:144
+#: documents/templates/documents/document_detail.html:154
 msgid "Resource using this document"
 msgstr "이 문서를 사용하는 자원"
 
-#: documents/templates/documents/document_detail.html:146
+#: documents/templates/documents/document_detail.html:156
 msgid "List of resources using this document:"
 msgstr "이 문서를 사용하는 자원 목록:"
 
-#: documents/templates/documents/document_detail.html:150
+#: documents/templates/documents/document_detail.html:160
 msgid "This document is related to a "
 msgstr "이 문서는 다음과 연결 : "
 
-#: documents/templates/documents/document_detail.html:153
+#: documents/templates/documents/document_detail.html:163
 msgid "This document is not related to any maps or layers"
 msgstr "이 문서는 지도나 레이어와 연결되어 있지 않습니다"
 
-#: documents/templates/documents/document_detail.html:160
+#: documents/templates/documents/document_detail.html:170
 #: documents/templates/documents/document_upload.html:32
 #: groups/templates/groups/group_detail.html:65
-#: layers/templates/layers/layer_detail.html:277
+#: layers/templates/layers/layer_detail.html:289
 #: layers/templates/layers/layer_replace.html:94
-#: layers/templates/upload/layer_upload.html:91
-#: maps/templates/maps/map_detail.html:167 people/admin.py:55
-#: templates/_permissions_form.html:9
+#: layers/templates/upload/layer_upload.html:93
+#: maps/templates/maps/map_detail.html:173 people/admin.py:55
 msgid "Permissions"
 msgstr "권한"
 
-#: documents/templates/documents/document_detail.html:161
+#: documents/templates/documents/document_detail.html:171
 msgid "Click the button below to change the permissions of this document."
 msgstr "이 문서의 권한을 변경하려면 아래 버튼을 누르세요."
 
-#: documents/templates/documents/document_detail.html:162
+#: documents/templates/documents/document_detail.html:172
 msgid "Change Document Permissions"
 msgstr "문서 권한 변경"
 
@@ -1751,7 +803,7 @@ msgstr "교체"
 
 #: documents/templates/documents/document_replace.html:27
 #: layers/templates/layers/layer_replace.html:84
-#: layers/templates/upload/layer_upload.html:80
+#: layers/templates/upload/layer_upload.html:82
 msgid "Clear"
 msgstr "취소"
 
@@ -1795,32 +847,36 @@ msgstr "PDF"
 msgid "PNG"
 msgstr "PNG"
 
-#: geoserver/signals.py:270
+#: geoserver/signals.py:288
 msgid "Could not create a download link for layer."
 msgstr "레이어의 다운로드 링크를 생성할 수 없습니다."
 
-#: geoserver/signals.py:301
+#: geoserver/signals.py:319
 msgid "KML"
 msgstr "KML"
 
-#: geoserver/signals.py:330
+#: geoserver/signals.py:348
 msgid "Tiles"
 msgstr "타일"
 
-#: geoserver/signals.py:385 layers/templates/layers/layer_detail.html:212
+#: geoserver/signals.py:403 layers/templates/layers/layer_detail.html:224
 #: services/views.py:1265
 msgid "Legend"
 msgstr "범례"
 
-#: geoserver/signals.py:507 layers/utils.py:523
+#: geoserver/signals.py:525 layers/utils.py:528
 msgid "Remote Thumbnail"
 msgstr "원격 썸네일"
 
-#: geoserver/signals.py:542 layers/utils.py:558
+#: geoserver/signals.py:560 layers/utils.py:563
 msgid "Thumbnail"
 msgstr "썸네일"
 
-#: geoserver/views.py:376 geoserver/views.py:431
+#: geoserver/views.py:338
+msgid "You don't have permissions to change style for this layer"
+msgstr "당신은이 계층에 대해 스타일을 변경할 수있는 권한이 없습니다"
+
+#: geoserver/views.py:425 geoserver/views.py:480
 msgid "Bad HTTP Authorization Credentials."
 msgstr "유효하지 않은 HTTP 인증 자격증명."
 
@@ -1880,13 +936,13 @@ msgid ""
 "(invite-only):Any registered user can view the group.  Only invited users "
 "can join.<br>Private: Registered users cannot see any details about the "
 "group, including membership.  Only invited users can join."
-msgstr ""
+msgstr "공개: 모든 등록된 사용자가 공개 그룹을 보거나 가입할 수 있습니다.<br>공개 (초대 전용): 모든 등록된 사용자가 그룹을 볼 수 있습니다. 초대받은 사용자만 가입할 수 있습니다.<br>비공개: 등록된 사용자는 회원정보를 포함한 그룹의 상세정보를 볼 수 없습니다. 초대받은 사용자만 가입할 수 있습니다."
 
 #: groups/models.py:27
 msgid ""
 "Email used to contact one or all group members, such as a mailing list, "
 "shared email, or exchange group."
-msgstr ""
+msgstr "메일링 리스트, 공유 이메일 또는 익스체인지 그룹과 같은 하나 또는 모든 그룹 구성원과 연락하는데 사용되는 이메일."
 
 #: groups/models.py:36
 msgid "email"
@@ -1986,7 +1042,7 @@ msgid ""
 "\n"
 "            This group is <strong>%(access)s</strong>.\n"
 "          "
-msgstr ""
+msgstr "\n이 그룹은 <strong>%(access)s</strong> 입니다."
 
 #: groups/templates/groups/group_detail.html:71
 msgid "Anyone may join this group."
@@ -2010,7 +1066,7 @@ msgstr "회원 요청"
 
 #: groups/templates/groups/group_invite_response.html:14
 msgid "Don't Join"
-msgstr ""
+msgstr "가입 금지"
 
 #: groups/templates/groups/group_invite_response.html:15
 msgid "Join Group"
@@ -2078,147 +1134,147 @@ msgstr "sld 버전"
 msgid "sld url"
 msgstr "sld url"
 
-#: layers/models.py:280
+#: layers/models.py:278
 msgid "attribute name"
 msgstr "속성 이름"
 
-#: layers/models.py:281
+#: layers/models.py:279
 msgid "name of attribute as stored in shapefile/spatial database"
 msgstr "shapefile/공간 데이터베이스에 저장된 속성 이름"
 
-#: layers/models.py:287
+#: layers/models.py:285
 msgid "attribute description"
 msgstr "속성 설명"
 
-#: layers/models.py:288
+#: layers/models.py:286
 msgid "description of attribute to be used in metadata"
 msgstr "메타데이터에 사용되는 속성에 대한 설명"
 
-#: layers/models.py:293
+#: layers/models.py:291
 msgid "attribute label"
 msgstr "속성 레이블"
 
-#: layers/models.py:294
+#: layers/models.py:292
 msgid "title of attribute as displayed in GeoNode"
 msgstr "GeoNode에 표시되는 속성 제목"
 
-#: layers/models.py:300
+#: layers/models.py:298
 msgid "attribute type"
 msgstr "속성 유형"
 
-#: layers/models.py:301
+#: layers/models.py:299
 msgid "the data type of the attribute (integer, string, geometry, etc)"
 msgstr "속성 데이터 유형(정수, 문자, 지오메트리 등)"
 
-#: layers/models.py:308
+#: layers/models.py:306
 msgid "visible?"
 msgstr "보이기?"
 
-#: layers/models.py:309
+#: layers/models.py:307
 msgid "specifies if the attribute should be displayed in identify results"
 msgstr "이 속성이 속성확인 결과에 표시될 것인지를 설정합니다"
 
-#: layers/models.py:312
+#: layers/models.py:310
 msgid "display order"
 msgstr "디스플레이 순서"
 
-#: layers/models.py:313
+#: layers/models.py:311
 msgid ""
 "specifies the order in which attribute should be displayed in identify "
 "results"
 msgstr "속성이 속성확인 결과에 표시될 순서를 "
 
-#: layers/models.py:318
+#: layers/models.py:316
 msgid "count"
 msgstr "갯수"
 
-#: layers/models.py:319
+#: layers/models.py:317
 msgid "count value for this field"
 msgstr "이 필드의 갯수 값"
 
-#: layers/models.py:322
+#: layers/models.py:320
 msgid "min"
 msgstr "최소값"
 
-#: layers/models.py:323
+#: layers/models.py:321
 msgid "minimum value for this field"
 msgstr "이 필드의 최소값"
 
-#: layers/models.py:330
+#: layers/models.py:328
 msgid "max"
 msgstr "최대값"
 
-#: layers/models.py:331
+#: layers/models.py:329
 msgid "maximum value for this field"
 msgstr "이 필드의 최대값"
 
-#: layers/models.py:338
+#: layers/models.py:336
 msgid "average"
 msgstr "평균"
 
-#: layers/models.py:339
+#: layers/models.py:337
 msgid "average value for this field"
 msgstr "이 필드의 평균값"
 
-#: layers/models.py:346
+#: layers/models.py:344
 msgid "median"
 msgstr "중간값"
 
-#: layers/models.py:347
+#: layers/models.py:345
 msgid "median value for this field"
 msgstr "이 필드의 중간값"
 
-#: layers/models.py:354
+#: layers/models.py:352
 msgid "standard deviation"
 msgstr "표준편차"
 
-#: layers/models.py:355
+#: layers/models.py:353
 msgid "standard deviation for this field"
 msgstr "이 필드의 표준편차"
 
-#: layers/models.py:362
+#: layers/models.py:360
 msgid "sum"
 msgstr "합"
 
-#: layers/models.py:363
+#: layers/models.py:361
 msgid "sum value for this field"
 msgstr "이 필드의 합"
 
-#: layers/models.py:370
+#: layers/models.py:368
 msgid "unique values for this field"
 msgstr "이 필드의 고유값"
 
-#: layers/models.py:375
+#: layers/models.py:373
 msgid "last modified"
 msgstr "마지막 수정"
 
-#: layers/models.py:377
+#: layers/models.py:375
 msgid "date when attribute statistics were last updated"
 msgstr "속성 통계가 마지막으로 갱신된 날짜"
 
-#: layers/views.py:60
+#: layers/views.py:59
 msgid ""
 "There was an error while attempting to upload your data. Please try again, "
 "or contact and administrator if the problem continues."
 msgstr "데이터를 업로드하는 동안 오류가 발생했습니다. 다시 시도하거나, 문제가 지속되면 관리자에게 문의하십시오."
 
-#: layers/views.py:63
+#: layers/views.py:62
 msgid "You are not permitted to delete this layer"
 msgstr "이 레이어를 삭제할 권한이 없습니다."
 
-#: layers/views.py:64
+#: layers/views.py:63
 msgid "You do not have permissions for this layer."
 msgstr "이 레이어에 대한 권한이 없습니다."
 
-#: layers/views.py:65
+#: layers/views.py:64
 msgid "You are not permitted to modify this layer"
 msgstr "이 레이어를 수정할 권한이 없습니다."
 
-#: layers/views.py:67
+#: layers/views.py:66
 msgid "You are not permitted to modify this layer's metadata"
 msgstr "이 레이어의 메타데이터를 수정할 권한이 없습니다."
 
-#: layers/views.py:68
+#: layers/views.py:67
 msgid "You are not permitted to view this layer"
 msgstr "이 레이어를 볼 수 있는 권한이 없습니다."
 
@@ -2237,8 +1293,8 @@ msgid "Create a map"
 msgstr "지도 생성"
 
 #: layers/templates/layers/_layer_list_item.html:48
-#: layers/templates/layers/layer_detail.html:128
-#: layers/templates/layers/layer_detail.html:136
+#: layers/templates/layers/layer_detail.html:130
+#: layers/templates/layers/layer_detail.html:139
 msgid "Download Layer"
 msgstr "레이어 다운로드"
 
@@ -2288,87 +1344,87 @@ msgstr "표준편차"
 msgid "Rate this layer"
 msgstr "이 레이어 평가"
 
-#: layers/templates/layers/layer_detail.html:180
-#: layers/templates/layers/layer_detail.html:189
+#: layers/templates/layers/layer_detail.html:182
+#: layers/templates/layers/layer_detail.html:191
 msgid "Edit Layer"
 msgstr "레이어 편집"
 
-#: layers/templates/layers/layer_detail.html:195
+#: layers/templates/layers/layer_detail.html:201
 #: layers/templates/layers/layer_style_manage.html:14
 msgid "Manage Styles"
 msgstr "스타일 관리"
 
-#: layers/templates/layers/layer_detail.html:196
+#: layers/templates/layers/layer_detail.html:203
 msgid "Edit Styles"
 msgstr "스타일 편집"
 
-#: layers/templates/layers/layer_detail.html:198
+#: layers/templates/layers/layer_detail.html:208
 msgid "Replace this Layer"
 msgstr "이 레이어 교체"
 
-#: layers/templates/layers/layer_detail.html:199
+#: layers/templates/layers/layer_detail.html:211
 msgid "Remove this Layer"
 msgstr "이 레이어 제거"
 
-#: layers/templates/layers/layer_detail.html:222
+#: layers/templates/layers/layer_detail.html:234
 msgid "Maps using this layer"
 msgstr "이 레이어를 사용하는 지도"
 
-#: layers/templates/layers/layer_detail.html:224
+#: layers/templates/layers/layer_detail.html:236
 msgid "List of maps using this layer:"
 msgstr "이 레이어를 사용하는 지도 목록:"
 
-#: layers/templates/layers/layer_detail.html:230
+#: layers/templates/layers/layer_detail.html:242
 msgid "This layer is not currently used in any maps."
 msgstr "이 레이어는 현재 어떤 지도에도 사용되지 않습니다."
 
-#: layers/templates/layers/layer_detail.html:235
+#: layers/templates/layers/layer_detail.html:247
 msgid "Create a map using this layer"
 msgstr "이 레이어를 사용하여 지도 생성"
 
-#: layers/templates/layers/layer_detail.html:236
+#: layers/templates/layers/layer_detail.html:248
 msgid "Click the button below to generate a new map based on this layer."
 msgstr "이 레이어에 대한 새로운 지도를 생성하려면 아래 버튼을 누르세요."
 
-#: layers/templates/layers/layer_detail.html:237
+#: layers/templates/layers/layer_detail.html:249
 msgid "Create a Map"
 msgstr "지도 생성"
 
-#: layers/templates/layers/layer_detail.html:242
+#: layers/templates/layers/layer_detail.html:254
 msgid "Documents related to this layer"
 msgstr "이 레이어와 연결된 문서"
 
-#: layers/templates/layers/layer_detail.html:243
+#: layers/templates/layers/layer_detail.html:255
 msgid "List of documents related to this layer:"
 msgstr "이 레이어와 연결된 문서 목록:"
 
-#: layers/templates/layers/layer_detail.html:254
+#: layers/templates/layers/layer_detail.html:266
 msgid "Styles"
 msgstr "스타일"
 
-#: layers/templates/layers/layer_detail.html:255
+#: layers/templates/layers/layer_detail.html:267
 msgid ""
 "The following styles are associated with this layer. Choose a style to view "
 "it in the preview map."
 msgstr "다음 스타일은 이 레이어와 연결되어 있습니다. 미리보기 지도에서 보려면 스타일을 선택하십시오."
 
-#: layers/templates/layers/layer_detail.html:268
+#: layers/templates/layers/layer_detail.html:280
 msgid "No styles associated with this layer"
 msgstr "이 레이어와 연결된 스타일이 없습니다"
 
-#: layers/templates/layers/layer_detail.html:278
+#: layers/templates/layers/layer_detail.html:290
 msgid "Click the button below to change the permissions of this layer."
 msgstr "이 레이어에 대한 권한을 변경하려면 아래 버튼을 누르세요."
 
-#: layers/templates/layers/layer_detail.html:279
+#: layers/templates/layers/layer_detail.html:291
 msgid "Change Layer Permissions"
 msgstr "레이어 권한 변경"
 
-#: layers/templates/layers/layer_detail.html:286
+#: layers/templates/layers/layer_detail.html:298
 msgid "External service layer"
 msgstr "외부 서비스 레이어"
 
-#: layers/templates/layers/layer_detail.html:287
+#: layers/templates/layers/layer_detail.html:299
 msgid "Source"
 msgstr "원본"
 
@@ -2489,22 +1545,22 @@ msgid "Delete, and don't ask me again."
 msgstr "삭제하고 다시 묻지 않습니다."
 
 #: layers/templates/layers/layer_replace.html:55
-#: layers/templates/upload/layer_upload.html:51
+#: layers/templates/upload/layer_upload.html:53
 msgid "Drop files here"
 msgstr "여기에 파일을 끌어다 놓으세요"
 
 #: layers/templates/layers/layer_replace.html:58
-#: layers/templates/upload/layer_upload.html:54
+#: layers/templates/upload/layer_upload.html:56
 msgid " or select them one by one:"
 msgstr "또는 하나씩 선택합니다:"
 
 #: layers/templates/layers/layer_replace.html:66
-#: layers/templates/upload/layer_upload.html:62
+#: layers/templates/upload/layer_upload.html:64
 msgid "Files to be uploaded"
 msgstr "업로드된 파일"
 
 #: layers/templates/layers/layer_replace.html:71
-#: layers/templates/upload/layer_upload.html:67
+#: layers/templates/upload/layer_upload.html:69
 msgid "Select the charset or leave default"
 msgstr "문자 집합을 선택하거나 기본값을 사용합니다"
 
@@ -2540,7 +1596,7 @@ msgstr "사용가능한 스타일 갱신"
 msgid "Upload Layer"
 msgstr "레이어 업로드"
 
-#: layers/templates/upload/layer_upload.html:81
+#: layers/templates/upload/layer_upload.html:83
 msgid "Upload files"
 msgstr "파일 업로드하기"
 
@@ -2565,7 +1621,7 @@ msgstr "\n이 레이어의 좌표체계를 알 수 없습니다.\n이 레이어�
 
 #: layers/templates/upload/layer_upload_crs.html:32
 #: layers/templates/upload/layer_upload_csv.html:49
-#: layers/templates/upload/layer_upload_time.html:104
+#: layers/templates/upload/layer_upload_time.html:102
 msgid "Next"
 msgstr "다음"
 
@@ -2648,72 +1704,72 @@ msgid "This data does not have a time attribute"
 msgstr "이 데이터는 시간 속성이 없습니다"
 
 #: layers/templates/upload/layer_upload_time.html:30
-#: layers/templates/upload/layer_upload_time.html:58
+#: layers/templates/upload/layer_upload_time.html:57
 msgid "Existing Time Attribute"
 msgstr "기존 시간 속성"
 
 #: layers/templates/upload/layer_upload_time.html:36
-#: layers/templates/upload/layer_upload_time.html:64
+#: layers/templates/upload/layer_upload_time.html:63
 msgid "Convert Text Attribute"
 msgstr "텍스트 속성 변경"
 
-#: layers/templates/upload/layer_upload_time.html:37
+#: layers/templates/upload/layer_upload_time.html:38
 #: layers/templates/upload/layer_upload_time.html:65
 msgid "Date Format"
 msgstr "날짜 형식"
 
-#: layers/templates/upload/layer_upload_time.html:50
-#: layers/templates/upload/layer_upload_time.html:78
+#: layers/templates/upload/layer_upload_time.html:49
+#: layers/templates/upload/layer_upload_time.html:76
 msgid "Convert Number (As Year)"
 msgstr "숫자 변환(년도로)"
 
-#: layers/templates/upload/layer_upload_time.html:54
+#: layers/templates/upload/layer_upload_time.html:53
 msgid "Choose optional end time attribute"
 msgstr "선택적 종료 시간 속성 선택"
 
-#: layers/templates/upload/layer_upload_time.html:83
+#: layers/templates/upload/layer_upload_time.html:81
 msgid "Present time attribute as"
 msgstr "시간 속성을 다음으로 표시: "
 
-#: layers/templates/upload/layer_upload_time.html:86
+#: layers/templates/upload/layer_upload_time.html:84
 msgid "List"
 msgstr "리스트"
 
-#: layers/templates/upload/layer_upload_time.html:86
+#: layers/templates/upload/layer_upload_time.html:84
 msgid "of all the distinct time values"
 msgstr "모든 고유한 시간 값"
 
-#: layers/templates/upload/layer_upload_time.html:90
+#: layers/templates/upload/layer_upload_time.html:88
 msgid "Intervals"
 msgstr "간격"
 
-#: layers/templates/upload/layer_upload_time.html:90
+#: layers/templates/upload/layer_upload_time.html:88
 msgid "defined by the resolution"
 msgstr "해상도에 정의된"
 
-#: layers/templates/upload/layer_upload_time.html:94
+#: layers/templates/upload/layer_upload_time.html:92
 msgid "Continuous Intervals"
 msgstr "연속적인 간격"
 
-#: layers/templates/upload/layer_upload_time.html:94
+#: layers/templates/upload/layer_upload_time.html:92
 msgid ""
 "for data that is frequently updated, resolution describes the frequency of "
 "updates"
 msgstr "자주 갱신되는 데이터에서 해상도는 갱신 주기를 말합니다"
 
-#: layers/templates/upload/layer_upload_time.html:98
+#: layers/templates/upload/layer_upload_time.html:96
 msgid "Resolution of time attribute"
 msgstr "시간 속성 해상도"
 
-#: layers/templates/upload/layer_upload_time.html:108
+#: layers/templates/upload/layer_upload_time.html:107
 msgid "Need Help?"
 msgstr "도움이 필요합니까?"
 
-#: layers/templates/upload/layer_upload_time.html:109
+#: layers/templates/upload/layer_upload_time.html:108
 msgid "Enabling Time"
 msgstr "시간 활성화"
 
-#: layers/templates/upload/layer_upload_time.html:110
+#: layers/templates/upload/layer_upload_time.html:109
 msgid ""
 "A feature can currently support one or two time attributes. If a single\n"
 "    attribute is used, the feature is considered relevant at that single point in time. If two\n"
@@ -2721,27 +1777,27 @@ msgid ""
 "    feature."
 msgstr "피처는 하나 또는 두 개의 시간 속성을 지원할 수 있습니다. 만약 하나의\n속성을 사용하는 경우, 피처는 시간이 단일 시점과 관련된 것으로 \n간주됩니다. 만약 두 개의 속성을 사용하는 경우, \n두 번째 속성은 피처에 대한 유효기간의 끝을 나타냅니다."
 
-#: layers/templates/upload/layer_upload_time.html:114
+#: layers/templates/upload/layer_upload_time.html:113
 msgid "Selecting an Attribute"
 msgstr "속성 선택하기"
 
-#: layers/templates/upload/layer_upload_time.html:115
+#: layers/templates/upload/layer_upload_time.html:114
 msgid "A time attribute can be one of"
 msgstr "시간 속성은 다음 중 하나가 될 수 있음: "
 
-#: layers/templates/upload/layer_upload_time.html:117
+#: layers/templates/upload/layer_upload_time.html:116
 msgid "An existing date"
 msgstr "기존 데이터"
 
-#: layers/templates/upload/layer_upload_time.html:118
+#: layers/templates/upload/layer_upload_time.html:117
 msgid "Text that can be converted to a timestamp"
 msgstr "타임스탬프로 변환할 수 있는 텍스트"
 
-#: layers/templates/upload/layer_upload_time.html:119
+#: layers/templates/upload/layer_upload_time.html:118
 msgid "A number representing a year"
 msgstr "년도를 표시하는 숫자"
 
-#: layers/templates/upload/layer_upload_time.html:122
+#: layers/templates/upload/layer_upload_time.html:121
 msgid ""
 "\n"
 "    For text attributes, one can specify a custom format or use the 'best guess' approach.\n"
@@ -2749,46 +1805,46 @@ msgid ""
 "    "
 msgstr "\n텍스트 속성에 대해서, 사용자 형식을 지정하거나 '최선의 추정' 방법을 사용할 수 있습니다.\n가장 일반적인 형식 플래그는 다음과 같습니다:"
 
-#: layers/templates/upload/layer_upload_time.html:128
+#: layers/templates/upload/layer_upload_time.html:127
 msgid "year"
 msgstr "년"
 
-#: layers/templates/upload/layer_upload_time.html:129
+#: layers/templates/upload/layer_upload_time.html:128
 msgid "month"
 msgstr "월"
 
-#: layers/templates/upload/layer_upload_time.html:130
+#: layers/templates/upload/layer_upload_time.html:129
 msgid "day of month"
 msgstr "일"
 
+#: layers/templates/upload/layer_upload_time.html:130
 #: layers/templates/upload/layer_upload_time.html:131
-#: layers/templates/upload/layer_upload_time.html:132
 msgid "hour of day"
 msgstr "시간"
 
-#: layers/templates/upload/layer_upload_time.html:133
+#: layers/templates/upload/layer_upload_time.html:132
 msgid "minute in hour"
 msgstr "분"
 
-#: layers/templates/upload/layer_upload_time.html:134
+#: layers/templates/upload/layer_upload_time.html:133
 msgid "second in minute"
 msgstr "초"
 
-#: layers/templates/upload/layer_upload_time.html:137
+#: layers/templates/upload/layer_upload_time.html:136
 msgid "Note that single quotes represent a literal character."
 msgstr "작은 따옴표는 리터럴 문자를 표시합니다."
 
-#: layers/templates/upload/layer_upload_time.html:138
+#: layers/templates/upload/layer_upload_time.html:137
 msgid ""
 "To remove ambiguity, repeat a code to represent the maximum number of digits"
 " - for example yyyy"
 msgstr "모호성을 제거하려면, yyyy같이 자리수의 최대수를 나타내는 코드를 반복하십시오"
 
-#: layers/templates/upload/layer_upload_time.html:140
+#: layers/templates/upload/layer_upload_time.html:139
 msgid "The 'best guess' will handle date and optional time variants of"
 msgstr "'최선의 추정'은 다양한 날짜와 선택적 시간을 처리합니다. "
 
-#: layers/templates/upload/layer_upload_time.html:141
+#: layers/templates/upload/layer_upload_time.html:140
 msgid "In terms of the formatting flags noted above, these are"
 msgstr "위에서 언급한 형식 플래그의 측면에서, 이들은"
 
@@ -2827,7 +1883,7 @@ msgstr "사이트 URL"
 
 #: maps/models.py:81
 msgid "Featured Map URL"
-msgstr ""
+msgstr "주요지도 URL"
 
 #: maps/models.py:371
 msgid "stack order"
@@ -2881,33 +1937,33 @@ msgstr "원본 파라미터"
 msgid "JSON Configuration"
 msgstr "JSON 구성"
 
-#: maps/views.py:68
+#: maps/views.py:70
 msgid "You are not permitted to delete this map."
 msgstr "이 지도를 삭제할 권한이 없습니다."
 
-#: maps/views.py:69
+#: maps/views.py:71
 msgid "You do not have permissions for this map."
 msgstr "이 지도에 대한 권한이 없습니다."
 
-#: maps/views.py:70
+#: maps/views.py:72
 msgid "You must be logged in to save this map"
 msgstr "지도를 저장하려면 로그인해야 합니다"
 
-#: maps/views.py:71
+#: maps/views.py:73
 msgid "You are not permitted to save or edit this map."
 msgstr "이 지도를 저장하거나 편집할 권한이 없습니다."
 
-#: maps/views.py:73
+#: maps/views.py:75
 msgid "You are not allowed to modify this map's metadata."
 msgstr "이 지도의 메타데이터를 수정할 권한이 없습니다."
 
-#: maps/views.py:74
+#: maps/views.py:76
 msgid "You are not allowed to view this map."
 msgstr "이 지도를 볼 수 있는 권한이 없습니다."
 
-#: maps/views.py:87
-msgid "You are not permitted to modify this object"
-msgstr "이 객체를 수정할 권한이 없습니다"
+#: maps/views.py:77
+msgid "An unknown error has occured."
+msgstr "알 수없는 오류가 발생했습니다."
 
 #: maps/management/__init__.py:33
 msgid "Map Created"
@@ -2950,103 +2006,99 @@ msgstr "지도 검색"
 msgid "Rate this Map"
 msgstr "이 지도 평가"
 
-#: maps/templates/maps/map_detail.html:76
-#: maps/templates/maps/map_detail.html:83
+#: maps/templates/maps/map_detail.html:78
+#: maps/templates/maps/map_detail.html:86
 msgid "Download Map"
 msgstr "지도 다운로드"
 
-#: maps/templates/maps/map_detail.html:87
+#: maps/templates/maps/map_detail.html:90
 msgid "Download Data Layers"
 msgstr "데이터 레이어 다운로드"
 
-#: maps/templates/maps/map_detail.html:88
+#: maps/templates/maps/map_detail.html:91
 msgid "Download Web Map Context"
 msgstr "웹 지도 컨텍스트 다운로드"
 
-#: maps/templates/maps/map_detail.html:100
-#: maps/templates/maps/map_detail.html:107
+#: maps/templates/maps/map_detail.html:102
+#: maps/templates/maps/map_detail.html:109
 msgid "Edit Map"
 msgstr "지도 편집"
 
-#: maps/templates/maps/map_detail.html:111
+#: maps/templates/maps/map_detail.html:114
 msgid "Edit Map Metadata"
 msgstr "지도 메타데이터 편집"
 
-#: maps/templates/maps/map_detail.html:113
+#: maps/templates/maps/map_detail.html:118
 msgid "Set Map Thumbnail"
 msgstr "지도 썸네일 설정"
 
-#: maps/templates/maps/map_detail.html:115
-msgid "Edit Map Permissions"
-msgstr "지도 사용권한 편집"
-
-#: maps/templates/maps/map_detail.html:116
+#: maps/templates/maps/map_detail.html:122
 msgid "Remove this Map"
 msgstr "이 지도 제거"
 
-#: maps/templates/maps/map_detail.html:128
+#: maps/templates/maps/map_detail.html:134
 msgid "View Map"
 msgstr "지도 보기"
 
-#: maps/templates/maps/map_detail.html:138
+#: maps/templates/maps/map_detail.html:144
 msgid "Map Layers"
 msgstr "지도 레이어"
 
-#: maps/templates/maps/map_detail.html:139
+#: maps/templates/maps/map_detail.html:145
 msgid "This map uses the following layers:"
 msgstr "이 지도는 다음의 레이어를 사용함:"
 
-#: maps/templates/maps/map_detail.html:155
+#: maps/templates/maps/map_detail.html:161
 msgid "Documents related to this map"
 msgstr "이 지도와 연결된 문서"
 
-#: maps/templates/maps/map_detail.html:156
+#: maps/templates/maps/map_detail.html:162
 msgid "List of documents related to this map:"
 msgstr "이 지도와 연결된 문서 목록:"
 
-#: maps/templates/maps/map_detail.html:168
+#: maps/templates/maps/map_detail.html:174
 msgid "Specify which users can view or modify this map"
 msgstr "이 지도에 대한 보기 또는 수정할 수 있는 사용자 설정"
 
-#: maps/templates/maps/map_detail.html:169
+#: maps/templates/maps/map_detail.html:175
 msgid "Change Permissions of this Map"
 msgstr "이 지도의 권한 변경"
 
-#: maps/templates/maps/map_detail.html:175
+#: maps/templates/maps/map_detail.html:181
 msgid "Copy this map"
 msgstr "이 지도 복사"
 
-#: maps/templates/maps/map_detail.html:176
+#: maps/templates/maps/map_detail.html:182
 msgid "Duplicate this map and modify it for your own purposes"
 msgstr "이 지도를 복제하고 자신의 목적에 맞게 수정"
 
-#: maps/templates/maps/map_detail.html:177
+#: maps/templates/maps/map_detail.html:183
 #: maps/templates/maps/map_list.html:11
 msgid "Create a New Map"
 msgstr "새로운 지도 생성"
 
-#: maps/templates/maps/map_detail.html:182
+#: maps/templates/maps/map_detail.html:188
 msgid "Map WMS"
 msgstr "지도 WMS"
 
-#: maps/templates/maps/map_detail.html:184
+#: maps/templates/maps/map_detail.html:190
 msgid "WMS layer group for local map layers"
 msgstr "로컬 지도 레이어를 위한 WMS 레이어 그룹"
 
-#: maps/templates/maps/map_detail.html:185 social/tests.py:103
+#: maps/templates/maps/map_detail.html:191 social/tests.py:103
 #: social/templatetags/social_tags.py:47
 msgid "on"
 msgstr ":"
 
-#: maps/templates/maps/map_detail.html:185
+#: maps/templates/maps/map_detail.html:191
 msgid "local OWS"
 msgstr "로컬 OWS"
 
-#: maps/templates/maps/map_detail.html:188
+#: maps/templates/maps/map_detail.html:194
 msgid "Publish local map layers as WMS layer group"
 msgstr "로컬 지도 레이어를 WMS 레이어 그룹으로 발행"
 
-#: maps/templates/maps/map_detail.html:189
+#: maps/templates/maps/map_detail.html:195
 msgid "Publish Map WMS"
 msgstr "지도 WMS 발행"
 
@@ -3107,14 +2159,14 @@ msgid ""
 "\n"
 "        Editing details for %(map_title)s\n"
 "      "
-msgstr ""
+msgstr "\n%(map_title)s 상세정보 편집"
 
 #: maps/templates/maps/map_metadata.html:17
 msgid ""
 "Note: this map's orginal metadata was populated by importing a metadata XML file.\n"
 "        GeoNode's metadata import supports a subset of ISO, FGDC, and Dublin Core metadata elements.\n"
 "        Some of your original metadata may have been lost."
-msgstr ""
+msgstr "참고 :이지도의 orginal 한 메타 데이터는 메타 데이터 XML 파일을 가져 와서 채워졌다. GeoNode의 메타 데이터 가져 오기는 ISO, FGDC, 더블린 코어 메타 데이터 요소의 일부를 지원합니다. 원래 메타 데이터의 일부가 손실되었을 수 있습니다."
 
 #: maps/templates/maps/map_remove.html:6
 msgid "Deleting"
@@ -3167,7 +2219,7 @@ msgstr "자원을 발행하는 집단"
 msgid ""
 "party that accepts accountability and responsibility for the data and "
 "ensures         appropriate care and maintenance of the resource"
-msgstr ""
+msgstr "데이터에 대한 책임과 책임을 수용하고 자원의 적절한 관리 및 유지 보수를 보장 자"
 
 #: people/enumerations.py:44
 msgid ""
@@ -3212,93 +2264,93 @@ msgstr "팔로잉하는 사용자"
 msgid "another user has started following you"
 msgstr "다른 사용자가 당신을 팔로우합니다"
 
-#: people/models.py:40
+#: people/models.py:42
 msgid "Organization Name"
 msgstr "기관명"
 
-#: people/models.py:44
+#: people/models.py:46
 msgid "name of the responsible organization"
 msgstr "담당 기관의 이름"
 
-#: people/models.py:45 templates/500.html:76 templates/base.html:92
+#: people/models.py:47 templates/500.html:76 templates/base.html:92
 msgid "Profile"
 msgstr "프로필"
 
-#: people/models.py:45
+#: people/models.py:47
 msgid "introduce yourself"
 msgstr "자기 소개"
 
-#: people/models.py:47
+#: people/models.py:49
 msgid "Position Name"
 msgstr "직위명"
 
-#: people/models.py:51
+#: people/models.py:53
 msgid "role or position of the responsible person"
 msgstr "담당자의 역할 또는 직위"
 
-#: people/models.py:52
+#: people/models.py:54
 msgid "Voice"
 msgstr "전화번호"
 
-#: people/models.py:53
+#: people/models.py:55
 msgid ""
 "telephone number by which individuals can speak to the responsible "
 "organization or individual"
 msgstr "개인이 담당 기관이나 담당자에게 연락할 수 있는 전화번호"
 
-#: people/models.py:54
+#: people/models.py:56
 msgid "Facsimile"
 msgstr "팩스"
 
-#: people/models.py:55
+#: people/models.py:57
 msgid ""
 "telephone number of a facsimile machine for the responsible organization or "
 "individual"
 msgstr "개인이 담당 기관이나 담당자에게 연락할 수 있는 팩스번호"
 
-#: people/models.py:57
+#: people/models.py:59
 msgid "Delivery Point"
 msgstr "배달처"
 
-#: people/models.py:61
+#: people/models.py:63
 msgid ""
 "physical and email address at which the organization or individual may be "
 "contacted"
 msgstr "기관이나 조직에 연락할 수 있는 주소 및 이메일 주소"
 
-#: people/models.py:63
+#: people/models.py:65
 msgid "City"
 msgstr "도시"
 
-#: people/models.py:67
+#: people/models.py:69
 msgid "city of the location"
 msgstr "위치의 도시"
 
-#: people/models.py:69
+#: people/models.py:71
 msgid "Administrative Area"
 msgstr "행정구역"
 
-#: people/models.py:73
+#: people/models.py:75
 msgid "state, province of the location"
 msgstr "위치의 주, 지방 행정구역"
 
-#: people/models.py:75
+#: people/models.py:77
 msgid "Postal Code"
 msgstr "우편번호"
 
-#: people/models.py:79
+#: people/models.py:81
 msgid "ZIP or other postal code"
 msgstr "ZIP 또는 다른 우편 번호"
 
-#: people/models.py:85
+#: people/models.py:87
 msgid "country of the physical address"
 msgstr "물리적 주소의 국가"
 
-#: people/models.py:87
+#: people/models.py:89
 msgid ""
 "commonly used word(s) or formalised word(s) or phrase(s) used to describe "
 "the subject             (space or comma-separated"
-msgstr ""
+msgstr "일반적으로 사용 된 단어 (들) 또는 공식화 할 단어 나 구 (들)은 피사체 (공간 또는 쉼표로 구분을 설명하기 위해 사용"
 
 #: people/views.py:84
 msgid "Your username for "
@@ -3406,7 +2458,7 @@ msgstr "자동 감지"
 
 #: services/enumerations.py:25
 msgid "Paired WMS/WFS/WCS"
-msgstr ""
+msgstr "페어 WMS / WFS / WCS"
 
 #: services/enumerations.py:26
 msgid "Web Map Service"
@@ -3430,23 +2482,23 @@ msgstr "Harvard Geospatial Library"
 
 #: services/enumerations.py:34
 msgid "Local"
-msgstr ""
+msgstr "지방의"
 
 #: services/enumerations.py:35
 msgid "Cascaded"
-msgstr ""
+msgstr "캐스케이드"
 
 #: services/enumerations.py:36
 msgid "Harvested"
-msgstr ""
+msgstr "수확"
 
 #: services/enumerations.py:37
 msgid "Indexed"
-msgstr ""
+msgstr "색인"
 
 #: services/enumerations.py:38
 msgid "Live"
-msgstr ""
+msgstr "라이브"
 
 #: services/forms.py:12
 msgid "Service URL"
@@ -3480,26 +2532,26 @@ msgid ""
 "include: Harvard, MIT, MassGIS, Princeton, Columbia, Stanford, UC Berkeley, UCLA, Yale, and UConn. Built on open source\n"
 "technology, The Open Geoportal provides organizations the opportunity to share thousands of geospatial data layers,\n"
 "maps, metadata, and development resources through a single common interface.\n"
-msgstr ""
+msgstr "\n오픈 Geoportal 많은 조직과 플랫폼 검색 및 지리 공간 데이터의 획득을 촉진하기 위해 여러 대학과 기관의 기여로 구성된 컨소시엄이다. 현재 파트너는 다음과 같습니다 : 하버드, MIT, MassGIS, 프린스턴, 컬럼비아, 스탠포드, UC 버클리, UCLA, 예일, 그리고 UCONN을. 오픈 소스 기술을 기반으로, 오픈 Geoportal 조직을 하나의 일반적인 인터페이스를 통해 지리 공간 데이터 레이어,지도, 메타 데이터 및 개발 자원의 수천을 공유 할 수있는 기회를 제공한다.\n"
 
 #: services/views.py:273
 msgid "This is an existing service"
-msgstr ""
+msgstr "이미 있는 서비스입니다"
 
 #: services/views.py:536 services/views.py:633 services/views.py:849
 msgid "Not provided"
-msgstr ""
+msgstr "제공되지 않음"
 
 #: services/views.py:801
 msgid "Could not find any layers in a compatible projection."
-msgstr ""
+msgstr "호환되는 좌표체계에서 어떤 레이어도 찾을 수 없습니다."
 
 #: services/views.py:946
 #, python-format
 msgid ""
 "Could not find any layers in a compatible projection:                 The "
-"spatial id was: %s and the url %s"
-msgstr ""
+"spatial id was: %(srs)s and the url %(url)s"
+msgstr "호환 투사의 모든 레이어를 찾을 수 없습니다 공간 ID : %(srs)s 를 S와 URL의 %(url)s 의"
 
 #: services/views.py:1207
 msgid "You are not permitted to remove this service."
@@ -3507,7 +2559,7 @@ msgstr "이 서비스를 삭제할 권한이 없습니다."
 
 #: services/templates/services/layers_register.html:26
 msgid "All/None"
-msgstr ""
+msgstr "모든 / 없음"
 
 #: services/templates/services/layers_register.html:27
 msgid "Name"
@@ -3589,7 +2641,7 @@ msgstr "다음 레이어를 가져옵니다"
 
 #: services/templates/services/service_remove.html:7
 msgid "Are you sure you want to remove"
-msgstr ""
+msgstr "정말로 삭제하시겠습니까"
 
 #: social/signals.py:73
 msgid "created"
@@ -3662,13 +2714,18 @@ msgstr "사용자"
 msgid "Groups"
 msgstr "그룹"
 
+#: templates/500.html:56 templates/search/search.html:6
+#: templates/search/search.html.py:12
+msgid "Search"
+msgstr "검색"
+
 #: templates/500.html:77 templates/base.html:93
 msgid "Recent Activity"
 msgstr "최근 활동"
 
 #: templates/500.html:78 templates/base.html:94
 msgid "Inbox"
-msgstr ""
+msgstr "받은 편지함"
 
 #: templates/500.html:80 templates/base.html:96
 #: templates/announcements/announcement_list.html:6
@@ -3733,7 +2790,7 @@ msgid ""
 "          Please contact your GeoNode administrator (he may have received an email automatically if he configured it properly).\n"
 "          If you are the site administrator, enable debug mode to see the actual error and fix it or file an issue in <a href=\"http://github.com/GeoNode/geonode/issues\">GeoNode's issue tracker</a>\n"
 "          "
-msgstr ""
+msgstr "\n당신의 GeoNode 관리자에게 문의하십시오 (그는 제대로 구성된 경우 그는 자동으로 이메일을받은 수 있음). 당신이 사이트 관리자 인 경우, 실제 오류를보고 디버그 모드를 활성화하고이를 수정하거나에 문제를 제기 <a href=\"http://github.com/GeoNode/geonode/issues\">GeoNode의 이슈 트래커</a>"
 
 #: templates/500.html:182 templates/base.html:172
 msgid "Powered by"
@@ -3784,37 +2841,57 @@ msgstr "댓글을 추가"
 msgid "Submit Comments"
 msgstr "댓글 제출"
 
-#: templates/_permissions.html:4
-msgid "Who can view and download this data?"
-msgstr "누가 이 데이터를 보거나 다운로드 할 수 있습니까?"
+#: templates/_permissions.html:8
+msgid "Who can view it?"
+msgstr "누가 볼 수 있습니까?"
 
-#: templates/_permissions.html:9
+#: templates/_permissions.html:17 templates/_permissions.html.py:49
 msgid "Anyone"
 msgstr "모든 사용자"
 
-#: templates/_permissions.html:14 templates/_permissions.html.py:31
-#: templates/_permissions.html:48
+#: templates/_permissions.html:22 templates/_permissions.html.py:54
+#: templates/_permissions.html:80 templates/_permissions.html.py:107
+#: templates/_permissions.html:133 templates/_permissions.html.py:160
 msgid "The following users:"
 msgstr "다음 사용자:"
 
-#: templates/_permissions.html:20 templates/_permissions.html.py:37
-#: templates/_permissions.html:54
+#: templates/_permissions.html:28 templates/_permissions.html.py:60
+#: templates/_permissions.html:86 templates/_permissions.html.py:113
+#: templates/_permissions.html:139 templates/_permissions.html.py:166
 msgid "The following groups:"
 msgstr "다음 그룹:"
 
-#: templates/_permissions.html:27
-msgid "Who can edit this data?"
-msgstr "누가 이 데이터를 편집 할 수 있습니까?"
+#: templates/_permissions.html:40
+msgid "Who can download it?"
+msgstr "누구를 다운로드 할 수 있습니까?"
 
-#: templates/_permissions.html:44
-msgid "Who can manage?"
-msgstr ""
+#: templates/_permissions.html:72
+msgid "Who can change metadata for it?"
+msgstr "누가 메타 데이터를 변경할 수 있습니까?"
 
-#: templates/_permissions_form_js.html:125
+#: templates/_permissions.html:99
+msgid "Who can edit data for this layer?"
+msgstr "누가이 계층에 대해 데이터를 편집 할 수 있습니까?"
+
+#: templates/_permissions.html:125
+msgid "Who can edit styles for this layer?"
+msgstr "누가이 계층에 대해 스타일을 편집 할 수 있습니다?"
+
+#: templates/_permissions.html:152
+msgid ""
+"Who can manage it? (update, delete, change permissions, publish/unpublish "
+"it)"
+msgstr "누가 그것을 관리 할 수​​ 있습니까? (업데이트는, 그것의 게시를 취소 / 게시, 변경 권한을 삭제)"
+
+#: templates/_permissions_form.html:9
+msgid "Set permissions for this resource"
+msgstr "이 리소스에 대한 권한 설정"
+
+#: templates/_permissions_form_js.html:180
 msgid "Choose users..."
 msgstr "사용자 선택..."
 
-#: templates/_permissions_form_js.html:158
+#: templates/_permissions_form_js.html:213
 msgid "Choose groups..."
 msgstr "그룹 선택..."
 
@@ -3826,7 +2903,7 @@ msgstr "GeoNode 소개"
 msgid "About GeoNode."
 msgstr "GeoNode를 소개합니다."
 
-#: templates/base.html:223
+#: templates/base.html:224
 msgid "Type your search here ..."
 msgstr "여기에 검색어를 입력하세요..."
 
@@ -3972,7 +3049,7 @@ msgid ""
 "  </ol>\n"
 "  <p>You will be able to see your new map when you search for it from the <a href=\"/maps\">Maps</a> tab.</p> \n"
 "  "
-msgstr ""
+msgstr "\n <p>GeoNode는 데이터셋에 대한 접근 및 지도 편집 응용프로그램을 제공하여 사용자가 기존의 지도를 탐색하고 자신이 직접 기여할 수 있도록 합니다.</p>\n\n\n<h4 id=\"browsing-data\">레이어 검색하기</h4>\n\n<p><a href=\"/data\">레이어</a> 탭은 이 GeoNode에 업로드된 데이터를 검색할 수 있게 합니다.</p>\n\n<p>모든 데이터를 다른 응용프로그램에 사용할 수 있는 다양한 포맷으로 다운로드할 수 있습니다.</p>\n\n\n<h4 id=\"developer-access\">개발자 접근</h4>\n\n<p><a href=\"/developer\">개발자</a> 페이지는 GeoNode에 대한 응용프로그램 구축을 시작하는 개발자를 위한 장소입니다. 이 페이지에는 웹 서비스 사용에 대한 지침, GeoNode 소스코드 링크, GeoNode 구축에 사용되는 오픈 소스 프로젝트에 대한 정보가 포함되어 있습니다.</p>\n\n\n<h4 id=\"browsing-maps\">지도 검색하기</h4>\n\n<p>GeoNode는 사용자들이 서로 지도를 만들고 공유할 수 있도록 합니다.</p>\n\n<p><a href=\"maps\">지도</a> 탭은 GeoNode에서 지도를 탐색하는 게이트웨이 입니다. 여기에서 여러분은 <strong>지도를 탐색</strong>하거나, <a href=\"maps/new\">지도 편집기</a>를 열어 <strong>지도를 생성</strong>할 수 있습니다.</p> \n\n<h5>구글 어스 모드</h5>\n\n<p>지도 편집기에서 보는 모든 지도는 구글 어스 플러그인을 통해 3D 모드에서 볼 수 있습니다. 3D 모드로 전환하려면 상단 도구모음의 맨 오른쪽 버튼에 있는 구글 어스 글로브 로고를 선택합니다. 구글 어스 플러그인이 설치되어 있지 않은 경우 설치하라는 메시지가 표시됩니다.</p>\n\n\n<h4 id=\"creating-a-map\">지도 생성하기</h4>\n\n<p>새로운 지도를 만들려면 <a href=\"maps\">기여 지도</a> 탭으로 가서 <a href=\"maps/new\">자신의 지도 생성</a> 링크를 클릭합니다.</p>\n\n<p>이렇게 하면 기본 지도가 추가된 <a href=\"maps/new\">Map Composer</a>로 이동할 것입니다.</p> \n\n<p>GeoNoded에서 데이터 레이어를 추가하려면 화면 왼쪽에 있는 레이어 탭 아래의 녹색 더하기 버튼을 클릭합니다. 그러면 GeoNode에서 사용가능한 모든 레이어 목록을 나열하는 대화상자가 열립니다.</p>\n\n<p>지도에 레이어를 추가하려면 레이어를 선택하고 <strong>레이어 추가</strong> 버튼을 누릅니다. 완료되면 대화상자를 닫고 지도로 돌아가기 위해 <strong>완료</strong> 버튼을 누릅니다.</p>\n\n\n<h5>레이어 순서 변경 및 제거</h5> \n\n<p>단순히 레이어 이름을 드래그 앤 드롭하여 데이터 탭에 나열된 레이어의 표시 순서를 변경합니다. 지도에서 레이어 순서는 해당 사항을 반영하여 업데이트 됩니다. 레이어를 숨기려면 간단히 레이어 체크를 해제하고, 완전히 제거하려면 선택 후 빨간색 빼기 버튼을 누르면 됩니다.</p>\n\n\n<h5>지도 저장</h5>\n\n<p>일단 적절한 레이어 및 줌 레벨을 설정했다면 저장하고 다른 사람들과 공유할 수 있습니다. 상단 메뉴의 저장 버튼--상단 도구상자의 가장 왼쪽 아이콘, 디스크가 그려진 지도 이미지--을 클릭하고 지도의 제목과 요약정보를 입력합니다.</p>\n\n\n<h4 id=\"exporting-a-map\">지도 내보내기</h4> \n\n<p>GeoNode의 모든 지도는 다른 사이트나 블로그에 포함될 수 있습니다. 지도를 내보내려면:</p>\n\n<ol> \n<li>커뮤니티 또는 지도 페이지의 지도 목록에서 지도를 선택하고 '지도 내보내기' 버튼을 클릭합니다.</li>\n<li>마법사 위젯에서 원하는 높이와 너비를 선택합니다.</li> \n<li>마법사에서 제공하는 HTML 코드조각을 HTML 페이지 또는 아이프레임을 지원하는 블로그 게시물에 복사합니다.</li>\n</ol>\n\n<p>이는 여러분의 웹 페이지 또는 블로그 게시물에 여러분의 지도를 볼 수 있는 대화형 위젯을 포함합니다.</p>\n\n<p><a href=\"maps/new\">Map Composer</a> 역시 지도 내보내기 버튼이 있음을 밝힙니다. 다른 사람들이 보기를 원하는 변경사항이 있을 경우 내보내기 전에 지도를 저장해야 합니다. 내보내기는 마지막으로 본 버전이 아니라 마지막으로 저장된 버전을 내보냅니다.</p>\n\n\n<h4 id=\"remixing-a-map\">지도 리믹싱하기</h4>\n\n<p>사용가능한 모든 지도는 새로운 지도 작성을 위한 시작점으로 사용될 수 있습니다.</p>\n\n<ol>\n<li>지도 작성기에서 지도를 불러옵니다.</li> \n<li>여러분이 원하는대로 레이어를 추가하거나 제거합니다.</li>\n<li>관심지역을 강조하기 위해 지도를 이동 또는 확대합니다.</li>\n<li><strong>중요:</strong> 새로운 지도에 반영하기 위해 지도 제목, 요약, 연락처, 태그 정보를 갱신하십시오.</li>\n<li>지도를 저장합니다.</li>\n</ol>\n\n<p><a href=\"maps\">Maps</a> 탭에서 검색할 때 여러분의 새로운 지도를 볼 수 있을 것입니다.</p> "
 
 #: templates/help.html:65
 msgid "Sections"
@@ -4013,13 +3090,13 @@ msgstr "시작하기"
 #: templates/index.html:16
 msgid ""
 "GeoNode is an open source platform for sharing geospatial data and maps."
-msgstr ""
+msgstr "GeoNode는 지리공간 데이터와 지도를 공유하기 위한 오픈 소스 플랫폼입니다."
 
 #: templates/index.html:17
 msgid ""
 "If you have any questions about the software or service, join our <a "
 "href=\"https://groups.google.com/d/forum/geonode-users\">mailing list</a>."
-msgstr ""
+msgstr "소프트웨어 나 서비스에 대한 문의 사항이있는 경우, 우리의 가입 <a href=\"https://groups.google.com/d/forum/geonode-users\">메일 링리스트</a> ."
 
 #: templates/index.html:18
 msgid "Need help?"
@@ -4031,7 +3108,7 @@ msgstr "시작하기"
 
 #: templates/index.html:30 templates/index.html.py:37 templates/index.html:43
 msgid "No"
-msgstr ""
+msgstr "아니"
 
 #: templates/index.html:30
 msgid "Layer"
@@ -4041,7 +3118,7 @@ msgstr "레이어"
 msgid ""
 "Click to search for geospatial data published by other users, organizations "
 "and public sources. Download data in standard formats."
-msgstr ""
+msgstr "다른 사용자 단체와 공개 된 자료에 의해 출판 지리 공간 데이터를 검색하려면 클릭합니다. 표준 형식의 데이터 다운로드."
 
 #: templates/index.html:37
 msgid "Map"
@@ -4051,11 +3128,11 @@ msgstr "지도"
 msgid ""
 "Data is available for browsing, aggregating and styling to generate maps "
 "which can be shared publicly or restricted to specific users only."
-msgstr ""
+msgstr "데이터는 특정 사용자에게 공개적으로 공유하거나 제한 할 수 있습니다지도를 생성하는 검색, 집계 및 스타일 사용할 수 있습니다."
 
 #: templates/index.html:39
 msgid "Create maps"
-msgstr ""
+msgstr "지도 생성"
 
 #: templates/index.html:43
 msgid "User"
@@ -4065,7 +3142,7 @@ msgstr "사용자"
 msgid ""
 "GeoNode allows registered users to easily upload geospatial data in several "
 "formats including shapefile and GeoTiff."
-msgstr ""
+msgstr "GeoNode 등록 된 사용자가 쉽게 Shape 파일과 GEOTIFF 등 여러 가지 형식으로 지리 공간 데이터를 업로드 할 수 있습니다."
 
 #: templates/index.html:45
 msgid "Share data"
@@ -4120,7 +3197,7 @@ msgstr "가입"
 
 #: templates/account/signup.html:27
 msgid "Sorry, registrations are not open at this time."
-msgstr ""
+msgstr "죄송합니다, 등록은이 번에 열 수 없습니다."
 
 #: templates/account/email/email_confirmation_message.txt:1
 #, python-format
@@ -4130,12 +3207,12 @@ msgid ""
 "To confirm this email address, go to %(activate_url)s\n"
 "\n"
 "If you did not sign up for this site, you can ignore this message.\n"
-msgstr ""
+msgstr "%(site_name)s 에 사용자는이 이메일 주소를 사용하여 계정을 만들었습니다. 이 이메일 주소를 확인하려면이 사이트에 가입하지 않은 경우,이 메시지를 무시할 수 있습니다 %(activate_url)s 로 이동합니다.\n"
 
 #: templates/account/email/email_confirmation_subject.txt:1
 #, python-format
 msgid "Confirm email address for %(site_name)s"
-msgstr ""
+msgstr "%(site_name)s의 이메일 주소 확인"
 
 #: templates/account/email/password_reset.txt:1
 #, python-format
@@ -4144,7 +3221,7 @@ msgid ""
 "It can be safely ignored if you did not request a password reset. Click the link below to reset your password.\n"
 "\n"
 "%(password_reset_url)s\n"
-msgstr ""
+msgstr "당신이나 다른 사람이 %(site_name)s 의 사용자 계정에 대한 암호를 요청했기 때문에 이메일을 보내드립니다. 암호 재설정을 요청하지 않은 경우는 무시해도됩니다. 암호를 재설정하려면 아래 링크를 클릭하십시오.\n\n%(password_reset_url)s\n"
 
 #: templates/account/email/password_reset_subject.txt:1
 #, python-format
@@ -4193,7 +3270,7 @@ msgid ""
 "\n"
 "                        Published from <b>%(publish_start)s</b> to <b>%(publish_end)s</b>.\n"
 "                        "
-msgstr ""
+msgstr "\n<b>%(publish_start)s 에서</b> 간행 <b>%(publish_end)s</b>"
 
 #: templates/announcements/detail.html:4
 #, python-format
@@ -4392,6 +3469,11 @@ msgstr "카테고리"
 msgid "Date begins after:"
 msgstr "시작 날짜:"
 
+#: templates/search/_general_filters.html:31
+#: templates/search/_general_filters.html:35
+msgid "yyyy-mm-dd"
+msgstr "yyyy-mm-dd"
+
 #: templates/search/_general_filters.html:34
 msgid "Date ends before:"
 msgstr "종료 날짜:"
@@ -4406,15 +3488,11 @@ msgstr "모든 필터 제거"
 
 #: templates/search/_sort_filters.html:13
 msgid "Set permissions"
-msgstr ""
+msgstr "권한 설정"
 
 #: templates/search/_text_filter.html:5
 msgid "Text"
 msgstr "텍스트"
-
-#: templates/search/search.html:6 templates/search/search.html.py:12
-msgid "Search"
-msgstr "검색"
 
 #: templates/user_messages/inbox.html:6
 msgid "Message Inbox"
