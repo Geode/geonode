@@ -66,6 +66,7 @@ _PERMISSION_MSG_METADATA = _(
     "You are not permitted to modify this layer's metadata")
 _PERMISSION_MSG_VIEW = _("You are not permitted to view this layer")
 
+_TYPE_PAGE = _('Layer')
 
 def _resolve_layer(request, typename, permission='base.view_resourcebase',
                    msg=_PERMISSION_MSG_GENERIC, **kwargs):
@@ -175,6 +176,7 @@ def layer_upload(request, template='upload/layer_upload.html'):
 
 
 def layer_detail(request, layername, template='layers/layer_detail.html'):
+    _TYPE_P = _("Layer")
     layer = _resolve_layer(
         request,
         layername,

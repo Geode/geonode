@@ -45,6 +45,7 @@ from agon_ratings.models import OverallRating
 
 logger = logging.getLogger("geonode.maps.models")
 
+typepage_slug = _('Map')
 
 class Map(ResourceBase, GXPMapBase):
 

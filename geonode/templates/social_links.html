@@ -8,6 +8,12 @@
         <!-- TODO: Move this to a reusable template snippet -->
         <header>
             <h3>{% blocktrans with res=resource.class_name %}Share This {{res}}{% endblocktrans %}</h3>
+            <br/>
+            <h3>{% blocktrans %}Share This {{typepage_slug}}{% endblocktrans %}</h3>
+            <br/>
+            <h3>{% blocktrans %}Share This {{_TYPE_PAGE}}{% endblocktrans %}</h3>
+            <br/>
+            <h3>{% blocktrans %}Share This {{_TYPE_P}}{% endblocktrans %}</h3>
         </header>
         <div>
               <ul class="social">

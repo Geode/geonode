@@ -43,6 +43,7 @@ vec_exts = shp_exts + csv_exts + kml_exts
 
 cov_exts = ['.tif', '.tiff', '.geotiff', '.geotif']
 
+typepage_slug = _('Layer')
 
 class Style(models.Model):
 

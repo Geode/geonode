@@ -21,6 +21,7 @@ IMGTYPES = ['jpg', 'jpeg', 'tif', 'tiff', 'png', 'gif']
 
 logger = logging.getLogger(__name__)
 
+typepage_slug = _('Document')
 
 class Document(ResourceBase):
 
