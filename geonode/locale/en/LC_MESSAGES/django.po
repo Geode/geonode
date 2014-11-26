@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 08:49+0000\n"
+"POT-Creation-Date: 2014-11-26 11:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -501,7 +501,7 @@ msgstr ""
 msgid "Permissions must be valid JSON."
 msgstr ""
 
-#: documents/models.py:24 documents/views.py:47
+#: documents/models.py:24
 msgid "Document"
 msgstr ""
 
@@ -537,11 +537,15 @@ msgstr ""
 msgid "You are not permitted to view this document"
 msgstr ""
 
-#: documents/views.py:68 documents/views.py:108
+#: documents/views.py:67 documents/views.py:107
 msgid "You are not allowed to view this document."
 msgstr ""
 
-#: documents/views.py:184
+#: documents/views.py:94
+msgid "Share This Document"
+msgstr ""
+
+#: documents/views.py:183
 msgid "You are not allowed to edit this document."
 msgstr ""
 
@@ -1287,8 +1291,8 @@ msgstr ""
 msgid "You are not permitted to view this layer"
 msgstr ""
 
-#: layers/views.py:177 templates/index.html:30
-msgid "Layer"
+#: layers/views.py:250
+msgid "Share This Layer"
 msgstr ""
 
 #: layers/templates/layers/_actions.html:4
@@ -1884,7 +1888,7 @@ msgstr ""
 msgid "now"
 msgstr ""
 
-#: maps/models.py:48 maps/views.py:99 templates/index.html:37
+#: maps/models.py:48 templates/index.html:37
 msgid "Map"
 msgstr ""
 
@@ -1990,6 +1994,10 @@ msgstr ""
 
 #: maps/views.py:77
 msgid "An unknown error has occured."
+msgstr ""
+
+#: maps/views.py:117
+msgid "Share This Map"
 msgstr ""
 
 #: maps/management/__init__.py:33
@@ -3229,6 +3237,10 @@ msgstr ""
 msgid "No"
 msgstr ""
 
+#: templates/index.html:30
+msgid "Layer"
+msgstr ""
+
 #: templates/index.html:32
 msgid ""
 "Click to search for geospatial data published by other users, organizations "
@@ -3261,7 +3273,7 @@ msgstr ""
 
 #: templates/social_links.html:10
 #, python-format
-msgid "Share This %(page_type)s"
+msgid "%(share_res)s"
 msgstr ""
 
 #: templates/account/login.html:7 templates/account/login.html.py:24

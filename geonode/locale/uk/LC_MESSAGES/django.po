@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 08:49+0000\n"
+"POT-Creation-Date: 2014-11-26 11:51+0000\n"
 "PO-Revision-Date: 2014-11-14 18:38+0000\n"
 "Last-Translator: Andres Alfonso Lemon Gomez <lemon.andres@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/geonode/"
@@ -516,7 +516,7 @@ msgstr "Посилання на"
 msgid "Permissions must be valid JSON."
 msgstr "Дозволи повинні бути дійсні JSON."
 
-#: documents/models.py:24 documents/views.py:47
+#: documents/models.py:24
 #, fuzzy
 msgid "Document"
 msgstr "Документи"
@@ -553,11 +553,16 @@ msgstr "Вам не дозволяється змінювати метадані
 msgid "You are not permitted to view this document"
 msgstr "Вам не дозволяється, щоб подивитися цей документ"
 
-#: documents/views.py:68 documents/views.py:108
+#: documents/views.py:67 documents/views.py:107
 msgid "You are not allowed to view this document."
 msgstr "Ви не можете переглянути цей документ."
 
-#: documents/views.py:184
+#: documents/views.py:94
+#, fuzzy
+msgid "Share This Document"
+msgstr "Оцінити це документ"
+
+#: documents/views.py:183
 msgid "You are not allowed to edit this document."
 msgstr "Ви не можете редагувати цей документ."
 
@@ -1328,9 +1333,10 @@ msgstr "Вам не дозволяється змінювати метадані
 msgid "You are not permitted to view this layer"
 msgstr "Вам не дозволяється, щоб подивитися цей шар"
 
-#: layers/views.py:177 templates/index.html:30
-msgid "Layer"
-msgstr "Шар"
+#: layers/views.py:250
+#, fuzzy
+msgid "Share This Layer"
+msgstr "Оцінити цей шар"
 
 #: layers/templates/layers/_actions.html:4
 #: layers/templates/layers/layer_metadata.html:32
@@ -1968,7 +1974,7 @@ msgstr "Або просто піти"
 msgid "now"
 msgstr "зараз"
 
-#: maps/models.py:48 maps/views.py:99 templates/index.html:37
+#: maps/models.py:48 templates/index.html:37
 msgid "Map"
 msgstr "Карта"
 
@@ -2075,6 +2081,11 @@ msgstr "Ви не дозволено переглядати цю карту."
 #: maps/views.py:77
 msgid "An unknown error has occured."
 msgstr "Невідома помилка."
+
+#: maps/views.py:117
+#, fuzzy
+msgid "Share This Map"
+msgstr "Оцінити це Карта"
 
 #: maps/management/__init__.py:33
 msgid "Map Created"
@@ -3378,6 +3389,10 @@ msgstr "Починаємо"
 msgid "No"
 msgstr "Немає"
 
+#: templates/index.html:30
+msgid "Layer"
+msgstr "Шар"
+
 #: templates/index.html:32
 msgid ""
 "Click to search for geospatial data published by other users, organizations "
@@ -3417,7 +3432,7 @@ msgstr "Спільне використання даних"
 
 #: templates/social_links.html:10
 #, python-format
-msgid "Share This %(page_type)s"
+msgid "%(share_res)s"
 msgstr ""
 
 #: templates/account/login.html:7 templates/account/login.html.py:24
@@ -3832,6 +3847,10 @@ msgstr ""
 #: templates/user_messages/thread_detail.html:25
 msgid "Send Reply"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Layer_g"
+#~ msgstr "Шар"
 
 #~ msgid "Remote Thumbnail"
 #~ msgstr "Дистанційна ескізів"

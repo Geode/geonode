@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 08:49+0000\n"
+"POT-Creation-Date: 2014-11-26 11:51+0000\n"
 "PO-Revision-Date: 2014-11-14 16:58+0000\n"
 "Last-Translator: ingenieroariel <ingenieroariel@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/geonode/language/"
@@ -514,7 +514,7 @@ msgstr "링크 "
 msgid "Permissions must be valid JSON."
 msgstr "권한은 유효한 JSON이어야 합니다."
 
-#: documents/models.py:24 documents/views.py:47
+#: documents/models.py:24
 #, fuzzy
 msgid "Document"
 msgstr "문서"
@@ -551,11 +551,16 @@ msgstr "이 문서의 메타데이터를 수정할 권한이 없습니다"
 msgid "You are not permitted to view this document"
 msgstr "이 문서를 볼 권한이 없습니다"
 
-#: documents/views.py:68 documents/views.py:108
+#: documents/views.py:67 documents/views.py:107
 msgid "You are not allowed to view this document."
 msgstr "이 문서를 볼 권한이 없습니다."
 
-#: documents/views.py:184
+#: documents/views.py:94
+#, fuzzy
+msgid "Share This Document"
+msgstr "이 문서 평가"
+
+#: documents/views.py:183
 msgid "You are not allowed to edit this document."
 msgstr "이 문서를 편집할 권한이 없습니다."
 
@@ -1318,9 +1323,10 @@ msgstr "이 레이어의 메타데이터를 수정할 권한이 없습니다."
 msgid "You are not permitted to view this layer"
 msgstr "이 레이어를 볼 수 있는 권한이 없습니다."
 
-#: layers/views.py:177 templates/index.html:30
-msgid "Layer"
-msgstr "레이어"
+#: layers/views.py:250
+#, fuzzy
+msgid "Share This Layer"
+msgstr "이 레이어 평가"
 
 #: layers/templates/layers/_actions.html:4
 #: layers/templates/layers/layer_metadata.html:32
@@ -1956,7 +1962,7 @@ msgstr "계속 진행합니다"
 msgid "now"
 msgstr "지금"
 
-#: maps/models.py:48 maps/views.py:99 templates/index.html:37
+#: maps/models.py:48 templates/index.html:37
 msgid "Map"
 msgstr "지도"
 
@@ -2063,6 +2069,11 @@ msgstr "이 지도를 볼 수 있는 권한이 없습니다."
 #: maps/views.py:77
 msgid "An unknown error has occured."
 msgstr "알 수없는 오류가 발생했습니다."
+
+#: maps/views.py:117
+#, fuzzy
+msgid "Share This Map"
+msgstr "이 지도 평가"
 
 #: maps/management/__init__.py:33
 msgid "Map Created"
@@ -3537,6 +3548,10 @@ msgstr "시작하기"
 msgid "No"
 msgstr "아니"
 
+#: templates/index.html:30
+msgid "Layer"
+msgstr "레이어"
+
 #: templates/index.html:32
 msgid ""
 "Click to search for geospatial data published by other users, organizations "
@@ -3575,7 +3590,7 @@ msgstr "데이터 공유"
 
 #: templates/social_links.html:10
 #, python-format
-msgid "Share This %(page_type)s"
+msgid "%(share_res)s"
 msgstr ""
 
 #: templates/account/login.html:7 templates/account/login.html.py:24
@@ -3998,6 +4013,10 @@ msgstr "보관함으로 돌아가기"
 #: templates/user_messages/thread_detail.html:25
 msgid "Send Reply"
 msgstr "답장 보내기"
+
+#, fuzzy
+#~ msgid "Layer_g"
+#~ msgstr "레이어"
 
 #~ msgid "Remote Thumbnail"
 #~ msgstr "원격 썸네일"

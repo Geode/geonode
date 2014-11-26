@@ -44,7 +44,6 @@ def document_detail(request, docid):
     """
     The view that show details of each document
     """
-    _TYPE_P = _("Document")
     document = None
     try:
         document = _resolve_document(
@@ -92,7 +91,7 @@ def document_detail(request, docid):
                     'resource': document,
                     'imgtypes': IMGTYPES,
                     'related': related,
-                    'page_type': _TYPE_P,
+                    'share_res': _("Share This Document"),
                 }))
 
 

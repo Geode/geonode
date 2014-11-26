@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 08:49+0000\n"
+"POT-Creation-Date: 2014-11-26 11:51+0000\n"
 "PO-Revision-Date: 2014-11-14 17:52+0000\n"
 "Last-Translator: ingenieroariel <ingenieroariel@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/geonode/"
@@ -525,7 +525,7 @@ msgstr "Vincular a"
 msgid "Permissions must be valid JSON."
 msgstr "As permissões devem ser JSON válido."
 
-#: documents/models.py:24 documents/views.py:47
+#: documents/models.py:24
 #, fuzzy
 msgid "Document"
 msgstr "Documentos"
@@ -562,11 +562,16 @@ msgstr "Você não tem permissão para modificar os metadados desse documento"
 msgid "You are not permitted to view this document"
 msgstr "Você não tem permissão para ver este documento"
 
-#: documents/views.py:68 documents/views.py:108
+#: documents/views.py:67 documents/views.py:107
 msgid "You are not allowed to view this document."
 msgstr "Você não tem permissão para ver este documento."
 
-#: documents/views.py:184
+#: documents/views.py:94
+#, fuzzy
+msgid "Share This Document"
+msgstr "Classifique este documento"
+
+#: documents/views.py:183
 msgid "You are not allowed to edit this document."
 msgstr "Você não tem permissão para editar este documento."
 
@@ -1340,9 +1345,10 @@ msgstr "Você não tem permissão para modificar os metadados desta camada"
 msgid "You are not permitted to view this layer"
 msgstr "Você não tem permissão para ver esta camada"
 
-#: layers/views.py:177 templates/index.html:30
-msgid "Layer"
-msgstr ""
+#: layers/views.py:250
+#, fuzzy
+msgid "Share This Layer"
+msgstr "Classifique essa camada"
 
 #: layers/templates/layers/_actions.html:4
 #: layers/templates/layers/layer_metadata.html:32
@@ -1994,7 +2000,7 @@ msgstr "Ou ir agora"
 msgid "now"
 msgstr "agora"
 
-#: maps/models.py:48 maps/views.py:99 templates/index.html:37
+#: maps/models.py:48 templates/index.html:37
 msgid "Map"
 msgstr "Mapa"
 
@@ -2101,6 +2107,11 @@ msgstr "Você não tem persmissão para ver este mapa."
 #: maps/views.py:77
 msgid "An unknown error has occured."
 msgstr "Um erro desconhecido ocorreu."
+
+#: maps/views.py:117
+#, fuzzy
+msgid "Share This Map"
+msgstr "Classifique esta camada"
 
 #: maps/management/__init__.py:33
 msgid "Map Created"
@@ -3487,6 +3498,10 @@ msgstr ""
 msgid "No"
 msgstr ""
 
+#: templates/index.html:30
+msgid "Layer"
+msgstr ""
+
 #: templates/index.html:32
 msgid ""
 "Click to search for geospatial data published by other users, organizations "
@@ -3519,7 +3534,7 @@ msgstr ""
 
 #: templates/social_links.html:10
 #, python-format
-msgid "Share This %(page_type)s"
+msgid "%(share_res)s"
 msgstr ""
 
 #: templates/account/login.html:7 templates/account/login.html.py:24
@@ -3938,6 +3953,10 @@ msgstr "Voltar à Caixa de Entrada"
 #: templates/user_messages/thread_detail.html:25
 msgid "Send Reply"
 msgstr "Enviar resposta"
+
+#, fuzzy
+#~ msgid "Layer_g"
+#~ msgstr "Camadas"
 
 #~ msgid "Remote Thumbnail"
 #~ msgstr "Thumbnail remoto"

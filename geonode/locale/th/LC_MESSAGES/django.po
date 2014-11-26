@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 08:49+0000\n"
+"POT-Creation-Date: 2014-11-26 11:51+0000\n"
 "PO-Revision-Date: 2014-11-14 18:33+0000\n"
 "Last-Translator: keeratipong petchadapong <jobcskku@hotmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/projects/p/geonode/language/"
@@ -503,7 +503,7 @@ msgstr "เชื่อมโยงกับ"
 msgid "Permissions must be valid JSON."
 msgstr "สิทธิ์จะต้องอยู่ในรูปแบบ JSON ที่ถูกต้อง"
 
-#: documents/models.py:24 documents/views.py:47
+#: documents/models.py:24
 #, fuzzy
 msgid "Document"
 msgstr "เอกสาร"
@@ -540,11 +540,16 @@ msgstr "คุณไม่มีสิทธิ์แก้ไขคำอธิ
 msgid "You are not permitted to view this document"
 msgstr "คุณไม่มีสิทธิ์ดูเอกสารนี้"
 
-#: documents/views.py:68 documents/views.py:108
+#: documents/views.py:67 documents/views.py:107
 msgid "You are not allowed to view this document."
 msgstr "คุณไม่ได้รับอนุญาตให้ดูเอกสารนี้"
 
-#: documents/views.py:184
+#: documents/views.py:94
+#, fuzzy
+msgid "Share This Document"
+msgstr "ให้คะแนนเอกสารนี้"
+
+#: documents/views.py:183
 msgid "You are not allowed to edit this document."
 msgstr "คุณไม่ได้รับอนุญาตให้แก้ไขเอกสารนี้"
 
@@ -1307,9 +1312,10 @@ msgstr "คุณไม่มีสิทธิ์แก้ไขคำอธิ
 msgid "You are not permitted to view this layer"
 msgstr "คุณไม่มีสิทธิ์ดูชั้นข้อมูลนี้"
 
-#: layers/views.py:177 templates/index.html:30
-msgid "Layer"
-msgstr "ชั้นข้อมูล"
+#: layers/views.py:250
+#, fuzzy
+msgid "Share This Layer"
+msgstr "ให้คะแนนชั้นข้อมูลนี้"
 
 #: layers/templates/layers/_actions.html:4
 #: layers/templates/layers/layer_metadata.html:32
@@ -1928,7 +1934,7 @@ msgstr ""
 msgid "now"
 msgstr "เดี๋ยวนี้"
 
-#: maps/models.py:48 maps/views.py:99 templates/index.html:37
+#: maps/models.py:48 templates/index.html:37
 msgid "Map"
 msgstr "แผนที่"
 
@@ -2035,6 +2041,11 @@ msgstr "คุณไม่ได้รับอนุญาตให้ดูแ
 #: maps/views.py:77
 msgid "An unknown error has occured."
 msgstr "เกิดข้อผิดพลาดที่ไม่รู้จัก"
+
+#: maps/views.py:117
+#, fuzzy
+msgid "Share This Map"
+msgstr "ให้คะแนนแผนที่นี้"
 
 #: maps/management/__init__.py:33
 msgid "Map Created"
@@ -3455,6 +3466,10 @@ msgstr "เริ่มต้นการใช้งาน"
 msgid "No"
 msgstr "ไม่"
 
+#: templates/index.html:30
+msgid "Layer"
+msgstr "ชั้นข้อมูล"
+
 #: templates/index.html:32
 msgid ""
 "Click to search for geospatial data published by other users, organizations "
@@ -3493,7 +3508,7 @@ msgstr "แบ่งปันข้อมูล"
 
 #: templates/social_links.html:10
 #, python-format
-msgid "Share This %(page_type)s"
+msgid "%(share_res)s"
 msgstr ""
 
 #: templates/account/login.html:7 templates/account/login.html.py:24
@@ -3916,3 +3931,7 @@ msgstr "กลับไปที่กล่องขาเข้า"
 #: templates/user_messages/thread_detail.html:25
 msgid "Send Reply"
 msgstr "ตอบกลับ"
+
+#, fuzzy
+#~ msgid "Layer_g"
+#~ msgstr "ชั้นข้อมูล"

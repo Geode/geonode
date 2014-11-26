@@ -174,7 +174,7 @@ def layer_upload(request, template='upload/layer_upload.html'):
 
 
 def layer_detail(request, layername, template='layers/layer_detail.html'):
-    _TYPE_P = _("Layer")
+
     layer = _resolve_layer(
         request,
         layername,
@@ -247,7 +247,7 @@ def layer_detail(request, layername, template='layers/layer_detail.html'):
                 name__in=settings.DOWNLOAD_FORMATS_RASTER)
         context_dict["links"] = links
 
-    context_dict["page_type"] = _TYPE_P
+    context_dict["share_res"] = _("Share This Layer")
 
     return render_to_response(template, RequestContext(request, context_dict))
 

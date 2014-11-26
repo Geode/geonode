@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 08:49+0000\n"
+"POT-Creation-Date: 2014-11-26 11:51+0000\n"
 "PO-Revision-Date: 2014-11-14 15:05+0000\n"
 "Last-Translator: ingenieroariel <ingenieroariel@gmail.com>\n"
 "Language-Team: Chinese (http://www.transifex.com/projects/p/geonode/language/"
@@ -505,7 +505,7 @@ msgstr ""
 msgid "Permissions must be valid JSON."
 msgstr ""
 
-#: documents/models.py:24 documents/views.py:47
+#: documents/models.py:24
 #, fuzzy
 msgid "Document"
 msgstr "文件"
@@ -542,11 +542,16 @@ msgstr "你没有权限修改此文件的元数据"
 msgid "You are not permitted to view this document"
 msgstr "您无权以查看此文件"
 
-#: documents/views.py:68 documents/views.py:108
+#: documents/views.py:67 documents/views.py:107
 msgid "You are not allowed to view this document."
 msgstr "您不"
 
-#: documents/views.py:184
+#: documents/views.py:94
+#, fuzzy
+msgid "Share This Document"
+msgstr "给此文件打分"
+
+#: documents/views.py:183
 msgid "You are not allowed to edit this document."
 msgstr ""
 
@@ -1298,9 +1303,10 @@ msgstr "您无权修改此图层元数据"
 msgid "You are not permitted to view this layer"
 msgstr "您无权以查看此图层"
 
-#: layers/views.py:177 templates/index.html:30
-msgid "Layer"
-msgstr "图层"
+#: layers/views.py:250
+#, fuzzy
+msgid "Share This Layer"
+msgstr "为该图层评分"
 
 #: layers/templates/layers/_actions.html:4
 #: layers/templates/layers/layer_metadata.html:32
@@ -1902,7 +1908,7 @@ msgstr ""
 msgid "now"
 msgstr "现在"
 
-#: maps/models.py:48 maps/views.py:99 templates/index.html:37
+#: maps/models.py:48 templates/index.html:37
 msgid "Map"
 msgstr "地图"
 
@@ -2009,6 +2015,11 @@ msgstr "您无权查看此地图。"
 #: maps/views.py:77
 msgid "An unknown error has occured."
 msgstr ""
+
+#: maps/views.py:117
+#, fuzzy
+msgid "Share This Map"
+msgstr "给此地图打分"
 
 #: maps/management/__init__.py:33
 msgid "Map Created"
@@ -3260,6 +3271,10 @@ msgstr ""
 msgid "No"
 msgstr ""
 
+#: templates/index.html:30
+msgid "Layer"
+msgstr "图层"
+
 #: templates/index.html:32
 msgid ""
 "Click to search for geospatial data published by other users, organizations "
@@ -3292,7 +3307,7 @@ msgstr ""
 
 #: templates/social_links.html:10
 #, python-format
-msgid "Share This %(page_type)s"
+msgid "%(share_res)s"
 msgstr ""
 
 #: templates/account/login.html:7 templates/account/login.html.py:24
@@ -3697,3 +3712,7 @@ msgstr "回到收件箱"
 #: templates/user_messages/thread_detail.html:25
 msgid "Send Reply"
 msgstr "发送回复"
+
+#, fuzzy
+#~ msgid "Layer_g"
+#~ msgstr "图层"

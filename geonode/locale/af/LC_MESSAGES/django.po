@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 08:49+0000\n"
+"POT-Creation-Date: 2014-11-26 11:51+0000\n"
 "PO-Revision-Date: 2014-11-14 17:11+0000\n"
 "Last-Translator: Andres Alfonso Lemon Gomez <lemon.andres@gmail.com>\n"
 "Language-Team: Afrikaans (http://www.transifex.com/projects/p/geonode/"
@@ -517,7 +517,7 @@ msgstr "Link na"
 msgid "Permissions must be valid JSON."
 msgstr "Regte moet geldig into wees."
 
-#: documents/models.py:24 documents/views.py:47
+#: documents/models.py:24
 #, fuzzy
 msgid "Document"
 msgstr "Dokumente"
@@ -554,11 +554,16 @@ msgstr "Jy word nie toegelaat metadata hierdie dokument te verander"
 msgid "You are not permitted to view this document"
 msgstr "Jy word nie toegelaat om hierdie dokument te sien"
 
-#: documents/views.py:68 documents/views.py:108
+#: documents/views.py:67 documents/views.py:107
 msgid "You are not allowed to view this document."
 msgstr "Jy word nie toegelaat om hierdie dokument te besigtig."
 
-#: documents/views.py:184
+#: documents/views.py:94
+#, fuzzy
+msgid "Share This Document"
+msgstr "Gradeer hierdie dokument"
+
+#: documents/views.py:183
 msgid "You are not allowed to edit this document."
 msgstr "Jy word nie toegelaat om hierdie dokument te wysig."
 
@@ -1328,9 +1333,10 @@ msgstr "Jy word nie toegelaat om hierdie laag se metadata te verander"
 msgid "You are not permitted to view this layer"
 msgstr "Jy word nie toegelaat om hierdie laag te sien"
 
-#: layers/views.py:177 templates/index.html:30
-msgid "Layer"
-msgstr "Laag"
+#: layers/views.py:250
+#, fuzzy
+msgid "Share This Layer"
+msgstr "Gradeer hierdie laag"
 
 #: layers/templates/layers/_actions.html:4
 #: layers/templates/layers/layer_metadata.html:32
@@ -1976,7 +1982,7 @@ msgstr "Of net gaan"
 msgid "now"
 msgstr "nou"
 
-#: maps/models.py:48 maps/views.py:99 templates/index.html:37
+#: maps/models.py:48 templates/index.html:37
 msgid "Map"
 msgstr "Kaart"
 
@@ -2083,6 +2089,11 @@ msgstr "Jy word nie toegelaat om die kaart te sien."
 #: maps/views.py:77
 msgid "An unknown error has occured."
 msgstr "'N Onbekende fout het voorgekom."
+
+#: maps/views.py:117
+#, fuzzy
+msgid "Share This Map"
+msgstr "Gradeer hierdie Map"
 
 #: maps/management/__init__.py:33
 msgid "Map Created"
@@ -3388,6 +3399,10 @@ msgstr "Aan die slag"
 msgid "No"
 msgstr "Geen"
 
+#: templates/index.html:30
+msgid "Layer"
+msgstr "Laag"
+
 #: templates/index.html:32
 msgid ""
 "Click to search for geospatial data published by other users, organizations "
@@ -3427,7 +3442,7 @@ msgstr "Deel data"
 
 #: templates/social_links.html:10
 #, python-format
-msgid "Share This %(page_type)s"
+msgid "%(share_res)s"
 msgstr ""
 
 #: templates/account/login.html:7 templates/account/login.html.py:24
@@ -3853,6 +3868,10 @@ msgstr "Terug na Inbox"
 #: templates/user_messages/thread_detail.html:25
 msgid "Send Reply"
 msgstr "Stuur Antwoord"
+
+#, fuzzy
+#~ msgid "Layer_g"
+#~ msgstr "Laag"
 
 #~ msgid "Remote Thumbnail"
 #~ msgstr "Afgeleë Thumbnail"

@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 08:49+0000\n"
+"POT-Creation-Date: 2014-11-26 11:51+0000\n"
 "PO-Revision-Date: 2014-11-14 16:58+0000\n"
 "Last-Translator: Andres Alfonso Lemon Gomez <lemon.andres@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/geonode/language/"
@@ -531,7 +531,7 @@ msgstr "Enlazar a"
 msgid "Permissions must be valid JSON."
 msgstr "Permisos deben ser JSON valido."
 
-#: documents/models.py:24 documents/views.py:47
+#: documents/models.py:24
 #, fuzzy
 msgid "Document"
 msgstr "Documentos"
@@ -568,11 +568,16 @@ msgstr "Usted no tiene permitido modificar los metadatos de este documento"
 msgid "You are not permitted to view this document"
 msgstr "Usted no tiene permitido ver este documento"
 
-#: documents/views.py:68 documents/views.py:108
+#: documents/views.py:67 documents/views.py:107
 msgid "You are not allowed to view this document."
 msgstr "Usted no está autorizado para ver este documento."
 
-#: documents/views.py:184
+#: documents/views.py:94
+#, fuzzy
+msgid "Share This Document"
+msgstr "Asignar puntaje a este documento"
+
+#: documents/views.py:183
 msgid "You are not allowed to edit this document."
 msgstr "Usted no esta autorizado para editar este documento."
 
@@ -1347,9 +1352,10 @@ msgstr "No tienes permiso para modificar los metadatos de esta capa."
 msgid "You are not permitted to view this layer"
 msgstr "No tienes permiso para ver esta capa"
 
-#: layers/views.py:177 templates/index.html:30
-msgid "Layer"
-msgstr "Capa"
+#: layers/views.py:250
+#, fuzzy
+msgid "Share This Layer"
+msgstr "Califica esta Capa"
 
 #: layers/templates/layers/_actions.html:4
 #: layers/templates/layers/layer_metadata.html:32
@@ -2004,7 +2010,7 @@ msgstr "O simplemente ir"
 msgid "now"
 msgstr "ahora"
 
-#: maps/models.py:48 maps/views.py:99 templates/index.html:37
+#: maps/models.py:48 templates/index.html:37
 msgid "Map"
 msgstr "Mapa"
 
@@ -2111,6 +2117,11 @@ msgstr "No tienes permiso para ver este mapa"
 #: maps/views.py:77
 msgid "An unknown error has occured."
 msgstr "Un error desconocido ha ocurrido."
+
+#: maps/views.py:117
+#, fuzzy
+msgid "Share This Map"
+msgstr "Puntaje de este Mapa"
 
 #: maps/management/__init__.py:33
 msgid "Map Created"
@@ -3601,6 +3612,10 @@ msgstr "Primeros Pasos"
 msgid "No"
 msgstr "No"
 
+#: templates/index.html:30
+msgid "Layer"
+msgstr "Capa"
+
 #: templates/index.html:32
 msgid ""
 "Click to search for geospatial data published by other users, organizations "
@@ -3640,7 +3655,7 @@ msgstr "Compartir datos"
 
 #: templates/social_links.html:10
 #, python-format
-msgid "Share This %(page_type)s"
+msgid "%(share_res)s"
 msgstr ""
 
 #: templates/account/login.html:7 templates/account/login.html.py:24
@@ -4070,6 +4085,10 @@ msgstr "Volver a la Bandeja de Entrada"
 #: templates/user_messages/thread_detail.html:25
 msgid "Send Reply"
 msgstr "Enviar Respuesta"
+
+#, fuzzy
+#~ msgid "Layer_g"
+#~ msgstr "Capa"
 
 #~ msgid "Remote Thumbnail"
 #~ msgstr "Miniatura Remota"
