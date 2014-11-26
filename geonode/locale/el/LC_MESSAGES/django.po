@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-25 14:41+0000\n"
+"POT-Creation-Date: 2014-11-26 08:28+0000\n"
 "PO-Revision-Date: 2014-11-14 15:05+0000\n"
 "Last-Translator: ingenieroariel <ingenieroariel@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/geonode/language/"
@@ -3376,6 +3376,11 @@ msgstr ""
 #: templates/social_links.html:16
 #, python-format
 msgid "Share This %(_TYPE_P)s"
+msgstr ""
+
+#: templates/social_links.html:18
+#, python-format
+msgid "Share This %(page_type)s"
 msgstr ""
 
 #: templates/account/login.html:7 templates/account/login.html.py:24

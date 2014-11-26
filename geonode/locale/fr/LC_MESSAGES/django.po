@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-25 14:41+0000\n"
+"POT-Creation-Date: 2014-11-26 08:28+0000\n"
 "PO-Revision-Date: 2014-11-14 16:58+0000\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/geonode/language/"
@@ -3701,6 +3701,11 @@ msgstr "Partager cette %(_TYPE_PAGE)s"
 msgid "Share This %(_TYPE_P)s"
 msgstr "Partager cette %(_TYPE_P)s"
 
+#: templates/social_links.html:18
+#, python-format
+msgid "Share This %(page_type)s"
+msgstr "Partager cette %(page_type)s"
+
 #: templates/account/login.html:7 templates/account/login.html.py:24
 msgid "Log in"
 msgstr "S'indentifier"
@@ -4136,6 +4141,9 @@ msgstr "Retour à la boîte de réception"
 #: templates/user_messages/thread_detail.html:25
 msgid "Send Reply"
 msgstr "Envoyer une réponse"
+
+#~ msgid "Share This %(TYPE_P)s"
+#~ msgstr "Partager cette %(TYPE_P)s"
 
 #~ msgid "Remote Thumbnail"
 #~ msgstr "Vignette mignature distante"

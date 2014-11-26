@@ -249,6 +249,8 @@ def layer_detail(request, layername, template='layers/layer_detail.html'):
                 name__in=settings.DOWNLOAD_FORMATS_RASTER)
         context_dict["links"] = links
 
+    context_dict["page_type"] = _TYPE_P
+
     return render_to_response(template, RequestContext(request, context_dict))
 
 

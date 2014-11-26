@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-25 14:41+0000\n"
+"POT-Creation-Date: 2014-11-26 08:28+0000\n"
 "PO-Revision-Date: 2014-11-11 16:52-0551\n"
 "Last-Translator:   <a@aaa.aaa>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3280,6 +3280,11 @@ msgstr ""
 #: templates/social_links.html:16
 #, python-format
 msgid "Share This %(_TYPE_P)s"
+msgstr ""
+
+#: templates/social_links.html:18
+#, python-format
+msgid "Share This %(page_type)s"
 msgstr ""
 
 #: templates/account/login.html:7 templates/account/login.html.py:24
