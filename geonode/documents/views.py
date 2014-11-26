@@ -44,6 +44,7 @@ def document_detail(request, docid):
     """
     The view that show details of each document
     """
+    _TYPE_P = _("Document")
     document = None
     try:
         document = _resolve_document(
@@ -90,7 +91,9 @@ def document_detail(request, docid):
                     'permissions_json': _perms_info_json(document),
                     'resource': document,
                     'imgtypes': IMGTYPES,
-                    'related': related}))
+                    'related': related,
+                    'page_type': _TYPE_P,
+                }))
 
 
 def document_download(request, docid):

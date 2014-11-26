@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 08:28+0000\n"
+"POT-Creation-Date: 2014-11-26 08:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -501,7 +501,7 @@ msgstr ""
 msgid "Permissions must be valid JSON."
 msgstr ""
 
-#: documents/models.py:24
+#: documents/models.py:24 documents/views.py:47
 msgid "Document"
 msgstr ""
 
@@ -537,11 +537,11 @@ msgstr ""
 msgid "You are not permitted to view this document"
 msgstr ""
 
-#: documents/views.py:67 documents/views.py:105
+#: documents/views.py:68 documents/views.py:108
 msgid "You are not allowed to view this document."
 msgstr ""
 
-#: documents/views.py:181
+#: documents/views.py:184
 msgid "You are not allowed to edit this document."
 msgstr ""
 
@@ -1127,142 +1127,137 @@ msgstr ""
 msgid "Remove selected maps/data"
 msgstr ""
 
-#: layers/models.py:46 layers/views.py:69 layers/views.py:179
-#: templates/index.html:30
-msgid "Layer"
-msgstr ""
-
-#: layers/models.py:52
+#: layers/models.py:50
 msgid "style name"
 msgstr ""
 
-#: layers/models.py:54
+#: layers/models.py:52
 msgid "sld text"
 msgstr ""
 
-#: layers/models.py:56
+#: layers/models.py:54
 msgid "sld version"
 msgstr ""
 
-#: layers/models.py:60
+#: layers/models.py:58
 msgid "sld url"
 msgstr ""
 
-#: layers/models.py:279
+#: layers/models.py:277
 msgid "attribute name"
 msgstr ""
 
-#: layers/models.py:280
+#: layers/models.py:278
 msgid "name of attribute as stored in shapefile/spatial database"
 msgstr ""
 
-#: layers/models.py:286
+#: layers/models.py:284
 msgid "attribute description"
 msgstr ""
 
-#: layers/models.py:287
+#: layers/models.py:285
 msgid "description of attribute to be used in metadata"
 msgstr ""
 
-#: layers/models.py:292
+#: layers/models.py:290
 msgid "attribute label"
 msgstr ""
 
-#: layers/models.py:293
+#: layers/models.py:291
 msgid "title of attribute as displayed in GeoNode"
 msgstr ""
 
-#: layers/models.py:299
+#: layers/models.py:297
 msgid "attribute type"
 msgstr ""
 
-#: layers/models.py:300
+#: layers/models.py:298
 msgid "the data type of the attribute (integer, string, geometry, etc)"
 msgstr ""
 
-#: layers/models.py:307
+#: layers/models.py:305
 msgid "visible?"
 msgstr ""
 
-#: layers/models.py:308
+#: layers/models.py:306
 msgid "specifies if the attribute should be displayed in identify results"
 msgstr ""
 
-#: layers/models.py:311
+#: layers/models.py:309
 msgid "display order"
 msgstr ""
 
-#: layers/models.py:312
+#: layers/models.py:310
 msgid ""
 "specifies the order in which attribute should be displayed in identify "
 "results"
 msgstr ""
 
-#: layers/models.py:317
+#: layers/models.py:315
 msgid "count"
 msgstr ""
 
-#: layers/models.py:318
+#: layers/models.py:316
 msgid "count value for this field"
 msgstr ""
 
-#: layers/models.py:321
+#: layers/models.py:319
 msgid "min"
 msgstr ""
 
-#: layers/models.py:322
+#: layers/models.py:320
 msgid "minimum value for this field"
 msgstr ""
 
-#: layers/models.py:329
+#: layers/models.py:327
 msgid "max"
 msgstr ""
 
-#: layers/models.py:330
+#: layers/models.py:328
 msgid "maximum value for this field"
 msgstr ""
 
-#: layers/models.py:337
+#: layers/models.py:335
 msgid "average"
 msgstr ""
 
-#: layers/models.py:338
+#: layers/models.py:336
 msgid "average value for this field"
 msgstr ""
 
-#: layers/models.py:345
+#: layers/models.py:343
 msgid "median"
 msgstr ""
 
-#: layers/models.py:346
+#: layers/models.py:344
 msgid "median value for this field"
 msgstr ""
 
-#: layers/models.py:353
+#: layers/models.py:351
 msgid "standard deviation"
 msgstr ""
 
-#: layers/models.py:354
+#: layers/models.py:352
 msgid "standard deviation for this field"
 msgstr ""
 
-#: layers/models.py:361
+#: layers/models.py:359
 msgid "sum"
 msgstr ""
 
-#: layers/models.py:362
+#: layers/models.py:360
 msgid "sum value for this field"
 msgstr ""
 
-#: layers/models.py:369
+#: layers/models.py:367
 msgid "unique values for this field"
 msgstr ""
 
-#: layers/models.py:374
+#: layers/models.py:372
 msgid "last modified"
 msgstr ""
 
-#: layers/models.py:376
+#: layers/models.py:374
 msgid "date when attribute statistics were last updated"
 msgstr ""
 
@@ -1290,6 +1285,10 @@ msgstr ""
 
 #: layers/views.py:67
 msgid "You are not permitted to view this layer"
+msgstr ""
+
+#: layers/views.py:177 templates/index.html:30
+msgid "Layer"
 msgstr ""
 
 #: layers/templates/layers/_actions.html:4
@@ -1885,7 +1884,7 @@ msgstr ""
 msgid "now"
 msgstr ""
 
-#: maps/models.py:48 templates/index.html:37
+#: maps/models.py:48 maps/views.py:99 templates/index.html:37
 msgid "Map"
 msgstr ""
 
@@ -3261,26 +3260,6 @@ msgid "Share data"
 msgstr ""
 
 #: templates/social_links.html:10
-#, python-format
-msgid "Share This %(res)s"
-msgstr ""
-
-#: templates/social_links.html:12
-#, python-format
-msgid "Share This %(typepage_slug)s"
-msgstr ""
-
-#: templates/social_links.html:14
-#, python-format
-msgid "Share This %(_TYPE_PAGE)s"
-msgstr ""
-
-#: templates/social_links.html:16
-#, python-format
-msgid "Share This %(_TYPE_P)s"
-msgstr ""
-
-#: templates/social_links.html:18
 #, python-format
 msgid "Share This %(page_type)s"
 msgstr ""

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 08:28+0000\n"
+"POT-Creation-Date: 2014-11-26 08:49+0000\n"
 "PO-Revision-Date: 2014-11-14 18:31+0000\n"
 "Last-Translator: Andres Alfonso Lemon Gomez <lemon.andres@gmail.com>\n"
 "Language-Team: Bengali (http://www.transifex.com/projects/p/geonode/language/"
@@ -512,7 +512,7 @@ msgstr "সাথে যোগসূত্র"
 msgid "Permissions must be valid JSON."
 msgstr "অনুমতি বৈধ JSON হতে হবে."
 
-#: documents/models.py:24
+#: documents/models.py:24 documents/views.py:47
 #, fuzzy
 msgid "Document"
 msgstr "কাগজপত্র"
@@ -549,11 +549,11 @@ msgstr "আপনি এই নথির এর মেটাডেটা পর�
 msgid "You are not permitted to view this document"
 msgstr "আপনি এই নথি দেখতে অনুমতি নেই"
 
-#: documents/views.py:67 documents/views.py:105
+#: documents/views.py:68 documents/views.py:108
 msgid "You are not allowed to view this document."
 msgstr "আপনি এই নথি দেখতে অনুমতি দেওয়া হয়নি."
 
-#: documents/views.py:181
+#: documents/views.py:184
 msgid "You are not allowed to edit this document."
 msgstr "আপনি এই নথি সম্পাদনা করার অনুমতি দেওয়া হয়নি."
 
@@ -1156,142 +1156,137 @@ msgstr "গ্রুপ থেকে মানচিত্র / ডেটা স
 msgid "Remove selected maps/data"
 msgstr "নির্বাচিত মানচিত্র সরান / তথ্য"
 
-#: layers/models.py:46 layers/views.py:69 layers/views.py:179
-#: templates/index.html:30
-msgid "Layer"
-msgstr "স্তর"
-
-#: layers/models.py:52
+#: layers/models.py:50
 msgid "style name"
 msgstr "শৈলী নাম"
 
-#: layers/models.py:54
+#: layers/models.py:52
 msgid "sld text"
 msgstr "SLD টেক্সট"
 
-#: layers/models.py:56
+#: layers/models.py:54
 msgid "sld version"
 msgstr "SLD সংস্করণ"
 
-#: layers/models.py:60
+#: layers/models.py:58
 msgid "sld url"
 msgstr "SLD URL"
 
-#: layers/models.py:279
+#: layers/models.py:277
 msgid "attribute name"
 msgstr "নাম বৈশিষ্ট্যাবলী"
 
-#: layers/models.py:280
+#: layers/models.py:278
 msgid "name of attribute as stored in shapefile/spatial database"
 msgstr "shapefile / স্থানিক ডাটাবেসের মধ্যে সংরক্ষণ হিসাবে অ্যাট্রিবিউট নাম"
 
-#: layers/models.py:286
+#: layers/models.py:284
 msgid "attribute description"
 msgstr "বিবরণ বৈশিষ্ট্যাবলী"
 
-#: layers/models.py:287
+#: layers/models.py:285
 msgid "description of attribute to be used in metadata"
 msgstr "বৈশিষ্ট্য বর্ণনা মেটাডেটা ব্যবহার করা হবে"
 
-#: layers/models.py:292
+#: layers/models.py:290
 msgid "attribute label"
 msgstr "অ্যাট্রিবিউট ট্যাগ"
 
-#: layers/models.py:293
+#: layers/models.py:291
 msgid "title of attribute as displayed in GeoNode"
 msgstr "GeoNode প্রদর্শিত হিসাবে অ্যাট্রিবিউট শিরোনাম"
 
-#: layers/models.py:299
+#: layers/models.py:297
 msgid "attribute type"
 msgstr "অ্যাট্রিবিউট টাইপ"
 
-#: layers/models.py:300
+#: layers/models.py:298
 msgid "the data type of the attribute (integer, string, geometry, etc)"
 msgstr "অ্যাট্রিবিউট (ইত্যাদি পূর্ণসংখ্যা, স্ট্রিং, জ্যামিতি,) এর ডাটা টাইপ"
 
-#: layers/models.py:307
+#: layers/models.py:305
 msgid "visible?"
 msgstr "প্রোফাইল?"
 
-#: layers/models.py:308
+#: layers/models.py:306
 msgid "specifies if the attribute should be displayed in identify results"
 msgstr "বৈশিষ্ট্য প্রদর্শন করা উচিত যদি ফলাফল চিহ্নিত বিশিষ্ট"
 
-#: layers/models.py:311
+#: layers/models.py:309
 msgid "display order"
 msgstr "প্রদর্শন ক্রম"
 
-#: layers/models.py:312
+#: layers/models.py:310
 msgid ""
 "specifies the order in which attribute should be displayed in identify "
 "results"
 msgstr "অ্যাট্রিবিউট ফলাফল চিহ্নিত প্রদর্শন করা উচিত ক্রম যা নির্দিষ্ট করে"
 
-#: layers/models.py:317
+#: layers/models.py:315
 msgid "count"
 msgstr "গণনা"
 
-#: layers/models.py:318
+#: layers/models.py:316
 msgid "count value for this field"
 msgstr "এই ক্ষেত্রের জন্য মান গণনা"
 
-#: layers/models.py:321
+#: layers/models.py:319
 msgid "min"
 msgstr "কমপক্ষে"
 
-#: layers/models.py:322
+#: layers/models.py:320
 msgid "minimum value for this field"
 msgstr "এই ক্ষেত্রের জন্য সর্বনিম্ন মান"
 
-#: layers/models.py:329
+#: layers/models.py:327
 msgid "max"
 msgstr "সর্বোচ্চ"
 
-#: layers/models.py:330
+#: layers/models.py:328
 msgid "maximum value for this field"
 msgstr "এই ক্ষেত্রের জন্য সর্বাধিক মান"
 
-#: layers/models.py:337
+#: layers/models.py:335
 msgid "average"
 msgstr "গড়"
 
-#: layers/models.py:338
+#: layers/models.py:336
 msgid "average value for this field"
 msgstr "এই ক্ষেত্রের জন্য গড় মূল্য"
 
-#: layers/models.py:345
+#: layers/models.py:343
 msgid "median"
 msgstr "মধ্যমা"
 
-#: layers/models.py:346
+#: layers/models.py:344
 msgid "median value for this field"
 msgstr "এই ক্ষেত্রের জন্য মধ্যমা মূল্য"
 
-#: layers/models.py:353
+#: layers/models.py:351
 msgid "standard deviation"
 msgstr "প্রমিত বিচ্যুতি"
 
-#: layers/models.py:354
+#: layers/models.py:352
 msgid "standard deviation for this field"
 msgstr "এই ক্ষেত্রের জন্য প্রমিত বিচ্যুতি"
 
-#: layers/models.py:361
+#: layers/models.py:359
 msgid "sum"
 msgstr "সমষ্টি"
 
-#: layers/models.py:362
+#: layers/models.py:360
 msgid "sum value for this field"
 msgstr "এই ক্ষেত্র সমষ্টি জন্য মূল্য"
 
-#: layers/models.py:369
+#: layers/models.py:367
 msgid "unique values for this field"
 msgstr "এই ক্ষেত্রের জন্য অনন্য মান"
 
-#: layers/models.py:374
+#: layers/models.py:372
 msgid "last modified"
 msgstr "সর্বশেষ সম্পাদিত"
 
-#: layers/models.py:376
+#: layers/models.py:374
 msgid "date when attribute statistics were last updated"
 msgstr "অ্যাট্রিবিউট পরিসংখ্যান গত ছিল যখন তারিখের আপডেট"
 
@@ -1322,6 +1317,10 @@ msgstr "আপনি লেয়ারের মেটাডাটা পরি
 #: layers/views.py:67
 msgid "You are not permitted to view this layer"
 msgstr "আপনি এই স্তর দেখতে অনুমতি নেই"
+
+#: layers/views.py:177 templates/index.html:30
+msgid "Layer"
+msgstr "স্তর"
 
 #: layers/templates/layers/_actions.html:4
 #: layers/templates/layers/layer_metadata.html:32
@@ -1953,7 +1952,7 @@ msgstr "অথবা শুধু যান"
 msgid "now"
 msgstr "এখন"
 
-#: maps/models.py:48 templates/index.html:37
+#: maps/models.py:48 maps/views.py:99 templates/index.html:37
 msgid "Map"
 msgstr "মানচিত্র"
 
@@ -3387,26 +3386,6 @@ msgid "Share data"
 msgstr "সেয়ার তথ্য"
 
 #: templates/social_links.html:10
-#, python-format
-msgid "Share This %(res)s"
-msgstr ""
-
-#: templates/social_links.html:12
-#, python-format
-msgid "Share This %(typepage_slug)s"
-msgstr ""
-
-#: templates/social_links.html:14
-#, python-format
-msgid "Share This %(_TYPE_PAGE)s"
-msgstr ""
-
-#: templates/social_links.html:16
-#, python-format
-msgid "Share This %(_TYPE_P)s"
-msgstr ""
-
-#: templates/social_links.html:18
 #, python-format
 msgid "Share This %(page_type)s"
 msgstr ""

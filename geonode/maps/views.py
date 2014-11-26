@@ -96,6 +96,7 @@ def map_detail(request, mapid, snapshot=None, template='maps/map_detail.html'):
     '''
     The view that show details of each map
     '''
+    _TYPE_P = _("Map")
 
     map_obj = _resolve_map(request, mapid, 'base.view_resourcebase', _PERMISSION_MSG_VIEW)
 
@@ -114,6 +115,7 @@ def map_detail(request, mapid, snapshot=None, template='maps/map_detail.html'):
         'layers': layers,
         'permissions_json': _perms_info_json(map_obj),
         "documents": get_related_documents(map_obj),
+        'page_type': _TYPE_P,
     }))
 
 
