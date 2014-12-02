@@ -120,9 +120,9 @@ setup(name='GeoNode',
         "django-geoexplorer==4.0.4",
         "geonode-user-messages==0.1.1",
         "geonode-avatar==2.1.3",
-        "geonode-announcements==1.0.3",
+        "geonode-announcements==1.0.5",
         "geonode-agon-ratings==0.3.1",
-        "geonode-user-accounts==1.0.5",
+        "geonode-user-accounts==1.0.6",
         "geonode-arcrest==10.2",
         "geonode-notification==1.1.1",
         "geonode-dialogos==0.4",
@@ -130,9 +130,9 @@ setup(name='GeoNode',
         "gsimporter==0.1",
         "gisdata==0.5.4",
 
-        # GeoPython dependencies
-        "OWSLib >=0.7.2, <=0.8.7",
-        "pycsw >=1.6.4, <=1.8.2",
+        # geopython dependencies
+        "OWSLib==0.8.10",
+        "pycsw==1.10.0",
 
         # haystack/elasticsearch, uncomment to use
         "django-haystack==2.1.0",

@@ -16,7 +16,7 @@ from geonode.utils import resolve_object
 from geonode.security.views import _perms_info_json
 from geonode.people.forms import ProfileForm
 from geonode.base.forms import CategoryForm
-from geonode.base.models import TopicCategory
+from geonode.base.models import TopicCategory, ResourceBase
 from geonode.documents.models import Document
 from geonode.documents.forms import DocumentForm, DocumentCreateForm, DocumentReplaceForm
 from geonode.documents.models import IMGTYPES
@@ -116,6 +116,16 @@ class DocumentUploadView(CreateView):
         """
         self.object = form.save(commit=False)
         self.object.owner = self.request.user
+        resource_id = self.request.POST.get('resource', None)
+        if resource_id:
+            self.object.content_type = ResourceBase.objects.get(id=resource_id).polymorphic_ctype
+            self.object.object_id = resource_id
+        # by default, if RESOURCE_PUBLISHING=True then document.is_published
+        # must be set to False
+        is_published = True
+        if settings.RESOURCE_PUBLISHING:
+            is_published = False
+        self.object.is_published = is_published
         self.object.save()
         self.object.set_permissions(form.cleaned_data['permissions'])
         return HttpResponseRedirect(

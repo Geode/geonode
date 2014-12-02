@@ -672,6 +672,53 @@ class GeoNodePermissionsTest(TestCase):
         # would be nice to make a WFS/T request and test results, but this
         # would work only on PostGIS layers
 
+        # test change_layer_style
+        url = 'http://localhost:8000/gs/rest/styles/san_andres_y_providencia_poi.xml'
+        sld = """<?xml version="1.0" encoding="UTF-8"?>
+<sld:StyledLayerDescriptor xmlns:sld="http://www.opengis.net/sld"
+xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0"
+xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+   <sld:NamedLayer>
+      <sld:Name>geonode:san_andres_y_providencia_poi</sld:Name>
+      <sld:UserStyle>
+         <sld:Name>san_andres_y_providencia_poi</sld:Name>
+         <sld:Title>san_andres_y_providencia_poi</sld:Title>
+         <sld:IsDefault>1</sld:IsDefault>
+         <sld:FeatureTypeStyle>
+            <sld:Rule>
+               <sld:PointSymbolizer>
+                  <sld:Graphic>
+                     <sld:Mark>
+                        <sld:Fill>
+                           <sld:CssParameter name="fill">#8A7700
+                           </sld:CssParameter>
+                        </sld:Fill>
+                        <sld:Stroke>
+                           <sld:CssParameter name="stroke">#bbffff
+                           </sld:CssParameter>
+                        </sld:Stroke>
+                     </sld:Mark>
+                     <sld:Size>10</sld:Size>
+                  </sld:Graphic>
+               </sld:PointSymbolizer>
+            </sld:Rule>
+         </sld:FeatureTypeStyle>
+      </sld:UserStyle>
+   </sld:NamedLayer>
+</sld:StyledLayerDescriptor>"""
+
+        # user without change_layer_style cannot edit it
+        c = Client()
+        c.login(username='norman', password='norman')
+        response = c.put(url, sld, content_type='application/vnd.ogc.sld+xml')
+        self.assertEquals(response.status_code, 401)
+
+        # user with change_layer_style can edit it
+        assign_perm('change_layer_style', norman, layer)
+        response = c.put(url, sld, content_type='application/vnd.ogc.sld+xml')
+        self.assertEquals(response.status_code, 200)
+
         # Clean up and completely delete the layer
         layer.delete()
 
@@ -698,17 +745,45 @@ class GeoNodePermissionsTest(TestCase):
         response = urllib2.urlopen(request)
         self.assertTrue(any(str_to_check in s for s in response.readlines()))
 
-        # now test with unpublished layer
-        resource = layer.get_self_resource()
-        resource.is_published = False
-        resource.save()
-
-        request = urllib2.Request(url)
-        response = urllib2.urlopen(request)
-        self.assertFalse(any(str_to_check in s for s in response.readlines()))
+        # by default the uploaded layer is
+        self.assertTrue(layer.is_published, True)
 
         # Clean up and completely delete the layer
         layer.delete()
+
+        # with settings disabled
+        with self.settings(RESOURCE_PUBLISHING=True):
+
+            thefile = os.path.join(
+                gisdata.VECTOR_DATA,
+                'san_andres_y_providencia_administrative.shp')
+            layer = file_upload(thefile, overwrite=True)
+            check_layer(layer)
+
+            # we need some time to have the service up and running
+            time.sleep(20)
+
+            str_to_check = '<Name>san_andres_y_providencia_administrative</Name>'
+
+            # by default the uploaded layer must be unpublished
+            self.assertEqual(layer.is_published, False)
+
+            # check the layer is not in GetCapabilities
+            request = urllib2.Request(url)
+            response = urllib2.urlopen(request)
+            self.assertFalse(any(str_to_check in s for s in response.readlines()))
+
+            # now test with published layer
+            resource = layer.get_self_resource()
+            resource.is_published = True
+            resource.save()
+
+            request = urllib2.Request(url)
+            response = urllib2.urlopen(request)
+            self.assertTrue(any(str_to_check in s for s in response.readlines()))
+
+            # Clean up and completely delete the layer
+            layer.delete()
 
 #    #FIXME(Ariel): Logged this as ticket  #1767
 #    def test_configure_time(self):

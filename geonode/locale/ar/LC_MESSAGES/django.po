@@ -1,27 +1,30 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# Andres Alfonso Lemon Gomez <lemon.andres@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-11 18:20-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2014-11-19 18:27-0500\n"
+"PO-Revision-Date: 2014-11-15 18:41+0000\n"
+"Last-Translator: Andres Alfonso Lemon Gomez <lemon.andres@gmail.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/geonode/language/"
+"ar/)\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: utils.py:37
+#: utils.py:38
 msgid "Invalid permission level."
 msgstr "مستوى إذن غير صالح."
 
-#: utils.py:465
+#: utils.py:473
 msgid "Permission Denied"
 msgstr "إذن مرفوض"
 
@@ -141,964 +144,12 @@ msgstr "يتم تحديث البيانات كل ثلاثة أشهر"
 msgid "No information provided"
 msgstr "لم تقدم أية معلومات"
 
-#: base/enumerations.py:81
-msgid "Afghanistan"
-msgstr "أفغانستان"
-
-#: base/enumerations.py:82
-msgid "Aland Islands"
-msgstr "جزر آلاند"
-
-#: base/enumerations.py:83
-msgid "Albania"
-msgstr "ألبانيا"
-
-#: base/enumerations.py:84
-msgid "Algeria"
-msgstr "الجزائر"
-
-#: base/enumerations.py:85
-msgid "American Samoa"
-msgstr "ساموا الأمريكية"
-
-#: base/enumerations.py:86
-msgid "Andorra"
-msgstr "أندورا"
-
-#: base/enumerations.py:87
-msgid "Angola"
-msgstr "أنغولا"
-
-#: base/enumerations.py:88
-msgid "Anguilla"
-msgstr "أنجويلا"
-
-#: base/enumerations.py:89
-msgid "Antigua and Barbuda"
-msgstr "أنتيغوا وبربودا"
-
-#: base/enumerations.py:90
-msgid "Argentina"
-msgstr "الأرجنتين"
-
-#: base/enumerations.py:91
-msgid "Armenia"
-msgstr "أرمينيا"
-
-#: base/enumerations.py:92
-msgid "Aruba"
-msgstr "أروبا"
-
-#: base/enumerations.py:93
-msgid "Australia"
-msgstr "أستراليا"
-
-#: base/enumerations.py:94
-msgid "Austria"
-msgstr "النمسا"
-
-#: base/enumerations.py:95
-msgid "Azerbaijan"
-msgstr "أذربيجان"
-
-#: base/enumerations.py:96
-msgid "Bahamas"
-msgstr "جزر البهاما"
-
-#: base/enumerations.py:97
-msgid "Bahrain"
-msgstr "البحرين"
-
-#: base/enumerations.py:98
-msgid "Bangladesh"
-msgstr "بنغلاديش"
-
-#: base/enumerations.py:99
-msgid "Barbados"
-msgstr "باربادوس"
-
-#: base/enumerations.py:100
-msgid "Belarus"
-msgstr "بيلاروس"
-
-#: base/enumerations.py:101
-msgid "Belgium"
-msgstr "بلجيكا"
-
-#: base/enumerations.py:102
-msgid "Belize"
-msgstr "بليز"
-
-#: base/enumerations.py:103
-msgid "Benin"
-msgstr "بنين"
-
-#: base/enumerations.py:104
-msgid "Bermuda"
-msgstr "برمودا"
-
-#: base/enumerations.py:105
-msgid "Bhutan"
-msgstr "بوتان"
-
-#: base/enumerations.py:106
-msgid "Bolivia"
-msgstr "بوليفيا"
-
-#: base/enumerations.py:107
-msgid "Bosnia and Herzegovina"
-msgstr "البوسنة و الهرسك."
-
-#: base/enumerations.py:108
-msgid "Botswana"
-msgstr "بوتسوانا"
-
-#: base/enumerations.py:109
-msgid "Brazil"
-msgstr "البرازيل"
-
-#: base/enumerations.py:110
-msgid "British Virgin Islands"
-msgstr "جزر فيرجن البريطانية"
-
-#: base/enumerations.py:111
-msgid "Brunei Darussalam"
-msgstr "بروناي دار السلام"
-
-#: base/enumerations.py:112
-msgid "Bulgaria"
-msgstr "بلغاريا"
-
-#: base/enumerations.py:113
-msgid "Burkina Faso"
-msgstr "بوركينا فاسو"
-
-#: base/enumerations.py:114
-msgid "Burundi"
-msgstr "بوروندي"
-
-#: base/enumerations.py:115
-msgid "Cambodia"
-msgstr "كمبوديا"
-
-#: base/enumerations.py:116
-msgid "Cameroon"
-msgstr "الكاميرون"
-
-#: base/enumerations.py:117
-msgid "Canada"
-msgstr "كندا"
-
-#: base/enumerations.py:118
-msgid "Cape Verde"
-msgstr "كاب فيرد"
-
-#: base/enumerations.py:119
-msgid "Cayman Islands"
-msgstr "جزر كايمان"
-
-#: base/enumerations.py:120
-msgid "Central African Republic"
-msgstr "جمهورية إفريقيا الوسطى"
-
-#: base/enumerations.py:121
-msgid "Chad"
-msgstr "تشاد"
-
-#: base/enumerations.py:122
-msgid "Channel Islands"
-msgstr "جزر القناة"
-
-#: base/enumerations.py:123
-msgid "Chile"
-msgstr "تشيلي"
-
-#: base/enumerations.py:124
-msgid "China"
-msgstr "الصين"
-
-#: base/enumerations.py:125
-msgid "China - Hong Kong"
-msgstr "الصين - هونج كونج"
-
-#: base/enumerations.py:126
-msgid "China - Macao"
-msgstr "الصين - ماكاو"
-
-#: base/enumerations.py:127
-msgid "Colombia"
-msgstr "كولومبيا"
-
-#: base/enumerations.py:128
-msgid "Comoros"
-msgstr "جزر القُمُر"
-
-#: base/enumerations.py:129
-msgid "Congo"
-msgstr "كونغو"
-
-#: base/enumerations.py:130
-msgid "Cook Islands"
-msgstr "جزر كوك"
-
-#: base/enumerations.py:131
-msgid "Costa Rica"
-msgstr "كوستاريكا"
-
-#: base/enumerations.py:132
-msgid "Cote d'Ivoire"
-msgstr "ساحل العاج"
-
-#: base/enumerations.py:133
-msgid "Croatia"
-msgstr "كرواتيا"
-
-#: base/enumerations.py:134
-msgid "Cuba"
-msgstr "كوبا"
-
-#: base/enumerations.py:135
-msgid "Cyprus"
-msgstr "قبرص"
-
-#: base/enumerations.py:136
-msgid "Czech Republic"
-msgstr "جمهورية التشيك"
-
-#: base/enumerations.py:137
-msgid "Democratic People's Republic of Korea"
-msgstr "الجمهورية الشعبية الديمقراطية الكورية"
-
-#: base/enumerations.py:138
-msgid "Democratic Republic of the Congo"
-msgstr "جمهورية الكونغو الديموقراطية"
-
-#: base/enumerations.py:139
-msgid "Denmark"
-msgstr "الدنمارك"
-
-#: base/enumerations.py:140
-msgid "Djibouti"
-msgstr "جيبوتي"
-
-#: base/enumerations.py:141
-msgid "Dominica"
-msgstr "دومينيكا"
-
-#: base/enumerations.py:142
-msgid "Dominican Republic"
-msgstr "الجمهورية الدومينيكية"
-
-#: base/enumerations.py:143
-msgid "Ecuador"
-msgstr "الإكوادور"
-
-#: base/enumerations.py:144
-msgid "Egypt"
-msgstr "مصر"
-
-#: base/enumerations.py:145
-msgid "El Salvador"
-msgstr "السلفادور"
-
-#: base/enumerations.py:146
-msgid "Equatorial Guinea"
-msgstr "غينيا الاستوائية"
-
-#: base/enumerations.py:147
-msgid "Eritrea"
-msgstr "إريتريا"
-
-#: base/enumerations.py:148
-msgid "Estonia"
-msgstr "إستونيا"
-
-#: base/enumerations.py:149
-msgid "Ethiopia"
-msgstr "أثيوبيا"
-
-#: base/enumerations.py:150
-msgid "Faeroe Islands"
-msgstr "جزر فايرو"
-
-#: base/enumerations.py:151
-msgid "Falkland Islands (Malvinas)"
-msgstr "جزر فوكلاند (مالفيناس)"
-
-#: base/enumerations.py:152
-msgid "Fiji"
-msgstr "فيجي"
-
-#: base/enumerations.py:153
-msgid "Finland"
-msgstr "فنلندا"
-
-#: base/enumerations.py:154
-msgid "France"
-msgstr "فرنسا"
-
-#: base/enumerations.py:155
-msgid "French Guiana"
-msgstr "جيانا الفرنسية"
-
-#: base/enumerations.py:156
-msgid "French Polynesia"
-msgstr "بولينيزيا الفرنسية"
-
-#: base/enumerations.py:157
-msgid "Gabon"
-msgstr "الغابون"
-
-#: base/enumerations.py:158
-msgid "Gambia"
-msgstr "جامبيا"
-
-#: base/enumerations.py:159
-msgid "Georgia"
-msgstr "جورجيا"
-
-#: base/enumerations.py:160
-msgid "Germany"
-msgstr "ألمانيا"
-
-#: base/enumerations.py:161
-msgid "Ghana"
-msgstr "غانا"
-
-#: base/enumerations.py:162
-msgid "Gibraltar"
-msgstr "جبل طارق"
-
-#: base/enumerations.py:163
-msgid "Greece"
-msgstr "اليونان"
-
-#: base/enumerations.py:164
-msgid "Greenland"
-msgstr "جرين لاند"
-
-#: base/enumerations.py:165
-msgid "Grenada"
-msgstr "غرينادا"
-
-#: base/enumerations.py:166
-msgid "Guadeloupe"
-msgstr "غوادلوب"
-
-#: base/enumerations.py:167
-msgid "Guam"
-msgstr "غوام"
-
-#: base/enumerations.py:168
-msgid "Guatemala"
-msgstr "جواتيمالا"
-
-#: base/enumerations.py:169
-msgid "Guernsey"
-msgstr "غيرنسي"
-
-#: base/enumerations.py:170
-msgid "Guinea"
-msgstr "غينيا"
-
-#: base/enumerations.py:171
-msgid "Guinea-Bissau"
-msgstr "غينيا بيساو"
-
-#: base/enumerations.py:172
-msgid "Guyana"
-msgstr "غيانا"
-
-#: base/enumerations.py:173
-msgid "Haiti"
-msgstr "هاييتي"
-
-#: base/enumerations.py:174
-msgid "Holy See (Vatican City)"
-msgstr "الكرسي الرسولي (الفاتيكان)"
-
-#: base/enumerations.py:175
-msgid "Honduras"
-msgstr "هندوراس"
-
-#: base/enumerations.py:176
-msgid "Hungary"
-msgstr "المجر"
-
-#: base/enumerations.py:177
-msgid "Iceland"
-msgstr "أيسلندا"
-
-#: base/enumerations.py:178
-msgid "India"
-msgstr "الهند"
-
-#: base/enumerations.py:179
-msgid "Indonesia"
-msgstr "إندونيسيا"
-
-#: base/enumerations.py:180
-msgid "Iran"
-msgstr "إيران"
-
-#: base/enumerations.py:181
-msgid "Iraq"
-msgstr "العراق"
-
-#: base/enumerations.py:182
-msgid "Ireland"
-msgstr "أيرلندا"
-
-#: base/enumerations.py:183
-msgid "Isle of Man"
-msgstr "جزيرة مان"
-
-#: base/enumerations.py:184
-msgid "Israel"
-msgstr "إسرائيل"
-
-#: base/enumerations.py:185
-msgid "Italy"
-msgstr "إيطاليا"
-
-#: base/enumerations.py:186
-msgid "Jamaica"
-msgstr "جامايكا"
-
-#: base/enumerations.py:187
-msgid "Japan"
-msgstr "اليابان"
-
-#: base/enumerations.py:188
-msgid "Jersey"
-msgstr "جيرسي"
-
-#: base/enumerations.py:189
-msgid "Jordan"
-msgstr "الأردن"
-
-#: base/enumerations.py:190
-msgid "Kazakhstan"
-msgstr "كازاخستان"
-
-#: base/enumerations.py:191
-msgid "Kenya"
-msgstr "كينيا"
-
-#: base/enumerations.py:192
-msgid "Kiribati"
-msgstr "كيريباس"
-
-#: base/enumerations.py:193
-msgid "Kuwait"
-msgstr "الكويت"
-
-#: base/enumerations.py:194
-msgid "Kyrgyzstan"
-msgstr "قيرغيزستان "
-
-#: base/enumerations.py:195
-msgid "Lao People's Democratic Republic"
-msgstr "جمهورية لاو الديمقراطية الشعبية"
-
-#: base/enumerations.py:196
-msgid "Latvia"
-msgstr "لاتفيا."
-
-#: base/enumerations.py:197
-msgid "Lebanon"
-msgstr "لبنان DDOE"
-
-#: base/enumerations.py:198
-msgid "Lesotho"
-msgstr "ليسوتو"
-
-#: base/enumerations.py:199
-msgid "Liberia"
-msgstr "ليبيريا"
-
-#: base/enumerations.py:200
-msgid "Libyan Arab Jamahiriya"
-msgstr "الجماهيرية العربية الليبية"
-
-#: base/enumerations.py:201
-msgid "Liechtenstein"
-msgstr "ليختنشتاين"
-
-#: base/enumerations.py:202
-msgid "Lithuania"
-msgstr "لتوانيا."
-
-#: base/enumerations.py:203
-msgid "Luxembourg"
-msgstr "لوكسمبورج"
-
-#: base/enumerations.py:204
-msgid "Macedonia"
-msgstr "مقدونيا"
-
-#: base/enumerations.py:205
-msgid "Madagascar"
-msgstr "مدغشقر"
-
-#: base/enumerations.py:206
-msgid "Malawi"
-msgstr "ملاوي"
-
-#: base/enumerations.py:207
-msgid "Malaysia"
-msgstr "ماليزيا"
-
-#: base/enumerations.py:208
-msgid "Maldives"
-msgstr "جزر المالديف"
-
-#: base/enumerations.py:209
-msgid "Mali"
-msgstr "مالي"
-
-#: base/enumerations.py:210
-msgid "Malta"
-msgstr "مالطا"
-
-#: base/enumerations.py:211
-msgid "Marshall Islands"
-msgstr "جزر مارشال"
-
-#: base/enumerations.py:212
-msgid "Martinique"
-msgstr "مارتينيك"
-
-#: base/enumerations.py:213
-msgid "Mauritania"
-msgstr "موريتانيا"
-
-#: base/enumerations.py:214
-msgid "Mauritius"
-msgstr "جزر موريشيوس"
-
-#: base/enumerations.py:215
-msgid "Mayotte"
-msgstr "مايوت"
-
-#: base/enumerations.py:216
-msgid "Mexico"
-msgstr "المكسيك"
-
-#: base/enumerations.py:217
-msgid "Micronesia, Federated States of"
-msgstr "ولايات ميكرونيزيا الموحدة من"
-
-#: base/enumerations.py:218
-msgid "Monaco"
-msgstr "موناكو"
-
-#: base/enumerations.py:219
-msgid "Mongolia"
-msgstr "منغوليا"
-
-#: base/enumerations.py:220
-msgid "Montenegro"
-msgstr "مونتينيغرو"
-
-#: base/enumerations.py:221
-msgid "Montserrat"
-msgstr "مونتسيرات"
-
-#: base/enumerations.py:222
-msgid "Morocco"
-msgstr "المغرب"
-
-#: base/enumerations.py:223
-msgid "Mozambique"
-msgstr "موزمبيق"
-
-#: base/enumerations.py:224
-msgid "Myanmar"
-msgstr "ميانمار"
-
-#: base/enumerations.py:225
-msgid "Namibia"
-msgstr "ناميبيا"
-
-#: base/enumerations.py:226
-msgid "Nauru"
-msgstr "ناورو"
-
-#: base/enumerations.py:227
-msgid "Nepal"
-msgstr "نيبال"
-
-#: base/enumerations.py:228
-msgid "Netherlands"
-msgstr "هولندا"
-
-#: base/enumerations.py:229
-msgid "Netherlands Antilles"
-msgstr "جزر الأنتيل الهولندية"
-
-#: base/enumerations.py:230
-msgid "New Caledonia"
-msgstr "نيوكاليدونيا"
-
-#: base/enumerations.py:231
-msgid "New Zealand"
-msgstr "نيوزيلندا"
-
-#: base/enumerations.py:232
-msgid "Nicaragua"
-msgstr "نيكاراغوا"
-
-#: base/enumerations.py:233
-msgid "Niger"
-msgstr "النيجر"
-
-#: base/enumerations.py:234
-msgid "Nigeria"
-msgstr "نيجيريا"
-
-#: base/enumerations.py:235
-msgid "Niue"
-msgstr "نيوي"
-
-#: base/enumerations.py:236
-msgid "Norfolk Island"
-msgstr "جزيرة نورفولك"
-
-#: base/enumerations.py:237
-msgid "Northern Mariana Islands"
-msgstr "جزر ماريانا الشمالية"
-
-#: base/enumerations.py:238
-msgid "Norway"
-msgstr "النرويج."
-
-#: base/enumerations.py:239
-msgid "Occupied Palestinian Territory"
-msgstr "الأراضي الفلسطينية المحتلة"
-
-#: base/enumerations.py:240
-msgid "Oman"
-msgstr "سلطنة عمان"
-
-#: base/enumerations.py:241
-msgid "Pakistan"
-msgstr "باكستان"
-
-#: base/enumerations.py:242
-msgid "Palau"
-msgstr "بالاو"
-
-#: base/enumerations.py:243
-msgid "Panama"
-msgstr "بنما"
-
-#: base/enumerations.py:244
-msgid "Papua New Guinea"
-msgstr "بابوا غينيا الجديدة"
-
-#: base/enumerations.py:245
-msgid "Paraguay"
-msgstr "باراجواي"
-
-#: base/enumerations.py:246
-msgid "Peru"
-msgstr "بيرو"
-
-#: base/enumerations.py:247
-msgid "Philippines"
-msgstr "الفلبين"
-
-#: base/enumerations.py:248
-msgid "Pitcairn"
-msgstr "بيتكيرن"
-
-#: base/enumerations.py:249
-msgid "Poland"
-msgstr "بولندا"
-
-#: base/enumerations.py:250
-msgid "Portugal"
-msgstr "البرتغال."
-
-#: base/enumerations.py:251
-msgid "Puerto Rico"
-msgstr "بورتريكو"
-
-#: base/enumerations.py:252
-msgid "Qatar"
-msgstr "قطر"
-
-#: base/enumerations.py:253
-msgid "Republic of Korea"
-msgstr "جمهورية كوريا"
-
-#: base/enumerations.py:254
-msgid "Republic of Moldova"
-msgstr "جمهورية مولدوفا"
-
-#: base/enumerations.py:255
-msgid "Reunion"
-msgstr "جمع شمل"
-
-#: base/enumerations.py:256
-msgid "Romania"
-msgstr "رومانيا"
-
-#: base/enumerations.py:257
-msgid "Russian Federation"
-msgstr "الاتحاد الروسي"
-
-#: base/enumerations.py:258
-msgid "Rwanda"
-msgstr "رواندا"
-
-#: base/enumerations.py:259
-msgid "Saint-Barthelemy"
-msgstr "سانت بارتيليمي"
-
-#: base/enumerations.py:260
-msgid "Saint Helena"
-msgstr "سانت هيلينا"
-
-#: base/enumerations.py:261
-msgid "Saint Kitts and Nevis"
-msgstr "سانت كيتس ونيفيس"
-
-#: base/enumerations.py:262
-msgid "Saint Lucia"
-msgstr "سانت لوسيا"
-
-#: base/enumerations.py:263
-msgid "Saint-Martin (French part)"
-msgstr "سانت مارتن (الجزء الفرنسي)"
-
-#: base/enumerations.py:264
-msgid "Saint Pierre and Miquelon"
-msgstr "سان بيار وميكلون"
-
-#: base/enumerations.py:265
-msgid "Saint Vincent and the Grenadines"
-msgstr "سانت فنسنت والجرينادينز"
-
-#: base/enumerations.py:266
-msgid "Samoa"
-msgstr "ساموا"
-
-#: base/enumerations.py:267
-msgid "San Marino"
-msgstr "سان مارينو"
-
-#: base/enumerations.py:268
-msgid "Sao Tome and Principe"
-msgstr "سان تومي وبرينسيبي"
-
-#: base/enumerations.py:269
-msgid "Saudi Arabia"
-msgstr "المملكة العربية السعودية"
-
-#: base/enumerations.py:270
-msgid "Senegal"
-msgstr "السنغال"
-
-#: base/enumerations.py:271
-msgid "Serbia"
-msgstr "صربيا"
-
-#: base/enumerations.py:272
-msgid "Seychelles"
-msgstr "جزر سيشيل"
-
-#: base/enumerations.py:273
-msgid "Sierra Leone"
-msgstr "سيراليون"
-
-#: base/enumerations.py:274
-msgid "Singapore"
-msgstr "سنغافورة"
-
-#: base/enumerations.py:275
-msgid "Slovakia"
-msgstr "سلوفاكيا"
-
-#: base/enumerations.py:276
-msgid "Slovenia"
-msgstr "سلوفينيا"
-
-#: base/enumerations.py:277
-msgid "Solomon Islands"
-msgstr "جزر سليمان"
-
-#: base/enumerations.py:278
-msgid "Somalia"
-msgstr "الصومال"
-
-#: base/enumerations.py:279
-msgid "South Africa"
-msgstr "جنوب أفريقيا"
-
-#: base/enumerations.py:280
-msgid "South Sudan"
-msgstr "جنوب السودان"
-
-#: base/enumerations.py:281
-msgid "Spain"
-msgstr "إسبانيا"
-
-#: base/enumerations.py:282
-msgid "Sri Lanka"
-msgstr "سيريلانكا"
-
-#: base/enumerations.py:283
-msgid "Sudan"
-msgstr "السُودان"
-
-#: base/enumerations.py:284
-msgid "Suriname"
-msgstr "سورينام"
-
-#: base/enumerations.py:285
-msgid "Svalbard and Jan Mayen Islands"
-msgstr "جزر سفالبارد وجان ماين"
-
-#: base/enumerations.py:286
-msgid "Swaziland"
-msgstr "سوازيلاند"
-
-#: base/enumerations.py:287
-msgid "Sweden"
-msgstr "السويد"
-
-#: base/enumerations.py:288
-msgid "Switzerland"
-msgstr "سويسرا"
-
-#: base/enumerations.py:289
-msgid "Syrian Arab Republic"
-msgstr "الجمهورية العربية السورية"
-
-#: base/enumerations.py:290
-msgid "Tajikistan"
-msgstr "طاجيكستان"
-
-#: base/enumerations.py:291
-msgid "Thailand"
-msgstr "تايلاند"
-
-#: base/enumerations.py:292
-msgid "Timor-Leste"
-msgstr "تيمور ليشتي"
-
-#: base/enumerations.py:293
-msgid "Togo"
-msgstr "توجو"
-
-#: base/enumerations.py:294
-msgid "Tokelau"
-msgstr "توكيلاو"
-
-#: base/enumerations.py:295
-msgid "Tonga"
-msgstr "تونغا"
-
-#: base/enumerations.py:296
-msgid "Trinidad and Tobago"
-msgstr "ترينيداد وتوباجو"
-
-#: base/enumerations.py:297
-msgid "Tunisia"
-msgstr "تونس"
-
-#: base/enumerations.py:298
-msgid "Turkey"
-msgstr "تركيا"
-
-#: base/enumerations.py:299
-msgid "Turkmenistan"
-msgstr "تركمانستان"
-
-#: base/enumerations.py:300
-msgid "Turks and Caicos Islands"
-msgstr "جزر تركس وكايكوس"
-
-#: base/enumerations.py:301
-msgid "Tuvalu"
-msgstr "توفالو"
-
-#: base/enumerations.py:302
-msgid "Uganda"
-msgstr "أوغندا"
-
-#: base/enumerations.py:303
-msgid "Ukraine"
-msgstr "أوكرانيا"
-
-#: base/enumerations.py:304
-msgid "United Arab Emirates"
-msgstr "الإمارات العربية المتحدة"
-
-#: base/enumerations.py:305
-msgid "United Kingdom"
-msgstr "المملكة المتحدة"
-
-#: base/enumerations.py:306
-msgid "United Republic of Tanzania"
-msgstr "جمهورية تنزانيا المتحدة"
-
-#: base/enumerations.py:307
-msgid "United States of America"
-msgstr "الولايات المتحدة الأمريكية"
-
-#: base/enumerations.py:308
-msgid "United States Virgin Islands"
-msgstr "جزر فيرجين الأمريكية"
-
-#: base/enumerations.py:309
-msgid "Uruguay"
-msgstr "أوروجواي"
-
-#: base/enumerations.py:310
-msgid "Uzbekistan"
-msgstr "أوزبكستان"
-
-#: base/enumerations.py:311
-msgid "Vanuatu"
-msgstr "فانواتو"
-
-#: base/enumerations.py:312
-msgid "Venezuela (Bolivarian Republic of)"
-msgstr "فنزويلا (الجمهورية البوليفارية ل)"
-
-#: base/enumerations.py:313
-msgid "Viet Nam"
-msgstr "فيتنام"
-
-#: base/enumerations.py:314
-msgid "Wallis and Futuna Islands"
-msgstr "جزر واليس وفوتونا"
-
-#: base/enumerations.py:315
-msgid "Western Sahara"
-msgstr "الصحراء الغربية"
-
-#: base/enumerations.py:316
-msgid "Yemen"
-msgstr "اليمن"
-
-#: base/enumerations.py:317
-msgid "Zambia"
-msgstr "زامبيا"
-
-#: base/enumerations.py:318
-msgid "Zimbabwe"
-msgstr "زيمبابوي"
-
 #: base/forms.py:35 base/templates/base/resourcebase_info_panel.html:46
 #: documents/templates/documents/document_metadata.html:51
 #: layers/templates/layers/layer_metadata.html:53
 #: maps/templates/maps/map_metadata.html:53
 msgid "Category"
-msgstr "التصنيف"
+msgstr "فئة"
 
 #: base/forms.py:44
 msgid "Category is required."
@@ -1205,7 +256,7 @@ msgstr "التفسير العام لمعرفة المنتج البيانات ح�
 
 #: base/models.py:258
 msgid "title"
-msgstr "title"
+msgstr "لقب"
 
 #: base/models.py:258
 msgid "name by which the cited resource is known"
@@ -1213,7 +264,7 @@ msgstr "الاسم الذي استشهد هو مورد معروف"
 
 #: base/models.py:259
 msgid "date"
-msgstr "date"
+msgstr "تاريخ"
 
 #: base/models.py:260
 msgid "date type"
@@ -1229,7 +280,7 @@ msgstr "ملخص"
 
 #: base/models.py:264
 msgid "purpose"
-msgstr "الغرض"
+msgstr "هدف"
 
 #: base/models.py:265
 msgid "maintenance frequency"
@@ -1237,7 +288,7 @@ msgstr "تردد الصيانة"
 
 #: base/models.py:268 groups/models.py:41 people/models.py:88
 msgid "keywords"
-msgstr "الكلمات المفتاحية"
+msgstr "الكلمات الرئيسية"
 
 #: base/models.py:269
 msgid "keywords region"
@@ -1315,22 +366,34 @@ msgstr "هندسة جنة وضع المرأة WKT"
 msgid "Should this resource be advertised in home page?"
 msgstr "يجب أن يتم الإعلان عن هذا المورد في الصفحة الرئيسية؟"
 
-#: base/models.py:665
-msgid "For example \"kml\""
-msgstr "على سبيل المثال \"KML \""
+#: base/models.py:347
+msgid "Should this resource be published and searchable?"
+msgstr "وينبغي نشر هذه الموارد والبحث فيها؟"
 
-#: base/models.py:667
-msgid "For example \"View in Google Earth\""
-msgstr "على سبيل المثال \"عرض في Google Earth \""
+#: base/models.py:666
+msgid "For example \"kml\""
+msgstr "على سبيل المثال \"كمل\""
 
 #: base/models.py:668
+msgid "For example \"View in Google Earth\""
+msgstr "على سبيل المثال \"عرض في Google Earth\""
+
+#: base/models.py:669
 msgid "For example \"text/xml\""
-msgstr "على سبيل المثال \"نص / XML \""
+msgstr "على سبيل المثال \"نص / XML\""
+
+#: base/management/__init__.py:14
+msgid "Request to download a resource"
+msgstr ""
+
+#: base/management/__init__.py:15
+msgid "A request for downloading a resource was sent"
+msgstr ""
 
 #: base/templates/base/_resourcebase_contact_snippet.html:3
-#: templates/500.html:184 templates/base.html:174
+#: templates/500.html:184 templates/base.html:175
 msgid "About"
-msgstr "نبذة "
+msgstr "حول"
 
 #: base/templates/base/_resourcebase_contact_snippet.html:5
 msgid "Owner, Point of Contact, Metadata Author"
@@ -1339,7 +402,7 @@ msgstr "المالك، نقطة الاتصال، الفوقية الكاتب"
 #: base/templates/base/_resourcebase_contact_snippet.html:10
 #: base/templates/base/resourcebase_info_panel.html:56
 msgid "Owner"
-msgstr "المالك"
+msgstr "مالك"
 
 #: base/templates/base/_resourcebase_contact_snippet.html:14
 #: base/templates/base/resourcebase_info_panel.html:61
@@ -1356,35 +419,35 @@ msgstr "الكاتب الفوقية"
 #: base/templates/base/resourcebase_info_panel.html:6 services/forms.py:21
 #: templates/announcements/announcement_list.html:30
 msgid "Title"
-msgstr "العنوان"
+msgstr "لقب"
 
 #: base/templates/base/resourcebase_info_panel.html:11
 #: base/templates/base/resourcebase_info_panel.html:75
 msgid "License"
-msgstr "الترخيص"
+msgstr "رخصة"
 
 #: base/templates/base/resourcebase_info_panel.html:24 services/forms.py:26
 msgid "Abstract"
-msgstr "خلاصة"
+msgstr "ملخص"
 
 #: base/templates/base/resourcebase_info_panel.html:29
 #: templates/search/_general_filters.html:28
 msgid "Date"
-msgstr "التاريخ "
+msgstr "تاريخ"
 
 #: base/templates/base/resourcebase_info_panel.html:34
-#: layers/templates/layers/layer_detail.html:300
+#: layers/templates/layers/layer_detail.html:307
 msgid "Type"
 msgstr "نوع"
 
 #: base/templates/base/resourcebase_info_panel.html:39
 #: templates/search/_general_filters.html:16
 msgid "Keywords"
-msgstr "الكلمات المفتاحية"
+msgstr "الكلمات الرئيسية"
 
 #: base/templates/base/resourcebase_info_panel.html:51
 msgid "Regions"
-msgstr "الأقاليم"
+msgstr "المناطق"
 
 #: base/templates/base/resourcebase_info_panel.html:88
 msgid "Maintenance Frequency"
@@ -1392,20 +455,20 @@ msgstr "صيانة التردد"
 
 #: base/templates/base/resourcebase_info_panel.html:93
 msgid "Restrictions"
-msgstr "القيود"
+msgstr "قيود"
 
 #: base/templates/base/resourcebase_info_panel.html:102
 msgid "Edition"
-msgstr "إصدار"
+msgstr "طبعة"
 
 #: base/templates/base/resourcebase_info_panel.html:107
 msgid "Purpose"
-msgstr "الغرض"
+msgstr "هدف"
 
 #: base/templates/base/resourcebase_info_panel.html:112 templates/500.html:187
-#: templates/base.html:177
+#: templates/base.html:178
 msgid "Language"
-msgstr "اللغة"
+msgstr "لغة"
 
 #: base/templates/base/resourcebase_info_panel.html:117
 msgid "Temporal Extent"
@@ -1423,34 +486,34 @@ msgstr "معلومات إضافية"
 msgid "Spatial Representation Type"
 msgstr "نوع التمثيل المكاني"
 
-#: documents/forms.py:59 groups/models.py:42 layers/forms.py:86
-#: maps/forms.py:72 people/forms.py:82
+#: documents/forms.py:68 groups/models.py:42 layers/forms.py:95
+#: maps/forms.py:81 people/forms.py:82
 msgid "A space or comma-separated list of keywords"
 msgstr "مساحة أو قائمة مفصولة بفواصل من الكلمات الرئيسية"
 
-#: documents/forms.py:174 documents/forms.py:242
+#: documents/forms.py:183 documents/forms.py:251
 msgid "Document must be a file or url."
 msgstr "يجب أن يكون وثيقة ملف أو URL."
 
-#: documents/forms.py:178 documents/forms.py:246
+#: documents/forms.py:187 documents/forms.py:255
 msgid "A document cannot have both a file and a url."
 msgstr "وثيقة لا يمكن أن يكون كل ملف وعنوان URL."
 
-#: documents/forms.py:191 documents/forms.py:259
+#: documents/forms.py:200 documents/forms.py:268
 msgid "This file type is not allowed"
-msgstr " هذا النوع من الملفات غير مسموح به "
+msgstr "لا يسمح هذا النوع من الملفات"
 
-#: documents/forms.py:209
+#: documents/forms.py:218
 msgid "Link to"
 msgstr "رابط ل"
 
-#: documents/forms.py:231
+#: documents/forms.py:240
 msgid "Permissions must be valid JSON."
 msgstr "يجب أن يكون أذونات JSON صالح."
 
 #: documents/models.py:39
 msgid "File"
-msgstr "ملف "
+msgstr "ملف"
 
 #: documents/models.py:48
 msgid "The URL of the document if it is external."
@@ -1458,7 +521,7 @@ msgstr "عنوان الوثيقة إذا كانت خارجية."
 
 #: documents/models.py:49
 msgid "URL"
-msgstr "رابط URL"
+msgstr "URL"
 
 #: documents/views.py:26
 msgid "You are not permitted to delete this document"
@@ -1484,7 +547,7 @@ msgstr "لا يسمح لك لعرض هذه الوثيقة"
 msgid "You are not allowed to view this document."
 msgstr "لا يسمح لك لعرض هذه الوثيقة."
 
-#: documents/views.py:175
+#: documents/views.py:181
 msgid "You are not allowed to edit this document."
 msgstr "لا يسمح لك لتحرير هذه الوثيقة."
 
@@ -1517,7 +580,7 @@ msgstr "الأكثر مشاركة"
 #: maps/templates/maps/_map_list_item.html:21
 #: maps/templates/maps/_map_list_item.html:46
 msgid "from"
-msgstr "from"
+msgstr "من"
 
 #: documents/templates/documents/_document_list_item.html:23
 #: documents/templates/documents/_document_list_item.html:45
@@ -1527,7 +590,7 @@ msgstr "from"
 #: maps/templates/maps/_map_list_item.html:46
 #: social/templates/social/_activity_item.html:27
 msgid "ago"
-msgstr "."
+msgstr "منذ"
 
 #: documents/templates/documents/_document_list_item.html:26
 #: documents/templates/documents/_document_list_item.html:48
@@ -1536,7 +599,7 @@ msgstr "."
 #: maps/templates/maps/_map_list_item.html:24
 #: maps/templates/maps/_map_list_item.html:49
 msgid "view"
-msgstr "عرض"
+msgstr "رأي"
 
 #: documents/templates/documents/_document_list_item.html:27
 #: documents/templates/documents/_document_list_item.html:49
@@ -1554,7 +617,7 @@ msgstr "تصنيف متوسط"
 #: maps/templates/maps/_map_list_item.html:25
 #: maps/templates/maps/_map_list_item.html:50
 msgid "votes"
-msgstr "أصوات"
+msgstr "الأصوات"
 
 #: documents/templates/documents/_document_list_item.html:31
 #: layers/templates/layers/_layer_list_item.html:37
@@ -1581,19 +644,19 @@ msgstr "معلومات"
 #: layers/templates/layers/_actions.html:6
 #: maps/templates/maps/map_detail.html:38 templates/_actions.html:5
 msgid "Share"
-msgstr "مشاركة"
+msgstr "حصة"
 
 #: documents/templates/documents/document_detail.html:52
 #: layers/templates/layers/_actions.html:8
 #: maps/templates/maps/map_detail.html:41
 msgid "Ratings"
-msgstr "تقييم"
+msgstr "تصنيفات"
 
 #: documents/templates/documents/document_detail.html:53
 #: layers/templates/layers/_actions.html:9
 #: maps/templates/maps/map_detail.html:42 templates/_comments.html:12
 msgid "Comments"
-msgstr "التعليقات"
+msgstr "تعليقات"
 
 #: documents/templates/documents/document_detail.html:71
 msgid "Rate this document"
@@ -1608,76 +671,82 @@ msgstr "متوسط ​​التقييم"
 #: documents/templates/documents/document_detail.html:91
 #: documents/templates/documents/document_detail.html:93
 #: documents/templates/documents/document_detail.html:95
-#: documents/templates/documents/document_detail.html:107
+#: documents/templates/documents/document_detail.html:111
 msgid "Download Document"
 msgstr "تحميل الوثيقة"
 
-#: documents/templates/documents/document_detail.html:100
-#: layers/templates/layers/layer_detail.html:156
-#: layers/templates/layers/layer_detail.html:164
+#: documents/templates/documents/document_detail.html:99
+#: layers/templates/layers/layer_detail.html:134
+#, fuzzy
+msgid "Request Download"
+msgstr "تحميل"
+
+#: documents/templates/documents/document_detail.html:104
+#: layers/templates/layers/layer_detail.html:163
+#: layers/templates/layers/layer_detail.html:171
 msgid "Download Metadata"
 msgstr "تحميل بيانات ميتا"
 
-#: documents/templates/documents/document_detail.html:117
-#: documents/templates/documents/document_detail.html:147
-#: layers/templates/layers/layer_detail.html:149
-#: layers/templates/layers/layer_detail.html:174
-#: layers/templates/layers/layer_detail.html:216
+#: documents/templates/documents/document_detail.html:121
+#: documents/templates/documents/document_detail.html:151
+#: layers/templates/layers/layer_detail.html:156
+#: layers/templates/layers/layer_detail.html:181
+#: layers/templates/layers/layer_detail.html:223
 #: maps/templates/maps/map_detail.html:95
 #: maps/templates/maps/map_detail.html:127
 #: templates/_bulk_permissions_form.html:19
 msgid "Close"
-msgstr "إغلاق"
+msgstr "قريب"
 
-#: documents/templates/documents/document_detail.html:124
-#: documents/templates/documents/document_detail.html:131
+#: documents/templates/documents/document_detail.html:128
+#: documents/templates/documents/document_detail.html:135
 msgid "Edit Document"
 msgstr "تحرير المستند"
 
-#: documents/templates/documents/document_detail.html:136
-#: layers/templates/layers/layer_detail.html:196
+#: documents/templates/documents/document_detail.html:140
+#: layers/templates/layers/layer_detail.html:203
 msgid "Edit Metadata"
 msgstr "تحرير البيانات الوصفية"
 
-#: documents/templates/documents/document_detail.html:139
+#: documents/templates/documents/document_detail.html:143
 msgid "Replace this Document"
 msgstr "استبدال هذه الوثيقة"
 
-#: documents/templates/documents/document_detail.html:142
+#: documents/templates/documents/document_detail.html:146
 msgid "Remove this Document"
 msgstr "إزالة هذه الوثيقة"
 
-#: documents/templates/documents/document_detail.html:154
+#: documents/templates/documents/document_detail.html:158
 msgid "Resource using this document"
 msgstr "الموارد باستخدام هذا المستند"
 
-#: documents/templates/documents/document_detail.html:156
+#: documents/templates/documents/document_detail.html:160
 msgid "List of resources using this document:"
 msgstr "قائمة الموارد باستخدام هذه الوثيقة:"
 
-#: documents/templates/documents/document_detail.html:160
+#: documents/templates/documents/document_detail.html:164
 msgid "This document is related to a "
-msgstr "وترتبط هذه الوثيقة إلى "
+msgstr "وترتبط هذه الوثيقة إلى"
 
-#: documents/templates/documents/document_detail.html:163
+#: documents/templates/documents/document_detail.html:167
 msgid "This document is not related to any maps or layers"
 msgstr "لا تتعلق هذه الوثيقة إلى أي خرائط أو طبقات"
 
-#: documents/templates/documents/document_detail.html:170
+#: documents/templates/documents/document_detail.html:174
 #: documents/templates/documents/document_upload.html:32
 #: groups/templates/groups/group_detail.html:65
-#: layers/templates/layers/layer_detail.html:289
+#: layers/templates/layers/layer_detail.html:296
 #: layers/templates/layers/layer_replace.html:94
-#: layers/templates/upload/layer_upload.html:91
+#: layers/templates/upload/layer_upload.html:93
 #: maps/templates/maps/map_detail.html:173 people/admin.py:55
 msgid "Permissions"
 msgstr "أذونات"
 
-#: documents/templates/documents/document_detail.html:171
+#: documents/templates/documents/document_detail.html:175
 msgid "Click the button below to change the permissions of this document."
 msgstr "انقر فوق الزر أدناه لتغيير الأذونات من هذه الوثيقة."
 
-#: documents/templates/documents/document_detail.html:172
+#: documents/templates/documents/document_detail.html:176
 msgid "Change Document Permissions"
 msgstr "تغيير صلاحيات الوثيقة"
 
@@ -1700,14 +769,13 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"ن التفاصيل التحرير ل٪ (DOCUMENT_TITLE) S  ن      "
-"     "
+"تفاصيل تحرير ل %(document_title)s"
 
 #: documents/templates/documents/document_metadata.html:22
 #: layers/templates/layers/layer_metadata.html:23
 #: maps/templates/maps/map_metadata.html:23
 msgid "Error updating metadata.  Please check the following fields: "
-msgstr "خطأ تحديث البيانات الوصفية. يرجى التحقق من الحقول التالية: "
+msgstr "خطأ تحديث البيانات الوصفية. يرجى التحقق من الحقول التالية:"
 
 #: documents/templates/documents/document_metadata.html:46
 #: layers/templates/layers/layer_metadata.html:85
@@ -1720,7 +788,7 @@ msgstr "مزود الفوقية"
 #: layers/templates/layers/layer_metadata.html:90
 #: maps/templates/maps/map_metadata.html:70
 msgid "Update"
-msgstr "تحديث "
+msgstr "تحديث"
 
 #: documents/templates/documents/document_remove.html:11
 #, python-format
@@ -1730,8 +798,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-" ن هل أنت متأكد أنك تريد إزالة٪ (DOCUMENT_TITLE) ق؟  ن        "
-"   "
+"هل أنت متأكد أنك تريد إزالة %(document_title)s ق؟"
 
 #: documents/templates/documents/document_remove.html:18
 #: groups/templates/groups/group_remove.html:19
@@ -1756,13 +823,13 @@ msgstr "استبدال الوثيقة"
 
 #: documents/templates/documents/document_replace.html:16
 msgid "Replace "
-msgstr "استبدال "
+msgstr "استبدل"
 
 #: documents/templates/documents/document_replace.html:27
 #: layers/templates/layers/layer_replace.html:84
-#: layers/templates/upload/layer_upload.html:80
+#: layers/templates/upload/layer_upload.html:82
 msgid "Clear"
-msgstr "مسح"
+msgstr "واضح"
 
 #: documents/templates/documents/document_upload.html:5
 msgid "Upload Document"
@@ -1786,53 +853,44 @@ msgstr "CSV"
 
 #: geoserver/ows.py:107
 msgid "Excel"
-msgstr "إكسيل"
+msgstr "تفوق"
 
 #: geoserver/ows.py:108
 msgid "GeoJSON"
-msgstr "GeoJSON"
+msgstr "GeoJSON أيضا"
 
 #: geoserver/ows.py:132
 msgid "JPEG"
-msgstr "ملفات الصور جيه بيه إيه جي (JPEG)"
+msgstr "JPEG"
 
 #: geoserver/ows.py:133
 msgid "PDF"
-msgstr "بي دي اف"
+msgstr "PDF"
 
 #: geoserver/ows.py:134
 msgid "PNG"
-msgstr "بي أن جي (PNG)"
+msgstr "PNG"
 
-#: geoserver/signals.py:270
+#: geoserver/signals.py:278
 msgid "Could not create a download link for layer."
 msgstr "لا يمكن إنشاء رابط التحميل لطبقة."
 
-#: geoserver/signals.py:301
+#: geoserver/signals.py:309
 msgid "KML"
 msgstr "KML"
 
-#: geoserver/signals.py:330
+#: geoserver/signals.py:338
 msgid "Tiles"
 msgstr "البلاط"
 
-#: geoserver/signals.py:385 layers/templates/layers/layer_detail.html:224
-#: services/views.py:1265
+#: geoserver/signals.py:385 layers/templates/layers/layer_detail.html:231
+#: services/views.py:1266
 msgid "Legend"
-msgstr "تفسيرات"
-
-#: geoserver/signals.py:507 layers/utils.py:528
-msgid "Remote Thumbnail"
-msgstr "صورة مصغرة عن بعد"
-
-#: geoserver/signals.py:542 layers/utils.py:563
-msgid "Thumbnail"
-msgstr "صورة مصغرة"
+msgstr "أسطورة"
 
 #: geoserver/views.py:338
-#, fuzzy
 msgid "You don't have permissions to change style for this layer"
-msgstr "لم يكن لديك أذونات لهذه الطبقة."
+msgstr "لم يكن لديك أذونات لتغيير أسلوب لهذه الطبقة"
 
 #: geoserver/views.py:425 geoserver/views.py:480
 msgid "Bad HTTP Authorization Credentials."
@@ -1878,7 +936,7 @@ msgstr "مجموعة موجود بالفعل بهذا الاسم."
 
 #: groups/models.py:17
 msgid "Public"
-msgstr "الجمهور "
+msgstr "جمهور"
 
 #: groups/models.py:18
 msgid "Public (invite-only)"
@@ -1886,7 +944,7 @@ msgstr "جمهور (دعوة فقط)"
 
 #: groups/models.py:19
 msgid "Private"
-msgstr "القطاع الخاص"
+msgstr "خاص"
 
 #: groups/models.py:22
 msgid ""
@@ -1895,9 +953,9 @@ msgid ""
 "can join.<br>Private: Registered users cannot see any details about the "
 "group, including membership.  Only invited users can join."
 msgstr ""
-"الجمهور: يمكن لأي مستخدم مسجل عرض والانضمام إلى جماعة العامة <BR> العامة "
+"الجمهور: يمكن لأي مستخدم مسجل عرض والانضمام إلى جماعة العامة. <br> جمهور "
 "(دعوة فقط): يمكن لأي مستخدم مسجل عرض المجموعة. يمكن فقط للمستخدمين دعوة "
-"الانضمام <BR> الخاص: لا يمكن للمستخدمين المسجلين ترى أي تفاصيل حول المجموعة، "
+"الانضمام. <br> خاص: لا يمكن للمستخدمين المسجلين ترى أي تفاصيل حول المجموعة، "
 "بما في ذلك العضوية. يمكن فقط للمستخدمين دعوة الانضمام."
 
 #: groups/models.py:27
@@ -1918,15 +976,15 @@ msgstr "مدير"
 
 #: groups/models.py:182 groups/models.py:201
 msgid "Member"
-msgstr "العضو"
+msgstr "عضو"
 
 #: groups/models.py:206
 msgid "Sent"
-msgstr "الصندوق الصادر"
+msgstr "أرسلت"
 
 #: groups/models.py:207
 msgid "Accepted"
-msgstr "مقبول"
+msgstr "المقبولة"
 
 #: groups/models.py:208
 msgid "Declined"
@@ -1972,7 +1030,7 @@ msgstr "إنشاء مجموعة"
 #: groups/templates/groups/group_create.html:26
 #: services/templates/services/service_register.html:17
 msgid "Create"
-msgstr "انشاء"
+msgstr "خلق"
 
 #: groups/templates/groups/group_detail.html:19
 msgid "This group has not created a logo."
@@ -1982,7 +1040,7 @@ msgstr "لم يخلق هذه المجموعة شعار."
 #: groups/templates/groups/group_invite_response.html:7
 #: groups/templates/groups/group_members.html:12
 msgid "Members"
-msgstr "الأعضاء"
+msgstr "أعضاء"
 
 #: groups/templates/groups/group_detail.html:57
 msgid "Edit Group Details"
@@ -2008,7 +1066,7 @@ msgid ""
 "          "
 msgstr ""
 "\n"
- " ن هذه المجموعة على <strong>٪ (الوصول) S </ قوي>.  ن          "
+"هذه المجموعة <strong>%(access)s</strong>."
 
 #: groups/templates/groups/group_detail.html:71
 msgid "Anyone may join this group."
@@ -2024,7 +1082,7 @@ msgstr "العضوية عن طريق الدعوة فقط."
 
 #: groups/templates/groups/group_detail.html:84
 msgid "Managers"
-msgstr "المديرين"
+msgstr "مدراء"
 
 #: groups/templates/groups/group_invite_response.html:10
 msgid "Membership Request"
@@ -2036,7 +1094,7 @@ msgstr "لا تاريخ"
 
 #: groups/templates/groups/group_invite_response.html:15
 msgid "Join Group"
-msgstr "الإلتحاق بالمجموعة"
+msgstr "انضمام مجموعة"
 
 #: groups/templates/groups/group_list.html:16
 #: people/templates/people/profile_list.html:13
@@ -2048,13 +1106,13 @@ msgstr "أقل حداثة"
 #: people/templates/people/profile_list.html:14
 #: templates/search/_sort_filters.html:6
 msgid "A - Z"
-msgstr "أ  -- ي"
+msgstr "A - Z"
 
 #: groups/templates/groups/group_list.html:18
 #: people/templates/people/profile_list.html:15
 #: templates/search/_sort_filters.html:7
 msgid "Z - A"
-msgstr "ي -- أ"
+msgstr "ي - أ"
 
 #: groups/templates/groups/group_members.html:9
 msgid "Group details"
@@ -2076,7 +1134,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
- " ن هل أنت متأكد أنك تريد إزالة المجموعة:٪ (group_title) S  ن        "
+"هل أنت متأكد أنك تريد إزالة المجموعة: %(group_title)sق؟"
 
 #: groups/templates/groups/group_remove_maps_data.html:6
 msgid "Remove Maps/Data from Group"
@@ -2220,6 +1278,10 @@ msgstr "آخر تعديل"
 msgid "date when attribute statistics were last updated"
 msgstr "تاريخ عندما كانت الإحصاءات السمة آخر تحديث"
 
+#: layers/utils.py:574
+msgid "Thumbnail"
+msgstr "ظفر الإبهام"
+
 #: layers/views.py:59
 msgid ""
 "There was an error while attempting to upload your data. Please try again, "
@@ -2263,8 +1325,8 @@ msgid "Create a map"
 msgstr "إنشاء خريطة"
 
 #: layers/templates/layers/_layer_list_item.html:48
-#: layers/templates/layers/layer_detail.html:130
-#: layers/templates/layers/layer_detail.html:139
+#: layers/templates/layers/layer_detail.html:131
+#: layers/templates/layers/layer_detail.html:144
 msgid "Download Layer"
 msgstr "تحميل طبقة"
 
@@ -2274,7 +1336,7 @@ msgstr "ليس لديك الصلاحية لدخول هذه الطبقة"
 
 #: layers/templates/layers/layer_change_poc.html:5
 msgid "Home"
-msgstr "صفحة الرئيسيه"
+msgstr "منزل"
 
 #: layers/templates/layers/layer_change_poc.html:5
 #: layers/templates/layers/layer_change_poc.html:7
@@ -2288,7 +1350,7 @@ msgstr "تعيين نقطة اتصال جديدة إلى الطبقات التا
 #: layers/templates/layers/layer_change_poc.html:17
 #: people/templates/people/forgot_username_form.html:17
 msgid "Submit"
-msgstr "إرسال"
+msgstr "عرض"
 
 #: layers/templates/layers/layer_detail.html:52
 msgid "Attribute Name"
@@ -2296,7 +1358,7 @@ msgstr "السمة الاسم"
 
 #: layers/templates/layers/layer_detail.html:53
 msgid "Range"
-msgstr "النطاق"
+msgstr "نطاق"
 
 #: layers/templates/layers/layer_detail.html:54
 msgid "Average"
@@ -2304,7 +1366,7 @@ msgstr "متوسط"
 
 #: layers/templates/layers/layer_detail.html:55
 msgid "Median"
-msgstr "الوسيط"
+msgstr "متوسط"
 
 #: layers/templates/layers/layer_detail.html:56
 msgid "Standard Deviation"
@@ -2314,88 +1376,88 @@ msgstr "الانحراف المعياري"
 msgid "Rate this layer"
 msgstr "قيم هذا طبقة"
 
-#: layers/templates/layers/layer_detail.html:182
-#: layers/templates/layers/layer_detail.html:191
+#: layers/templates/layers/layer_detail.html:189
+#: layers/templates/layers/layer_detail.html:198
 msgid "Edit Layer"
 msgstr "تحرير طبقة"
 
-#: layers/templates/layers/layer_detail.html:201
+#: layers/templates/layers/layer_detail.html:208
 #: layers/templates/layers/layer_style_manage.html:14
 msgid "Manage Styles"
 msgstr "إدارة أنماط"
 
-#: layers/templates/layers/layer_detail.html:203
+#: layers/templates/layers/layer_detail.html:210
 msgid "Edit Styles"
 msgstr "تحرير أنماط"
 
-#: layers/templates/layers/layer_detail.html:208
+#: layers/templates/layers/layer_detail.html:215
 msgid "Replace this Layer"
 msgstr "استبدال هذه الطبقة"
 
-#: layers/templates/layers/layer_detail.html:211
+#: layers/templates/layers/layer_detail.html:218
 msgid "Remove this Layer"
 msgstr "إزالة هذه الطبقة"
 
-#: layers/templates/layers/layer_detail.html:234
+#: layers/templates/layers/layer_detail.html:241
 msgid "Maps using this layer"
 msgstr "خرائط باستخدام هذه الطبقة"
 
-#: layers/templates/layers/layer_detail.html:236
+#: layers/templates/layers/layer_detail.html:243
 msgid "List of maps using this layer:"
 msgstr "قائمة الخرائط باستخدام هذه الطبقة:"
 
-#: layers/templates/layers/layer_detail.html:242
+#: layers/templates/layers/layer_detail.html:249
 msgid "This layer is not currently used in any maps."
 msgstr "لا تستخدم هذه الطبقة في الوقت الراهن في أي خرائط."
 
-#: layers/templates/layers/layer_detail.html:247
+#: layers/templates/layers/layer_detail.html:254
 msgid "Create a map using this layer"
 msgstr "إنشاء خريطة باستخدام هذه الطبقة"
 
-#: layers/templates/layers/layer_detail.html:248
+#: layers/templates/layers/layer_detail.html:255
 msgid "Click the button below to generate a new map based on this layer."
 msgstr "انقر فوق الزر أدناه لتوليد خريطة جديدة مبنية على هذه الطبقة."
 
-#: layers/templates/layers/layer_detail.html:249
+#: layers/templates/layers/layer_detail.html:256
 msgid "Create a Map"
 msgstr "إنشاء خريطة"
 
-#: layers/templates/layers/layer_detail.html:254
+#: layers/templates/layers/layer_detail.html:261
 msgid "Documents related to this layer"
 msgstr "الوثائق المتصلة بهذه الطبقة"
 
-#: layers/templates/layers/layer_detail.html:255
+#: layers/templates/layers/layer_detail.html:262
 msgid "List of documents related to this layer:"
 msgstr "قائمة الوثائق ذات الصلة لهذه الطبقة:"
 
-#: layers/templates/layers/layer_detail.html:266
+#: layers/templates/layers/layer_detail.html:273
 msgid "Styles"
 msgstr "الأنماط"
 
-#: layers/templates/layers/layer_detail.html:267
+#: layers/templates/layers/layer_detail.html:274
 msgid ""
 "The following styles are associated with this layer. Choose a style to view "
 "it in the preview map."
 msgstr ""
 "وترتبط الأنماط التالية مع هذه الطبقة. اختيار نمط لمشاهدته في المعاينة خريطة."
 
-#: layers/templates/layers/layer_detail.html:280
+#: layers/templates/layers/layer_detail.html:287
 msgid "No styles associated with this layer"
 msgstr "لا توجد أنماط المرتبطة بهذه الطبقة"
 
-#: layers/templates/layers/layer_detail.html:290
+#: layers/templates/layers/layer_detail.html:297
 msgid "Click the button below to change the permissions of this layer."
 msgstr "انقر فوق الزر أدناه لتغيير الأذونات من هذه الطبقة."
 
-#: layers/templates/layers/layer_detail.html:291
+#: layers/templates/layers/layer_detail.html:298
 msgid "Change Layer Permissions"
 msgstr "ضوابط تغيير طبقة"
 
-#: layers/templates/layers/layer_detail.html:298
+#: layers/templates/layers/layer_detail.html:305
 msgid "External service layer"
 msgstr "طبقة الخدمة الخارجية"
 
-#: layers/templates/layers/layer_detail.html:299
+#: layers/templates/layers/layer_detail.html:306
 msgid "Source"
 msgstr "مصدر"
 
@@ -2419,7 +1481,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
- " ن التفاصيل التحرير ل٪ (layer_title) S  ن      "
+"تفاصيل تحرير ل %(layer_title)s"
 
 #: layers/templates/layers/layer_metadata.html:17
 msgid ""
@@ -2430,21 +1492,21 @@ msgid ""
 "        Some of your original metadata may have been lost."
 msgstr ""
 "ملاحظة: تم بالسكان الفوقية الاصلي هذه الطبقة عن طريق استيراد ملف XML "
-"الفوقية  ن  يدعم البيانات الوصفية استيراد GeoNode في مجموعة فرعية من ISO، "
-"FGDC، وعناصر البيانات الوصفية دبلن كور ن بعض الفوقية الأصلي قد فقدت."
+"الفوقية. يدعم البيانات الوصفية استيراد GeoNode في مجموعة فرعية من عناصر "
+"البيانات الوصفية ISO، FGDC، ودبلن كور. بعض التعريف الأصلي قد ضاعت."
 
 #: layers/templates/layers/layer_metadata.html:72
 msgid "Attribute"
-msgstr "السمة"
+msgstr "سمة"
 
 #: layers/templates/layers/layer_metadata.html:72
 msgid "Label"
-msgstr "العنوان "
+msgstr "ملصق"
 
 #: layers/templates/layers/layer_metadata.html:72 services/forms.py:24
 #: services/templates/services/layers_register.html:28
 msgid "Description"
-msgstr "الوصف"
+msgstr "وصف"
 
 #: layers/templates/layers/layer_metadata.html:72
 msgid "Display Order"
@@ -2458,7 +1520,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-" ن هل أنت متأكد أنك تريد إزالة٪ (layer_title) ق؟  ن        "
+"هل أنت متأكد أنك تريد إزالة %(layer_title)sق؟"
 
 #: layers/templates/layers/layer_remove.html:25
 msgid "This action affects the following maps:"
@@ -2475,7 +1537,7 @@ msgstr "استبدال طبقة"
 
 #: layers/templates/layers/layer_replace.html:19
 msgid "Replace Layer: "
-msgstr "استبدال طبقة: "
+msgstr "استبدال طبقة:"
 
 #: layers/templates/layers/layer_replace.html:23
 #: layers/templates/upload/layer_upload.html:20
@@ -2504,7 +1566,7 @@ msgstr "سيرة ذاتية"
 #: templates/announcements/announcement_form.html:23
 #: templates/user_messages/inbox.html:44
 msgid "Delete"
-msgstr "حذف "
+msgstr "حذف"
 
 #: layers/templates/layers/layer_replace.html:36
 #: layers/templates/upload/layer_upload.html:33
@@ -2522,25 +1584,25 @@ msgstr "إلغاء"
 #: layers/templates/layers/layer_replace.html:41
 #: layers/templates/upload/layer_upload.html:36
 msgid "Delete, and don't ask me again."
-msgstr "حذف، ولا تسألني مرة أخرى."
+msgstr "حذف، ولا تسألني ثانية."
 
 #: layers/templates/layers/layer_replace.html:55
-#: layers/templates/upload/layer_upload.html:51
+#: layers/templates/upload/layer_upload.html:53
 msgid "Drop files here"
 msgstr "إسقاط الملفات هنا"
 
 #: layers/templates/layers/layer_replace.html:58
-#: layers/templates/upload/layer_upload.html:54
+#: layers/templates/upload/layer_upload.html:56
 msgid " or select them one by one:"
-msgstr " أو حدد واحدا تلو الآخر:"
+msgstr "أو حدد واحدا تلو الآخر:"
 
 #: layers/templates/layers/layer_replace.html:66
-#: layers/templates/upload/layer_upload.html:62
+#: layers/templates/upload/layer_upload.html:64
 msgid "Files to be uploaded"
 msgstr "الملفات المراد تحميلها"
 
 #: layers/templates/layers/layer_replace.html:71
-#: layers/templates/upload/layer_upload.html:67
+#: layers/templates/upload/layer_upload.html:69
 msgid "Select the charset or leave default"
 msgstr "حدد محارف أو ترك الافتراضي"
 
@@ -2553,18 +1615,18 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-" ن إدارة الأنماط المتاحة لل<a href=\"/layers/٪(layer_title)s\">٪ "
-"(layer_title) S </A>  ن    "
+"إدارة الأساليب المتاحة لل <a href=\"/layers/%(layer_title)s\">"
+"%(layer_title)s</a>"
 
-#: layers/templates/layers/layer_style_manage.html:26
+#: layers/templates/layers/layer_style_manage.html:23
 msgid "Layer Default Style"
-msgstr "طبقة ستايل"
+msgstr "طبقة الاستايل الافتراضي"
 
-#: layers/templates/layers/layer_style_manage.html:43
+#: layers/templates/layers/layer_style_manage.html:41
 msgid "Available styles"
 msgstr "الأساليب المتاحة"
 
-#: layers/templates/layers/layer_style_manage.html:44
+#: layers/templates/layers/layer_style_manage.html:42
 msgid ""
 "Click on an available style in the upper box to assign it to this layer. "
 "Selected styles appear in the lower box."
@@ -2572,7 +1634,7 @@ msgstr ""
 "انقر على أسلوب متاح في المربع العلوي لتعيينه لهذه الطبقة. ويبدو أن الأساليب "
 "المختارة في المربع السفلي."
 
-#: layers/templates/layers/layer_style_manage.html:62
+#: layers/templates/layers/layer_style_manage.html:61
 msgid "Update Available Styles"
 msgstr "تحديث الأنماط المتوفرة"
 
@@ -2582,13 +1644,13 @@ msgstr "تحديث الأنماط المتوفرة"
 msgid "Upload Layer"
 msgstr "تحميل طبقة"
 
-#: layers/templates/upload/layer_upload.html:81
+#: layers/templates/upload/layer_upload.html:83
 msgid "Upload files"
 msgstr "تحميل الملفات"
 
 #: layers/templates/upload/layer_upload_crs.html:10
 msgid "Provide CRS for "
-msgstr "توفير CRS ل "
+msgstr "توفير CRS ل"
 
 #: layers/templates/upload/layer_upload_crs.html:14
 msgid "Coordinate Reference System"
@@ -2606,16 +1668,15 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-" ن وتنسيق نظام مرجعي للا يمكن أن تحدد هذه الطبقة  ن حدد أو أدخل رمز ESPG "
-"المناسب لهذه الطبقة تحت  ن طريقة واحدة للقيام بذلك هو القيام بزيارة و:.  ن "
-"<أ href = و\"HTTP: / /prj2epsg.org/search \"الهدف = \" _ \"> prj2epsg </A>  "
-"n و أدخل ما يلي:  ن    "
+"لا يمكن تحديد وتنسيق نظام مرجعي لهذه الطبقة. تحديد موقع أو إدخال رمز ESPG "
+"المناسب لهذه الطبقة أدناه. طريقة واحدة للقيام بذلك هي القيام بزيارة و: <a "
+"href=\"http://prj2epsg.org/search\" target=\"_\">prj2epsg</a> وأدخل ما يلي:"
 
 #: layers/templates/upload/layer_upload_crs.html:32
 #: layers/templates/upload/layer_upload_csv.html:49
-#: layers/templates/upload/layer_upload_time.html:104
+#: layers/templates/upload/layer_upload_time.html:102
 msgid "Next"
-msgstr "التالية"
+msgstr "التالي"
 
 #: layers/templates/upload/layer_upload_crs.html:35
 msgid ""
@@ -2625,8 +1686,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-" ن هناك مشكلة الاعتراف إسقاط هذه البيانات. يرجى  N إعادة إسقاط هذه البيانات "
-"إلى إسقاط أكثر شيوعا.  ن        "
+"هناك مشكلة الاعتراف إسقاط هذه البيانات. الرجاء إعادة إسقاط هذه البيانات إلى "
+"إسقاط أكثر شيوعا."
 
 #: layers/templates/upload/layer_upload_csv.html:11
 msgid "Geospatial Data"
@@ -2646,9 +1707,8 @@ msgid ""
 "latitude and longitude coordinates, but please confirm that the correct\n"
 "attributes are selected below."
 msgstr ""
-"مع هذه البيانات، كان قادرا على تخمين السمات التي تحتوي على  nlatitude "
-"إحداثيات الطول والعرض، ولكن الرجاء التأكد من أن يتم اختيار  nattributes "
-"الصحيحة أدناه GeoNode."
+"مع هذه البيانات، كان قادرا على تخمين السمات التي تحتوي على إحداثيات الطول "
+"والعرض، ولكن يرجى التأكد من أن يتم اختيار السمات الصحيحة أدناه GeoNode."
 
 #: layers/templates/upload/layer_upload_csv.html:24
 msgid "Latitude"
@@ -2671,9 +1731,8 @@ msgid ""
 "for\n"
 "the latitude and longitude."
 msgstr ""
-"لم نكتشف الأعمدة التي يمكن استخدامها لخطوط الطول والعرض.  n الرجاء التحقق من "
-"أن لديك اثنين من الأعمدة في ملف CSV التي يمكن استخدامها لخط العرض  صفي الطول "
-"والعرض."
+"لم نكتشف الأعمدة التي يمكن استخدامها لخطوط الطول والعرض. يرجى التحقق من أن "
+"لديك اثنين من الأعمدة في ملف CSV التي يمكن استخدامها لخطوط الطول والعرض."
 
 #: layers/templates/upload/layer_upload_invalid.html:6
 #: layers/templates/upload/no_upload.html:6
@@ -2694,87 +1753,87 @@ msgstr "تحميل طبقة الخطوة 2"
 
 #: layers/templates/upload/layer_upload_time.html:15
 msgid "Editing details for "
-msgstr "تفاصيل تحرير ل "
+msgstr "تفاصيل التحرير ل"
 
 #: layers/templates/upload/layer_upload_time.html:19
 msgid "Time Options"
-msgstr "خيارات مرة"
+msgstr "خيارات الوقت"
 
 #: layers/templates/upload/layer_upload_time.html:22
 msgid "Choose time attribute"
-msgstr "اختيار السمة الوقت"
+msgstr "اختر السمة الوقت"
 
 #: layers/templates/upload/layer_upload_time.html:25
 msgid "This data does not have a time attribute"
 msgstr "لا تملك هذه البيانات سمة الوقت"
 
 #: layers/templates/upload/layer_upload_time.html:30
-#: layers/templates/upload/layer_upload_time.html:58
+#: layers/templates/upload/layer_upload_time.html:57
 msgid "Existing Time Attribute"
 msgstr "الوقت الحالي السمة"
 
 #: layers/templates/upload/layer_upload_time.html:36
-#: layers/templates/upload/layer_upload_time.html:64
+#: layers/templates/upload/layer_upload_time.html:63
 msgid "Convert Text Attribute"
 msgstr "تحويل النص سمة"
 
-#: layers/templates/upload/layer_upload_time.html:37
+#: layers/templates/upload/layer_upload_time.html:38
 #: layers/templates/upload/layer_upload_time.html:65
 msgid "Date Format"
 msgstr "تنسيق التاريخ"
 
-#: layers/templates/upload/layer_upload_time.html:50
-#: layers/templates/upload/layer_upload_time.html:78
+#: layers/templates/upload/layer_upload_time.html:49
+#: layers/templates/upload/layer_upload_time.html:76
 msgid "Convert Number (As Year)"
-msgstr "تحويل عدد (والسنة)"
+msgstr "تحويل عدد (كما السنة)"
 
-#: layers/templates/upload/layer_upload_time.html:54
+#: layers/templates/upload/layer_upload_time.html:53
 msgid "Choose optional end time attribute"
 msgstr "اختيار نهاية الوقت السمة الاختيارية"
 
-#: layers/templates/upload/layer_upload_time.html:83
+#: layers/templates/upload/layer_upload_time.html:81
 msgid "Present time attribute as"
 msgstr "السمة الوقت الحاضر كما"
 
-#: layers/templates/upload/layer_upload_time.html:86
+#: layers/templates/upload/layer_upload_time.html:84
 msgid "List"
-msgstr "قائمة "
+msgstr "قائمة"
 
-#: layers/templates/upload/layer_upload_time.html:86
+#: layers/templates/upload/layer_upload_time.html:84
 msgid "of all the distinct time values"
 msgstr "من كل القيم مرة متميزة"
 
-#: layers/templates/upload/layer_upload_time.html:90
+#: layers/templates/upload/layer_upload_time.html:88
 msgid "Intervals"
 msgstr "فترات"
 
-#: layers/templates/upload/layer_upload_time.html:90
+#: layers/templates/upload/layer_upload_time.html:88
 msgid "defined by the resolution"
 msgstr "التي حددها القرار"
 
-#: layers/templates/upload/layer_upload_time.html:94
+#: layers/templates/upload/layer_upload_time.html:92
 msgid "Continuous Intervals"
 msgstr "فترات متواصلة"
 
-#: layers/templates/upload/layer_upload_time.html:94
+#: layers/templates/upload/layer_upload_time.html:92
 msgid ""
 "for data that is frequently updated, resolution describes the frequency of "
 "updates"
-msgstr "للبيانات التي يتم تحديثها باستمرار، ويصف قرار تواتر التحديثات"
+msgstr "للبيانات التي يتم تحديثها باستمرار، ويصف قرار وتيرة التحديثات"
 
-#: layers/templates/upload/layer_upload_time.html:98
+#: layers/templates/upload/layer_upload_time.html:96
 msgid "Resolution of time attribute"
 msgstr "قرار من السمة الوقت"
 
-#: layers/templates/upload/layer_upload_time.html:108
+#: layers/templates/upload/layer_upload_time.html:107
 msgid "Need Help?"
-msgstr "هل تحتاج إلى مساعدة؟"
+msgstr "بحاجة الى مساعدة؟"
 
-#: layers/templates/upload/layer_upload_time.html:109
+#: layers/templates/upload/layer_upload_time.html:108
 msgid "Enabling Time"
 msgstr "تمكين الوقت"
 
-#: layers/templates/upload/layer_upload_time.html:110
+#: layers/templates/upload/layer_upload_time.html:109
 msgid ""
 "A feature can currently support one or two time attributes. If a single\n"
 "    attribute is used, the feature is considered relevant at that single "
@@ -2783,31 +1842,31 @@ msgid ""
 "period for the\n"
 "    feature."
 msgstr ""
-"وهناك سمة يمكن أن تدعم حاليا واحدة أو اثنتين سمات الوقت. إذا تم استخدام "
-"واحدة  ن سمة، يعتبر ميزة ذات الصلة على أن نقطة واحدة في الوقت المناسب. إذا "
-"استخدمت اثنين  ن الصفات، تمثل السمة الثانية نهاية فترة صالحة للميزة  ن."
+"وهناك ميزة يمكن أن تدعم حاليا واحد أو اثنين من سمات الوقت. إذا تم استخدام "
+"سمة واحدة، وتعتبر ميزة ذات صلة في ذلك نقطة واحدة في الوقت المناسب. إذا تم "
+"استخدام اثنين من السمات، تمثل السمة الثانية نهاية فترة صالحة لهذه الميزة."
 
-#: layers/templates/upload/layer_upload_time.html:114
+#: layers/templates/upload/layer_upload_time.html:113
 msgid "Selecting an Attribute"
 msgstr "اختيار سمة"
 
-#: layers/templates/upload/layer_upload_time.html:115
+#: layers/templates/upload/layer_upload_time.html:114
 msgid "A time attribute can be one of"
 msgstr "سمة الوقت يمكن أن يكون واحدا من"
 
-#: layers/templates/upload/layer_upload_time.html:117
+#: layers/templates/upload/layer_upload_time.html:116
 msgid "An existing date"
 msgstr "تاريخ الحالية"
 
-#: layers/templates/upload/layer_upload_time.html:118
+#: layers/templates/upload/layer_upload_time.html:117
 msgid "Text that can be converted to a timestamp"
 msgstr "النص التي يمكن تحويلها إلى الطابع الزمني"
 
-#: layers/templates/upload/layer_upload_time.html:119
+#: layers/templates/upload/layer_upload_time.html:118
 msgid "A number representing a year"
 msgstr "عدد يمثل السنة"
 
-#: layers/templates/upload/layer_upload_time.html:122
+#: layers/templates/upload/layer_upload_time.html:121
 msgid ""
 "\n"
 "    For text attributes, one can specify a custom format or use the 'best "
@@ -2816,39 +1875,39 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-" n للسمات النص، يمكن للمرء تحديد تنسيق مخصص أو استخدام نهج \"أفضل تخمين\"  ن "
-"والأعلام التنسيق الأكثر شيوعا هي:  ن    "
+"لسمات النص، يمكن للمرء تحديد تنسيق مخصص أو استخدام 'تخمين أفضل \"النهج. "
+"أعلام التنسيق الأكثر شيوعا هي:"
+
+#: layers/templates/upload/layer_upload_time.html:127
+msgid "year"
+msgstr "عام"
 
 #: layers/templates/upload/layer_upload_time.html:128
-msgid "year"
-msgstr "سنة"
-
-#: layers/templates/upload/layer_upload_time.html:129
 msgid "month"
 msgstr "شهر"
 
-#: layers/templates/upload/layer_upload_time.html:130
+#: layers/templates/upload/layer_upload_time.html:129
 msgid "day of month"
-msgstr "يوم من أيام الشهر"
+msgstr "يوم من الشهر"
 
+#: layers/templates/upload/layer_upload_time.html:130
 #: layers/templates/upload/layer_upload_time.html:131
-#: layers/templates/upload/layer_upload_time.html:132
 msgid "hour of day"
 msgstr "ساعة من اليوم"
 
-#: layers/templates/upload/layer_upload_time.html:133
+#: layers/templates/upload/layer_upload_time.html:132
 msgid "minute in hour"
 msgstr "دقيقة في ساعة و"
 
-#: layers/templates/upload/layer_upload_time.html:134
+#: layers/templates/upload/layer_upload_time.html:133
 msgid "second in minute"
 msgstr "الثاني في الدقيقة"
 
-#: layers/templates/upload/layer_upload_time.html:137
+#: layers/templates/upload/layer_upload_time.html:136
 msgid "Note that single quotes represent a literal character."
 msgstr "لاحظ أن علامات الاقتباس المفردة تمثل الطابع الحرفي."
 
-#: layers/templates/upload/layer_upload_time.html:138
+#: layers/templates/upload/layer_upload_time.html:137
 msgid ""
 "To remove ambiguity, repeat a code to represent the maximum number of digits "
 "- for example yyyy"
@@ -2856,24 +1915,22 @@ msgstr ""
 "لإزالة الغموض، كرر رمز لتمثيل أكبر عدد ممكن من الأرقام - على سبيل المثال س س "
 "س س"
 
-#: layers/templates/upload/layer_upload_time.html:140
+#: layers/templates/upload/layer_upload_time.html:139
 msgid "The 'best guess' will handle date and optional time variants of"
-msgstr "فإن \"أفضل تخمين\" التعامل مع التاريخ والوقت الاختياري للمتغيرات"
+msgstr "أن 'أفضل تخمين \"التعامل مع التاريخ والوقت الاختياري من الخيارين"
 
-#: layers/templates/upload/layer_upload_time.html:141
+#: layers/templates/upload/layer_upload_time.html:140
 msgid "In terms of the formatting flags noted above, these are"
 msgstr "من ناحية الأعلام التنسيق المشار إليه أعلاه، وهذه هي"
 
 #: layers/templates/upload/no_upload.html:7
 msgid ""
 "Returning to the upload starting page in <span id=\"cnt\">5</span>seconds "
-msgstr ""
-"العودة إلى صفحة التحميل في البداية في <span id = \"الوفاق الوطني \"> 5 </ "
-"SPAN> ثواني "
+msgstr "العودة إلى صفحة التحميل الانطلاق في <span id=\"cnt\">5</span> ثوان"
 
 #: layers/templates/upload/no_upload.html:8
 msgid " Or just go "
-msgstr " أو الذهاب فقط "
+msgstr "أو الذهاب فقط"
 
 #: layers/templates/upload/no_upload.html:8
 #: templates/relationships/success.html:6
@@ -2886,7 +1943,7 @@ msgstr "زوم"
 
 #: maps/models.py:61
 msgid "projection"
-msgstr "عرض لصور متحركة"
+msgstr "إسقاط"
 
 #: maps/models.py:65
 msgid "center X"
@@ -2902,11 +1959,11 @@ msgstr "عنوان الموقع"
 
 #: maps/models.py:81
 msgid "Featured Map URL"
-msgstr "ظهرت خريطة URL"
+msgstr "شارك خريطة URL"
 
 #: maps/models.py:371
 msgid "stack order"
-msgstr "ترتيب كومة"
+msgstr "أجل كومة"
 
 #: maps/models.py:376
 msgid "format"
@@ -2922,7 +1979,7 @@ msgstr "غموض"
 
 #: maps/models.py:394
 msgid "styles"
-msgstr "الأنماط"
+msgstr "الأساليب"
 
 #: maps/models.py:400
 msgid "transparent"
@@ -2930,7 +1987,7 @@ msgstr "شفاف"
 
 #: maps/models.py:404
 msgid "fixed"
-msgstr "مُثَبَّت- ثابت"
+msgstr "ثابت"
 
 #: maps/models.py:408
 msgid "group"
@@ -2938,7 +1995,7 @@ msgstr "مجموعة"
 
 #: maps/models.py:412
 msgid "visibility"
-msgstr "رؤية"
+msgstr "وضوح"
 
 #: maps/models.py:415
 msgid "ows URL"
@@ -2954,39 +2011,35 @@ msgstr "بارامس مصدر"
 
 #: maps/models.py:518
 msgid "JSON Configuration"
-msgstr "تكوين جسون"
+msgstr "تكوين JSON"
 
-#: maps/views.py:67
+#: maps/views.py:70
 msgid "You are not permitted to delete this map."
 msgstr "لا يسمح لك لحذف هذه الخريطة."
 
-#: maps/views.py:68
+#: maps/views.py:71
 msgid "You do not have permissions for this map."
 msgstr "لم يكن لديك أذونات لهذه الخريطة."
 
-#: maps/views.py:69
+#: maps/views.py:72
 msgid "You must be logged in to save this map"
 msgstr "يجب أن تكون مسجلا لحفظ هذه الخريطة"
 
-#: maps/views.py:70
+#: maps/views.py:73
 msgid "You are not permitted to save or edit this map."
 msgstr "لا يسمح لك بحفظ أو تعديل هذه الخريطة."
 
-#: maps/views.py:72
+#: maps/views.py:75
 msgid "You are not allowed to modify this map's metadata."
-msgstr "لا يسمح لك لتعديل البيانات الوصفية لهذه الخريطة."
+msgstr "لا يسمح لك لتعديل البيانات الوصفية هذه الخريطة ل."
 
-#: maps/views.py:73
+#: maps/views.py:76
 msgid "You are not allowed to view this map."
 msgstr "لا يسمح لك لعرض هذه الخريطة."
 
-#: maps/views.py:74
+#: maps/views.py:77
 msgid "An unknown error has occured."
-msgstr ""
-
-#: maps/views.py:87
-msgid "You are not permitted to modify this object"
-msgstr "لا يسمح لك لتعديل هذا الكائن"
+msgstr "حدث خطأ غير معروف."
 
 #: maps/management/__init__.py:33
 msgid "Map Created"
@@ -3014,11 +2067,11 @@ msgstr "وقدم تصنيف للخريطة"
 
 #: maps/templates/maps/_map_list_item.html:31
 msgid "View"
-msgstr "رأي "
+msgstr "رأي"
 
 #: maps/templates/maps/_map_list_item.html:47
 msgid "You do not have permission to view this map"
-msgstr "لم يكن لديك إذن لعرض هذه الخريطة"
+msgstr "ليس لديك الصلاحية لدخول هذه الخريطة"
 
 #: maps/templates/maps/map_base.html:5 maps/templates/maps/map_base.html:12
 #: maps/templates/maps/map_list.html:12
@@ -3057,7 +2110,7 @@ msgstr "وضع خريطة مصغرة"
 
 #: maps/templates/maps/map_detail.html:122
 msgid "Remove this Map"
-msgstr "إزالة هذه الخريطة"
+msgstr "إزالة هذا خريطة"
 
 #: maps/templates/maps/map_detail.html:134
 msgid "View Map"
@@ -3111,11 +2164,11 @@ msgstr "WMS مجموعة طبقة لطبقات الخريطة المحلية"
 #: maps/templates/maps/map_detail.html:191 social/tests.py:103
 #: social/templatetags/social_tags.py:47
 msgid "on"
-msgstr "على"
+msgstr "في"
 
 #: maps/templates/maps/map_detail.html:191
 msgid "local OWS"
-msgstr "الدودة الحلزونية المحلية"
+msgstr "OWS المحلية"
 
 #: maps/templates/maps/map_detail.html:194
 msgid "Publish local map layers as WMS layer group"
@@ -3133,8 +2186,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-" ن هنا يمكنك تحميل جميع طبقات من هذه الخريطة أن  N يتم استضافتها على هذا "
-"GeoNode.  ن    "
+"هنا يمكنك تحميل جميع طبقات من هذه الخريطة التي يتم استضافتها على هذا GeoNode."
 
 #: maps/templates/maps/map_download.html:22
 msgid ""
@@ -3144,8 +2196,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-" ن <div الطبقة = \"في حالة تأهب الإنذار تنبيه \"> تعذر العثور طبقات قابلة "
-"للتحميل لهذه الخريطة. يمكنك العودة إلى  ن      "
+"<div class=\"alert alert-warning\"> لا يمكن أن تجد طبقات قابلة للتحميل لهذه "
+"الخريطة. يمكنك العودة ل"
 
 #: maps/templates/maps/map_download.html:29
 msgid ""
@@ -3156,8 +2208,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-" ن بالإضافة إلى ذلك، يحتوي على خريطة هذه الطبقات التي لن يتم تحميلها  ن وذلك "
-"بسبب القيود الأمنية:  ن      "
+"بالإضافة إلى ذلك، خريطة تحتوي هذه الطبقات التي لن يتم تحميلها بسبب القيود "
+"الأمنية:"
 
 #: maps/templates/maps/map_download.html:41
 msgid ""
@@ -3167,8 +2219,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-" ن وأخيرا، فإن خريطة تحتوي هذه الطبقات التي لن يتم تحميلها  ن لأنها ليست "
-"متاحة مباشرة من هذا GeoNode:  ن      "
+"أخيرا، خريطة تحتوي هذه الطبقات التي لن يتم تحميلها لأنها ليست متاحة مباشرة "
+"من هذا GeoNode:"
 
 #: maps/templates/maps/map_download.html:54
 msgid "Downloading"
@@ -3180,7 +2232,7 @@ msgstr "إعادة المحاولة"
 
 #: maps/templates/maps/map_download.html:65
 msgid "Start downloading this map"
-msgstr "بدء تحميل هذه الخريطة"
+msgstr "بدء تنزيل هذه الخريطة"
 
 #: maps/templates/maps/map_download.html:95
 msgid "Download Complete"
@@ -3198,7 +2250,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-" ن التفاصيل التحرير ل٪ (MAP_TITLE) S  ن      "
+"تفاصيل التحرير ل %(map_title)s"
 
 #: maps/templates/maps/map_metadata.html:17
 msgid ""
@@ -3209,8 +2261,8 @@ msgid ""
 "        Some of your original metadata may have been lost."
 msgstr ""
 "ملاحظة: تم بالسكان الفوقية الاصلي هذه الخريطة عن طريق استيراد ملف XML "
-"الفوقية  ن  يدعم البيانات الوصفية استيراد GeoNode في مجموعة فرعية من ISO، "
-"FGDC، وعناصر البيانات الوصفية دبلن كور ن بعض الفوقية الأصلي قد فقدت."
+"الفوقية. يدعم البيانات الوصفية استيراد GeoNode في مجموعة فرعية من عناصر "
+"البيانات الوصفية ISO، FGDC، ودبلن كور. بعض التعريف الأصلي قد ضاعت."
 
 #: maps/templates/maps/map_remove.html:6
 msgid "Deleting"
@@ -3224,7 +2276,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
- " ن هل أنت متأكد أنك تريد إزالة٪ (MAP_TITLE) ق؟  ن    "
+"هل أنت متأكد أنك تريد إزالة %(map_title)s؟"
 
 #: maps/templates/maps/map_view.html:5
 msgid "GeoExplorer"
@@ -3240,7 +2292,7 @@ msgstr "التواريخ الهامة"
 
 #: people/admin.py:150
 msgid "Password changed successfully."
-msgstr "تغير كلمة المرور بنجاح."
+msgstr "تغيير كلمة المرور بنجاح."
 
 #: people/admin.py:160
 #, python-format
@@ -3267,7 +2319,7 @@ msgid ""
 "ensures         appropriate care and maintenance of the resource"
 msgstr ""
 "الحزب الذي يقبل المساءلة والمسؤولية عن البيانات ويضمن الرعاية والصيانة "
-"المناسبة للمورد"
+"المناسبة من الموارد"
 
 #: people/enumerations.py:44
 msgid ""
@@ -3293,7 +2345,7 @@ msgstr "الحزب الذي خلق الموارد"
 
 #: people/enumerations.py:49
 msgid "party that owns the resource"
-msgstr "الجهة التي تملك المورد"
+msgstr "الحزب التي تملك المورد"
 
 #: people/enumerations.py:50
 msgid "key party responsible for gathering information and conducting research"
@@ -3309,7 +2361,7 @@ msgstr "المستخدم التالية لك"
 
 #: people/management.py:33
 msgid "another user has started following you"
-msgstr "بدأت مستخدم آخر التالية لك"
+msgstr "وقد بدأت مستخدم آخر التالية لك"
 
 #: people/models.py:42
 msgid "Organization Name"
@@ -3321,7 +2373,7 @@ msgstr "اسم المنظمة المسؤولة"
 
 #: people/models.py:47 templates/500.html:76 templates/base.html:92
 msgid "Profile"
-msgstr " الملف الشخصي"
+msgstr "الملف الشخصي"
 
 #: people/models.py:47
 msgid "introduce yourself"
@@ -3337,7 +2389,7 @@ msgstr "دور أو موقف الشخص المسؤول"
 
 #: people/models.py:54
 msgid "Voice"
-msgstr "الصوت "
+msgstr "صوت"
 
 #: people/models.py:55
 msgid ""
@@ -3367,7 +2419,7 @@ msgstr "عنوان البريد الإلكتروني البدني والذي ا�
 
 #: people/models.py:65
 msgid "City"
-msgstr "المدينة"
+msgstr "مدينة"
 
 #: people/models.py:69
 msgid "city of the location"
@@ -3387,7 +2439,7 @@ msgstr "الرمز البريدي"
 
 #: people/models.py:81
 msgid "ZIP or other postal code"
-msgstr "الرمز البريدي أو الرمز البريدي آخرين"
+msgstr "ZIP أو الرمز البريدي أخرى"
 
 #: people/models.py:87
 msgid "country of the physical address"
@@ -3398,16 +2450,16 @@ msgid ""
 "commonly used word(s) or formalised word(s) or phrase(s) used to describe "
 "the subject             (space or comma-separated"
 msgstr ""
-"الكلمة المستخدمة بشكل شائع (ق) أو كلمة رسمية (ق) أو عبارة (ق) تستخدم لوصف "
-"موضوع (الفضاء أو مفصولة بفواصل"
+"كلمة تستخدم عادة (ق) أو كلمة رسمية (ق) أو عبارة (ق) تستخدم لوصف الموضوع "
+"(الفضاء أو مفصولة بفواصل"
 
 #: people/views.py:84
 msgid "Your username for "
-msgstr "اسم المستخدم الخاص بك ل "
+msgstr "اسم المستخدم الخاص بك ل"
 
 #: people/views.py:99
 msgid "Your username has been emailed to you."
-msgstr "وقد بالبريد الالكتروني اسم المستخدم لك."
+msgstr "تم بالبريد الإلكتروني اسم المستخدم لك."
 
 #: people/views.py:101
 msgid "No user could be found with that email address."
@@ -3425,7 +2477,7 @@ msgstr "جميع المحتويات"
 #: services/templates/services/service_detail.html:64 templates/500.html:39
 #: templates/base.html:47
 msgid "Layers"
-msgstr "الطبقات"
+msgstr "طبقات"
 
 #: people/templates/people/_profile_filters.html:6 templates/500.html:42
 #: templates/base.html:50
@@ -3435,7 +2487,7 @@ msgstr "خرائط"
 #: people/templates/people/_profile_filters.html:7 templates/500.html:45
 #: templates/base.html:53
 msgid "Documents"
-msgstr "المستندات"
+msgstr "الوثائق"
 
 #: people/templates/people/forgot_username_form.html:5
 msgid "Forgot Username"
@@ -3446,7 +2498,7 @@ msgid ""
 "Enter your email address and click the submit button.  Your username will be "
 "sent to you."
 msgstr ""
-"ادخل عنوان البريد الإلكتروني الخاص بك وانقر على زر إرسال. سوف يتم إرسال اسم "
+"أدخل عنوان البريد الإلكتروني الخاص بك وانقر على زر إرسال. سيتم إرسال اسم "
 "المستخدم الخاص بك لك."
 
 #: people/templates/people/profile_create.html:8
@@ -3456,7 +2508,7 @@ msgstr "إيجاد الملف الشخصي"
 
 #: people/templates/people/profile_detail.html:7
 msgid "Profile of "
-msgstr "الملف الشخصى "
+msgstr "الملف الشخصى"
 
 #: people/templates/people/profile_detail.html:69
 msgid "Edit profile"
@@ -3484,7 +2536,7 @@ msgstr "نشاطات المستخدم"
 
 #: people/templates/people/profile_detail.html:139
 msgid "Resources"
-msgstr "المصادر"
+msgstr "موارد"
 
 #: people/templates/people/profile_edit.html:10
 #: people/templates/people/profile_edit.html:18
@@ -3549,7 +2601,7 @@ msgstr "مفهرس"
 
 #: services/enumerations.py:38
 msgid "Live"
-msgstr "مباشر"
+msgstr "لايف"
 
 #: services/forms.py:12
 msgid "Service URL"
@@ -3590,19 +2642,18 @@ msgid ""
 "interface.\n"
 msgstr ""
 "\n"
-" n كان المفتوحة بوابة جغرافية لكونسورتيوم يتكون من مساهمات من عدة جامعات "
-"ومنظمات لمساعدة  nfacilitate اكتشاف واكتساب البيانات الجغرافية في العديد من "
-"المنظمات والمنابر. الشركاء الحاليين  ninclude: هارفارد، معهد ماساتشوستس "
-"للتكنولوجيا، MassGIS، برينستون، كولومبيا، ستانفورد، جامعة كاليفورنيا في "
-"بيركلي، جامعة كاليفورنيا، جامعة ييل، و[أوكن]. بنيت على مصدر مفتوح  "
-"ntechnology، المفتوح بوابة جغرافية توفر المنظمات الفرصة لتبادل الآلاف من "
-"الطبقات الجغرافية المكانية البيانات،  nmaps، الفوقية، وتنمية الموارد من خلال "
-"واجهة واحدة.  ن"
-"\n"
+"فتح بوابة جغرافية لكونسورتيوم يتكون من مساهمات من عدة جامعات ومنظمات "
+"للمساعدة في تسهيل اكتشاف واكتساب البيانات الجغرافية في العديد من المنظمات "
+"والمنابر. ويشمل الشركاء الحالي: جامعة هارفارد، معهد ماساتشوستس للتكنولوجيا، "
+"MassGIS، برينستون، كولومبيا، ستانفورد، جامعة كاليفورنيا في بيركلي، جامعة "
+"كاليفورنيا، جامعة ييل، وأوكن. مبنية على التكنولوجيا مفتوحة المصدر، المفتوح "
+"بوابة جغرافية توفر المنظمات الفرصة لتبادل الآلاف من الطبقات الجغرافية "
+"المكانية البيانات والخرائط والبيانات الوصفية، وتنمية الموارد من خلال واجهة "
+"واحدة.\n"
 
 #: services/views.py:273
 msgid "This is an existing service"
-msgstr "هذا هو خدمة موجود"
+msgstr "هذه هي خدمة القائمة"
 
 #: services/views.py:536 services/views.py:633 services/views.py:849
 msgid "Not provided"
@@ -3616,11 +2667,12 @@ msgstr "لا يمكن العثور على أي طبقات في إسقاط متو
 #, python-format
 msgid ""
 "Could not find any layers in a compatible projection:                 The "
-"spatial id was: %s and the url %s"
+"spatial id was: %(srs)s and the url %(url)s"
 msgstr ""
-"لا يمكن العثور على أي طبقات في إسقاط متوافق: معرف المكاني كان: %s ورابط %s"
+"لا يمكن العثور على أي طبقات في إسقاط متوافق: كان معرف المكاني:%(srs)s ورابط٪ "
+"%(url)s"
 
-#: services/views.py:1207
+#: services/views.py:1208
 msgid "You are not permitted to remove this service."
 msgstr "لا يسمح لك لإزالة هذه الخدمة."
 
@@ -3642,19 +2694,19 @@ msgstr "الاسم:"
 
 #: services/templates/services/service_detail.html:44
 msgid "URL:"
-msgstr "عنوانURL:"
+msgstr "URL:"
 
 #: services/templates/services/service_detail.html:45
 msgid "Abstract:"
-msgstr "المستخلص:"
+msgstr "الملخص:"
 
 #: services/templates/services/service_detail.html:46
 msgid "Keywords:"
-msgstr "الكلمات الرئيسية:"
+msgstr "كلمات البحث:"
 
 #: services/templates/services/service_detail.html:47
 msgid "Contact:"
-msgstr "للإتصال:"
+msgstr "الاتصال:"
 
 #: services/templates/services/service_detail.html:51
 msgid "Services"
@@ -3662,7 +2714,7 @@ msgstr "الخدمات"
 
 #: services/templates/services/service_detail.html:52
 msgid "This CSW server contains the following services"
-msgstr "يحتوي هذا الخادم لجنة وضع المرأة على الخدمات التالية"
+msgstr "يحتوي هذا الخادم CSW الخدمات التالية"
 
 #: services/templates/services/service_detail.html:65
 msgid "This Service contains the following layers"
@@ -3720,7 +2772,7 @@ msgstr "حذف"
 
 #: social/signals.py:77
 msgid "updated"
-msgstr "تم التحديث"
+msgstr "محدث"
 
 #: social/signals.py:82 social/tests.py:100
 msgid "added a comment"
@@ -3752,8 +2804,9 @@ msgid ""
 "\n"
 "          You are not allowed to perform this operation.  \n"
 "      "
-msgstr "\n"
- " ن لا يسمح لك لتنفيذ هذه العملية.  ن      "
+msgstr ""
+"\n"
+"غير مسموح لك لتنفيذ هذه العملية."
 
 #: templates/401.html:25
 msgid "Please verify that you are logged in as the correct user."
@@ -3765,7 +2818,7 @@ msgstr "الرجاء الدخول أو التسجيل وإعادة المحاو�
 
 #: templates/404.html:5
 msgid "Page Not Found"
-msgstr "لم يتم العثور على الصفحة"
+msgstr "الصفحة غير موجودة"
 
 #: templates/404.html:6
 msgid ""
@@ -3775,8 +2828,7 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-" ن لا توجد الصفحة المطلوبة. ربما كنت تستخدم المرجعية التي عفا عليها الزمن؟  "
-"ن  "
+"غير موجود على الصفحة المطلوبة. ربما كنت تستخدم المرجعية التي عفا عليها الزمن؟"
 
 #: templates/500.html:48 templates/base.html:56
 msgid "People"
@@ -3789,7 +2841,7 @@ msgstr "مجموعات"
 #: templates/500.html:56 templates/search/search.html:6
 #: templates/search/search.html.py:12
 msgid "Search"
-msgstr "بحث "
+msgstr "تفتيش"
 
 #: templates/500.html:77 templates/base.html:93
 msgid "Recent Activity"
@@ -3797,7 +2849,7 @@ msgstr "آخر الزوار"
 
 #: templates/500.html:78 templates/base.html:94
 msgid "Inbox"
-msgstr "صندوق الوارد"
+msgstr "البريد الوارد"
 
 #: templates/500.html:80 templates/base.html:96
 #: templates/announcements/announcement_list.html:6
@@ -3816,11 +2868,11 @@ msgstr "دعوة العضو"
 
 #: templates/500.html:86 templates/base.html:102
 msgid "GeoServer"
-msgstr "خادم الجغرافيا"
+msgstr "GeoServer"
 
 #: templates/500.html:89 templates/base.html:105
 msgid "Admin"
-msgstr "المدير"
+msgstr "المشرف"
 
 #: templates/500.html:92 templates/base.html:108
 msgid "Help"
@@ -3830,7 +2882,7 @@ msgstr "مساعدة"
 #: templates/account/logout.html:6 templates/account/logout.html.py:12
 #: templates/account/logout.html:17
 msgid "Log out"
-msgstr "خروج"
+msgstr "تسجيل الخروج"
 
 #: templates/500.html:109 templates/base.html:125
 msgid "Username"
@@ -3842,11 +2894,11 @@ msgstr "كلمة المرور"
 
 #: templates/500.html:118 templates/base.html:134
 msgid "Remember Me"
-msgstr "تذكرني"
+msgstr "حفظ البيانات"
 
 #: templates/500.html:120 templates/base.html:119 templates/base.html.py:136
 msgid "Sign in"
-msgstr "تسجيل الدخول"
+msgstr "توقيع في"
 
 #: templates/500.html:128 templates/base.html:77
 msgid "Register"
@@ -3867,27 +2919,26 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-" ن الرجاء الاتصال بمسؤول GeoNode الخاص بك (كان قد تلقى رسالة بالبريد "
-"الالكتروني تلقائيا إذا كان تكوينه بشكل صحيح)  n إذا كنت المسؤول عن الموقع، "
-"تمكين وضع التصحيح لرؤية الخطأ الفعلي وإصلاحه أو ملف القضية في <أ href ل = "
-"\"HTTP: //github.com/GeoNode/geonode/issues \"> GeoNode في قضية تعقب </A>  "
-"ن          "
+"يرجى الاتصال بمسؤول GeoNode الخاص بك (انه قد يكون تلقى رسالة بالبريد "
+"الالكتروني تلقائيا إذا كان تكوينه بشكل صحيح). إذا كنت المسؤول عن الموقع، "
+"وتمكين وضع التصحيح لرؤية الخطأ الفعلي وإصلاحه أو ملف قضية في <a href="
+"\"http://github.com/GeoNode/geonode/issues\">قضية تعقب GeoNode ل</a>"
 
-#: templates/500.html:182 templates/base.html:172
+#: templates/500.html:182 templates/base.html:173
 msgid "Powered by"
-msgstr "مدعوم من "
+msgstr "مدعوم من"
 
-#: templates/500.html:182 templates/base.html:172
+#: templates/500.html:182 templates/base.html:173
 msgid "GeoNode"
 msgstr "GeoNode"
 
-#: templates/500.html:182 templates/base.html:172
+#: templates/500.html:182 templates/base.html:173
 msgid "version"
 msgstr "نسخة"
 
-#: templates/500.html:183 templates/base.html:173
+#: templates/500.html:183 templates/base.html:174
 msgid "Developers"
-msgstr "المطوّرون"
+msgstr "المطورين"
 
 #: templates/_actions.html:4
 msgid "Add to Favorites"
@@ -3900,7 +2951,7 @@ msgstr "تعيين الأذونات على موارد مختارة"
 #: templates/_bulk_permissions_form.html:20
 #: templates/_permissions_form.html:16
 msgid "Apply Changes"
-msgstr "ÊØÈíÞ ÇáÊÛííÑÇÊ"
+msgstr "تطبيق التغييرات"
 
 #: templates/_comments.html:17
 msgid "Add Comment"
@@ -3908,11 +2959,11 @@ msgstr "إضافة تعليق"
 
 #: templates/_comments.html:21
 msgid "Log in to add a comment"
-msgstr "سجل الدخول لإضافة تعليق"
+msgstr "تسجيل الدخول لإضافة تعليق"
 
 #: templates/_comments.html:33
 msgid "By"
-msgstr "إعداد"
+msgstr "بواسطة"
 
 #: templates/_comments.html:49
 msgid "Add a Comment"
@@ -3923,13 +2974,12 @@ msgid "Submit Comments"
 msgstr "تقديم تعليقات"
 
 #: templates/_permissions.html:8
-#, fuzzy
 msgid "Who can view it?"
-msgstr "الذين يمكن تعديل هذه البيانات؟"
+msgstr "الذي يمكن مشاهدته؟"
 
 #: templates/_permissions.html:17 templates/_permissions.html.py:49
 msgid "Anyone"
-msgstr "أي شخص"
+msgstr "anyone"
 
 #: templates/_permissions.html:22 templates/_permissions.html.py:54
 #: templates/_permissions.html:80 templates/_permissions.html.py:107
@@ -3944,34 +2994,30 @@ msgid "The following groups:"
 msgstr "المجموعات التالية:"
 
 #: templates/_permissions.html:40
-#, fuzzy
 msgid "Who can download it?"
-msgstr "الذين يمكنهم عرض وتحميل هذه البيانات؟"
+msgstr "الذي يمكن تحميله؟"
 
 #: templates/_permissions.html:72
 msgid "Who can change metadata for it?"
-msgstr ""
+msgstr "من يستطيع تغيير الفوقية لذلك؟"
 
 #: templates/_permissions.html:99
-#, fuzzy
 msgid "Who can edit data for this layer?"
-msgstr "الذين يمكن تعديل هذه البيانات؟"
+msgstr "من يستطيع تعديل البيانات لهذه الطبقة؟"
 
 #: templates/_permissions.html:125
-#, fuzzy
 msgid "Who can edit styles for this layer?"
-msgstr "الذين يمكن تعديل هذه البيانات؟"
+msgstr "الذين يمكن تعديل أنماط لهذه الطبقة؟"
 
 #: templates/_permissions.html:152
 msgid ""
-"Who can manage it? (update, delete, change permissions, publish/unpublish "
-"it?)"
+"Who can manage it? (update, delete, change permissions, publish/unpublish it)"
 msgstr ""
+"الذين يمكن التعامل معه؟ (تحديث، حذف، تغيير الأذونات، نشر / إلغاء نشرها)"
 
 #: templates/_permissions_form.html:9
-#, fuzzy
-msgid "Set permissions for this "
-msgstr "تعيين أذونات"
+msgid "Set permissions for this resource"
+msgstr "تعيين أذونات لهذا المورد"
 
 #: templates/_permissions_form_js.html:180
 msgid "Choose users..."
@@ -3999,7 +3045,7 @@ msgstr "معلومات للمطورين"
 
 #: templates/developer.html:9
 msgid "Useful information for developers interested in GeoNode."
-msgstr "معلومات مفيدة للمطورين المهتمين في GeoNode."
+msgstr "معلومات مفيدة للمطورين المهتمين GeoNode."
 
 #: templates/developer.html:12
 msgid ""
@@ -4086,68 +3132,6 @@ msgid ""
 "  <p>Create a DataStore and extract a FeatureType from it, then run a Query. "
 "It is all documented on the wiki at <code>http://geotools.org/</code>.</p>\n"
 msgstr ""
-"\n"
-" ن <P> <a href=\"http://geonode.org/\"> GeoNode </A> هي خدمة مفتوحة مبنية "
-"على برمجيات مفتوحة المصدر. نحن نشجعكم على بناء تطبيقات جديدة باستخدام "
-"المكونات والموارد التي يقدمها. هذه الصفحة هي نقطة الانطلاق للمطورين للاهتمام "
-"في الاستفادة الكاملة من GeoNode. فإنه يشمل أيضا روابط لكود المصدر للمشروع "
-"بحيث يمكن لأي شخص بناء وتخصيص GeoNode الخاصة بهم. </ P>  ن  ن <H4> GeoNode "
-"برامج </ H4>  ن  ن <P> جميع التعليمات البرمجية التي تدير GeoNode مفتوح "
-"المصدر. رمز متاح في <a href=\"http://github.com/GeoNode/geonode\"> http://"
-"github.com/GeoNode/geonode/ </A>. تعقب الموضوع لهذا المشروع هو في <ل href="
-"\"http://github.com/GeoNode/geonode/issues\">http://github.com/GeoNode/"
-"geonode/issues</a>.</p>\n"
-"\n"
-" <p> وبنيت GeoNode باستخدام العديد من المشاريع مفتوحة المصدر، مع كل المجتمع "
-"الخاص بها. إذا كنت مهتما في المساهمة ميزات جديدة إلى GeoNode، ونحن نشجعكم "
-"على القيام بذلك من خلال المساهمة في أحد المشاريع التي بني عليها: </ P>  ن "
-"<UL>  ن <لي> <أ href = و\"HTTP: //geoext.org \"> GeoExt </A> - مجموعة أدوات "
-"غنية لتطبيقات جافا سكريبت رسم الخرائط على شبكة الإنترنت </ لى>  ن <لي> <a "
-"href=\"http://geoserver.org\"> GeoServer </A> - خادم يستند إلى معايير "
-"للمعلومات الجغرافية المكانية </ لى>  ن <لي> <a href=\"http://geowebcache.org"
-"\"> GeoWebCache </A> - محرك التخزين المؤقت للWMS بلاط </ لى> <لي> <a href="
-"\"http://openlayers.org\"> OpenLayers </A> - مكتبة جافا سكريبت الصرفة المحرك "
-"خرائط GeoExt </ لى>  ن <لي> <أ href = و\" المتشعب:؟ //pycsw.org \"> pycsw </"
-"A> - لجنة وضع المرأة خادم كتالوج الفوقية </ لى>  ن </ UL>  ن  ن <H4> ما هي "
-"الخدمات OGC </ H4>  ن <ع > يتم تقديم البيانات في هذا التطبيق باستخدام "
-"المعايير المفتوحة التي أقرها <a href=\"http://opengeospatial.org/\"> "
-"المفتوحة الجيوفضائي </A>. على وجه الخصوص، ويستخدم WMS (الويب خريطة الخدمة) "
-"للوصول إلى الخرائط، ويستخدم مؤتمر القمة (خدمة ميزة ويب) للوصول إلى بيانات "
-"متجهة، ويستخدم WCS (خدمة التغطية ويب) للوصول إلى البيانات النقطية. يستخدم "
-"مؤتمر العالم الإسلامي (الويب خريطة السياق المستندات) لتبادل الخرائط. يمكنك "
-"استخدام هذه الخدمات في التطبيقات الخاصة بك باستخدام مكتبات مثل OpenLayers، "
-"GeoTools، وOGR (كلها برمجيات مفتوحة المصدر ومتاحة بتكلفة صفر). </ P>  ن  ن "
-"<H4> ما هو GeoWebCache؟ </ H4>  ن <p> وGeoWebCache يوفر البلاط الخرائط التي "
-"تتوافق مع عدد من محركات رسم الخرائط، بما في ذلك خرائط جوجل، خرائط بنج "
-"وOpenLayers. جميع البيانات التي تستضيفها GeoNode متاحة أيضا من خلال "
-"GeoWebCache. GeoWebCache يحسن WMS بواسطة التخزين المؤقت البيانات وتوفير "
-"الخرائط أكثر استجابة. </ P>  ن  ن <H4> OpenLayers مثال رمز </ H4>  ن  ن <p> "
-"لتشمل خريطة GeoNode طبقة في OpenLayers خريطة أولا العثور على اسم لتلك "
-"الطبقة. تم العثور على هذا في الطبقة <كود> اسم </ القانون> الميدان (لا <كود> "
-"عنوان </ القانون>) من القائمة الطبقة. في هذا المثال، سوف نستخدم طبقة "
-"نيكاراغوا الحدود السياسية الخلفية، اسمه <كود> المخاطر: nicaragua_admin </ "
-"القانون>. ثم، إنشاء مثيل OpenLayers.Layer.WMS: </ P>  ن <P> <كود> فار "
-"geonodeLayer = OpenLayers.Layer.WMS الجديد (\"GeoNode المخاطر البيانات \"، "
-"\"HTTP: // التجريبي. geonode.org/geoserver/wms \"{طبقات: \" خطر: "
-"nicaragua_admin \"})؛ </ الرمز> </ P>  ن  ن <H4> خرائط جوجل المثال كود </ "
-"H4>  ن <ع > لتشمل خريطة GeoNode طبقة في خريطة جوجل، وتشمل طبقة namein القالب "
-"URL </ P>  ن <P> <كود> فار tilelayer = GTileLayer جديدة (فارغة، باطلة، "
-"باطلة، {tileUrlTemplate: 'http://demo.geonode.org/geoserver/gwc/service/"
-"gmaps?layers=risk:nicaragua_admin&#38;zoom={Z}&#38;x={X}&#38;y={Y}', isPng: "
-"صحيح، والتعتيم: 0،5})؛ </ الرمز> </ P>  ن  ن <H4> بحلقات / GeoJSON أيضا / "
-"GML الناتج </ H4>  ن <p> للحصول على البيانات من GeoNode استخدام خدمات الويب "
-"مؤتمر القمة البروتوكول. على سبيل المثال، للحصول على كامل الحدود الادارية "
-"نيكاراغوا استخدام: </ P>  ن <p><code>http://demo.geonode.org/geoserver/wfs?"
-"request=GetFeature&#38;typeName=risk:nicaragua_admin&#38;outputformat=SHAPE-"
-"ZIP</code></p>\n"
-" <P> تغيير تنسيق الإخراج إلى <كود> سلمان </ الرمز>، <كود> GML2 </ الرمز>، "
-"<كود> GML3 </ الرمز> أو <كود> CSV </ القانون> سيحصل البيانات في تلك الأشكال. "
-"بروتوكول مؤتمر القمة أيضا يمكن التعامل مع استفسارات أكثر دقة، تحديد المربع "
-"المحيط أو مرشحات مختلفة المكانية وغير المكانية على أساس سمات البيانات. </ "
-"P>  ن  ن <H4> GeoTools مثال رمز </ H4>  ن <P> إنشاء مخزن البيانات واستخلاص "
-"FeatureType من ذلك، قم بتشغيل استعلام. وجميع توثيقها على ويكي في <كود> "
-"http://geotools.org/ </ القانون>. </ P>  ن"
-"\n"
 
 #: templates/developer.html:53
 msgid "GeoNode's Web Services"
@@ -4171,7 +3155,7 @@ msgstr "البيانات النقطية عبر WCS:"
 
 #: templates/developer.html:69
 msgid "Metadata search via CSW:"
-msgstr "البحث عن طريق لجنة وضع المرأة الفوقية:"
+msgstr "بحث الفوقية عن طريق لجنة وضع المرأة:"
 
 #: templates/developer.html:73
 msgid "Cached tiles via WMTS:"
@@ -4191,7 +3175,7 @@ msgid ""
 "use the sidebar links to navigate to what you want to know."
 msgstr ""
 "توفر هذه الصفحة معلومات مفيدة حول كيفية استخدام GeoNode. يمكنك استخدام "
-"الروابط الشريط الجانبي للانتقال إلى ما تريد أن تعرف."
+"الروابط الشريط الجانبي للانتقال إلى ما كنت تريد أن تعرف."
 
 #: templates/help.html:12
 msgid ""
@@ -4281,66 +3265,10 @@ msgid ""
 "href=\"/maps\">Maps</a> tab.</p> \n"
 "  "
 msgstr ""
-"\n"
-" ن <P> وGeoNode يوفر الوصول إلى مجموعات البيانات وتطبيق تحرير خريطة يسمح "
-"للمستخدمين لتصفح الخرائط الموجودة والمساهمة الخاصة بهم. </ P>  ن <H4 ID = "
-"\"تصفح البيانات \">  ن الطبقات التصفح </ H4>  ن <P> <a طبقات href=\"/layers"
-"\"> </A> التبويب يسمح لك لتصفح البيانات التي تم تحميلها لهذا GeoNode. </ P>  "
-"ن <p> ويمكن أن تكون جميع البيانات تحميل في مجموعة متنوعة من الأشكال، "
-"لاستخدامها في تطبيقات أخرى. </ P>  ن  ن <معرف H4 = \"المطور وصول \"> وصول "
-"المطور </ H4>  ن <P> و <أ href = و\"/ المطور \"> صفحة المطور </A> هي مكان "
-"للمطورين لبناء التطبيقات التي تحصل ضد GeoNode. وهو يتضمن تعليمات حول كيفية "
-"استخدام خدمات شبكة الإنترنت، يربط إلى رمز مصدر GeoNode، والمعلومات عن "
-"المشاريع مفتوحة المصدر تستخدم لإنشائه. </ P>  ن  ن <H4 معرف = \"تصفح خرائط "
-"\"> خرائط التصفح </ H4>  ن <P> وGeoNode يتيح للمستخدمين خلق وتبادل الخرائط "
-"مع بعضها البعض. </ P>  ن <P> <a href=\"/maps\"> وخرائط </A> التبويب هو بوابة "
-"لاستكشاف الخريطة على GeoNode. من هنا يمكنك <strong> بحث عن خريطة </ strong> "
-"أو <strong> إنشاء خريطة </ قوي>، الذي سيفتح <a href=\"/maps/new\"> خريطة "
-"الملحن </A> . </ P>  ن <H5> وضع جوجل الأرض </ H5>  ن <p> وأي خريطة النظر في "
-"خريطة محرر تفاعلي يمكن أن ينظر في وضع 3D مع البرنامج المساعد جوجل إيرث. "
-"للتبديل إلى وضع 3D اختيار شعار جوجل إيرث العالم، الزر أقصى اليمين على شريط "
-"الأدوات العلوي. وإذا لم يكن لديك البرنامج المساعد تثبيت برنامج Google Earth "
-"يطلب منك تثبيته. </ P>  ن  ن <H4 ID = \"خلق واحد في خريطة \"> إنشاء خريطة </ "
-"H4>  ن < p> لإنشاء خريطة جديدة تذهب إلى <a href=\"/maps\"> ساهمت التبويب "
-"خرائط </A> وانقر على <a href=\"/maps/new\"> خلق الخريطة الخاصة بك </ و> "
-"الارتباط. </ P>  ن <p> وهذا سوف يأخذك إلى <a href=\"/maps/new\"> خريطة "
-"الملحن </A> بطبقة قاعدة تحميلها. </ P>  ن <p> لإضافة طبقات من البيانات "
-"GeoNode النقر على الزر الأخضر زائد تقع أسفل علامة التبويب طبقات على الجانب "
-"الأيسر من الشاشة. هذا وسوف تفتح الحوار تسرد كل الطبقات المتاحة على GeoNode. "
-"</ P>  ن <p> لإضافة طبقات إلى الخريطة الخاصة تحديدها وضرب <strong> إضافة "
-"طبقات </ قوي> زر. عند الانتهاء قد ضرب <strong> تم </ strong> لإغلاق مربع "
-"الحوار والعودة إلى الخريطة. </ P>  ن  ن <H5> إعادة ترتيب وإزالة الطبقات </ "
-"H5>  ن <P> تغيير ترتيب العرض من الطبقات المذكورة في التبويب البيانات ببساطة "
-"عن طريق سحب وإسقاط أسمائهم. سيتم تحديث النظام في خريطة لتعكس ذلك. لتحويل "
-"الرؤية طبقة قبالة ببساطة قم بإلغاء عليه، وإزالته تماما تحديده وضرب على زر "
-"ناقص أحمر. </ P>  ن  ن <H5> إنقاذ الخريطة الخاصة بك </ H5>  ن <p> ومرة ​​واحدة "
-"في مناسبة تم العثور على مجموعة من الطبقات ومستوى التكبير حان الوقت لحفظها "
-"بحيث يمكن للآخرين رؤيتها. انقر فوق الزر حفظ - اليسار معظم أيقونة على شريط "
-"الأدوات العلوي، صورة الخريطة مع قرص - على رأس القائمة وملء العنوان والملخص "
-"من الخريطة </ P>  ن  ن <H4. معرف = \"تصدير واحد في خريطة \"> تصدير خريطة </ "
-"H4>  ن <p> وأي خريطة من GeoNode يمكن أن تكون جزءا لا يتجزأ من أجل استخدامها "
-"في موقع آخر أو بلوق. تصدير خريطة:. </ P>  ن <OL>  ن <li> حدد من قائمة "
-"الخرائط على صفحة المجتمع أو خريطة ومن ثم الضغط على زر \"خريطة التصدير '</ "
-"لى>  ن <لى > اختر الارتفاع المطلوب وعرض للالمصغر في المعالج. </ لى>  ن <li> "
-"ونسخ قصاصة HTML المقدمة في المعالج إلى أي صفحة HTML أو الإطار من الدعم بلوق "
-"وظيفة. </ لى>  ن </ OL>  ن <P> وهذا وضع القطعة التفاعلية يظهر لك الخريطة في "
-"صفحة الويب الخاص بك أو بلوق وظيفة. </ P>  ن <P> لاحظ أن <a href=\"/maps/new"
-"\"> خريطة لديه الملحن </A> أيضا على زر لتصدير الخريطة. فقط تأكد من حفظ "
-"الخارطة قبل التصدير إذا كان هناك التغييرات التي تريد أن يراها الآخرون. وتصدر "
-"النسخة الأخيرة حفظها، وليس إصدار ينظر الماضي. </ P>  ن  ن <معرف H4 = "
-"\"التعديل واحد في خريطة \"> التعديل على خريطة </ H4>  ن <p> وأي خريطة متوفرة "
-"يمكن أن تكون بمثابة نقطة الانطلاق لرسم خريطة جديدة. </ P>  ن <OL>  ن <li> "
-"وفتح الخريطة في خريطة الملحن. </ لى>  ن <li> وإضافة وإزالة طبقات كما تريد. "
-"</ لى>  ن <li> وعموم والتكبير لتسليط الضوء على مجال اهتمام </ لى>  ن <لي> "
-"على <strong> هام: </ قوي> تحديث العنوان، الملخص، ومعلومات الاتصال والعلامات "
-"لتعكس خريطة جديدة. </ لى>  ن <لي> حفظ الخريطة. </ لى>  ن </ OL>  ن <p> وسوف "
-"تكون قادرا على رؤية الخريطة الجديدة الخاصة بك عندما كنت ابحث عنها من <أ href "
-"ل = \"/ خرائط \"> خرائط </A> التبويب. </ P>  ن  \n"
-"  "
 
 #: templates/help.html:65
 msgid "Sections"
-msgstr "الأقسام"
+msgstr "أقسام"
 
 #: templates/help.html:66
 msgid "Browsing Layers"
@@ -4368,11 +3296,11 @@ msgstr "التعديل على خريطة"
 
 #: templates/index.html:6
 msgid "Welcome!"
-msgstr "مرحبًا!"
+msgstr "مرحبا!"
 
 #: templates/index.html:15
 msgid "Welcome"
-msgstr "مرحبا  بكم"
+msgstr "ترحيب"
 
 #: templates/index.html:16
 msgid ""
@@ -4384,8 +3312,8 @@ msgid ""
 "If you have any questions about the software or service, join our <a href="
 "\"https://groups.google.com/d/forum/geonode-users\">mailing list</a>."
 msgstr ""
-"إذا كان لديك أي أسئلة حول البرنامج أو الخدمة، والانضمام لدينا <a-href="
-"\"https://groups.google.com/d/forum/geonode users\"> القائمة البريدية </A>."
+"إذا كان لديك أي أسئلة حول البرنامج أو الخدمة، والانضمام لدينا <a href="
+"\"https://groups.google.com/d/forum/geonode-users\">قائمة بريدية</a> ."
 
 #: templates/index.html:18
 msgid "Need help?"
@@ -4393,11 +3321,11 @@ msgstr "بحاجة الى مساعدة؟"
 
 #: templates/index.html:18
 msgid "Getting Started"
-msgstr "الخطوات الأولى"
+msgstr "الشروع في العمل"
 
 #: templates/index.html:30 templates/index.html.py:37 templates/index.html:43
 msgid "No"
-msgstr "رقم"
+msgstr "لا"
 
 #: templates/index.html:30
 msgid "Layer"
@@ -4408,12 +3336,12 @@ msgid ""
 "Click to search for geospatial data published by other users, organizations "
 "and public sources. Download data in standard formats."
 msgstr ""
-"انقر للبحث عن البيانات الجغرافية المكانية التي قام الآخرون بنشرها والمنظمات "
-"ومصادر عامة. تحميل البيانات في النماذج القياسية."
+"اضغط للبحث عن البيانات الجغرافية المكانية التي قام الآخرون بنشرها والمنظمات "
+"والمصادر العامة. تحميل البيانات في النماذج القياسية."
 
 #: templates/index.html:37
 msgid "Map"
-msgstr "الخريطة"
+msgstr "خريطة"
 
 #: templates/index.html:38
 msgid ""
@@ -4445,7 +3373,7 @@ msgstr "تبادل البيانات"
 
 #: templates/account/login.html:7 templates/account/login.html.py:24
 msgid "Log in"
-msgstr "الدخول "
+msgstr "تسجيل الدخول"
 
 #: templates/account/login.html:12
 msgid "Log in to an existing account"
@@ -4457,7 +3385,7 @@ msgstr "نسيت اسم المستخدم؟"
 
 #: templates/account/login.html:23
 msgid "Forgot your password?"
-msgstr "أنسيت كلمة السر؟"
+msgstr "نسيت كلمة المرور؟"
 
 #: templates/account/logout.html:15
 msgid "Are you sure you want to log out?"
@@ -4478,7 +3406,7 @@ msgstr ""
 
 #: templates/account/password_reset.html:20
 msgid "Reset my password"
-msgstr "إعادة تعيين كلمة المرور"
+msgstr "إعادة تعيين كلمة المرور الخاصة بي"
 
 #: templates/account/password_reset.html:25
 #, python-format
@@ -4488,13 +3416,13 @@ msgid ""
 "a>."
 msgstr ""
 "إذا كان لديك أي مشكلة إعادة تعيين كلمة المرور الخاصة بك، اتصل بنا على <a "
-"href=\"mailto:٪(THEME_ACCOUNT_CONTACT_EMAIL)s\">٪ "
-"(THEME_ACCOUNT_CONTACT_EMAIL) S </A>."
+"href=\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">"
+"%(THEME_ACCOUNT_CONTACT_EMAIL)s</a>."
 
 #: templates/account/signup.html:7 templates/account/signup.html.py:14
 #: templates/account/signup.html:22
 msgid "Sign up"
-msgstr "الإشتراك"
+msgstr "التوقيع"
 
 #: templates/account/signup.html:27
 msgid "Sorry, registrations are not open at this time."
@@ -4509,15 +3437,14 @@ msgid ""
 "\n"
 "If you did not sign up for this site, you can ignore this message.\n"
 msgstr ""
-"مستخدم على٪ (SITE_NAME) خلقت S حساب باستخدام عنوان البريد الإلكتروني هذا.  "
-"n  n لتأكيد عنوان البريد الإلكتروني هذا، انتقل إلى٪ (activate_url) S  n  n "
-"إذا لم تسجل في هذا الموقع، يمكنك تجاهل هذا رسالة  ن"
-"\n"
+"خلقت للمستخدم على %(site_name)s ق حساب باستخدام عنوان البريد الإلكتروني هذا. "
+"لتأكيد عنوان البريد الإلكتروني هذا، انتقل إلى %(activate_url)s ق إذا لم تسجل "
+"في هذا الموقع، يمكنك تجاهل هذه الرسالة.\n"
 
 #: templates/account/email/email_confirmation_subject.txt:1
 #, python-format
 msgid "Confirm email address for %(site_name)s"
-msgstr "تأكيد عنوان البريد الإلكتروني ل٪ (SITE_NAME) S"
+msgstr "تأكيد عنوان البريد الإلكتروني ل %(site_name)s"
 
 #: templates/account/email/password_reset.txt:1
 #, python-format
@@ -4530,15 +3457,16 @@ msgid ""
 "%(password_reset_url)s\n"
 msgstr ""
 "كنت تتلقى هذا البريد الإلكتروني لأنك أو أي شخص آخر قد طلب كلمة مرور لحساب "
-"المستخدم الخاص بك في٪ (SITE_NAME) S.  n ويمكن تجاهلها بأمان إذا لم تطلب "
+"المستخدم الخاص بك في %(site_name)s. فإنه يمكن تجاهلها بأمان إذا لم تطلب "
 "إعادة تعيين كلمة المرور. اضغط على الرابط أدناه لإعادة تعيين كلمة المرور "
-"الخاصة بك.  N  N٪ (password_reset_url) S  ن"
+"الخاصة بك. \n"
 "\n"
+"%(password_reset_url)s\n"
 
 #: templates/account/email/password_reset_subject.txt:1
 #, python-format
 msgid "[%(site_name)s] Password reset"
-msgstr "[٪ (SITE_NAME) S] إعادة تعيين كلمة المرور"
+msgstr "[%(site_name)s] إعادة تعيين كلمة المرور "
 
 #: templates/actstream/actor.html:7 templates/actstream/actor.html.py:8
 msgid "My Activity feed"
@@ -4569,14 +3497,18 @@ msgid "New Announcement"
 msgstr "إعلان جديد"
 
 #: templates/announcements/announcement_list.html:31
+msgid "Level"
+msgstr ""
+
+#: templates/announcements/announcement_list.html:32
 msgid "Announcement"
 msgstr "إعلان"
 
-#: templates/announcements/announcement_list.html:32
+#: templates/announcements/announcement_list.html:33
 msgid "Published From"
 msgstr "نشرت من"
 
-#: templates/announcements/announcement_list.html:44
+#: templates/announcements/announcement_list.html:48
 #, python-format
 msgid ""
 "\n"
@@ -4585,27 +3517,25 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-" ن المنشورة من <ب>%(publish_start) S </ B> إلى <b>%(publish_end)s </ B>.  "
-"\n"
-"                   "
+"نشرت <b>%(publish_start)s</b> إلى <b>%(publish_end)s</b>."
 
 #: templates/announcements/detail.html:4
 #, python-format
 msgid "Announcements : %(announcement)s"
-msgstr "إعلانات:٪ (إعلان) S"
+msgstr "إعلانات: %(announcement)s"
 
 #: templates/avatar/add.html:6 templates/avatar/change.html:6
 #: templates/avatar/confirm_delete.html:5
 msgid "Back to edit your profile information"
-msgstr "العودة إلى تعديل المعلومات الشخصية الخاصة بك"
+msgstr "العودة إلى تحرير معلومات ملفك الشخصي"
 
 #: templates/avatar/add.html:7 templates/avatar/change.html:7
 msgid "Your current avatar: "
-msgstr "تجسيدك الحالية: "
+msgstr "تجسيدك الحالية:"
 
 #: templates/avatar/add.html:10 templates/avatar/change.html:10
 msgid "You haven't uploaded an avatar yet. Please upload one now."
-msgstr "قد لا تكون الشخصية التي تم تحميلها حتى الان. يرجى تحميل واحد الآن."
+msgstr "كنت لم تحميلها افاتار حتى الان. يرجى تحميل واحد الآن."
 
 #: templates/avatar/add.html:14 templates/avatar/change.html:21
 msgid "Upload New Image"
@@ -4617,7 +3547,7 @@ msgstr "اختيار جديد افتراضي"
 
 #: templates/avatar/change.html:23
 msgid "Delete your avatars"
-msgstr "حذف الصور الرمزية الخاصة بك"
+msgstr "حذف الآلهة الخاصة بك"
 
 #: templates/avatar/confirm_delete.html:6
 msgid "Please select the avatars that you would like to delete."
@@ -4629,8 +3559,8 @@ msgid ""
 "You have no avatars to delete. Please <a href=\"%(avatar_change_url)s"
 "\">upload one</a> now."
 msgstr ""
-"لا يوجد لديك الآلهة وحذفها. يرجى <a href=\"٪(avatar_change_url)s\"> تحميل </"
-"A> واحد الآن."
+"لا يوجد لديك الآلهة وحذفها. يرجى <a href=\"%(avatar_change_url)s\">تحميل "
+"واحد</a> الآن."
 
 #: templates/avatar/confirm_delete.html:15
 msgid "Delete These"
@@ -4639,7 +3569,7 @@ msgstr "حذف هذه"
 #: templates/notification/base.html:16 templates/notification/notices.html:7
 #: templates/notification/notices.html:11
 msgid "Notices"
-msgstr " Notices"
+msgstr "إشعارات"
 
 #: templates/notification/base.html:17
 msgid "Notice settings"
@@ -4652,20 +3582,20 @@ msgstr "الأجسام المرصودة"
 #: templates/notification/notice_settings.html:5
 #: templates/notification/notice_settings.html:10
 msgid "Notification Settings"
-msgstr "إعدادات الإشعار"
+msgstr "إعدادات الإخطار"
 
 #: templates/notification/notice_settings.html:15
 msgid "Primary email"
-msgstr "البريد الإلكتروني الأساسي"
+msgstr "البريد الإلكتروني الرئيسي"
 
 #: templates/notification/notice_settings.html:17
 #, python-format
 msgid "change under <a href=\"%(email_url)s\">Account</a>"
-msgstr "التغيير تحت <a </A> حساب href=\"٪(email_url)s\">"
+msgstr "التغيير تحت <a href=\"%(email_url)s\">حساب</a>"
 
 #: templates/notification/notice_settings.html:21
 msgid "Note"
-msgstr "ملاحظات"
+msgstr "مذكرة"
 
 #: templates/notification/notice_settings.html:22
 #, python-format
@@ -4673,16 +3603,16 @@ msgid ""
 "You do not have a verified email address to which notices can be sent. You "
 "can add one by going to <a href=\"%(email_url)s\">Account</a>."
 msgstr ""
-"لم يكن لديك عنوان بريد إلكتروني التحقق التي يمكن إرسال الإشعارات. يمكنك "
-"إضافة واحد عن طريق الذهاب إلى <a href=\"٪(email_url)s\"> </A> حساب."
+"لم يكن لديك عنوان بريد إلكتروني التحقق التي إشعارات يمكن إرسالها. يمكنك "
+"إضافة واحدة عن طريق الذهاب الى <a href=\"%(email_url)s\">الحساب</a> ."
 
 #: templates/notification/notice_settings.html:30
 msgid "Notification Type"
-msgstr "نوع الإشعار"
+msgstr "نوع الإخطار"
 
 #: templates/notification/notice_settings.html:48
 msgid "Change"
-msgstr "تعديل"
+msgstr "تغيير"
 
 #: templates/notification/notices.html:16
 msgid "Mark all unseen notices seen"
@@ -4702,20 +3632,20 @@ msgstr "لا الإشعارات."
 
 #: templates/notification/single.html:6 templates/notification/single.html:9
 msgid "Notice"
-msgstr "تنبيه"
+msgstr "إشعار"
 
 #: templates/relationships/_list_connections.html:3
 #: templates/relationships/_manage_connections.html:6
 msgid "Following"
-msgstr "المتابَعون"
+msgstr "التالي"
 
 #: templates/relationships/_list_connections.html:9
 msgid "This user is not following anyone"
-msgstr "هذا المستخدم لا يتبع أي شخص"
+msgstr "هذا العضو لم يتابع أي شخص"
 
 #: templates/relationships/_list_connections.html:11
 msgid "Followers"
-msgstr "المُتابعين"
+msgstr "المتابعون"
 
 #: templates/relationships/_list_connections.html:17
 msgid "No one is following this user"
@@ -4727,16 +3657,16 @@ msgstr "إدارة اتصالات"
 
 #: templates/relationships/_manage_connections.html:7
 msgid "Blocking"
-msgstr "الحظر"
+msgstr "حجب"
 
 #: templates/relationships/_profile_follow.html:6
 #: templates/relationships/relationship_list.html:16
 msgid "Unfollow"
-msgstr "إلغاء المتابعة"
+msgstr "المتابعون"
 
 #: templates/relationships/_profile_follow.html:9
 msgid "Follow"
-msgstr "المتابعة"
+msgstr "تابع"
 
 #: templates/relationships/_profile_follow.html:14
 #: templates/relationships/relationship_list.html:20
@@ -4745,7 +3675,7 @@ msgstr "فتح"
 
 #: templates/relationships/_profile_follow.html:17
 msgid "Block"
-msgstr "عقبه "
+msgstr "كتلة"
 
 #: templates/relationships/confirm.html:4
 #: templates/relationships/confirm.html:7
@@ -4754,20 +3684,20 @@ msgstr "لم يعد"
 
 #: templates/relationships/confirm.html:12
 msgid "Confirm"
-msgstr "تأكيد "
+msgstr "أكد"
 
 #: templates/relationships/relationship_list.html:26
 #, python-format
 msgid "You're not %(status_slug)s anyone!"
-msgstr "أنت لست٪ (status_slug) S أي شخص!"
+msgstr "أنت لست %(status_slug)s أي شخص!"
 
 #: templates/relationships/success.html:5
 msgid "Success"
-msgstr "تمت العملية بنجاح"
+msgstr "نجاح"
 
 #: templates/relationships/success.html:6
 msgid "You are "
-msgstr "أنتم "
+msgstr "أنتم"
 
 #: templates/relationships/success.html:6
 msgid "no longer"
@@ -4776,15 +3706,15 @@ msgstr "لم يعد"
 #: templates/relationships/success.html:7
 #, python-format
 msgid "%(to_user_username)s's profile"
-msgstr "٪ (to_user_username) نبذة عن ل"
+msgstr "%(to_user_username)sنبذة عن ل"
 
 #: templates/search/_extent_filter.html:3
 msgid "Extent"
-msgstr "الامتداد"
+msgstr "مدى"
 
 #: templates/search/_general_filters.html:3
 msgid "Categories"
-msgstr "التصنيفات "
+msgstr "الفئات"
 
 #: templates/search/_general_filters.html:30
 msgid "Date begins after:"
@@ -4793,7 +3723,7 @@ msgstr "تاريخ يبدأ بعد:"
 #: templates/search/_general_filters.html:31
 #: templates/search/_general_filters.html:35
 msgid "yyyy-mm-dd"
-msgstr ""
+msgstr "YYYY-MM-DD"
 
 #: templates/search/_general_filters.html:34
 msgid "Date ends before:"
@@ -4821,11 +3751,11 @@ msgstr "رسالة البريد الوارد"
 
 #: templates/user_messages/inbox.html:12
 msgid "With"
-msgstr "المشار"
+msgstr "مع"
 
 #: templates/user_messages/inbox.html:13
 msgid "Subject"
-msgstr "العنوان"
+msgstr "موضوع"
 
 #: templates/user_messages/inbox.html:14
 msgid "Last Sender"
@@ -4842,7 +3772,7 @@ msgstr "حذف؟"
 #: templates/user_messages/inbox.html:33
 #: templates/user_messages/thread_detail.html:14
 msgid "you"
-msgstr "ضدك"
+msgstr "أنت"
 
 #: templates/user_messages/inbox.html:55
 #: templates/user_messages/message_create.html:5
@@ -4852,7 +3782,7 @@ msgstr "إنشاء رسالة"
 
 #: templates/user_messages/message_create.html:14
 msgid "Send message"
-msgstr "أرسال الرسالة"
+msgstr "إرسال رسالة"
 
 #: templates/user_messages/message_create.html:19
 #: templates/user_messages/thread_detail.html:32
@@ -4861,10 +3791,7 @@ msgstr "العودة إلى علبة الوارد"
 
 #: templates/user_messages/thread_detail.html:25
 msgid "Send Reply"
-msgstr "إرسال رد"
+msgstr "أرسل الرد"
 
-#~ msgid "Edit Map Permissions"
-#~ msgstr "تحرير خريطة ضوابط"
-
-#~ msgid "Who can manage?"
-#~ msgstr "الذين يمكن إدارة؟"
+#~ msgid "Remote Thumbnail"
+#~ msgstr "صورة مصغرة عن بعد"

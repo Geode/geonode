@@ -332,6 +332,12 @@ def file_upload(filename, name=None, user=None, title=None, abstract=None,
     # Get a bounding box
     bbox_x0, bbox_x1, bbox_y0, bbox_y1 = get_bbox(filename)
 
+    # by default, if RESOURCE_PUBLISHING=True then layer.is_published
+    # must be set to False
+    is_published = True
+    if settings.RESOURCE_PUBLISHING:
+        is_published = False
+
     defaults = {
         'upload_session': upload_session,
         'title': title,
@@ -342,6 +348,7 @@ def file_upload(filename, name=None, user=None, title=None, abstract=None,
         'bbox_x1': bbox_x1,
         'bbox_y0': bbox_y0,
         'bbox_y1': bbox_y1,
+        'is_published': is_published,
     }
 
     # set metadata
@@ -500,23 +507,28 @@ def upload(incoming, user=None, overwrite=False,
     return output
 
 
-def create_thumbnail(instance, thumbnail_remote_url, thumbail_create_url=None):
+def create_thumbnail(instance, thumbnail_remote_url, thumbnail_create_url=None, check_bbox=True):
+
     BBOX_DIFFERENCE_THRESHOLD = 1e-5
 
-    if not thumbail_create_url:
-        thumbail_create_url = thumbnail_remote_url
+    if not thumbnail_create_url:
+        thumbnail_create_url = thumbnail_remote_url
 
-    # Check if the bbox is invalid
-    valid_x = (
-        float(
-            instance.bbox_x0) -
-        float(
-            instance.bbox_x1)) ** 2 > BBOX_DIFFERENCE_THRESHOLD
-    valid_y = (
-        float(
-            instance.bbox_y1) -
-        float(
-            instance.bbox_y0)) ** 2 > BBOX_DIFFERENCE_THRESHOLD
+    if check_bbox:
+        # Check if the bbox is invalid
+        valid_x = (
+            float(
+                instance.bbox_x0) -
+            float(
+                instance.bbox_x1)) ** 2 > BBOX_DIFFERENCE_THRESHOLD
+        valid_y = (
+            float(
+                instance.bbox_y1) -
+            float(
+                instance.bbox_y0)) ** 2 > BBOX_DIFFERENCE_THRESHOLD
+    else:
+        valid_x = True
+        valid_y = True
 
     image = None
 
@@ -524,15 +536,15 @@ def create_thumbnail(instance, thumbnail_remote_url, thumbail_create_url=None):
         Link.objects.get_or_create(resource=instance.get_self_resource(),
                                    url=thumbnail_remote_url,
                                    defaults=dict(
-            extension='png',
-            name=_("Remote Thumbnail"),
-            mime='image/png',
-            link_type='image',
-        )
-        )
+                                       extension='png',
+                                       name="Remote Thumbnail",
+                                       mime='image/png',
+                                       link_type='image',
+                                       )
+                                   )
 
         # Download thumbnail and save it locally.
-        resp, image = http_client.request(thumbail_create_url)
+        resp, image = http_client.request(thumbnail_create_url)
         if 'ServiceException' in image or resp.status < 200 or resp.status > 299:
             msg = 'Unable to obtain thumbnail: %s' % image
             logger.debug(msg)
