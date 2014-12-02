@@ -508,7 +508,7 @@ def deb(options):
         #sh('sudo apt-get -y install debhelper devscripts git-buildpackage')
 
         sh(('git-dch --spawn-editor=snapshot --git-author --new-version=%s'
-            ' --id-length=6 --ignore-branch --release' % (simple_version)))
+            ' --id-length=6 --release --debian-branch=IMIO' % (simple_version)))
 
         deb_changelog = path('debian') / 'changelog'
         for line in fileinput.input([deb_changelog], inplace=True):
