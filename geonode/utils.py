@@ -399,7 +399,7 @@ def default_map_config():
     _default_map = GXPMap(
         title=DEFAULT_TITLE,
         abstract=DEFAULT_ABSTRACT,
-        projection="EPSG:900913",
+        projection="EPSG:31370",
         center_x=_DEFAULT_MAP_CENTER[0],
         center_y=_DEFAULT_MAP_CENTER[1],
         zoom=settings.DEFAULT_MAP_ZOOM
@@ -423,7 +423,7 @@ def default_map_config():
 
 
 _viewer_projection_lookup = {
-    "EPSG:900913": {
+    "EPSG:31370": {
         "maxResolution": 156543.03390625,
         "units": "m",
         "maxExtent": [-20037508.34, -20037508.34, 20037508.34, 20037508.34],

@@ -79,7 +79,7 @@ def get_extent_from_text(points, srid_in, srid_out):
 
     proj_out = SpatialReference(srid_out)
 
-    if srid_out == 900913:
+    if srid_out == 31370:
         if int(float(points[0])) == -180:
             points[0] = -179
         if int(float(points[1])) == -90:

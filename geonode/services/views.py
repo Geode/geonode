@@ -290,7 +290,7 @@ def _process_wms_service(url, type, username, password, wms=None, owner=None, pa
         supported_crs = ','.join(wms.contents.itervalues().next().crsOptions)
     except:
         supported_crs = None
-    if supported_crs and re.search('EPSG:900913|EPSG:3857|EPSG:102100', supported_crs):
+    if supported_crs and re.search('EPSG:31370|EPSG:3857|EPSG:102100', supported_crs):
         return _register_indexed_service(type, url, name, username, password, wms=wms, owner=owner, parent=parent)
     else:
         return _register_cascaded_service(url, type, name, username, password, wms=wms, owner=owner, parent=parent)
@@ -601,10 +601,10 @@ def _register_indexed_layers(service, wms=None, verbosity=False):
                 abstract = wms_layer.abstract
 
             srid = None
-            # Some ArcGIS WMSServers indicate they support 900913 but really
+            # Some ArcGIS WMSServers indicate they support 31370 but really
             # don't
-            if 'EPSG:900913' in wms_layer.crsOptions and "MapServer/WmsServer" not in service.base_url:
-                srid = 'EPSG:900913'
+            if 'EPSG:31370' in wms_layer.crsOptions and "MapServer/WmsServer" not in service.base_url:
+                srid = 'EPSG:31370'
             elif len(wms_layer.crsOptions) > 0:
                 matches = re.findall(
                     'EPSG\:(3857|102100|102113)', ' '.join(wms_layer.crsOptions))
@@ -795,7 +795,7 @@ def _register_arcgis_url(url, username, password, owner=None, parent=None):
     if re.search("\/MapServer\/*(f=json)*", baseurl):
         # This is a MapService
         arcserver = ArcMapService(baseurl)
-        if isinstance(arcserver, ArcMapService) and arcserver.spatialReference.wkid in [102100, 3857, 900913]:
+        if isinstance(arcserver, ArcMapService) and arcserver.spatialReference.wkid in [102100, 3857, 31370]:
             return_json = [_process_arcgis_service(arcserver, owner=owner, parent=parent)]
         else:
             return_json = [{'msg':  _("Could not find any layers in a compatible projection.")}]
@@ -939,7 +939,7 @@ def _process_arcgis_folder(folder, services=[], owner=None, parent=None):
             return_dict[
                 'msg'] = 'Service could not be identified as an ArcMapService, URL: %s' % service.url
         else:
-            if service.spatialReference.wkid in [102100, 3857, 900913]:
+            if service.spatialReference.wkid in [102100, 3857, 31370]:
                 return_dict = _process_arcgis_service(
                     service, owner, parent=parent)
             else:
@@ -1094,7 +1094,7 @@ def process_ogp_results(ogp, result_json, owner=None):
                                                                    title=doc["LayerDisplayName"],
                                                                    owner=None,
                                                                    # Assumption
-                                                                   srid="EPSG:900913",
+                                                                   srid="EPSG:31370",
                                                                    bbox=list(bbox),
                                                                    geographic_bounding_box=bbox_to_wkt(
                                                                        str(bbox[0]), str(bbox[1]),

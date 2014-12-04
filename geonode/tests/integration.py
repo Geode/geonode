@@ -970,7 +970,7 @@ class GeoNodeMapPrintTest(TestCase):
                 'layout': 'A4 portrait',
                 'mapTitle': 'test',
                 'outputFilename': 'print',
-                'srs': 'EPSG:900913',
+                'srs': 'EPSG:31370',
                 'units': 'm'}
 
             client.post(print_url, post_payload)

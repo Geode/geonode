@@ -189,7 +189,7 @@ def layer_detail(request, layername, template='layers/layer_detail.html'):
     srid = layer.srid
 
     # Transform WGS84 to Mercator.
-    config["srs"] = srid if srid != "EPSG:4326" else "EPSG:900913"
+    config["srs"] = srid if srid != "EPSG:4326" else "EPSG:31370"
     config["bbox"] = llbbox_to_mercator([float(coord) for coord in bbox])
 
     config["title"] = layer.title
@@ -218,7 +218,7 @@ def layer_detail(request, layername, template='layers/layer_detail.html'):
             id=layer.id).update(popular_count=F('popular_count') + 1)
 
     # center/zoom don't matter; the viewer will center on the layer bounds
-    map_obj = GXPMap(projection="EPSG:900913")
+    map_obj = GXPMap(projection="EPSG:31370")
     NON_WMS_BASE_LAYERS = [
         la for la in default_map_config()[1] if la.ows_url is None]
 

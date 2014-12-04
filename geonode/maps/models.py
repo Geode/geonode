@@ -222,7 +222,7 @@ class Map(ResourceBase, GXPMapBase):
         self.owner = user
         self.title = title
         self.abstract = abstract
-        self.projection = "EPSG:900913"
+        self.projection = "EPSG:31370"
         self.zoom = 0
         self.center_x = 0
         self.center_y = 0
