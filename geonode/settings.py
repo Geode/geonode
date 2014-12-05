@@ -91,15 +91,15 @@ LANGUAGES = (
     ('ru', 'Russian'),
     ('vi', 'Vietnamese'),
     ('ko', '한국어'),
-    ('am', 'Amharic'),
+    #('am', 'Amharic'),
     ('km', 'Khmer'),
     ('pl', 'Polish'),
     ('sv', 'Swedish'),
     ('th', 'Thai'),
     ('uk', 'Ukranian'),
-    ('si', 'Sinhala'),
+    #('si', 'Sinhala'),
     ('ta', 'Tamil'),
-    ('tl', 'Tagalog'),
+    #('tl', 'Tagalog'),
 )
 
 EXTRA_LANG_INFO = {
@@ -622,6 +622,11 @@ MAP_BASELAYERS = [{
     "group": "background"
 }, {
     "source": {"ptype": "gxp_mapboxsource"},
+}, {
+    "source": {"url": "http://geoservices.wallonie.be/arcgis/services/IMAGERIE/ORTHO_2009_2010/MapServer/WMSServer"},
+    "name": "RW",
+    "group": "background",
+    "visibility": True
 }]
 
 SOCIAL_BUTTONS = True
