@@ -68,6 +68,7 @@ from geonode.layers.utils import layer_type, get_files
 from geonode.layers.models import Layer, Attribute, Style
 from geonode.layers.enumerations import LAYER_ATTRIBUTE_NUMERIC_DATA_TYPES
 
+from prj2epsg.models import Prj2Epsg
 
 logger = logging.getLogger(__name__)
 
@@ -941,6 +942,7 @@ def geoserver_upload(
         keywords=(),
         charset='UTF-8'):
 
+
     # Step 2. Check that it is uploading to the same resource type as
     # the existing resource
     logger.info('>>> Step 2. Make sure we are not trying to overwrite a '
@@ -1007,10 +1009,29 @@ def geoserver_upload(
     # Get the helper files if they exist
     files = get_files(base_file)
 
+    print "files type = %s" % type(files)  #REMOVE
+
     data = files
 
     if 'shp' not in files:
         data = base_file
+    else:
+        # Check other EPSG with prj2epsg
+        prjConverter = Prj2Epsg()
+        base, ext = os.path.splitext(base_file)
+        prjFile = base + '.prj'
+
+        if os.path.exists(prjFile):
+
+            b_res, wkt, epsg = prjConverter.replace_epsg(prjFile)
+            if b_res:
+                print wkt
+                with open(prjFile, 'r+') as file:
+                    file.seek(0)
+                    file.write(wkt)
+                    file.close()
+            else:
+                print "erreur lors de la recuperation wkt"
 
     try:
         store, gs_resource = create_store_and_resource(name,
@@ -1073,7 +1094,7 @@ def geoserver_upload(
                    'the layer.')
             logger.info(msg, name)
             cascading_delete(cat, name)
-            raise GeoNodeException(msg % name)
+            #raise GeoNodeException(msg % name)
 
     # Step 7. Create the style and assign it to the created resource
     # FIXME: Put this in gsconfig.py
