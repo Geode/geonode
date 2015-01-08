@@ -1009,6 +1009,8 @@ def geoserver_upload(
     # Get the helper files if they exist
     files = get_files(base_file)
 
+    print "files type = %s" % type(files)  #REMOVE
+
     data = files
 
     if 'shp' not in files:
@@ -1036,6 +1038,7 @@ def geoserver_upload(
                                                        data,
                                                        charset=charset,
                                                        overwrite=overwrite)
+        
     except UploadError as e:
         msg = ('Could not save the layer %s, there was an upload '
                'error: %s' % (name, str(e)))
@@ -1092,7 +1095,7 @@ def geoserver_upload(
                    'the layer.')
             logger.info(msg, name)
             cascading_delete(cat, name)
-            raise GeoNodeException(msg % name)
+            #raise GeoNodeException(msg % name)
 
     # Step 7. Create the style and assign it to the created resource
     # FIXME: Put this in gsconfig.py
