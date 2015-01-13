@@ -13,7 +13,7 @@ from geonode.geoserver.ows import wcs_links, wfs_links, wms_links
 from geonode.geoserver.helpers import cascading_delete, set_attributes
 from geonode.geoserver.helpers import set_styles, gs_catalog, get_coverage_grid_extent
 from geonode.geoserver.helpers import ogc_server_settings
-from geonode.geoserver.helpers import geoserver_upload
+from geonode.geoserver.helpers import geoserver_upload, http_client
 from geonode.base.models import ResourceBase
 from geonode.base.models import Link
 from geonode.layers.utils import create_thumbnail
@@ -218,11 +218,12 @@ def geoserver_post_save(instance, sender, **kwargs):
                                        )
                                        )
 
-        if gs_resource.store.type.lower() == 'geogit':
-            repo_url = '{url}geogit/{workspace}:{store}'.format(
+        if gs_resource.store.type.lower() == 'geogig' and \
+                gs_resource.store.connection_parameters.get('geogig_repository'):
+
+            repo_url = '{url}geogig/{geogig_repository}'.format(
                 url=ogc_server_settings.public_url,
-                workspace=instance.workspace,
-                store=instance.store)
+                geogig_repository=gs_resource.store.connection_parameters.get('geogig_repository'))
 
             path = gs_resource.dom.findall('nativeName')
 
@@ -232,7 +233,7 @@ def geoserver_post_save(instance, sender, **kwargs):
             Link.objects.get_or_create(resource=instance.resourcebase_ptr,
                                        url=repo_url,
                                        defaults=dict(extension='html',
-                                                     name='Clone in GeoGit',
+                                                     name='Clone in GeoGig',
                                                      mime='text/xml',
                                                      link_type='html'
                                                      )
@@ -246,7 +247,7 @@ def geoserver_post_save(instance, sender, **kwargs):
             Link.objects.get_or_create(resource=instance.resourcebase_ptr,
                                        url=command_url('log'),
                                        defaults=dict(extension='json',
-                                                     name='GeoGit log',
+                                                     name='GeoGig log',
                                                      mime='application/json',
                                                      link_type='html'
                                                      )
@@ -255,7 +256,7 @@ def geoserver_post_save(instance, sender, **kwargs):
             Link.objects.get_or_create(resource=instance.resourcebase_ptr,
                                        url=command_url('statistics'),
                                        defaults=dict(extension='json',
-                                                     name='GeoGit statistics',
+                                                     name='GeoGig statistics',
                                                      mime='application/json',
                                                      link_type='html'
                                                      )
@@ -372,7 +373,7 @@ def geoserver_post_save(instance, sender, **kwargs):
     thumbnail_create_url = ogc_server_settings.LOCATION + \
         "wms/reflect?" + p
 
-    create_thumbnail(instance, thumbnail_remote_url, thumbnail_create_url)
+    create_thumbnail(instance, thumbnail_remote_url, thumbnail_create_url, ogc_client=http_client)
 
     legend_url = ogc_server_settings.PUBLIC_LOCATION + \
         'wms?request=GetLegendGraphic&format=image/png&WIDTH=20&HEIGHT=20&LAYER=' + \

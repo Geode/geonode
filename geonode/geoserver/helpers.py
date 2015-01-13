@@ -276,9 +276,9 @@ def cascading_delete(cat, layer_name):
         if store.resource_type == 'dataStore' and 'dbtype' in store.connection_parameters and \
                 store.connection_parameters['dbtype'] == 'postgis':
             delete_from_postgis(resource_name)
-        elif store.type and store.type.lower() == 'geogit':
+        elif store.type and store.type.lower() == 'geogig':
             # Prevent the entire store from being removed when the store is a
-            # GeoGIT repository.
+            # GeoGig repository.
             return
         else:
             try:
@@ -729,7 +729,7 @@ def set_styles(layer, gs_catalog):
 
 
 def save_style(gs_style):
-    style, created = Style.objects.get_or_create(name=gs_style.sld_name)
+    style, created = Style.objects.get_or_create(name=gs_style.name)
     style.sld_title = gs_style.sld_title
     style.sld_body = gs_style.sld_body
     style.sld_url = gs_style.body_href()
@@ -1273,13 +1273,13 @@ class OGC_Servers_Handler(object):
         server.setdefault('USER', 'admin')
         server.setdefault('PASSWORD', 'geoserver')
         server.setdefault('DATASTORE', str())
-        server.setdefault('GEOGIT_DATASTORE_DIR', str())
+        server.setdefault('GEOGIG_DATASTORE_DIR', str())
 
         for option in ['MAPFISH_PRINT_ENABLED', 'PRINT_NG_ENABLED', 'GEONODE_SECURITY_ENABLED',
                        'BACKEND_WRITE_ENABLED']:
             server.setdefault(option, True)
 
-        for option in ['GEOGIT_ENABLED', 'WMST_ENABLED', 'WPS_ENABLED']:
+        for option in ['GEOGIG_ENABLED', 'WMST_ENABLED', 'WPS_ENABLED']:
             server.setdefault(option, False)
 
     def __getitem__(self, alias):
@@ -1537,3 +1537,41 @@ _esri_types = {
     "esriFieldTypeGUID": "xsd:string",
     "esriFieldTypeGlobalID": "xsd:string",
     "esriFieldTypeXML": "xsd:anyType"}
+
+
+def _render_thumbnail(req_body):
+    spec = _fixup_ows_url(req_body)
+    url = "%srest/printng/render.png" % ogc_server_settings.LOCATION
+    hostname = urlparse(settings.SITEURL).hostname
+    params = dict(width=240, height=180, auth="%s,%s,%s" % (hostname, _user, _password))
+    url = url + "?" + urllib.urlencode(params)
+
+    # @todo annoying but not critical
+    # openlayers controls posted back contain a bad character. this seems
+    # to come from a &minus; entity in the html, but it gets converted
+    # to a unicode en-dash but is not uncoded properly during transmission
+    # 'ignore' the error for now as controls are not being rendered...
+    data = spec
+    if type(data) == unicode:
+        # make sure any stored bad values are wiped out
+        # don't use keyword for errors - 2.6 compat
+        # though unicode accepts them (as seen below)
+        data = data.encode('ASCII', 'ignore')
+    data = unicode(data, errors='ignore').encode('UTF-8')
+    try:
+        resp, content = http_client.request(url, "POST", data, {
+            'Content-type': 'text/html'
+        })
+    except Exception:
+        logging.warning('Error generating thumbnail')
+        return
+    return content
+
+
+def _fixup_ows_url(thumb_spec):
+    # @HACK - for whatever reason, a map's maplayers ows_url contains only /geoserver/wms
+    # so rendering of thumbnails fails - replace those uri's with full geoserver URL
+    import re
+    gspath = '"' + ogc_server_settings.public_url  # this should be in img src attributes
+    repl = '"' + ogc_server_settings.LOCATION
+    return re.sub(gspath, repl, thumb_spec)
