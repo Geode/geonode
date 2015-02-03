@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Andres Alfonso Lemon Gomez <lemon.andres@gmail.com>, 2014
 # Sundaralingam Suthakaran <karansuthakaran@yahoo.com>, 2013-2014
@@ -10,14 +10,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-14 09:56-0500\n"
+"POT-Creation-Date: 2015-02-03 04:45-0600\n"
 "PO-Revision-Date: 2014-11-15 19:41+0000\n"
 "Last-Translator: Andres Alfonso Lemon Gomez <lemon.andres@gmail.com>\n"
-"Language-Team: Tamil (http://www.transifex.com/projects/p/geonode/language/ta/)\n"
+"Language-Team: Tamil (http://www.transifex.com/projects/p/geonode/language/"
+"ta/)\n"
+"Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ta\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: utils.py:38
@@ -145,9 +146,9 @@ msgid "No information provided"
 msgstr "தகவல் தரப்படவில்லை"
 
 #: base/forms.py:35 base/templates/base/resourcebase_info_panel.html:46
-#: documents/templates/documents/document_metadata.html:51
-#: layers/templates/layers/layer_metadata.html:53
-#: maps/templates/maps/map_metadata.html:53
+#: documents/templates/documents/document_metadata.html:60
+#: layers/templates/layers/layer_metadata.html:61
+#: maps/templates/maps/map_metadata.html:61
 msgid "Category"
 msgstr "வகை"
 
@@ -155,228 +156,247 @@ msgstr "வகை"
 msgid "Category is required."
 msgstr "வகை தேவைப்படுகிறது."
 
-#: base/models.py:40 services/models.py:85
+#: base/models.py:41 services/models.py:85
 msgid "function performed by the responsible party"
 msgstr "பொறுப்புடைய தரப்பினரால் மேற்கொள்ளப்பட்ட செயற்பாடு"
 
-#: base/models.py:244
+#: base/models.py:209
 msgid "reference date for the cited resource"
 msgstr "குறிப்பிடப்பட்டுள்ள மூலவளத்தின் தொடர்புத் திகதி "
 
-#: base/models.py:245
+#: base/models.py:210
 msgid "identification of when a given event occurred"
 msgstr "குறித்த நிகழ்வு இடம்பெற்றதன் அடையாளம்  "
 
-#: base/models.py:246
+#: base/models.py:211
 msgid "version of the cited resource"
 msgstr "குறிப்பிடப்பட்டுள்ள மூலவளத்தின் பதிப்பு"
 
-#: base/models.py:247
+#: base/models.py:212
 msgid "brief narrative summary of the content of the resource(s)"
 msgstr "மூலவளத்தின் (வளங்களின்) உள்ளடக்கம் தொடர்பான குறுகிய சராம்சம் "
 
-#: base/models.py:248
+#: base/models.py:213
 msgid "summary of the intentions with which the resource(s) was developed"
 msgstr "மூலவளத்தின் (வளங்களின்) காணப்பட்ட நோக்கங்களின் சாராம்சம்"
 
-#: base/models.py:249
+#: base/models.py:214
 msgid ""
 "frequency with which modifications and deletions are made to the data after "
 "it is first produced"
-msgstr "முதலில் தயார் செய்த பின்னர் தரவுகளில் மாற்றங்கள் மற்றும் அழித்தல்கள் ஏற்படுத்தப்பட்ட காலஇடைவெளி "
+msgstr ""
+"முதலில் தயார் செய்த பின்னர் தரவுகளில் மாற்றங்கள் மற்றும் அழித்தல்கள் ஏற்படுத்தப்பட்ட "
+"காலஇடைவெளி "
 
-#: base/models.py:251
+#: base/models.py:216
 msgid ""
 "commonly used word(s) or formalised word(s) or phrase(s) used to describe "
 "the subject (space or comma-separated"
-msgstr "விடயத்தை (இடைவெளி அல்லது கொமா வேறுபடுத்தல்) விளக்குவதற்கு பொதுவாக பயன்படுத்தப்பட்ட சொல் (சொற்கள்) அல்லது உருவாக்கப்பட்ட சொல் (சொற்கள்) அல்லது வசனம் (வசனங்கள்) "
+msgstr ""
+"விடயத்தை (இடைவெளி அல்லது கொமா வேறுபடுத்தல்) விளக்குவதற்கு பொதுவாக பயன்படுத்தப்பட்ட சொல் "
+"(சொற்கள்) அல்லது உருவாக்கப்பட்ட சொல் (சொற்கள்) அல்லது வசனம் (வசனங்கள்) "
 
-#: base/models.py:253
+#: base/models.py:218
 msgid "keyword identifies a location"
 msgstr "பிரதான சொற்கள் இடத்தை அடையாளங் காண்கின்றது"
 
-#: base/models.py:254
+#: base/models.py:219
 msgid "limitation(s) placed upon the access or use of the data."
 msgstr "வரையறை (ங்கள்) தரவு அணுகல் அல்லது பயன்பாடு மீது வைக்கப்படும்."
 
-#: base/models.py:255
+#: base/models.py:220
 msgid ""
 "other restrictions and legal prerequisites for accessing and using the "
 "resource or metadata"
-msgstr "மூலவளங்களை அல்லது நுண்தரவுகளை அடைவதற்கு மற்றும் பயன்படுத்துவதற்குரிய ஏனைய தடைகள் மற்றும் சட்டத் தேவைகள்"
+msgstr ""
+"மூலவளங்களை அல்லது நுண்தரவுகளை அடைவதற்கு மற்றும் பயன்படுத்துவதற்குரிய ஏனைய தடைகள் மற்றும் "
+"சட்டத் தேவைகள்"
 
-#: base/models.py:257
+#: base/models.py:222
 msgid "license of the dataset"
 msgstr "தரவுத்தொகுப்பின் உரிமம்"
 
-#: base/models.py:258
+#: base/models.py:223
 msgid "language used within the dataset"
 msgstr "தரவுத் தொகுதிக்குள் பயன்படுத்தப்பட்ட மொழி  "
 
-#: base/models.py:259
+#: base/models.py:224
 msgid ""
-"high-level geographic data thematic classification to assist in the grouping"
-" and search of available geographic data sets."
-msgstr "காணப்படுகின்ற புவியியல் தரவுத் தொகுதிகளை குழுவாக்குவதற்கும் தேடுவதற்கும் உதவும் விதத்தில் உயர் மட்ட புவியியல் தரவு தலைப்பு வகைப்படுத்தல்கள்"
+"high-level geographic data thematic classification to assist in the grouping "
+"and search of available geographic data sets."
+msgstr ""
+"காணப்படுகின்ற புவியியல் தரவுத் தொகுதிகளை குழுவாக்குவதற்கும் தேடுவதற்கும் உதவும் "
+"விதத்தில் உயர் மட்ட புவியியல் தரவு தலைப்பு வகைப்படுத்தல்கள்"
 
-#: base/models.py:261
+#: base/models.py:226
 msgid "method used to represent geographic information in the dataset."
 msgstr "முறை வகை புவியியல் தகவல் பிரதிநிதித்துவம் பயன்படுத்தப்படுகிறது."
 
-#: base/models.py:262
+#: base/models.py:227
 msgid "time period covered by the content of the dataset (start)"
 msgstr "தரவுத் தொகுதியின் உள்ளடக்கம் வெளிப்படுத்தும் கால எல்லை (ஆரம்பம்)  "
 
-#: base/models.py:263
+#: base/models.py:228
 msgid "time period covered by the content of the dataset (end)"
 msgstr "தரவுத் தொகுதியின் உள்ளடக்கம் வெளிப்படுத்தும் கால எல்லை (இறுதி)  "
 
-#: base/models.py:264
+#: base/models.py:229
 msgid ""
 "information about on-line sources from which the dataset, specification, or "
 "community profile name and extended metadata elements can be obtained"
-msgstr "தரவுத் தளம் விபரங்கள் மற்றும் சமூக விபரத்திரட்டின் பெயர் மற்றும் வரிவான நுண்தரவு காரணிகள் என்பவற்றை பெற முடிகின்ற இணைய வளம் பற்றிய தகவல்கள்"
+msgstr ""
+"தரவுத் தளம் விபரங்கள் மற்றும் சமூக விபரத்திரட்டின் பெயர் மற்றும் வரிவான நுண்தரவு காரணிகள் "
+"என்பவற்றை பெற முடிகின்ற இணைய வளம் பற்றிய தகவல்கள்"
 
-#: base/models.py:266
+#: base/models.py:231
 msgid "detailed text description of what the online resource is/does"
 msgstr "இணையத்தள வளம் பற்றிய அது என்ன செய்கின்றது என்பது பற்றிய எழுத்துரு விளக்கம் "
 
-#: base/models.py:267
+#: base/models.py:232
 msgid ""
 "general explanation of the data producer's knowledge about the lineage of a "
 "dataset"
-msgstr "தரவுத் தொகுதியின் வழிமரபு தொடர்பாக தரவு உருவாக்குனரின் அறிவு பற்றிய பொது விளக்கம் "
+msgstr ""
+"தரவுத் தொகுதியின் வழிமரபு தொடர்பாக தரவு உருவாக்குனரின் அறிவு பற்றிய பொது விளக்கம் "
 
-#: base/models.py:273
+#: base/models.py:238
 msgid "title"
 msgstr "தலைப்பு "
 
-#: base/models.py:273
+#: base/models.py:238
 msgid "name by which the cited resource is known"
 msgstr "குறிப்பிடப்பட்டுள்ள மூலவளம் அறியப்படும் பெயர்  "
 
-#: base/models.py:274
+#: base/models.py:239
 msgid "date"
 msgstr "திகதி"
 
-#: base/models.py:275
+#: base/models.py:240
 msgid "date type"
 msgstr "திகதி வகை"
 
-#: base/models.py:277
+#: base/models.py:242
 msgid "edition"
 msgstr "பதிப்பு"
 
-#: base/models.py:278
+#: base/models.py:243
 msgid "abstract"
 msgstr "சுருக்கம்"
 
-#: base/models.py:279
+#: base/models.py:244
 msgid "purpose"
 msgstr "நோக்கம்"
 
-#: base/models.py:280
+#: base/models.py:245
 msgid "maintenance frequency"
 msgstr " பராமரித்தல் இடைவெளி "
 
-#: base/models.py:283 groups/models.py:41 people/models.py:88
+#: base/models.py:248 groups/models.py:41 people/models.py:89
 msgid "keywords"
 msgstr "சிறப்பு சொற்கள்"
 
-#: base/models.py:284
+#: base/models.py:249
 msgid "keywords region"
 msgstr "குறியிட்டுப் பிராந்தியம் "
 
-#: base/models.py:287
+#: base/models.py:252
 msgid "restrictions"
 msgstr "கட்டுப்பாடுகள்"
 
-#: base/models.py:291
+#: base/models.py:256
 msgid "restrictions other"
 msgstr "மற்ற கட்டுப்பாடுகள்"
 
-#: base/models.py:296
+#: base/models.py:261
 msgid "language"
 msgstr "மொழி "
 
-#: base/models.py:307
+#: base/models.py:272
 msgid "temporal extent start"
 msgstr "உலகலாவிய விரிவாக்க ஆரம்பம் "
 
-#: base/models.py:309
+#: base/models.py:274
 msgid "temporal extent end"
 msgstr "உலகலாவிய விரிவாக்க முடிவ "
 
-#: base/models.py:312
+#: base/models.py:277
 msgid "supplemental information"
 msgstr "மேலதிக தகவல்கள் "
 
-#: base/models.py:313
+#: base/models.py:278
 msgid "any other descriptive information about the dataset"
 msgstr "தரவுத் தொகுதியின் விரிவான ஏனைய தகவல்கள்  "
 
-#: base/models.py:316
+#: base/models.py:281
 msgid "distribution URL"
 msgstr "பரம்பல் URL"
 
-#: base/models.py:318
+#: base/models.py:283
 msgid "distribution description"
 msgstr "பரம்பல் விளக்கம்"
 
-#: base/models.py:322
+#: base/models.py:287
 msgid "data quality statement"
 msgstr "தரவத் தர விபரம்"
 
-#: base/models.py:337
+#: base/models.py:302
 msgid "CSW typename"
 msgstr "CSW பெயரை தட்டச்சிடல்"
 
-#: base/models.py:339
+#: base/models.py:304
 msgid "CSW schema"
 msgstr "CSW பொழிப்பு "
 
-#: base/models.py:344
+#: base/models.py:309
 msgid "CSW source"
 msgstr "CSW மூலவளம்"
 
-#: base/models.py:345
+#: base/models.py:310
 msgid "CSW insert date"
 msgstr "CSW உட்செலுத்திய திகதி"
 
-#: base/models.py:346
+#: base/models.py:311
 msgid "CSW type"
 msgstr "CSW வகை "
 
-#: base/models.py:347
+#: base/models.py:312
 msgid "CSW anytext"
 msgstr "CSW  எந்த அகரமும்"
 
-#: base/models.py:348
+#: base/models.py:313
 msgid "CSW WKT geometry"
 msgstr "CSW WKT ஜியோமெட்ரி "
 
-#: base/models.py:361
+#: base/models.py:326
 msgid "Should this resource be advertised in home page?"
 msgstr "இந்த வள வீட்டில் பக்கம் விளம்பரப்படுத்தப்பட்டது?"
 
-#: base/models.py:362
+#: base/models.py:327
 msgid "Should this resource be published and searchable?"
 msgstr "இந்த வள வெளியிடப்பட்ட, மற்றும் தேடப்படும்?"
 
-#: base/models.py:682
+#: base/models.py:660
 msgid "For example \"kml\""
 msgstr "உதாரணமாக \"kml\""
 
-#: base/models.py:684
+#: base/models.py:662
 msgid "For example \"View in Google Earth\""
 msgstr "உதாரணமாக \"குகல் ஏத் இல் காண்க\" "
 
-#: base/models.py:685
+#: base/models.py:663
 msgid "For example \"text/xml\""
 msgstr "உதாரணமாக \"text/xml\""
 
+#: base/management/__init__.py:14
+msgid "Request to download a resource"
+msgstr ""
+
+#: base/management/__init__.py:15
+msgid "A request for downloading a resource was sent"
+msgstr ""
+
 #: base/templates/base/_resourcebase_contact_snippet.html:3
-#: templates/500.html:184 templates/base.html:174
+#: templates/500.html:184 templates/base.html:131
 msgid "About"
 msgstr "பற்றி"
 
@@ -385,15 +405,15 @@ msgid "Owner, Point of Contact, Metadata Author"
 msgstr "உரிமையாளர், தொடர்பு புள்ளி மெட்டாடேட்டா ஆசிரியர்"
 
 #: base/templates/base/_resourcebase_contact_snippet.html:10
-#: base/templates/base/resourcebase_info_panel.html:56
+#: base/templates/base/resourcebase_info_panel.html:61
 msgid "Owner"
 msgstr "உரிமையாளர்"
 
 #: base/templates/base/_resourcebase_contact_snippet.html:14
-#: base/templates/base/resourcebase_info_panel.html:61
-#: documents/templates/documents/document_metadata.html:41
-#: layers/templates/layers/layer_metadata.html:80
-#: maps/templates/maps/map_metadata.html:43
+#: base/templates/base/resourcebase_info_panel.html:66
+#: documents/templates/documents/document_metadata.html:50
+#: layers/templates/layers/layer_metadata.html:84
+#: maps/templates/maps/map_metadata.html:51
 msgid "Point of Contact"
 msgstr "தொடர்பு மையம் "
 
@@ -402,12 +422,12 @@ msgid "Metadata Author"
 msgstr "மெட்டாடேட்டா ஆசிரியர்"
 
 #: base/templates/base/resourcebase_info_panel.html:6 services/forms.py:21
-#: templates/announcements/announcement_list.html:30
+#: templates/announcements/announcement_list.html:20
 msgid "Title"
 msgstr "தலைப்பு "
 
 #: base/templates/base/resourcebase_info_panel.html:11
-#: base/templates/base/resourcebase_info_panel.html:75
+#: base/templates/base/resourcebase_info_panel.html:80
 msgid "License"
 msgstr "உரிமம்"
 
@@ -421,7 +441,7 @@ msgid "Date"
 msgstr "திகதி "
 
 #: base/templates/base/resourcebase_info_panel.html:34
-#: layers/templates/layers/layer_detail.html:300
+#: layers/templates/layers/layer_detail.html:308
 msgid "Type"
 msgstr "தட்டச்சிடுக"
 
@@ -430,44 +450,44 @@ msgstr "தட்டச்சிடுக"
 msgid "Keywords"
 msgstr " முக்கிய வசனங்கள்"
 
-#: base/templates/base/resourcebase_info_panel.html:51
+#: base/templates/base/resourcebase_info_panel.html:56
 msgid "Regions"
 msgstr "பிராந்தியங்களில்"
 
-#: base/templates/base/resourcebase_info_panel.html:88
+#: base/templates/base/resourcebase_info_panel.html:93
 msgid "Maintenance Frequency"
 msgstr "பராமரித்தல் இடைவெளிகள் "
 
-#: base/templates/base/resourcebase_info_panel.html:93
+#: base/templates/base/resourcebase_info_panel.html:98
 msgid "Restrictions"
 msgstr "கட்டுப்பாடுகள்"
 
-#: base/templates/base/resourcebase_info_panel.html:102
+#: base/templates/base/resourcebase_info_panel.html:107
 msgid "Edition"
 msgstr "பதிப்பு "
 
-#: base/templates/base/resourcebase_info_panel.html:107
+#: base/templates/base/resourcebase_info_panel.html:112
 msgid "Purpose"
 msgstr "நோக்கும் "
 
-#: base/templates/base/resourcebase_info_panel.html:112 templates/500.html:187
-#: templates/base.html:177
+#: base/templates/base/resourcebase_info_panel.html:117 templates/500.html:187
+#: templates/base.html:134
 msgid "Language"
 msgstr "மொழி "
 
-#: base/templates/base/resourcebase_info_panel.html:117
+#: base/templates/base/resourcebase_info_panel.html:122
 msgid "Temporal Extent"
 msgstr "பூகோள  விரிவாக்கம்"
 
-#: base/templates/base/resourcebase_info_panel.html:122
+#: base/templates/base/resourcebase_info_panel.html:127
 msgid "Data Quality"
 msgstr " தரவுகளின் தரம் "
 
-#: base/templates/base/resourcebase_info_panel.html:127
+#: base/templates/base/resourcebase_info_panel.html:132
 msgid "Supplemental Information"
 msgstr "மேலதிக தகவல்கள்"
 
-#: base/templates/base/resourcebase_info_panel.html:132
+#: base/templates/base/resourcebase_info_panel.html:137
 msgid "Spatial Representation Type"
 msgstr "பூகோள பிரதிநிதித்துவ தன்மை "
 
@@ -496,241 +516,198 @@ msgstr "இணைகின்றது "
 msgid "Permissions must be valid JSON."
 msgstr "அனுமதிகள் கச்சிதமாக JSON இருக்க வேண்டும்."
 
-#: documents/models.py:39
+#: documents/models.py:38
 msgid "File"
 msgstr "கோப்பு"
 
-#: documents/models.py:48
+#: documents/models.py:47
 msgid "The URL of the document if it is external."
 msgstr "ஆவணத்தின் URL அதை வெளி ஆகிறது என்றால்."
 
-#: documents/models.py:49
+#: documents/models.py:48
 msgid "URL"
 msgstr "URL ஐ"
 
-#: documents/views.py:26
+#: documents/views.py:27
 msgid "You are not permitted to delete this document"
 msgstr "இந்த ஆவணத்தை அழிப்பதற்கு உங்களுக்கு அனுமதியில்லை"
 
-#: documents/views.py:27
+#: documents/views.py:28
 msgid "You do not have permissions for this document."
 msgstr "இந்த ஆவணத்துக்கு உங்களுக்கு அனுமதியில்லை"
 
-#: documents/views.py:28
+#: documents/views.py:29
 msgid "You are not permitted to modify this document"
 msgstr "இந்த ஆவணத்தை மாற்றியமைக்க உங்களுக்கு அனுமதியில்லை"
 
-#: documents/views.py:30
+#: documents/views.py:31
 msgid "You are not permitted to modify this document's metadata"
 msgstr "இந்த ஆவணத் தரவுத் தரவை  மாற்றியமைக்க உங்களுக்கு அனுமதியில்லை"
 
-#: documents/views.py:31
+#: documents/views.py:32
 msgid "You are not permitted to view this document"
 msgstr "இந்த ஆவணத்தை பார்க்க உங்களுக்கு அனுமதியில்லை"
 
-#: documents/views.py:67 documents/views.py:105
+#: documents/views.py:68 documents/views.py:112
 msgid "You are not allowed to view this document."
 msgstr "இந்த ஆவணத்தை பார்ப்பதற்கு உங்களுக்கு அனுமதியில்லை"
 
-#: documents/views.py:175
+#: documents/views.py:192
 msgid "You are not allowed to edit this document."
 msgstr "நீங்கள் இந்த ஆவணத்தை திருத்த அனுமதி."
 
-#: documents/templates/documents/_document_filters.html:5
-#: groups/templates/groups/group_list.html:15
-#: layers/templates/layers/_layer_filters.html:5
-#: maps/templates/maps/_map_filters.html:5
-#: people/templates/people/profile_list.html:12
-#: templates/search/_sort_filters.html:4
-msgid "Most recent"
-msgstr "மிக அண்மையது "
+#: documents/management/__init__.py:14
+#, fuzzy
+msgid "Document Created"
+msgstr "ஆவணங்கள் இந்த வரைபடத்துடன் தொடர்பானது"
 
-#: documents/templates/documents/_document_filters.html:6
-#: layers/templates/layers/_layer_filters.html:6
-#: maps/templates/maps/_map_filters.html:6
-#: templates/search/_sort_filters.html:8
-msgid "Most popular"
-msgstr "மிக பிரபல்யமானது "
+#: documents/management/__init__.py:15
+#, fuzzy
+msgid "A Document was created"
+msgstr "ஒரு வடைபடம் உருவாக்கப்பட்டது "
 
-#: documents/templates/documents/_document_filters.html:7
-#: layers/templates/layers/_layer_filters.html:7
-#: maps/templates/maps/_map_filters.html:7
-msgid "Most shared"
-msgstr "அதிகம் பகிரப்பட்டது "
+#: documents/management/__init__.py:18
+#, fuzzy
+msgid "Document Updated"
+msgstr "ஆவணங்கள் "
 
-#: documents/templates/documents/_document_list_item.html:23
-#: documents/templates/documents/_document_list_item.html:45
-#: layers/templates/layers/_layer_list_item.html:28
-#: layers/templates/layers/_layer_list_item.html:84
-#: maps/templates/maps/_map_list_item.html:21
-#: maps/templates/maps/_map_list_item.html:46
-msgid "from"
-msgstr "இருந்து "
+#: documents/management/__init__.py:19
+#, fuzzy
+msgid "A Document was updated"
+msgstr "ஒரு படுகை பதிவேற்றப்பட்டுள்ளது "
 
-#: documents/templates/documents/_document_list_item.html:23
-#: documents/templates/documents/_document_list_item.html:45
-#: layers/templates/layers/_layer_list_item.html:28
-#: layers/templates/layers/_layer_list_item.html:84
-#: maps/templates/maps/_map_list_item.html:21
-#: maps/templates/maps/_map_list_item.html:46
-#: social/templates/social/_activity_item.html:27
-msgid "ago"
-msgstr "முன்னர்"
+#: documents/management/__init__.py:22
+#, fuzzy
+msgid "Document Deleted"
+msgstr "ஆவணங்கள் "
 
-#: documents/templates/documents/_document_list_item.html:26
-#: documents/templates/documents/_document_list_item.html:48
-#: layers/templates/layers/_layer_list_item.html:31
-#: layers/templates/layers/_layer_list_item.html:87
-#: maps/templates/maps/_map_list_item.html:24
-#: maps/templates/maps/_map_list_item.html:49
-msgid "view"
-msgstr "பார்வையிடல் "
+#: documents/management/__init__.py:23
+#, fuzzy
+msgid "A Document was deleted"
+msgstr "இந்த ஆவணம் தொடர்புபட்டுள்ளது "
 
-#: documents/templates/documents/_document_list_item.html:27
-#: documents/templates/documents/_document_list_item.html:49
-#: layers/templates/layers/_layer_list_item.html:32
-#: layers/templates/layers/_layer_list_item.html:88
-#: maps/templates/maps/_map_list_item.html:25
-#: maps/templates/maps/_map_list_item.html:50
-msgid "Average rating"
-msgstr "சராசரி மதிப்பீடு "
+#: documents/management/__init__.py:26
+#, fuzzy
+msgid "Comment on Document"
+msgstr "படுகை குறிப்பிடடல் "
 
-#: documents/templates/documents/_document_list_item.html:27
-#: documents/templates/documents/_document_list_item.html:49
-#: layers/templates/layers/_layer_list_item.html:32
-#: layers/templates/layers/_layer_list_item.html:88
-#: maps/templates/maps/_map_list_item.html:25
-#: maps/templates/maps/_map_list_item.html:50
-msgid "votes"
-msgstr "வாக்குகள்"
+#: documents/management/__init__.py:27
+#, fuzzy
+msgid "A Document was commented on"
+msgstr "ஒரு வடைபடத்திற்கு குறிப்பிடப்பட்டுள்ளது "
 
-#: documents/templates/documents/_document_list_item.html:31
-#: layers/templates/layers/_layer_list_item.html:37
-#: maps/templates/maps/_map_list_item.html:30
-#: maps/templates/maps/map_download.html:6
-msgid "Download"
-msgstr "பதிவிரக்கம் செய்க"
+#: documents/management/__init__.py:30
+#, fuzzy
+msgid "Document for Map"
+msgstr "வடைபடத்திற்கு குறிப்பிடல்"
 
-#: documents/templates/documents/_document_list_item.html:46
-msgid "You do not have permission to view this document"
-msgstr "நீங்கள் இந்த ஆவணத்தைப் பார்க்க அனுமதி இல்லை"
+#: documents/management/__init__.py:31
+#, fuzzy
+msgid "A rating was given to a document"
+msgstr "ஒரு வரைபடம் தரப்படுத்தப்பட்டுள்ளது "
 
-#: documents/templates/documents/document_detail.html:42
+#: documents/templates/documents/document_detail.html:40
 msgid "External Resource"
 msgstr "வெளி வள"
 
-#: documents/templates/documents/document_detail.html:48
-#: layers/templates/layers/_actions.html:3
-#: maps/templates/maps/map_detail.html:35 templates/_actions.html:3
-msgid "Info"
-msgstr "தகவல் "
-
-#: documents/templates/documents/document_detail.html:50
-#: layers/templates/layers/_actions.html:6
-#: maps/templates/maps/map_detail.html:38 templates/_actions.html:5
-msgid "Share"
-msgstr "பகிர்தல் "
-
-#: documents/templates/documents/document_detail.html:52
-#: layers/templates/layers/_actions.html:8
-#: maps/templates/maps/map_detail.html:41
-msgid "Ratings"
-msgstr "தரப்படுத்தல் "
-
-#: documents/templates/documents/document_detail.html:53
-#: layers/templates/layers/_actions.html:9
-#: maps/templates/maps/map_detail.html:42 templates/_comments.html:12
-msgid "Comments"
-msgstr "குறிப்புக்கள் "
-
-#: documents/templates/documents/document_detail.html:71
+#: documents/templates/documents/document_detail.html:62
 msgid "Rate this document"
 msgstr "இந்த ஆவணம் மதிப்பிடு"
 
-#: documents/templates/documents/document_detail.html:75
-#: layers/templates/layers/layer_detail.html:113
-#: maps/templates/maps/map_detail.html:58
+#: documents/templates/documents/document_detail.html:66
+#: layers/templates/layers/layer_detail.html:112
+#: maps/templates/maps/map_detail.html:50
 msgid "Average Rating"
 msgstr "சராசரி தரப்படுத்தல் "
 
-#: documents/templates/documents/document_detail.html:91
-#: documents/templates/documents/document_detail.html:93
-#: documents/templates/documents/document_detail.html:95
-#: documents/templates/documents/document_detail.html:107
+#: documents/templates/documents/document_detail.html:82
+#: documents/templates/documents/document_detail.html:84
+#: documents/templates/documents/document_detail.html:86
+#: documents/templates/documents/document_detail.html:102
 msgid "Download Document"
 msgstr "பதிவிறக்க ஆவண"
 
-#: documents/templates/documents/document_detail.html:100
-#: layers/templates/layers/layer_detail.html:156
-#: layers/templates/layers/layer_detail.html:164
+#: documents/templates/documents/document_detail.html:90
+#: layers/templates/layers/layer_detail.html:133
+#, fuzzy
+msgid "Request Download"
+msgstr "பதிவிரக்கம் செய்க"
+
+#: documents/templates/documents/document_detail.html:95
+#: layers/templates/layers/layer_detail.html:162
+#: layers/templates/layers/layer_detail.html:170
 msgid "Download Metadata"
 msgstr "நுண் தரவகளை பதிவிரக்கம் செய்க "
 
-#: documents/templates/documents/document_detail.html:117
-#: documents/templates/documents/document_detail.html:147
-#: layers/templates/layers/layer_detail.html:149
-#: layers/templates/layers/layer_detail.html:174
-#: layers/templates/layers/layer_detail.html:216
-#: maps/templates/maps/map_detail.html:95
-#: maps/templates/maps/map_detail.html:127
+#: documents/templates/documents/document_detail.html:112
+#: documents/templates/documents/document_detail.html:142
+#: layers/templates/layers/layer_detail.html:155
+#: layers/templates/layers/layer_detail.html:180
+#: layers/templates/layers/layer_detail.html:224
+#: maps/templates/maps/map_detail.html:87
+#: maps/templates/maps/map_detail.html:120
 #: templates/_bulk_permissions_form.html:19
 msgid "Close"
 msgstr "மூடு"
 
-#: documents/templates/documents/document_detail.html:124
-#: documents/templates/documents/document_detail.html:131
+#: documents/templates/documents/document_detail.html:119
+#: documents/templates/documents/document_detail.html:126
 msgid "Edit Document"
 msgstr "திருத்த ஆவண"
 
-#: documents/templates/documents/document_detail.html:136
-#: layers/templates/layers/layer_detail.html:196
+#: documents/templates/documents/document_detail.html:131
+#: documents/templates/documents/document_metadata.html:17
+#: layers/templates/layers/layer_detail.html:202
+#: layers/templates/layers/layer_metadata.html:12
+#: maps/templates/maps/map_metadata.html:12
 msgid "Edit Metadata"
 msgstr "நுண்தரவுகளை சரிசெய்க"
 
-#: documents/templates/documents/document_detail.html:139
+#: documents/templates/documents/document_detail.html:134
 msgid "Replace this Document"
 msgstr "இந்த ஆவண மாற்றவும்"
 
-#: documents/templates/documents/document_detail.html:142
+#: documents/templates/documents/document_detail.html:137
 msgid "Remove this Document"
 msgstr "இந்த ஆவண அகற்று"
 
-#: documents/templates/documents/document_detail.html:154
+#: documents/templates/documents/document_detail.html:149
 msgid "Resource using this document"
 msgstr "இந்த ஆவணத்தில் பயன்படுத்தி ஆதாரம்"
 
-#: documents/templates/documents/document_detail.html:156
+#: documents/templates/documents/document_detail.html:151
 msgid "List of resources using this document:"
 msgstr "இந்த ஆவணத்தில் பயன்படுத்தி வளங்களை பட்டியல்:"
 
-#: documents/templates/documents/document_detail.html:160
+#: documents/templates/documents/document_detail.html:155
 msgid "This document is related to a "
 msgstr "இந்த ஆவணம் தொடர்புபட்டுள்ளது "
 
-#: documents/templates/documents/document_detail.html:163
+#: documents/templates/documents/document_detail.html:158
 msgid "This document is not related to any maps or layers"
 msgstr "இந்த ஆவணம் எந்தவொரு வரைபடத்திற்கோ அல்லது படுகைக்கோ தொடர்புபடவில்லை "
 
-#: documents/templates/documents/document_detail.html:170
-#: documents/templates/documents/document_upload.html:32
-#: groups/templates/groups/group_detail.html:65
-#: layers/templates/layers/layer_detail.html:289
+#: documents/templates/documents/document_detail.html:165
+#: documents/templates/documents/document_upload.html:31
+#: groups/templates/groups/group_detail.html:60
+#: layers/templates/layers/layer_detail.html:297
 #: layers/templates/layers/layer_replace.html:94
 #: layers/templates/upload/layer_upload.html:93
-#: maps/templates/maps/map_detail.html:173 people/admin.py:55
+#: maps/templates/maps/map_detail.html:166 people/admin.py:55
 msgid "Permissions"
 msgstr "அனுமதி"
 
-#: documents/templates/documents/document_detail.html:171
+#: documents/templates/documents/document_detail.html:166
 msgid "Click the button below to change the permissions of this document."
 msgstr "இந்த ஆவணத்தின் அனுமதிகளை மாற்ற கீழே உள்ள பொத்தானை கிளிக் செய்யவும்."
 
-#: documents/templates/documents/document_detail.html:172
+#: documents/templates/documents/document_detail.html:167
 msgid "Change Document Permissions"
 msgstr "ஆவண அனுமதிகளை மாற்ற"
 
 #: documents/templates/documents/document_list.html:6
 #: documents/templates/documents/document_list.html:13
+#: documents/templates/documents/document_metadata.html:16
 #: documents/templates/documents/document_upload_base.html:11
 msgid "Explore Documents"
 msgstr "ஆவணத்தை ஆராய்தல்  "
@@ -740,32 +717,37 @@ msgstr "ஆவணத்தை ஆராய்தல்  "
 msgid "Upload Documents"
 msgstr "ஆவணத்தை பதிவேற்றல்"
 
-#: documents/templates/documents/document_metadata.html:17
+#: documents/templates/documents/document_metadata.html:22
 #, python-format
 msgid ""
 "\n"
 "        Editing details for %(document_title)s\n"
 "      "
-msgstr "\nதிருத்துவது விவரங்கள் %(document_title)s கள்"
+msgstr ""
+"\n"
+"திருத்துவது விவரங்கள் %(document_title)s கள்"
 
-#: documents/templates/documents/document_metadata.html:22
-#: layers/templates/layers/layer_metadata.html:23
-#: maps/templates/maps/map_metadata.html:23
+#: documents/templates/documents/document_metadata.html:28
+#: layers/templates/layers/layer_metadata.html:29
+#: maps/templates/maps/map_metadata.html:29
 msgid "Error updating metadata.  Please check the following fields: "
 msgstr "புதுப்பிக்கும்போது பிழை மெட்டாடேட்டா. பின்வரும் துறைகளில் சரிபார்க்கவும்:"
 
-#: documents/templates/documents/document_metadata.html:46
-#: layers/templates/layers/layer_metadata.html:85
-#: maps/templates/maps/map_metadata.html:48
-msgid "Metadata Provider"
-msgstr "நுண் தரவ வழங்கல் "
-
-#: documents/templates/documents/document_metadata.html:68
+#: documents/templates/documents/document_metadata.html:43
+#: documents/templates/documents/document_metadata.html:77
 #: groups/templates/groups/group_update.html:26
-#: layers/templates/layers/layer_metadata.html:90
-#: maps/templates/maps/map_metadata.html:70
+#: layers/templates/layers/layer_metadata.html:51
+#: layers/templates/layers/layer_metadata.html:94
+#: maps/templates/maps/map_metadata.html:44
+#: maps/templates/maps/map_metadata.html:78
 msgid "Update"
 msgstr "இயல்நிலைப்படுத்தல் "
+
+#: documents/templates/documents/document_metadata.html:55
+#: layers/templates/layers/layer_metadata.html:89
+#: maps/templates/maps/map_metadata.html:56
+msgid "Metadata Provider"
+msgstr "நுண் தரவ வழங்கல் "
 
 #: documents/templates/documents/document_remove.html:11
 #, python-format
@@ -773,21 +755,23 @@ msgid ""
 "\n"
 "          Are you sure you want to remove %(document_title)s?\n"
 "        "
-msgstr "\nநீங்கள் %(document_title)s ங்கள் நீக்க வேண்டுமா?"
+msgstr ""
+"\n"
+"நீங்கள் %(document_title)s ங்கள் நீக்க வேண்டுமா?"
 
 #: documents/templates/documents/document_remove.html:18
 #: groups/templates/groups/group_remove.html:19
-#: layers/templates/layers/layer_remove.html:18
+#: layers/templates/layers/layer_remove.html:22
 #: maps/templates/maps/map_remove.html:19
-#: services/templates/services/service_remove.html:14
+#: services/templates/services/service_remove.html:17
 msgid "Yes, I am sure"
 msgstr "ஆம் எனக்கு உறுதியானது "
 
 #: documents/templates/documents/document_remove.html:19
 #: groups/templates/groups/group_remove.html:20
-#: layers/templates/layers/layer_remove.html:19
+#: layers/templates/layers/layer_remove.html:23
 #: maps/templates/maps/map_remove.html:20
-#: services/templates/services/service_remove.html:15
+#: services/templates/services/service_remove.html:18
 msgid "No, don't remove it"
 msgstr "இல்லை அகற்ற வேண்டாம் "
 
@@ -802,7 +786,7 @@ msgstr "மாற்றவும்"
 
 #: documents/templates/documents/document_replace.html:27
 #: layers/templates/layers/layer_replace.html:84
-#: layers/templates/upload/layer_upload.html:82
+#: layers/templates/upload/layer_upload.html:86
 msgid "Clear"
 msgstr "அழிக்குக "
 
@@ -846,68 +830,61 @@ msgstr "PDF "
 msgid "PNG"
 msgstr "PNG"
 
-#: geoserver/signals.py:288
+#: geoserver/signals.py:282
 msgid "Could not create a download link for layer."
 msgstr "அடுக்கு ஒரு இணைப்பை உருவாக்க முடியவில்லை."
 
-#: geoserver/signals.py:319
+#: geoserver/signals.py:313
 msgid "KML"
 msgstr "KML "
 
-#: geoserver/signals.py:348
+#: geoserver/signals.py:342
 msgid "Tiles"
 msgstr "தட்டு "
 
-#: geoserver/signals.py:403 layers/templates/layers/layer_detail.html:224
-#: services/views.py:1265
+#: geoserver/signals.py:389 layers/templates/layers/layer_detail.html:232
+#: services/views.py:1271
 msgid "Legend"
 msgstr "விளக்கம்"
 
-#: geoserver/signals.py:525 layers/utils.py:528
-msgid "Remote Thumbnail"
-msgstr "தொலை சிறு"
-
-#: geoserver/signals.py:560 layers/utils.py:563
-msgid "Thumbnail"
-msgstr "சிறு"
-
-#: geoserver/views.py:338
+#: geoserver/views.py:335
 msgid "You don't have permissions to change style for this layer"
 msgstr "நீங்கள் இந்த அடுக்கு பாணியை மாற்ற அனுமதி இல்லை"
 
-#: geoserver/views.py:425 geoserver/views.py:480
+#: geoserver/views.py:422 geoserver/views.py:477
 msgid "Bad HTTP Authorization Credentials."
 msgstr "பிழையான HTTP அறிமுக ஆவண அனுமதி"
 
-#: geoserver/management/__init__.py:30 layers/management/__init__.py:30
+#: geoserver/management/__init__.py:30
 msgid "Layer Uploaded"
 msgstr "படுகை பதிவேற்றப்பட்டது "
 
-#: geoserver/management/__init__.py:30 layers/management/__init__.py:30
+#: geoserver/management/__init__.py:30
 msgid "A layer was uploaded"
 msgstr "ஒரு படுகை பதிவேற்றப்பட்டுள்ளது "
 
-#: geoserver/management/__init__.py:31 layers/management/__init__.py:31
+#: geoserver/management/__init__.py:31 layers/management/__init__.py:45
 msgid "Comment on Layer"
 msgstr "படுகை குறிப்பிடடல் "
 
-#: geoserver/management/__init__.py:31 layers/management/__init__.py:31
+#: geoserver/management/__init__.py:31 layers/management/__init__.py:46
 msgid "A layer was commented on"
 msgstr "படுகை ஒன்று குறிப்பிடப்பட்டுள்ளது "
 
-#: geoserver/management/__init__.py:32 layers/management/__init__.py:32
+#: geoserver/management/__init__.py:32 layers/management/__init__.py:49
 msgid "Rating for Layer"
 msgstr "படுகையை தரப்படுத்தல் "
 
-#: geoserver/management/__init__.py:32 layers/management/__init__.py:32
+#: geoserver/management/__init__.py:32 layers/management/__init__.py:50
 msgid "A rating was given to a layer"
 msgstr "படுகை ஒன்று தரப்படுத்தப்பட்டுள்ளது  "
 
 #: groups/forms.py:15
 msgid ""
-"a short version of the name consisting only of letters, numbers, underscores"
-" and hyphens."
-msgstr "எழுத்துகள், எண்கள், அடிக்கோடு மற்றும் இணைப்புக்குறிகள் கொண்ட பெயர் ஒரு குறுகிய பதிப்பு."
+"a short version of the name consisting only of letters, numbers, underscores "
+"and hyphens."
+msgstr ""
+"எழுத்துகள், எண்கள், அடிக்கோடு மற்றும் இணைப்புக்குறிகள் கொண்ட பெயர் ஒரு குறுகிய பதிப்பு."
 
 #: groups/forms.py:23
 msgid "A group already exists with that slug."
@@ -935,58 +912,102 @@ msgid ""
 "(invite-only):Any registered user can view the group.  Only invited users "
 "can join.<br>Private: Registered users cannot see any details about the "
 "group, including membership.  Only invited users can join."
-msgstr "பொது: எந்த பதிவு பார்க்க மற்றும் ஒரு பொது குழு சேரலாம். <br> பொது (அழைக்க மட்டும்): ஏதாவது பதிவு குழுவில் காணலாம். அழைக்கப்பட்ட செய்த சேரலாம். <br> தனியார்: பதிவு செய்த உறுப்பினர் உட்பட குழு, குறித்த விவரங்கள் பார்க்க முடியாது. அழைக்கப்பட்ட செய்த சேரலாம்."
+msgstr ""
+"பொது: எந்த பதிவு பார்க்க மற்றும் ஒரு பொது குழு சேரலாம். <br> பொது (அழைக்க "
+"மட்டும்): ஏதாவது பதிவு குழுவில் காணலாம். அழைக்கப்பட்ட செய்த சேரலாம். <br> தனியார்: "
+"பதிவு செய்த உறுப்பினர் உட்பட குழு, குறித்த விவரங்கள் பார்க்க முடியாது. அழைக்கப்பட்ட செய்த "
+"சேரலாம்."
 
 #: groups/models.py:27
 msgid ""
 "Email used to contact one or all group members, such as a mailing list, "
 "shared email, or exchange group."
-msgstr "மின்னஞ்சல் போன்ற ஒரு அஞ்சல் பட்டியலை, பகிர்ந்து மின்னஞ்சல், அல்லது பரிமாற்றம் குழு ஒன்று அல்லது அனைத்து குழு உறுப்பினர்கள், தொடர்புகொள்ளும்."
+msgstr ""
+"மின்னஞ்சல் போன்ற ஒரு அஞ்சல் பட்டியலை, பகிர்ந்து மின்னஞ்சல், அல்லது பரிமாற்றம் குழு ஒன்று "
+"அல்லது அனைத்து குழு உறுப்பினர்கள், தொடர்புகொள்ளும்."
 
 #: groups/models.py:36
 msgid "email"
 msgstr "மின்னஞ்சல்"
 
-#: groups/models.py:181 groups/models.py:200
+#: groups/models.py:184 groups/models.py:203
+#: groups/templates/groups/group_members.html:28
+#: groups/templates/groups/group_members.html:54
+#: groups/templates/groups/group_members.html:81
 msgid "Manager"
 msgstr "மேலாளர்"
 
-#: groups/models.py:182 groups/models.py:201
+#: groups/models.py:185 groups/models.py:204
 msgid "Member"
 msgstr "உறுப்பினர்"
 
-#: groups/models.py:206
+#: groups/models.py:209
 msgid "Sent"
 msgstr "அனுப்பப்பட்டது"
 
-#: groups/models.py:207
+#: groups/models.py:210
 msgid "Accepted"
 msgstr "ஏற்கப்பட்டது"
 
-#: groups/models.py:208
+#: groups/models.py:211
 msgid "Declined"
 msgstr "நிராகரிப்பு"
 
 #: groups/templates/groups/activity.html:7
 #: groups/templates/groups/activity.html:8
-#: groups/templates/groups/activity.html:20 templates/actstream/actor.html:20
+#: groups/templates/groups/activity.html:20 templates/actstream/actor.html:19
 msgid "Activity Feed for"
 msgstr "ஐந்து ஹேராம்"
 
+#: groups/templates/groups/activity.html:24
+#: groups/templates/groups/group_members.html:13
+#: social/templates/social/activity_list.html:20
+#: templates/user_messages/inbox.html:16
+msgid "All"
+msgstr ""
+
+#: groups/templates/groups/activity.html:25
+#: people/templates/people/_profile_filters.html:5
+#: services/templates/services/service_detail.html:64
+#: social/templates/social/activity_list.html:21 templates/500.html:39
+#: templates/base.html:48
+msgid "Layers"
+msgstr "படுகை  "
+
+#: groups/templates/groups/activity.html:26
+#: people/templates/people/_profile_filters.html:6
+#: social/templates/social/activity_list.html:22 templates/500.html:42
+#: templates/base.html:51
+msgid "Maps"
+msgstr "வரைபடங்கள்"
+
 #: groups/templates/groups/activity.html:27
-#: social/templates/social/activity_list.html:23
-#: templates/actstream/actor.html:27
+#: social/templates/social/activity_list.html:23 templates/_actions.html:11
+#: templates/_comments.html:12
+msgid "Comments"
+msgstr "குறிப்புக்கள் "
+
+#: groups/templates/groups/activity.html:35
+#: groups/templates/groups/activity.html:44
+#: groups/templates/groups/activity.html:53
+#: groups/templates/groups/activity.html:62
+#: social/templates/social/activity_list.html:31
+#: social/templates/social/activity_list.html:40
+#: social/templates/social/activity_list.html:49
+#: social/templates/social/activity_list.html:58
+#: templates/actstream/actor.html:28
 msgid "No actions yet"
 msgstr "இன்னும் செயற்பாடில்லை "
 
 #: groups/templates/groups/group_base.html:13
 #: groups/templates/groups/group_list.html:5
-#: groups/templates/groups/group_list.html:11
+#: groups/templates/groups/group_list.html:12
 msgid "Explore Groups"
 msgstr "குழுக்கள் ஆராய்ந்து"
 
 #: groups/templates/groups/group_base.html:14
 #: groups/templates/groups/group_create.html:11
+#: groups/templates/groups/group_list.html:11
 msgid "Create a Group"
 msgstr "ஒரு குழு உருவாக்க"
 
@@ -1005,7 +1026,7 @@ msgid "Create Group"
 msgstr "குழு உருவாக்கவும்"
 
 #: groups/templates/groups/group_create.html:26
-#: services/templates/services/service_register.html:17
+#: services/templates/services/service_register.html:19
 msgid "Create"
 msgstr "உருவாக்கவும்"
 
@@ -1013,49 +1034,53 @@ msgstr "உருவாக்கவும்"
 msgid "This group has not created a logo."
 msgstr "இந்த குழு ஒரு லோகோ உருவாக்கப்பட்ட."
 
-#: groups/templates/groups/group_detail.html:46
+#: groups/templates/groups/group_detail.html:41
 #: groups/templates/groups/group_invite_response.html:7
-#: groups/templates/groups/group_members.html:12
+#: groups/templates/groups/group_members.html:9
+#: groups/templates/groups/group_members.html:15
 msgid "Members"
 msgstr "உறுப்பினர்"
 
-#: groups/templates/groups/group_detail.html:57
+#: groups/templates/groups/group_detail.html:52
 msgid "Edit Group Details"
 msgstr "திருத்த குழு விவரங்கள்"
 
-#: groups/templates/groups/group_detail.html:58
+#: groups/templates/groups/group_detail.html:53
 msgid "Manage Group Members"
 msgstr "குழு உறுப்பினர்கள் நிர்வகிக்கவும்"
 
-#: groups/templates/groups/group_detail.html:59
+#: groups/templates/groups/group_detail.html:54
 msgid "Delete this Group"
 msgstr "இந்த குழுவை நீக்கு"
 
-#: groups/templates/groups/group_detail.html:62
+#: groups/templates/groups/group_detail.html:57
 msgid "Group Activities"
 msgstr "குழு செயல்பாடுகள்"
 
-#: groups/templates/groups/group_detail.html:67
+#: groups/templates/groups/group_detail.html:62
 #, python-format
 msgid ""
 "\n"
 "            This group is <strong>%(access)s</strong>.\n"
 "          "
-msgstr "\nஇந்த <strong>%(access)s</strong> ஆகிறது."
+msgstr ""
+"\n"
+"இந்த <strong>%(access)s</strong> ஆகிறது."
 
-#: groups/templates/groups/group_detail.html:71
+#: groups/templates/groups/group_detail.html:66
 msgid "Anyone may join this group."
 msgstr "யார் இந்த குழு சேர கூடும்."
 
-#: groups/templates/groups/group_detail.html:77
+#: groups/templates/groups/group_detail.html:74
 msgid "Anyone may view this group but membership is by invitation only."
 msgstr "எவரும் இந்த குழு கருதலாம் ஆனால் உறுப்பினர் மட்டுமே அழைப்பு மூலம்."
 
-#: groups/templates/groups/group_detail.html:79
+#: groups/templates/groups/group_detail.html:76
 msgid "Membership is by invitation only."
 msgstr "உறுப்பினர் மட்டுமே அழைப்பு மூலம்."
 
-#: groups/templates/groups/group_detail.html:84
+#: groups/templates/groups/group_detail.html:81
+#: groups/templates/groups/group_members.html:14
 msgid "Managers"
 msgstr "மேலாளர்கள்"
 
@@ -1071,33 +1096,58 @@ msgstr "சேர"
 msgid "Join Group"
 msgstr "குழு சேர"
 
-#: groups/templates/groups/group_list.html:16
+#: groups/templates/groups/group_list.html:17
 #: people/templates/people/profile_list.html:13
 #: templates/search/_sort_filters.html:5
+msgid "Most recent"
+msgstr "மிக அண்மையது "
+
+#: groups/templates/groups/group_list.html:18
+#: people/templates/people/profile_list.html:14
+#: templates/search/_sort_filters.html:6
 msgid "Less recent"
 msgstr "குறைவான சமீபத்திய"
 
-#: groups/templates/groups/group_list.html:17
-#: people/templates/people/profile_list.html:14
-#: templates/search/_sort_filters.html:6
+#: groups/templates/groups/group_list.html:19
+#: people/templates/people/profile_list.html:15
+#: templates/search/_sort_filters.html:7
 msgid "A - Z"
 msgstr "A - Z"
 
-#: groups/templates/groups/group_list.html:18
-#: people/templates/people/profile_list.html:15
-#: templates/search/_sort_filters.html:7
+#: groups/templates/groups/group_list.html:20
+#: people/templates/people/profile_list.html:16
+#: templates/search/_sort_filters.html:8
 msgid "Z - A"
 msgstr "Z - ஒரு"
 
-#: groups/templates/groups/group_members.html:9
-msgid "Group details"
-msgstr "குழு விவரங்கள்"
+#: groups/templates/groups/group_list.html:21
+#: templates/search/_sort_filters.html:9
+msgid "Most popular"
+msgstr "மிக பிரபல்யமானது "
 
-#: groups/templates/groups/group_members.html:19
+#: groups/templates/groups/group_members.html:8
+#, fuzzy
+msgid "Edit Members for"
+msgstr "திருத்துவது விவரங்கள்"
+
+#: groups/templates/groups/group_members.html:33
+#: groups/templates/groups/group_members.html:59
+#: groups/templates/groups/group_members.html:86
+#, fuzzy
+msgid "Remove"
+msgstr "அகற்று"
+
+#: groups/templates/groups/group_members.html:37
+#: groups/templates/groups/group_members.html:63
+#: groups/templates/groups/group_members.html:90
+msgid "Role"
+msgstr ""
+
+#: groups/templates/groups/group_members.html:99
 msgid "Add members"
 msgstr "உறுப்பினர்கள் சேர்க்கவும்"
 
-#: groups/templates/groups/group_members.html:28
+#: groups/templates/groups/group_members.html:110
 msgid "Invite people"
 msgstr "மக்கள் அழைக்கவும்"
 
@@ -1107,7 +1157,9 @@ msgid ""
 "\n"
 "          Are you sure you want to remove the group: %(group_title)s?\n"
 "        "
-msgstr "\nகுழுவை நீக்க வேண்டுமா: %(group_title)s?"
+msgstr ""
+"\n"
+"குழுவை நீக்க வேண்டுமா: %(group_title)s?"
 
 #: groups/templates/groups/group_remove_maps_data.html:6
 msgid "Remove Maps/Data from Group"
@@ -1133,173 +1185,191 @@ msgstr "sld பதிப்புரு "
 msgid "sld url"
 msgstr "sld url"
 
-#: layers/models.py:278
+#: layers/models.py:282
 msgid "attribute name"
 msgstr "பண்பியல்பின் பெயர்"
 
-#: layers/models.py:279
+#: layers/models.py:283
 msgid "name of attribute as stored in shapefile/spatial database"
 msgstr "வடிவக் கோப்பில் /புவியியல் தரவில் களஞ்சியப்படுத்தியதாக பண்பியல்பை பெயரிடுக"
 
-#: layers/models.py:285
+#: layers/models.py:289
 msgid "attribute description"
 msgstr "விளக்கம் பண்பு"
 
-#: layers/models.py:286
+#: layers/models.py:290
 msgid "description of attribute to be used in metadata"
 msgstr "பண்பு விளக்கம் மெட்டா பயன்படுத்தப்படும்"
 
-#: layers/models.py:291
+#: layers/models.py:295
 msgid "attribute label"
 msgstr "பண்பியல்பை அடையாளமிடுக"
 
-#: layers/models.py:292
+#: layers/models.py:296
 msgid "title of attribute as displayed in GeoNode"
 msgstr "ஜியோநோட் இல் வெளிப்படும் பண்பியல்பின் தலைப்பு "
 
-#: layers/models.py:298
+#: layers/models.py:302
 msgid "attribute type"
 msgstr "பண்பு வகை"
 
-#: layers/models.py:299
+#: layers/models.py:303
 msgid "the data type of the attribute (integer, string, geometry, etc)"
 msgstr " பண்பியல்பின் தரவூ வகை (இன்டஐர் ஸ்ரிங் ஐயோமெட்ரி போன்றன)"
 
-#: layers/models.py:306
+#: layers/models.py:310
 msgid "visible?"
 msgstr "தென்படுகின்றதா?  "
 
-#: layers/models.py:307
+#: layers/models.py:311
 msgid "specifies if the attribute should be displayed in identify results"
 msgstr "அடையாளங் காணப்பட்ட பெறுபேறுகளில் பண்பியல்புகளை காண்பிக்க வேண்டுமா என்பதை விளக்குக"
 
-#: layers/models.py:310
+#: layers/models.py:314
 msgid "display order"
 msgstr "காட்சி பொருட்டு"
 
-#: layers/models.py:311
+#: layers/models.py:315
 msgid ""
 "specifies the order in which attribute should be displayed in identify "
 "results"
-msgstr "அடையாளங் காணப்பட்ட பெறுபேறுகளில் பண்பியல்புகள் எந்த ஒழுங்கில் முன்வைக்கப்பட வேண்டும் என்பதை விளக்குக "
+msgstr ""
+"அடையாளங் காணப்பட்ட பெறுபேறுகளில் பண்பியல்புகள் எந்த ஒழுங்கில் முன்வைக்கப்பட வேண்டும் என்பதை "
+"விளக்குக "
 
-#: layers/models.py:316
+#: layers/models.py:320
 msgid "count"
 msgstr "எண்ண"
 
-#: layers/models.py:317
+#: layers/models.py:321
 msgid "count value for this field"
 msgstr "இந்த துறையில் மதிப்பு எண்ண"
 
-#: layers/models.py:320
+#: layers/models.py:324
 msgid "min"
 msgstr "நிமிடம்"
 
-#: layers/models.py:321
+#: layers/models.py:325
 msgid "minimum value for this field"
 msgstr "இந்த துறையில் குறைந்தபட்ச மதிப்பு"
 
-#: layers/models.py:328
+#: layers/models.py:332
 msgid "max"
 msgstr "அதிகபட்சம்"
 
-#: layers/models.py:329
+#: layers/models.py:333
 msgid "maximum value for this field"
 msgstr "இந்த துறையில் அதிகபட்ச மதிப்பு"
 
-#: layers/models.py:336
+#: layers/models.py:340
 msgid "average"
 msgstr "சராசரி"
 
-#: layers/models.py:337
+#: layers/models.py:341
 msgid "average value for this field"
 msgstr "இந்த துறையில் சராசரி மதிப்பு"
 
-#: layers/models.py:344
+#: layers/models.py:348
 msgid "median"
 msgstr "சராசரி"
 
-#: layers/models.py:345
+#: layers/models.py:349
 msgid "median value for this field"
 msgstr "இந்த துறையில் சராசரி மதிப்பு"
 
-#: layers/models.py:352
+#: layers/models.py:356
 msgid "standard deviation"
 msgstr "நியமச்சாய்வு"
 
-#: layers/models.py:353
+#: layers/models.py:357
 msgid "standard deviation for this field"
 msgstr "இந்த துறையில் நியமச்சாய்வு"
 
-#: layers/models.py:360
+#: layers/models.py:364
 msgid "sum"
 msgstr "தொகை"
 
-#: layers/models.py:361
+#: layers/models.py:365
 msgid "sum value for this field"
 msgstr "இந்த துறையில் தொகை மதிப்பு"
 
-#: layers/models.py:368
+#: layers/models.py:372
 msgid "unique values for this field"
 msgstr "இந்த துறையில் தனிப்பட்ட மதிப்புகள்"
 
-#: layers/models.py:373
+#: layers/models.py:377
 msgid "last modified"
 msgstr "கடைசியாக மாற்றப்பட்ட"
 
-#: layers/models.py:375
+#: layers/models.py:379
 msgid "date when attribute statistics were last updated"
 msgstr "பண்பு புள்ளிவிவரங்கள் கடந்த போது தேதி மேம்படுத்தப்பட்டது"
 
-#: layers/views.py:59
+#: layers/views.py:64
 msgid ""
 "There was an error while attempting to upload your data. Please try again, "
 "or contact and administrator if the problem continues."
-msgstr "உங்களின் தரவ பதிவேற்ற முயற்சியின் போது தவறு ஏற்பட்டுள்ளது. தயவ செய்து மீண்டும் முயற்சி செய்க. அல்லது பிரச்சினை தொடர்கின்றதாயின் நிர்வாகியை தொடர்பு கொள்ளுங்கள். "
+msgstr ""
+"உங்களின் தரவ பதிவேற்ற முயற்சியின் போது தவறு ஏற்பட்டுள்ளது. தயவ செய்து மீண்டும் முயற்சி "
+"செய்க. அல்லது பிரச்சினை தொடர்கின்றதாயின் நிர்வாகியை தொடர்பு கொள்ளுங்கள். "
 
-#: layers/views.py:62
+#: layers/views.py:67
 msgid "You are not permitted to delete this layer"
 msgstr "இந்த படுகையை அழிப்பதற்கு உங்களுக்கு அனுமதியில்லை "
 
-#: layers/views.py:63
+#: layers/views.py:68
 msgid "You do not have permissions for this layer."
 msgstr "இந்த படுகைக்கு உங்களுக்கு அனுமதியில்லை"
 
-#: layers/views.py:64
+#: layers/views.py:69
 msgid "You are not permitted to modify this layer"
 msgstr "இந்த படுகையை மாற்றியமைப்பதற்கு உங்களுக்கு அனுமதியில்லை"
 
-#: layers/views.py:66
+#: layers/views.py:71
 msgid "You are not permitted to modify this layer's metadata"
 msgstr "இந்த படிமத்தின் நுண்தரவூகளை மாற்றியமைப்பதற்கு உங்களுக்கு அனுமதியில்லை  "
 
-#: layers/views.py:67
+#: layers/views.py:72
 msgid "You are not permitted to view this layer"
 msgstr "இந்த படுகையை பார்வையிட உங்களுக்கு அனுமதியில்லை"
 
-#: layers/templates/layers/_actions.html:4
-#: layers/templates/layers/layer_metadata.html:32
-#: layers/templates/layers/layer_metadata.html:70
-msgid "Attributes"
-msgstr "பண்பியல்பு"
+#: layers/views.py:431
+msgid "You are attempting to replace a vector layer with a raster."
+msgstr ""
 
-#: layers/templates/layers/_actions.html:11
-msgid "GeoGit"
-msgstr "GeoGit"
+#: layers/views.py:434
+msgid "You are attempting to replace a raster layer with a vector."
+msgstr ""
 
-#: layers/templates/layers/_layer_list_item.html:38
-msgid "Create a map"
-msgstr "ஒரு வரைபடத்தை உருவாக்கு"
+#: layers/management/__init__.py:33
+#, fuzzy
+msgid "Layer Created"
+msgstr "வரைபடம் உருவாக்கப்பட்டுள்ளது  "
 
-#: layers/templates/layers/_layer_list_item.html:48
-#: layers/templates/layers/layer_detail.html:130
-#: layers/templates/layers/layer_detail.html:139
-msgid "Download Layer"
-msgstr "பதிவிரக்க படுகை "
+#: layers/management/__init__.py:34
+#, fuzzy
+msgid "A Layer was created"
+msgstr "ஒரு வடைபடம் உருவாக்கப்பட்டது "
 
-#: layers/templates/layers/_layer_list_item.html:85
-msgid "You do not have permission to view this layer"
-msgstr "நீங்கள் இந்த அடுக்கு பார்வையிட அனுமதி இல்லை"
+#: layers/management/__init__.py:37
+#, fuzzy
+msgid "Layer Updated"
+msgstr "படுகை பதிவேற்றப்பட்டது "
+
+#: layers/management/__init__.py:38
+#, fuzzy
+msgid "A Layer was updated"
+msgstr "ஒரு படுகை பதிவேற்றப்பட்டுள்ளது "
+
+#: layers/management/__init__.py:41
+#, fuzzy
+msgid "Layer Deleted"
+msgstr " படுகை முன்னிருப்பு வடிவம்"
+
+#: layers/management/__init__.py:42
+#, fuzzy
+msgid "A Layer was deleted"
+msgstr "ஒரு படுகை பதிவேற்றப்பட்டுள்ளது "
 
 #: layers/templates/layers/layer_change_poc.html:5
 msgid "Home"
@@ -1315,175 +1385,215 @@ msgid "Assign a new point of contact to the layers below:"
 msgstr "கீழுள்ள படுகைக்கு புதிய தொடர்பு மையம் ஒன்றை வழங்குக  "
 
 #: layers/templates/layers/layer_change_poc.html:17
-#: people/templates/people/forgot_username_form.html:17
+#: people/templates/people/forgot_username_form.html:15
 msgid "Submit"
 msgstr " வழங்குக "
 
-#: layers/templates/layers/layer_detail.html:52
+#: layers/templates/layers/layer_detail.html:51
 msgid "Attribute Name"
 msgstr "பண்பியல்பின் பெயர் "
 
-#: layers/templates/layers/layer_detail.html:53
+#: layers/templates/layers/layer_detail.html:52
 msgid "Range"
 msgstr "பரம்பல் "
 
-#: layers/templates/layers/layer_detail.html:54
+#: layers/templates/layers/layer_detail.html:53
 msgid "Average"
 msgstr "சராசரி"
 
-#: layers/templates/layers/layer_detail.html:55
+#: layers/templates/layers/layer_detail.html:54
 msgid "Median"
 msgstr "மையம் "
 
-#: layers/templates/layers/layer_detail.html:56
+#: layers/templates/layers/layer_detail.html:55
 msgid "Standard Deviation"
 msgstr "நியமச்சாய்வு"
 
-#: layers/templates/layers/layer_detail.html:109
+#: layers/templates/layers/layer_detail.html:108
 msgid "Rate this layer"
 msgstr "இந்த படுகையை தரப்படுத்துக"
 
-#: layers/templates/layers/layer_detail.html:182
-#: layers/templates/layers/layer_detail.html:191
+#: layers/templates/layers/layer_detail.html:130
+#: layers/templates/layers/layer_detail.html:143
+msgid "Download Layer"
+msgstr "பதிவிரக்க படுகை "
+
+#: layers/templates/layers/layer_detail.html:190
+#: layers/templates/layers/layer_detail.html:197
 msgid "Edit Layer"
 msgstr "படுகையை திருத்தம் செய்தல் "
 
-#: layers/templates/layers/layer_detail.html:201
+#: layers/templates/layers/layer_detail.html:206
 #: layers/templates/layers/layer_style_manage.html:14
 msgid "Manage Styles"
 msgstr "பாங்குகள் நிர்வகிக்கவும்"
 
-#: layers/templates/layers/layer_detail.html:203
+#: layers/templates/layers/layer_detail.html:208
 msgid "Edit Styles"
 msgstr "வடிவத்தை சரிசெய்க "
 
-#: layers/templates/layers/layer_detail.html:208
+#: layers/templates/layers/layer_detail.html:213
+#: maps/templates/maps/map_detail.html:111
+msgid "Set Map Thumbnail"
+msgstr "வரைபடம் சிறு அமைக்கவும்"
+
+#: layers/templates/layers/layer_detail.html:216
 msgid "Replace this Layer"
 msgstr "இந்த படுகையை மாற்றுக "
 
-#: layers/templates/layers/layer_detail.html:211
+#: layers/templates/layers/layer_detail.html:219
 msgid "Remove this Layer"
 msgstr "இந்த படுகையை அகற்றுக "
 
-#: layers/templates/layers/layer_detail.html:234
+#: layers/templates/layers/layer_detail.html:242
 msgid "Maps using this layer"
 msgstr "இந்த படுகையை பயன்படுத்தும் வரைபடங்கள் "
 
-#: layers/templates/layers/layer_detail.html:236
+#: layers/templates/layers/layer_detail.html:244
 msgid "List of maps using this layer:"
 msgstr "இந்த படுகையை பயன்படுத்தும் வரைபடங்களின் பட்டியல் "
 
-#: layers/templates/layers/layer_detail.html:242
+#: layers/templates/layers/layer_detail.html:250
 msgid "This layer is not currently used in any maps."
 msgstr "எந்தவொரு வரைபடத்திலும் இந்த படுகை பயன்படுத்தப்படவில்லை "
 
-#: layers/templates/layers/layer_detail.html:247
+#: layers/templates/layers/layer_detail.html:255
 msgid "Create a map using this layer"
 msgstr "இந்த படுகையை பயன்படுத்தும் வரைபடத்தை உருவாக்குதல்"
 
-#: layers/templates/layers/layer_detail.html:248
+#: layers/templates/layers/layer_detail.html:256
 msgid "Click the button below to generate a new map based on this layer."
-msgstr "இந்த படுகையின் அடிப்படையில் புதிய வரைபடத்தை உருவாக்குவதற்கு  கீழுள்ள ஆழியை அழுத்துக  "
+msgstr ""
+"இந்த படுகையின் அடிப்படையில் புதிய வரைபடத்தை உருவாக்குவதற்கு  கீழுள்ள ஆழியை அழுத்துக  "
 
-#: layers/templates/layers/layer_detail.html:249
+#: layers/templates/layers/layer_detail.html:257
 msgid "Create a Map"
 msgstr "வரைபடத்தை உருவாக்குதல்"
 
-#: layers/templates/layers/layer_detail.html:254
+#: layers/templates/layers/layer_detail.html:262
 msgid "Documents related to this layer"
 msgstr "இந்த அடுக்கு ஆவணங்கள்"
 
-#: layers/templates/layers/layer_detail.html:255
+#: layers/templates/layers/layer_detail.html:263
 msgid "List of documents related to this layer:"
 msgstr "இந்த அடுக்கு தொடர்பான ஆவணங்களை பெற:"
 
-#: layers/templates/layers/layer_detail.html:266
+#: layers/templates/layers/layer_detail.html:274
 msgid "Styles"
 msgstr "வடிவம் "
 
-#: layers/templates/layers/layer_detail.html:267
+#: layers/templates/layers/layer_detail.html:275
 msgid ""
 "The following styles are associated with this layer. Choose a style to view "
 "it in the preview map."
-msgstr "இந்த வடிவத்துடன் பின்வரும் படிவங்கள் தொடர்புபட்டுள்ளன. முன்கூட்டிய வரைபடத்தில் இதனை காண்பதற்கு வடிவம் ஒன்றை தெரிக"
+msgstr ""
+"இந்த வடிவத்துடன் பின்வரும் படிவங்கள் தொடர்புபட்டுள்ளன. முன்கூட்டிய வரைபடத்தில் இதனை "
+"காண்பதற்கு வடிவம் ஒன்றை தெரிக"
 
-#: layers/templates/layers/layer_detail.html:280
+#: layers/templates/layers/layer_detail.html:288
 msgid "No styles associated with this layer"
 msgstr "இப்படிமத்துடன் வடிவங்கள் தொடர்புபடவில்லை "
 
-#: layers/templates/layers/layer_detail.html:290
+#: layers/templates/layers/layer_detail.html:298
 msgid "Click the button below to change the permissions of this layer."
 msgstr "இந்த படுகைக்கான அனுமதியை மாற்றுவதற்கு கீழுள்ள ஆழியை அழுத்தவம் "
 
-#: layers/templates/layers/layer_detail.html:291
+#: layers/templates/layers/layer_detail.html:299
 msgid "Change Layer Permissions"
 msgstr " படுகை மாற்றத்திற்கான அனுமதி "
 
-#: layers/templates/layers/layer_detail.html:298
+#: layers/templates/layers/layer_detail.html:306
 msgid "External service layer"
 msgstr "வெளி சேவை அடுக்கு"
 
-#: layers/templates/layers/layer_detail.html:299
+#: layers/templates/layers/layer_detail.html:307
 msgid "Source"
 msgstr "மூல"
 
-#: layers/templates/layers/layer_list.html:7
-#: layers/templates/layers/layer_list.html:14
-#: layers/templates/upload/layer_upload_base.html:11 templates/index.html:33
+#: layers/templates/layers/layer_list.html:6
+#: layers/templates/layers/layer_list.html:13
+#: layers/templates/layers/layer_metadata.html:11
+#: layers/templates/layers/layer_remove.html:8
+#: layers/templates/upload/layer_upload.html:17
+#: layers/templates/upload/layer_upload_base.html:11 templates/index.html:32
 msgid "Explore Layers"
 msgstr "படுகைகளை உலாவருதல்"
 
-#: layers/templates/layers/layer_list.html:13
+#: layers/templates/layers/layer_list.html:12
+#: layers/templates/upload/layer_upload.html:18
 #: layers/templates/upload/layer_upload_base.html:12 templates/500.html:74
-#: templates/base.html:90
+#: templates/base.html:196
 msgid "Upload Layers"
 msgstr "படிமங்களை பதிவேற்றுதல்"
 
-#: layers/templates/layers/layer_metadata.html:12
+#: layers/templates/layers/layer_metadata.html:17
 #, python-format
 msgid ""
 "\n"
 "        Editing details for %(layer_title)s\n"
 "      "
-msgstr "\nதிருத்துவது விவரங்கள் %(layer_title)sகள்"
+msgstr ""
+"\n"
+"திருத்துவது விவரங்கள் %(layer_title)sகள்"
 
-#: layers/templates/layers/layer_metadata.html:17
+#: layers/templates/layers/layer_metadata.html:23
+#, fuzzy
 msgid ""
-"Note: this layer's orginal metadata was populated by importing a metadata XML file.\n"
-"        GeoNode's metadata import supports a subset of ISO, FGDC, and Dublin Core metadata elements.\n"
-"        Some of your original metadata may have been lost."
-msgstr "குறிப்பு: நுண் தரவு XML கோப்பு ஒன்றை தரவிரக்கம் செய்வதற்ன மூலமே இந்த நுண் தரவு படுகையின் மூல நுண்தரவுகள் உருவாக்கப்பட்டுள்ளன\nஜியோநோட் நுண் தரவு  ஆனது ISO, FGDC மற்றும் Dublin  இணை நுண் தரவு காரணிகளுக்கு ஒத்துழைப்பாக இருக்கும்  \nஉங்களின் சில ஆரம்ப நுண்தரவுகள் இழக்கப்பட்டிருக்கலாம் "
+"Note: this layer's orginal metadata was populated by importing a metadata "
+"XML file.\n"
+"          GeoNode's metadata import supports a subset of ISO, FGDC, and "
+"Dublin Core metadata elements.\n"
+"          Some of your original metadata may have been lost."
+msgstr ""
+"குறிப்பு: நுண் தரவு XML கோப்பு ஒன்றை தரவிரக்கம் செய்வதற்ன மூலமே இந்த நுண் தரவு "
+"படுகையின் மூல நுண்தரவுகள் உருவாக்கப்பட்டுள்ளன\n"
+"ஜியோநோட் நுண் தரவு  ஆனது ISO, FGDC மற்றும் Dublin  இணை நுண் தரவு காரணிகளுக்கு "
+"ஒத்துழைப்பாக இருக்கும்  \n"
+"உங்களின் சில ஆரம்ப நுண்தரவுகள் இழக்கப்பட்டிருக்கலாம் "
 
-#: layers/templates/layers/layer_metadata.html:72
+#: layers/templates/layers/layer_metadata.html:37
+#: layers/templates/layers/layer_metadata.html:74 templates/_actions.html:5
+msgid "Attributes"
+msgstr "பண்பியல்பு"
+
+#: layers/templates/layers/layer_metadata.html:76
 msgid "Attribute"
 msgstr " பண்பியல்பு "
 
-#: layers/templates/layers/layer_metadata.html:72
+#: layers/templates/layers/layer_metadata.html:76
 msgid "Label"
 msgstr "லேபிள்"
 
-#: layers/templates/layers/layer_metadata.html:72 services/forms.py:24
+#: layers/templates/layers/layer_metadata.html:76 services/forms.py:24
 #: services/templates/services/layers_register.html:28
 msgid "Description"
 msgstr "விளக்கம்"
 
-#: layers/templates/layers/layer_metadata.html:72
+#: layers/templates/layers/layer_metadata.html:76
 msgid "Display Order"
 msgstr "ஒழுங்கை வெளிப்படுத்தல் "
 
-#: layers/templates/layers/layer_remove.html:11
-#, python-format
+#: layers/templates/layers/layer_remove.html:9
+#, fuzzy
+msgid "Remove Layers"
+msgstr "இந்த படுகையை அகற்றுக "
+
+#: layers/templates/layers/layer_remove.html:14
+#, fuzzy, python-format
 msgid ""
 "\n"
-"          Are you sure you want to remove %(layer_title)s?\n"
+"          Are you sure you want to remove <a href="
+"\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
 "        "
-msgstr "\nநீங்கள் %(layer_title)s ங்கள் நீக்க வேண்டுமா?"
+msgstr ""
+"\n"
+"நீங்கள் %(layer_title)s ங்கள் நீக்க வேண்டுமா?"
 
-#: layers/templates/layers/layer_remove.html:25
+#: layers/templates/layers/layer_remove.html:30
 msgid "This action affects the following maps:"
 msgstr "செயற்பாடு பின்வரும் வரைபடங்களை பாதிக்கும் "
 
-#: layers/templates/layers/layer_remove.html:29
+#: layers/templates/layers/layer_remove.html:34
 msgid "No maps are using this layer"
 msgstr "எந்தவொரு வரைபடமும் இந்த படுகையை பயன்படுத்தவில்லை"
 
@@ -1497,69 +1607,69 @@ msgid "Replace Layer: "
 msgstr "அடுக்கு பதிலாக:"
 
 #: layers/templates/layers/layer_replace.html:23
-#: layers/templates/upload/layer_upload.html:20
+#: layers/templates/upload/layer_upload.html:24
 msgid "Incomplete Uploads"
 msgstr "முழுமையற்ற பதிவேற்றம் "
 
 #: layers/templates/layers/layer_replace.html:24
-#: layers/templates/upload/layer_upload.html:21
+#: layers/templates/upload/layer_upload.html:25
 msgid "You have the following incomplete uploads"
 msgstr "உங்களிடம் பின்வரும் முழுமையற்ற பதிவேற்றங்கள் காணப்படுகின்றன "
 
 #: layers/templates/layers/layer_replace.html:27
-#: layers/templates/upload/layer_upload.html:24
+#: layers/templates/upload/layer_upload.html:28
 msgid "last updated on"
 msgstr "இறுதியாக இயல்நிலைப்படுத்தப்பட்டது"
 
 #: layers/templates/layers/layer_replace.html:29
-#: layers/templates/upload/layer_upload.html:26
+#: layers/templates/upload/layer_upload.html:30
 msgid "Resume"
 msgstr "மீள வழங்குக "
 
 #: layers/templates/layers/layer_replace.html:30
 #: layers/templates/layers/layer_replace.html:38
-#: layers/templates/upload/layer_upload.html:27
-#: layers/templates/upload/layer_upload.html:34
-#: templates/announcements/announcement_form.html:23
-#: templates/user_messages/inbox.html:44
+#: layers/templates/upload/layer_upload.html:31
+#: layers/templates/upload/layer_upload.html:38
+#: templates/announcements/announcement_form.html:25
+#: templates/user_messages/_message_snippet.html:40
 msgid "Delete"
 msgstr "அழி"
 
 #: layers/templates/layers/layer_replace.html:36
-#: layers/templates/upload/layer_upload.html:33
+#: layers/templates/upload/layer_upload.html:37
 msgid "Are you sure you want to delete this upload?"
 msgstr "உண்மையில் இந்த பதிவேற்றத்தை அழிக்க வேண்டுமா?"
 
 #: layers/templates/layers/layer_replace.html:39
-#: layers/templates/upload/layer_upload.html:35
-#: maps/templates/maps/map_download.html:58 templates/_comments.html:59
+#: layers/templates/upload/layer_upload.html:39
+#: maps/templates/maps/map_download.html:58 templates/_comments.html:66
 #: templates/_permissions_form.html:15
-#: templates/announcements/announcement_form.html:21
+#: templates/announcements/announcement_form.html:23
 msgid "Cancel"
 msgstr "நீக்கு "
 
 #: layers/templates/layers/layer_replace.html:41
-#: layers/templates/upload/layer_upload.html:36
+#: layers/templates/upload/layer_upload.html:40
 msgid "Delete, and don't ask me again."
 msgstr "அழிக்கு மீண்டும் இதனை வினவ வேண்டாம்"
 
 #: layers/templates/layers/layer_replace.html:55
-#: layers/templates/upload/layer_upload.html:53
+#: layers/templates/upload/layer_upload.html:57
 msgid "Drop files here"
 msgstr "ஆவணத்தை இங்கே இடுக "
 
 #: layers/templates/layers/layer_replace.html:58
-#: layers/templates/upload/layer_upload.html:56
+#: layers/templates/upload/layer_upload.html:60
 msgid " or select them one by one:"
 msgstr "அல்லது ஒவ்வொன்றாக தெரிக"
 
 #: layers/templates/layers/layer_replace.html:66
-#: layers/templates/upload/layer_upload.html:64
+#: layers/templates/upload/layer_upload.html:68
 msgid "Files to be uploaded"
 msgstr "கோப்புகள் பதிவேற்றம் செய்வதற்கு"
 
 #: layers/templates/layers/layer_replace.html:71
-#: layers/templates/upload/layer_upload.html:69
+#: layers/templates/upload/layer_upload.html:73
 msgid "Select the charset or leave default"
 msgstr "ஆவணத் தொகுப்பை தெரிக அல்லது முன்னிருப்பில் இருந்து வெளியேறுக"
 
@@ -1567,25 +1677,31 @@ msgstr "ஆவணத் தொகுப்பை தெரிக அல்லத
 #, python-format
 msgid ""
 "\n"
-"      Manage Available Styles for <a href=\"/layers/%(layer_title)s\">%(layer_title)s</a>\n"
+"      Manage Available Styles for <a href=\"/layers/%(layer_title)s\">"
+"%(layer_title)s</a>\n"
 "    "
-msgstr "\nகிடைக்கும் பாங்குகள் நிர்வகிக்கவும் <a href=\"/layers/%(layer_title)s\">%(layer_title)s</a>"
+msgstr ""
+"\n"
+"கிடைக்கும் பாங்குகள் நிர்வகிக்கவும் <a href=\"/layers/%(layer_title)s\">"
+"%(layer_title)s</a>"
 
-#: layers/templates/layers/layer_style_manage.html:26
+#: layers/templates/layers/layer_style_manage.html:23
 msgid "Layer Default Style"
 msgstr " படுகை முன்னிருப்பு வடிவம்"
 
-#: layers/templates/layers/layer_style_manage.html:43
+#: layers/templates/layers/layer_style_manage.html:41
 msgid "Available styles"
 msgstr "காணப்படும் வடிவம்"
 
-#: layers/templates/layers/layer_style_manage.html:44
+#: layers/templates/layers/layer_style_manage.html:42
 msgid ""
 "Click on an available style in the upper box to assign it to this layer. "
 "Selected styles appear in the lower box."
-msgstr "இந்த படுகைக்கு ஒதிக்கீடு செய்வதற்கு மேல் பெட்டியில் உள்ள காணப்படும் வடிவத்தை அழுத்துக. கீழ் பெட்டியில் காணப்படும் வடித்தை தெரிவ செய்க"
+msgstr ""
+"இந்த படுகைக்கு ஒதிக்கீடு செய்வதற்கு மேல் பெட்டியில் உள்ள காணப்படும் வடிவத்தை அழுத்துக. கீழ் "
+"பெட்டியில் காணப்படும் வடித்தை தெரிவ செய்க"
 
-#: layers/templates/layers/layer_style_manage.html:62
+#: layers/templates/layers/layer_style_manage.html:61
 msgid "Update Available Styles"
 msgstr "புதுப்பிக்கப்பட்டது கிடைக்கும் பாங்குகள்"
 
@@ -1595,7 +1711,7 @@ msgstr "புதுப்பிக்கப்பட்டது கிடை�
 msgid "Upload Layer"
 msgstr "படுகையை பதிவேற்றுக "
 
-#: layers/templates/upload/layer_upload.html:83
+#: layers/templates/upload/layer_upload.html:87
 msgid "Upload files"
 msgstr "ஆவணத்தை பதிவேற்றுக"
 
@@ -1610,13 +1726,19 @@ msgstr "குறிப்பு முறைமை"
 #: layers/templates/upload/layer_upload_crs.html:17
 msgid ""
 "\n"
-"        A coordinate reference system for this layer could not be determined.\n"
+"        A coordinate reference system for this layer could not be "
+"determined.\n"
 "        Locate or enter the appropriate ESPG code for this layer below.\n"
 "        One way to do this is do visit:\n"
 "        <a href=\"http://prj2epsg.org/search\" target=\"_\">prj2epsg</a>\n"
 "        and enter the following:\n"
 "    "
-msgstr "\nஇந்த அடுக்கு ஒரு ஒருங்கிணைக்க குறிப்பு அமைப்பு தீர்மானிக்கப்படுகிறது. கண்டறிவது அல்லது கீழே இந்த அடுக்கு பொருத்தமான ESPG குறியீடு நுழைய. : இந்த செய்ய ஒரு வழி வருகை செய்ய உள்ளது <a href=\"http://prj2epsg.org/search\" target=\"_\">prj2epsg</a> மற்றும் பின்வரும் நுழைய:"
+msgstr ""
+"\n"
+"இந்த அடுக்கு ஒரு ஒருங்கிணைக்க குறிப்பு அமைப்பு தீர்மானிக்கப்படுகிறது. கண்டறிவது அல்லது "
+"கீழே இந்த அடுக்கு பொருத்தமான ESPG குறியீடு நுழைய. : இந்த செய்ய ஒரு வழி வருகை செய்ய "
+"உள்ளது <a href=\"http://prj2epsg.org/search\" target=\"_\">prj2epsg</a> மற்றும் "
+"பின்வரும் நுழைய:"
 
 #: layers/templates/upload/layer_upload_crs.html:32
 #: layers/templates/upload/layer_upload_csv.html:49
@@ -1630,7 +1752,10 @@ msgid ""
 "        There is a problem recognizing the projection of this data. Please\n"
 "        reproject this data to a more common projection.\n"
 "        "
-msgstr "\nஇந்த தரவு திட்ட அங்கீகரித்து ஒரு பிரச்சினை உள்ளது. ஒரு பொதுவான திட்ட இந்த தரவு reproject கொள்ளவும்."
+msgstr ""
+"\n"
+"இந்த தரவு திட்ட அங்கீகரித்து ஒரு பிரச்சினை உள்ளது. ஒரு பொதுவான திட்ட இந்த தரவு "
+"reproject கொள்ளவும்."
 
 #: layers/templates/upload/layer_upload_csv.html:11
 msgid "Geospatial Data"
@@ -1640,14 +1765,18 @@ msgstr "ஜீயோஸ்பேஷயல் தரவு"
 msgid ""
 "Please indicate which attributes contain the latitude and longitude "
 "coordinates in the CSV data."
-msgstr "அட்சரேகை கொண்டிருக்கும் மற்றும் தீர்க்கரேகை CSV தரவு உள்ள ஆய பண்புகளை இது குறிக்க கொள்ளவும்."
+msgstr ""
+"அட்சரேகை கொண்டிருக்கும் மற்றும் தீர்க்கரேகை CSV தரவு உள்ள ஆய பண்புகளை இது குறிக்க "
+"கொள்ளவும்."
 
 #: layers/templates/upload/layer_upload_csv.html:14
 msgid ""
 "With this data, GeoNode was able to guess which attributes contain the\n"
 "latitude and longitude coordinates, but please confirm that the correct\n"
 "attributes are selected below."
-msgstr "இந்த தரவு, GeoNode அட்சரேகை மற்றும் தீர்க்கரேகை கொண்டிருக்கும் பண்புகளை யூகிக்க, ஆனால் சரியான பண்புகளை கீழே தேர்ந்தெடுக்கப்பட்டுள்ள என்பதை உறுதிப்படுத்தவும் முடிந்தது."
+msgstr ""
+"இந்த தரவு, GeoNode அட்சரேகை மற்றும் தீர்க்கரேகை கொண்டிருக்கும் பண்புகளை யூகிக்க, ஆனால் "
+"சரியான பண்புகளை கீழே தேர்ந்தெடுக்கப்பட்டுள்ள என்பதை உறுதிப்படுத்தவும் முடிந்தது."
 
 #: layers/templates/upload/layer_upload_csv.html:24
 msgid "Latitude"
@@ -1664,10 +1793,15 @@ msgstr "நெட்டாங்கு "
 
 #: layers/templates/upload/layer_upload_csv.html:57
 msgid ""
-"We did not detect columns that could be used for the latitude and longitude.\n"
-"Please verify that you have two columns in your csv file that can be used for\n"
+"We did not detect columns that could be used for the latitude and "
+"longitude.\n"
+"Please verify that you have two columns in your csv file that can be used "
+"for\n"
 "the latitude and longitude."
-msgstr "நெட்டாங்கு அல்லது அகலாங்கிற்கு பயன்படுத்த முடியூமான நிரல் ஒன்றை அடையாளங் காண முடியவில்லை. உங்களில் சி.வி.எஸ் கோப்பில் நெட்டாங்கு மற்றும் அகலாங்கிற்கு பயன்படுத்த முடிகின்ற இரு நிரல்கள் இருந்கின்றதா என்பதை உறுதி செய்க"
+msgstr ""
+"நெட்டாங்கு அல்லது அகலாங்கிற்கு பயன்படுத்த முடியூமான நிரல் ஒன்றை அடையாளங் காண "
+"முடியவில்லை. உங்களில் சி.வி.எஸ் கோப்பில் நெட்டாங்கு மற்றும் அகலாங்கிற்கு பயன்படுத்த "
+"முடிகின்ற இரு நிரல்கள் இருந்கின்றதா என்பதை உறுதி செய்க"
 
 #: layers/templates/upload/layer_upload_invalid.html:6
 #: layers/templates/upload/no_upload.html:6
@@ -1754,7 +1888,8 @@ msgstr "தொடர்ச்சியான இடைவெளிகள்"
 msgid ""
 "for data that is frequently updated, resolution describes the frequency of "
 "updates"
-msgstr "அடிக்கடி மேம்படுத்தப்பட்டு உள்ளது என்று தரவு, தீர்மானம் மேம்படுத்தல்கள் அதிர்வெண் விவரிக்கிறது"
+msgstr ""
+"அடிக்கடி மேம்படுத்தப்பட்டு உள்ளது என்று தரவு, தீர்மானம் மேம்படுத்தல்கள் அதிர்வெண் விவரிக்கிறது"
 
 #: layers/templates/upload/layer_upload_time.html:96
 msgid "Resolution of time attribute"
@@ -1771,10 +1906,16 @@ msgstr "நேரம் செயல்படுத்துகிறது"
 #: layers/templates/upload/layer_upload_time.html:109
 msgid ""
 "A feature can currently support one or two time attributes. If a single\n"
-"    attribute is used, the feature is considered relevant at that single point in time. If two\n"
-"    attributes are used, the second attribute represents the end of a valid period for the\n"
+"    attribute is used, the feature is considered relevant at that single "
+"point in time. If two\n"
+"    attributes are used, the second attribute represents the end of a valid "
+"period for the\n"
 "    feature."
-msgstr "ஒரு அம்சம் தற்போது ஒன்று அல்லது இரண்டு முறை பண்புகளை ஆதரிக்க முடியும். ஒரு ஒற்றை பண்பு பயன்படுத்தப்படுகிறது என்றால், அம்சம் நேரத்தில் அந்த ஒற்றை புள்ளியில் சம்பந்தப்பட்ட கருதப்படுகிறது. இரண்டு பண்புகளை பயன்படுத்தப்படும் என்றால், இரண்டாவது பண்பு அம்சம் ஒரு செல்லுபடியாகும் காலம் இறுதியில் குறிக்கிறது."
+msgstr ""
+"ஒரு அம்சம் தற்போது ஒன்று அல்லது இரண்டு முறை பண்புகளை ஆதரிக்க முடியும். ஒரு ஒற்றை பண்பு "
+"பயன்படுத்தப்படுகிறது என்றால், அம்சம் நேரத்தில் அந்த ஒற்றை புள்ளியில் சம்பந்தப்பட்ட "
+"கருதப்படுகிறது. இரண்டு பண்புகளை பயன்படுத்தப்படும் என்றால், இரண்டாவது பண்பு அம்சம் ஒரு "
+"செல்லுபடியாகும் காலம் இறுதியில் குறிக்கிறது."
 
 #: layers/templates/upload/layer_upload_time.html:113
 msgid "Selecting an Attribute"
@@ -1799,10 +1940,14 @@ msgstr "ஒரு ஆண்டு குறிக்கும் ஒரு எ�
 #: layers/templates/upload/layer_upload_time.html:121
 msgid ""
 "\n"
-"    For text attributes, one can specify a custom format or use the 'best guess' approach.\n"
+"    For text attributes, one can specify a custom format or use the 'best "
+"guess' approach.\n"
 "    The most common formatting flags are:\n"
 "    "
-msgstr "\nஉரை பண்புகளை, ஒரு விருப்ப வடிவம் குறிப்பிட அல்லது 'யூகம்' அணுகுமுறை பயன்படுத்த முடியும். மிகவும் பொதுவான வடிவமைப்பு கொடிகள் உள்ளன:"
+msgstr ""
+"\n"
+"உரை பண்புகளை, ஒரு விருப்ப வடிவம் குறிப்பிட அல்லது 'யூகம்' அணுகுமுறை பயன்படுத்த "
+"முடியும். மிகவும் பொதுவான வடிவமைப்பு கொடிகள் உள்ளன:"
 
 #: layers/templates/upload/layer_upload_time.html:127
 msgid "year"
@@ -1831,13 +1976,17 @@ msgstr "மணித்தியாலத்தில் உள்ள செக�
 
 #: layers/templates/upload/layer_upload_time.html:136
 msgid "Note that single quotes represent a literal character."
-msgstr "ஒரு தனி மேற்கோள் ஒரு எழுத்து உருவத்தை பிரதிநிதித்துவப்படுத்துகின்றது என்பதை கருத்திற்கொள்க"
+msgstr ""
+"ஒரு தனி மேற்கோள் ஒரு எழுத்து உருவத்தை பிரதிநிதித்துவப்படுத்துகின்றது என்பதை "
+"கருத்திற்கொள்க"
 
 #: layers/templates/upload/layer_upload_time.html:137
 msgid ""
-"To remove ambiguity, repeat a code to represent the maximum number of digits"
-" - for example yyyy"
-msgstr "பொருள் மயக்கத்தை நீக்குவதற்கு அதிக எண்ணிக்கையான அட்சரங்களை பிரதிநிதித்துவப்படுத்தும் வகையில் குறியீட்டை மீள செலுத்துங்கள். உதாரணம்:yyyy"
+"To remove ambiguity, repeat a code to represent the maximum number of digits "
+"- for example yyyy"
+msgstr ""
+"பொருள் மயக்கத்தை நீக்குவதற்கு அதிக எண்ணிக்கையான அட்சரங்களை பிரதிநிதித்துவப்படுத்தும் "
+"வகையில் குறியீட்டை மீள செலுத்துங்கள். உதாரணம்:yyyy"
 
 #: layers/templates/upload/layer_upload_time.html:139
 msgid "The 'best guess' will handle date and optional time variants of"
@@ -1848,8 +1997,10 @@ msgid "In terms of the formatting flags noted above, these are"
 msgstr "கொடிகளை மீளமைக்கும் போது மேலுள்ளவற்றை கருத்திற்கொள்க. இவை"
 
 #: layers/templates/upload/no_upload.html:7
-msgid "Returning to the upload starting page in <span id=\"cnt\">5</span>seconds "
-msgstr "உட்செலுத்தும் ஆரம்ப முகப்பிற்குத் திரும்புவதற்கு <span id=\"cnt\">5</span>செக்கன்கள்"
+msgid ""
+"Returning to the upload starting page in <span id=\"cnt\">5</span>seconds "
+msgstr ""
+"உட்செலுத்தும் ஆரம்ப முகப்பிற்குத் திரும்புவதற்கு <span id=\"cnt\">5</span>செக்கன்கள்"
 
 #: layers/templates/upload/no_upload.html:8
 msgid " Or just go "
@@ -1884,83 +2035,83 @@ msgstr "தள URL"
 msgid "Featured Map URL"
 msgstr "சிறப்பு வரைபடம் URL"
 
-#: maps/models.py:371
+#: maps/models.py:378
 msgid "stack order"
 msgstr "குவியல் ஒழுங்கு"
 
-#: maps/models.py:376
+#: maps/models.py:383
 msgid "format"
 msgstr "ஒருங்கமைத்தல் "
 
-#: maps/models.py:383
+#: maps/models.py:390
 msgid "name"
 msgstr "பெயர் "
 
-#: maps/models.py:390
+#: maps/models.py:397
 msgid "opacity"
 msgstr "ஒளிபுகா நிலை"
 
-#: maps/models.py:394
+#: maps/models.py:401
 msgid "styles"
 msgstr "வடிவம் "
 
-#: maps/models.py:400
+#: maps/models.py:407
 msgid "transparent"
 msgstr "ஒளி புகவல்ல "
 
-#: maps/models.py:404
+#: maps/models.py:411
 msgid "fixed"
 msgstr "நிலைநிறுத்தப்பட்ட "
 
-#: maps/models.py:408
+#: maps/models.py:415
 msgid "group"
 msgstr "குழு "
 
-#: maps/models.py:412
+#: maps/models.py:419
 msgid "visibility"
 msgstr "கட்புலப்பாடு "
 
-#: maps/models.py:415
+#: maps/models.py:422
 msgid "ows URL"
 msgstr "ows URL"
 
-#: maps/models.py:418
+#: maps/models.py:425
 msgid "layer params"
 msgstr "படுகை முனைகள் "
 
-#: maps/models.py:425
+#: maps/models.py:432
 msgid "source params"
 msgstr "மூல முனைகள் "
 
-#: maps/models.py:518
+#: maps/models.py:525
 msgid "JSON Configuration"
 msgstr "JSON கட்டமைப்பு"
 
-#: maps/views.py:70
+#: maps/views.py:73
 msgid "You are not permitted to delete this map."
 msgstr "இந்த வரைபடத்தை அழிப்பதற்கு உங்களுக்கு அனுமதி இல்லை "
 
-#: maps/views.py:71
+#: maps/views.py:74
 msgid "You do not have permissions for this map."
 msgstr "இந்த வரைபடத்திற்கு உங்களுக்கு அனுமதியில்லை "
 
-#: maps/views.py:72
+#: maps/views.py:75
 msgid "You must be logged in to save this map"
 msgstr "வரைபடத்தை சேமிப்பதற்கு நீங்கள் உள்நுழைய வேண்டும்  "
 
-#: maps/views.py:73
+#: maps/views.py:76
 msgid "You are not permitted to save or edit this map."
 msgstr "நீங்கள் சேமிக்க அல்லது இந்த வரைபடத்தைத் திருத்த அனுமதி இல்லை."
 
-#: maps/views.py:75
+#: maps/views.py:78
 msgid "You are not allowed to modify this map's metadata."
 msgstr "இந்த வரைபடத்தின் நுண்தரவூகளை மாற்றியமைப்பதற்கு உங்களுக்கு அனுமதியில்லை "
 
-#: maps/views.py:76
+#: maps/views.py:79
 msgid "You are not allowed to view this map."
 msgstr "இந்த வரைபடத்தை பார்வையிடுவதற்கு உங்களுக்கு அனுமதி இல்லை "
 
-#: maps/views.py:77
+#: maps/views.py:80
 msgid "An unknown error has occured."
 msgstr "ஓர் அறியப்படாத பிழை ஏற்பட்டது."
 
@@ -1973,133 +2124,148 @@ msgid "A Map was created"
 msgstr "ஒரு வடைபடம் உருவாக்கப்பட்டது "
 
 #: maps/management/__init__.py:37
+#, fuzzy
+msgid "Map Updated"
+msgstr "வரைபடம் உருவாக்கப்பட்டுள்ளது  "
+
+#: maps/management/__init__.py:38
+#, fuzzy
+msgid "A Map was updated"
+msgstr "ஒரு வடைபடம் உருவாக்கப்பட்டது "
+
+#: maps/management/__init__.py:41
+#, fuzzy
+msgid "Map Deleted"
+msgstr "வரைபடம் உருவாக்கப்பட்டுள்ளது  "
+
+#: maps/management/__init__.py:42
+#, fuzzy
+msgid "A Map was deleted"
+msgstr "ஒரு வடைபடம் உருவாக்கப்பட்டது "
+
+#: maps/management/__init__.py:45
 msgid "Comment on Map"
 msgstr "வடைபடத்திற்கு குறிப்பிடல்"
 
-#: maps/management/__init__.py:38
+#: maps/management/__init__.py:46
 msgid "A map was commented on"
 msgstr "ஒரு வடைபடத்திற்கு குறிப்பிடப்பட்டுள்ளது "
 
-#: maps/management/__init__.py:41
+#: maps/management/__init__.py:49
 msgid "Rating for Map"
 msgstr "வரைபடத்தை தரப்படுத்தல் "
 
-#: maps/management/__init__.py:42
+#: maps/management/__init__.py:50
 msgid "A rating was given to a map"
 msgstr "ஒரு வரைபடம் தரப்படுத்தப்பட்டுள்ளது "
 
-#: maps/templates/maps/_map_list_item.html:31
-msgid "View"
-msgstr "காண்க"
-
-#: maps/templates/maps/_map_list_item.html:47
-msgid "You do not have permission to view this map"
-msgstr "நீங்கள் இந்த வரைபடத்தை பார்க்க அனுமதி இல்லை"
-
 #: maps/templates/maps/map_base.html:5 maps/templates/maps/map_base.html:12
-#: maps/templates/maps/map_list.html:12
+#: maps/templates/maps/map_list.html:11
+#: maps/templates/maps/map_metadata.html:11
 msgid "Explore Maps"
 msgstr "வரைபடங்களை உலாவருதல் "
 
-#: maps/templates/maps/map_detail.html:54 templates/_actions.html:6
+#: maps/templates/maps/map_detail.html:46
 msgid "Rate this Map"
 msgstr "இந்த வரைபடத்தை தரப்படுத்துக "
 
+#: maps/templates/maps/map_detail.html:70
 #: maps/templates/maps/map_detail.html:78
-#: maps/templates/maps/map_detail.html:86
 msgid "Download Map"
 msgstr "வரைபடத்தை தரவிரக்கம் செய்தல் "
 
-#: maps/templates/maps/map_detail.html:90
+#: maps/templates/maps/map_detail.html:82
 msgid "Download Data Layers"
 msgstr "தரவ படுகையை தரவிரக்கம் செய்தல் "
 
-#: maps/templates/maps/map_detail.html:91
+#: maps/templates/maps/map_detail.html:83
 msgid "Download Web Map Context"
 msgstr "இணையத்தள வரைபட பின்னணியை பதிவிரக்கம் செய்தல்"
 
+#: maps/templates/maps/map_detail.html:95
 #: maps/templates/maps/map_detail.html:102
-#: maps/templates/maps/map_detail.html:109
 msgid "Edit Map"
 msgstr "திருத்தவும்"
 
-#: maps/templates/maps/map_detail.html:114
+#: maps/templates/maps/map_detail.html:107
 msgid "Edit Map Metadata"
 msgstr "திருத்த வரைபடம் மெட்டாடேட்டா"
 
-#: maps/templates/maps/map_detail.html:118
-msgid "Set Map Thumbnail"
-msgstr "வரைபடம் சிறு அமைக்கவும்"
-
-#: maps/templates/maps/map_detail.html:122
+#: maps/templates/maps/map_detail.html:115
 msgid "Remove this Map"
 msgstr "இந்த நீர்தேக்கத்திட்டம்"
 
-#: maps/templates/maps/map_detail.html:134
+#: maps/templates/maps/map_detail.html:127
 msgid "View Map"
 msgstr "வரைபடத்தை பார்வையிடல் "
 
-#: maps/templates/maps/map_detail.html:144
+#: maps/templates/maps/map_detail.html:137
 msgid "Map Layers"
 msgstr "வரைபட படுகைகள் "
 
-#: maps/templates/maps/map_detail.html:145
+#: maps/templates/maps/map_detail.html:138
 msgid "This map uses the following layers:"
 msgstr "இந்த வரைபடம் பின்வரும் படுகைகளை பயன்படுத்துகின்றது  "
 
-#: maps/templates/maps/map_detail.html:161
+#: maps/templates/maps/map_detail.html:154
 msgid "Documents related to this map"
 msgstr "ஆவணங்கள் இந்த வரைபடத்துடன் தொடர்பானது"
 
-#: maps/templates/maps/map_detail.html:162
+#: maps/templates/maps/map_detail.html:155
 msgid "List of documents related to this map:"
 msgstr "இந்த வரைபடம் தொடர்பான ஆவணங்களை பெற:"
 
-#: maps/templates/maps/map_detail.html:174
+#: maps/templates/maps/map_detail.html:167
 msgid "Specify which users can view or modify this map"
-msgstr "இந்த வரைபடத்தை எந்த பயன்படுத்துனர் பார்வையிட முடியம் அல்லது மாற்ற முடியம் என்பதை வரையறை செய்க "
+msgstr ""
+"இந்த வரைபடத்தை எந்த பயன்படுத்துனர் பார்வையிட முடியம் அல்லது மாற்ற முடியம் என்பதை வரையறை "
+"செய்க "
 
-#: maps/templates/maps/map_detail.html:175
+#: maps/templates/maps/map_detail.html:168
 msgid "Change Permissions of this Map"
 msgstr "இந்த வரைபடத்தின் அனுமதியை மாற்றல்"
 
-#: maps/templates/maps/map_detail.html:181
+#: maps/templates/maps/map_detail.html:174
 msgid "Copy this map"
 msgstr "இந்த வரைபடத்தை பிரதி செய்க "
 
-#: maps/templates/maps/map_detail.html:182
+#: maps/templates/maps/map_detail.html:175
 msgid "Duplicate this map and modify it for your own purposes"
 msgstr "இந்த வரைபடத்தை பிரதிசெய்து உங்களின் சொந்த தேவைக்காக மாற்றம் செய்தல்"
 
-#: maps/templates/maps/map_detail.html:183
-#: maps/templates/maps/map_list.html:11
+#: maps/templates/maps/map_detail.html:176
+#: maps/templates/maps/map_list.html:10
 msgid "Create a New Map"
 msgstr " புதிய வரைபடத்தை உருவாக்குதல் "
 
-#: maps/templates/maps/map_detail.html:188
+#: maps/templates/maps/map_detail.html:181
 msgid "Map WMS"
 msgstr "WMS வரைபடம்"
 
-#: maps/templates/maps/map_detail.html:190
+#: maps/templates/maps/map_detail.html:183
 msgid "WMS layer group for local map layers"
 msgstr "தள வரைபட படுகைகளுக்கான WMS படுகை குழுக்கள்  "
 
-#: maps/templates/maps/map_detail.html:191 social/tests.py:103
-#: social/templatetags/social_tags.py:47
+#: maps/templates/maps/map_detail.html:184 social/tests.py:103
+#: social/templatetags/social_tags.py:48
 msgid "on"
 msgstr "ஆரம்பம் "
 
-#: maps/templates/maps/map_detail.html:191
+#: maps/templates/maps/map_detail.html:184
 msgid "local OWS"
 msgstr "தள OWS"
 
-#: maps/templates/maps/map_detail.html:194
+#: maps/templates/maps/map_detail.html:187
 msgid "Publish local map layers as WMS layer group"
 msgstr "தள வரைபட படுகைகளை  WMS படுகை குழுக்களாக வெளியிடல் "
 
-#: maps/templates/maps/map_detail.html:195
+#: maps/templates/maps/map_detail.html:188
 msgid "Publish Map WMS"
 msgstr "வரைபடங்களை வெளியிடல் WMS"
+
+#: maps/templates/maps/map_download.html:6
+msgid "Download"
+msgstr "பதிவிரக்கம் செய்க"
 
 #: maps/templates/maps/map_download.html:8
 msgid ""
@@ -2107,22 +2273,33 @@ msgid ""
 "      Here you can download all the layers of this map that\n"
 "      are hosted on this GeoNode.\n"
 "    "
-msgstr "\nஇங்கே நீங்கள் இந்த GeoNode இல் நடத்தியது என்று இந்த வரைபடம் அனைத்து அடுக்குகளின் பதிவிறக்க முடியும்."
+msgstr ""
+"\n"
+"இங்கே நீங்கள் இந்த GeoNode இல் நடத்தியது என்று இந்த வரைபடம் அனைத்து அடுக்குகளின் பதிவிறக்க "
+"முடியும்."
 
 #: maps/templates/maps/map_download.html:22
 msgid ""
 "\n"
-"      <div class=\"alert alert-warning\">Could not find downloadable layers for this map. You can go back to  \n"
+"      <div class=\"alert alert-warning\">Could not find downloadable layers "
+"for this map. You can go back to  \n"
 "      "
-msgstr "\n<div class=\"alert alert-warning\"> இந்த வரைபடத்தை டவுன்லோடு அடுக்குகள் கண்டுபிடிக்க முடியவில்லை. நீங்கள் திரும்பி செல்ல முடியும்"
+msgstr ""
+"\n"
+"<div class=\"alert alert-warning\"> இந்த வரைபடத்தை டவுன்லோடு அடுக்குகள் "
+"கண்டுபிடிக்க முடியவில்லை. நீங்கள் திரும்பி செல்ல முடியும்"
 
 #: maps/templates/maps/map_download.html:29
 msgid ""
 "\n"
-"        Additionally, the map contains these layers which will not be downloaded\n"
+"        Additionally, the map contains these layers which will not be "
+"downloaded\n"
 "        due to security restrictions:\n"
 "      "
-msgstr "\nகூடுதலாக, வரைபடம் காரணமாக பாதுகாப்பு கட்டுப்பாடுகள் பதிவிறக்கம் முடியாது இது இந்த அடுக்குகளைக் கொண்டுள்ளது:"
+msgstr ""
+"\n"
+"கூடுதலாக, வரைபடம் காரணமாக பாதுகாப்பு கட்டுப்பாடுகள் பதிவிறக்கம் முடியாது இது இந்த "
+"அடுக்குகளைக் கொண்டுள்ளது:"
 
 #: maps/templates/maps/map_download.html:41
 msgid ""
@@ -2130,7 +2307,10 @@ msgid ""
 "        Finally, the map contains these layers which will not be downloaded\n"
 "        because they are not available directly from this GeoNode:\n"
 "      "
-msgstr "\nஇறுதியாக, வரைபடம் அவர்கள் இந்த GeoNode இருந்து நேரடியாக கிடைக்கவில்லை ஏனெனில் பதிவிறக்கம் செய்ய முடியாது என்று இந்த அடுக்குகளைக் கொண்டுள்ளது:"
+msgstr ""
+"\n"
+"இறுதியாக, வரைபடம் அவர்கள் இந்த GeoNode இருந்து நேரடியாக கிடைக்கவில்லை ஏனெனில் "
+"பதிவிறக்கம் செய்ய முடியாது என்று இந்த அடுக்குகளைக் கொண்டுள்ளது:"
 
 #: maps/templates/maps/map_download.html:54
 msgid "Downloading"
@@ -2152,20 +2332,27 @@ msgstr "முழுமையான பதிவிறக்க"
 msgid "Download Failed"
 msgstr "பதிவிறக்க முடியவில்லை"
 
-#: maps/templates/maps/map_metadata.html:12
+#: maps/templates/maps/map_metadata.html:17
 #, python-format
 msgid ""
 "\n"
 "        Editing details for %(map_title)s\n"
 "      "
-msgstr "\nதிருத்துதல் விவரங்கள் %(map_title)s ங்கள்"
+msgstr ""
+"\n"
+"திருத்துதல் விவரங்கள் %(map_title)s ங்கள்"
 
-#: maps/templates/maps/map_metadata.html:17
+#: maps/templates/maps/map_metadata.html:23
 msgid ""
-"Note: this map's orginal metadata was populated by importing a metadata XML file.\n"
-"        GeoNode's metadata import supports a subset of ISO, FGDC, and Dublin Core metadata elements.\n"
+"Note: this map's orginal metadata was populated by importing a metadata XML "
+"file.\n"
+"        GeoNode's metadata import supports a subset of ISO, FGDC, and Dublin "
+"Core metadata elements.\n"
 "        Some of your original metadata may have been lost."
-msgstr "குறிப்பு: இந்த வரைபடங்களின் எஃப் மெட்டா மெட்டாடேட்டா XML கோப்பை இறக்குமதி மூலம் மக்கள். GeoNode மீத்தரவைத் இறக்குமதி, ISO, FGDC, மற்றும் டப்ளின் கோர் மெட்டா கூறுகள் ஒரு துணைக்குழு ஆதரிக்கிறது. உங்கள் அசல் மெட்டாடேட்டாவை இழந்தது."
+msgstr ""
+"குறிப்பு: இந்த வரைபடங்களின் எஃப் மெட்டா மெட்டாடேட்டா XML கோப்பை இறக்குமதி மூலம் மக்கள். "
+"GeoNode மீத்தரவைத் இறக்குமதி, ISO, FGDC, மற்றும் டப்ளின் கோர் மெட்டா கூறுகள் ஒரு "
+"துணைக்குழு ஆதரிக்கிறது. உங்கள் அசல் மெட்டாடேட்டாவை இழந்தது."
 
 #: maps/templates/maps/map_remove.html:6
 msgid "Deleting"
@@ -2177,7 +2364,9 @@ msgid ""
 "\n"
 "        Are you sure you want to remove %(map_title)s?\n"
 "    "
-msgstr "\nநீங்கள் %(map_title)s கள் நீக்க வேண்டுமா?"
+msgstr ""
+"\n"
+"நீங்கள் %(map_title)s கள் நீக்க வேண்டுமா?"
 
 #: maps/templates/maps/map_view.html:5
 msgid "GeoExplorer"
@@ -2206,8 +2395,8 @@ msgstr "வளங்களை அனுமதியளித்த தரப்�
 
 #: people/enumerations.py:40
 msgid ""
-"party who has processed the data in a manner such that the resource has been"
-" modified"
+"party who has processed the data in a manner such that the resource has been "
+"modified"
 msgstr "வளங்களை மீளமைக்கும் வகையில் தரவுகளை படிமுறைப்படுத்திய   தரப்புக்கள்"
 
 #: people/enumerations.py:41
@@ -2218,13 +2407,17 @@ msgstr "வளங்களை பதிப்பித்த தரப்பு�
 msgid ""
 "party that accepts accountability and responsibility for the data and "
 "ensures         appropriate care and maintenance of the resource"
-msgstr "தரவு பொறுப்புக்கூறல் மற்றும் பொறுப்பை ஏற்கிறது மற்றும் வள பொருத்தமான பாதுகாப்பு மற்றும் பராமரிப்பு உறுதி என்று கட்சி"
+msgstr ""
+"தரவு பொறுப்புக்கூறல் மற்றும் பொறுப்பை ஏற்கிறது மற்றும் வள பொருத்தமான பாதுகாப்பு "
+"மற்றும் பராமரிப்பு உறுதி என்று கட்சி"
 
 #: people/enumerations.py:44
 msgid ""
 "party who can be contacted for acquiring knowledge about or acquisition of "
 "the resource"
-msgstr "வளங்கள் தொடர்பான அறிவை பெற்றுக்கொள்வதற்கு அல்லது வளங்களை பெறுவதற்கு தொடர்புகொள்ள முடியுமான தரப்புக்கள்"
+msgstr ""
+"வளங்கள் தொடர்பான அறிவை பெற்றுக்கொள்வதற்கு அல்லது வளங்களை பெறுவதற்கு தொடர்புகொள்ள "
+"முடியுமான தரப்புக்கள்"
 
 #: people/enumerations.py:45
 msgid "party who distributes the resource"
@@ -2247,8 +2440,7 @@ msgid "party that owns the resource"
 msgstr "வளங்களுக்கு உரித்தான தரப்புக்கள்"
 
 #: people/enumerations.py:50
-msgid ""
-"key party responsible for gathering information and conducting research"
+msgid "key party responsible for gathering information and conducting research"
 msgstr "தகவல்களை சேகரிப்பதற்கும் ஆய்வை மேற்கொள்வதற்கும் பொறுப்பான முக்கிய தரப்புக்கள் "
 
 #: people/forms.py:64
@@ -2260,106 +2452,129 @@ msgid "User following you"
 msgstr "உங்களை பின்தொடரும் பயன்படுத்துனர் "
 
 #: people/management.py:33
-msgid "another user has started following you"
+#, fuzzy
+msgid "Another user has started following you"
 msgstr "மற்றுமொரு பயன்படுத்துனர் உங்களை பின்தொடர ஆரம்பித்துள்ளார் "
 
-#: people/models.py:42
+#: people/management.py:36
+msgid "User requested access"
+msgstr ""
+
+#: people/management.py:37
+msgid "A new user has requested access to the site"
+msgstr ""
+
+#: people/management.py:40
+#, fuzzy
+msgid "Account activated"
+msgstr "அண்மைய செயற்பாடு"
+
+#: people/management.py:41
+msgid "This account is now active and can log in the site"
+msgstr ""
+
+#: people/models.py:43
 msgid "Organization Name"
 msgstr "நிறுவனத்தின் பெயர்"
 
-#: people/models.py:46
+#: people/models.py:47
 msgid "name of the responsible organization"
 msgstr "பொறுப்புடைய நிறுவனத்தின் பெயர்"
 
-#: people/models.py:47 templates/500.html:76 templates/base.html:92
+#: people/models.py:48 templates/500.html:76 templates/base.html:198
 msgid "Profile"
 msgstr "விபரத்திரட்டு "
 
-#: people/models.py:47
+#: people/models.py:48
 msgid "introduce yourself"
 msgstr "உங்களை அறிமுகம்"
 
-#: people/models.py:49
+#: people/models.py:50
 msgid "Position Name"
 msgstr "தொழில் பெயர்"
 
-#: people/models.py:53
+#: people/models.py:54
 msgid "role or position of the responsible person"
 msgstr "பொறுப்புடைய நபரின் பொறுப்புக்கள் அல்லது பதவி "
 
-#: people/models.py:54
+#: people/models.py:55
 msgid "Voice"
 msgstr "குரல்"
 
-#: people/models.py:55
+#: people/models.py:56
 msgid ""
 "telephone number by which individuals can speak to the responsible "
 "organization or individual"
-msgstr "பொறுப்புடைய நிறுவனம் அல்லது தனிநபருடன் தனிநபர்கள் தொடர்புகொள்ள முடிகின்ற தொலைபேசி இலக்கம்"
+msgstr ""
+"பொறுப்புடைய நிறுவனம் அல்லது தனிநபருடன் தனிநபர்கள் தொடர்புகொள்ள முடிகின்ற தொலைபேசி "
+"இலக்கம்"
 
-#: people/models.py:56
+#: people/models.py:57
 msgid "Facsimile"
 msgstr "பெக்ஸ்மெய்ல் "
 
-#: people/models.py:57
+#: people/models.py:58
 msgid ""
 "telephone number of a facsimile machine for the responsible organization or "
 "individual"
 msgstr "பொறுப்புடைய நிறுவனம் அல்லது தனிநபரின் பெக்சிமைல் இன் தொலைபேசி இலக்கம் "
 
-#: people/models.py:59
+#: people/models.py:60
 msgid "Delivery Point"
 msgstr "விநியோக புள்ளி"
 
-#: people/models.py:63
+#: people/models.py:64
 msgid ""
 "physical and email address at which the organization or individual may be "
 "contacted"
 msgstr "நிறுவனம் அல்லது தனிநபரை தொடர்புகொள்ள முடிகின்ற பௌதிக அல்லது மின்அஞ்சல் முகவரி"
 
-#: people/models.py:65
+#: people/models.py:66
 msgid "City"
 msgstr "நகரம்"
 
-#: people/models.py:69
+#: people/models.py:70
 msgid "city of the location"
 msgstr "இடத்தின் நகரம் "
 
-#: people/models.py:71
+#: people/models.py:72
 msgid "Administrative Area"
 msgstr "நிர்வாக பகுதி"
 
-#: people/models.py:75
+#: people/models.py:76
 msgid "state, province of the location"
 msgstr "இடத்தின் மாநிலம் மாகாணம்"
 
-#: people/models.py:77
+#: people/models.py:78
 msgid "Postal Code"
 msgstr "தபால் குறியீடு"
 
-#: people/models.py:81
+#: people/models.py:82
 msgid "ZIP or other postal code"
 msgstr "ZIP  அல்லது ஏனைய தபால் குறியீடுகள்"
 
-#: people/models.py:87
+#: people/models.py:88
 msgid "country of the physical address"
 msgstr "பௌதிக முகவரிக்கு உரித்தான நாடு"
 
-#: people/models.py:89
+#: people/models.py:90
 msgid ""
 "commonly used word(s) or formalised word(s) or phrase(s) used to describe "
 "the subject             (space or comma-separated"
-msgstr "பொதுவாகப் பயன்படுத்தப்படும் வார்த்தை (ங்கள்) அல்லது முறைப்படுத்தப்பட்டது சொல் (ங்கள்) அல்லது சொற்றொடர் (ங்கள்) பொருள் (இடைவெளி அல்லது காற்புள்ளியால் பிரிக்கப்பட்ட விவரிக்க பயன்படுத்தப்படுகிறது"
+msgstr ""
+"பொதுவாகப் பயன்படுத்தப்படும் வார்த்தை (ங்கள்) அல்லது முறைப்படுத்தப்பட்டது சொல் (ங்கள்) அல்லது "
+"சொற்றொடர் (ங்கள்) பொருள் (இடைவெளி அல்லது காற்புள்ளியால் பிரிக்கப்பட்ட விவரிக்க "
+"பயன்படுத்தப்படுகிறது"
 
 #: people/views.py:84
 msgid "Your username for "
 msgstr "இற்கான உங்களின் பயன்பாட்டுப் பெயர் "
 
-#: people/views.py:99
+#: people/views.py:98
 msgid "Your username has been emailed to you."
 msgstr "உங்களின் பயன்பாட்டுப் பெயர் உங்களுக்கு மின்அஞ்சலிடப்பட்டுள்ளது"
 
-#: people/views.py:101
+#: people/views.py:100
 msgid "No user could be found with that email address."
 msgstr "அந்த மின்அஞ்சல் முகவரிக்குரிய பயன்படுத்துனர் ஒருரையேனும் கண்டறிய முடியவில்லை"
 
@@ -2371,30 +2586,20 @@ msgstr "எந்த குழு"
 msgid "All contents"
 msgstr "அனைத்து உள்ளடக்கங்களை"
 
-#: people/templates/people/_profile_filters.html:5
-#: services/templates/services/service_detail.html:64 templates/500.html:39
-#: templates/base.html:47
-msgid "Layers"
-msgstr "படுகை  "
-
-#: people/templates/people/_profile_filters.html:6 templates/500.html:42
-#: templates/base.html:50
-msgid "Maps"
-msgstr "வரைபடங்கள்"
-
 #: people/templates/people/_profile_filters.html:7 templates/500.html:45
-#: templates/base.html:53
+#: templates/base.html:54
 msgid "Documents"
 msgstr "ஆவணங்கள் "
 
-#: people/templates/people/forgot_username_form.html:5
+#: people/templates/people/forgot_username_form.html:6
 msgid "Forgot Username"
 msgstr "பயன்டுத்துனர் பெயரை மறந்துவிட்டேன் "
 
-#: people/templates/people/forgot_username_form.html:9
+#: people/templates/people/forgot_username_form.html:10
+#, fuzzy
 msgid ""
-"Enter your email address and click the submit button.  Your username will be"
-" sent to you."
+"Enter your email address and click the submit button. <br />Your username "
+"will be sent to you."
 msgstr "உங்களின் மின்அஞ்சல் முகவரியை செலுத்தி சமர்;ப்பித்தல் ஆழியை அழுத்துக"
 
 #: people/templates/people/profile_create.html:8
@@ -2406,35 +2611,72 @@ msgstr "விபரத்திரட்டை உருவாக்குத�
 msgid "Profile of "
 msgstr "பதிவு செய்தது"
 
-#: people/templates/people/profile_detail.html:69
+#: people/templates/people/profile_detail.html:19
+#, fuzzy
+msgid "Message User"
+msgstr "தகவல் உள்பெட்டி "
+
+#: people/templates/people/profile_detail.html:65
 msgid "Edit profile"
 msgstr "திருத்து"
 
-#: people/templates/people/profile_detail.html:70
+#: people/templates/people/profile_detail.html:66
 msgid "Change password"
 msgstr "இரகசிய குறியீட்டை மாற்றுதல் "
 
-#: people/templates/people/profile_detail.html:71
+#: people/templates/people/profile_detail.html:69
 msgid "Upload new layers"
 msgstr "புதிய படுகையை உட்செலுத்தவூம் "
 
-#: people/templates/people/profile_detail.html:72
+#: people/templates/people/profile_detail.html:70
 msgid "Create a new map"
 msgstr "புதிய வரைபடம் ஒன்றை உருவாக்கு "
 
-#: people/templates/people/profile_detail.html:74
+#: people/templates/people/profile_detail.html:72
 msgid "My Activities"
 msgstr "எனது செயல்பாடுகள்"
 
-#: people/templates/people/profile_detail.html:82
+#: people/templates/people/profile_detail.html:77 templates/base.html:202
+#, fuzzy
+msgid "Notifications"
+msgstr "அறிவித்தல் வகை "
+
+#: people/templates/people/profile_detail.html:80 templates/500.html:80
+#: templates/base.html:205 templates/announcements/announcement_list.html:6
+#: templates/announcements/announcement_list.html:13
+msgid "Announcements"
+msgstr "அறிவித்தல்கள் "
+
+#: people/templates/people/profile_detail.html:85
+#: services/templates/services/service_list.html:9 templates/500.html:83
+#: templates/base.html:208
+msgid "Remote Services"
+msgstr "தொலை சேவைகள்"
+
+#: people/templates/people/profile_detail.html:86 templates/500.html:84
+#: templates/base.html:209
+msgid "Invite User"
+msgstr "பயனர் அழைக்கவும்"
+
+#: people/templates/people/profile_detail.html:87 templates/500.html:86
+#: templates/base.html:211
+msgid "GeoServer"
+msgstr " ஜியொசேவர் "
+
+#: people/templates/people/profile_detail.html:90 templates/500.html:89
+#: templates/base.html:214
+msgid "Admin"
+msgstr "நிர்வாகம் "
+
+#: people/templates/people/profile_detail.html:98
 msgid "User Activities"
 msgstr "பயனர் நடவடிக்கைகள்"
 
-#: people/templates/people/profile_detail.html:139
+#: people/templates/people/profile_detail.html:155
 msgid "Resources"
 msgstr "வளங்கள்"
 
-#: people/templates/people/profile_edit.html:10
+#: people/templates/people/profile_edit.html:9
 #: people/templates/people/profile_edit.html:18
 msgid "Edit Your Profile"
 msgstr "உங்களின் விபரத்தை திருத்துதல் "
@@ -2526,33 +2768,49 @@ msgstr "அடுக்கு பாங்குகள்"
 #: services/views.py:63
 msgid ""
 "\n"
-"The Open Geoportal is a consortium comprised of contributions of several universities and organizations to help\n"
-"facilitate the discovery and acquisition of geospatial data across many organizations and platforms. Current partners\n"
-"include: Harvard, MIT, MassGIS, Princeton, Columbia, Stanford, UC Berkeley, UCLA, Yale, and UConn. Built on open source\n"
-"technology, The Open Geoportal provides organizations the opportunity to share thousands of geospatial data layers,\n"
-"maps, metadata, and development resources through a single common interface.\n"
-msgstr "\nதிறந்த Geoportal பல அமைப்புக்கள் மற்றும் பிளாட்பார்ம்களில் கண்டுபிடிப்பு மற்றும் தாழ்த்தப்பட்ட கையகப்படுத்தல் எளிதாக்கும் உதவ பல பல்கலைக்கழகங்கள் மற்றும் அமைப்புக்கள் பங்களிப்புகளை கொண்டதாகும் ஒரு கூட்டிணைப்பு. தற்போதைய பங்காளிகள் அடங்கும்: ஹார்வார்ட், MIT, MassGIS, பிரின்ஸ்டன், கொலம்பியா, ஸ்டான்போர்ட், UC பெர்க்லி, யுசிஎல்எ, யேல், மற்றும் UConn. திறந்த மூல தொழில்நுட்பம் கட்டப்பட்ட, திறந்த Geoportal அமைப்புக்கள் ஒரு பொதுவான இடைமுகம் மூலம் தாழ்த்தப்பட்ட அடுக்குகள், வரைபடங்கள், மெட்டா, மற்றும் வளர்ச்சி ஆதாரங்கள் ஆயிரக்கணக்கான பகிர்ந்து கொள்ள வாய்ப்பு வழங்குகிறது.\n"
+"The Open Geoportal is a consortium comprised of contributions of several "
+"universities and organizations to help\n"
+"facilitate the discovery and acquisition of geospatial data across many "
+"organizations and platforms. Current partners\n"
+"include: Harvard, MIT, MassGIS, Princeton, Columbia, Stanford, UC Berkeley, "
+"UCLA, Yale, and UConn. Built on open source\n"
+"technology, The Open Geoportal provides organizations the opportunity to "
+"share thousands of geospatial data layers,\n"
+"maps, metadata, and development resources through a single common "
+"interface.\n"
+msgstr ""
+"\n"
+"திறந்த Geoportal பல அமைப்புக்கள் மற்றும் பிளாட்பார்ம்களில் கண்டுபிடிப்பு மற்றும் தாழ்த்தப்பட்ட "
+"கையகப்படுத்தல் எளிதாக்கும் உதவ பல பல்கலைக்கழகங்கள் மற்றும் அமைப்புக்கள் பங்களிப்புகளை "
+"கொண்டதாகும் ஒரு கூட்டிணைப்பு. தற்போதைய பங்காளிகள் அடங்கும்: ஹார்வார்ட், MIT, MassGIS, "
+"பிரின்ஸ்டன், கொலம்பியா, ஸ்டான்போர்ட், UC பெர்க்லி, யுசிஎல்எ, யேல், மற்றும் UConn. திறந்த "
+"மூல தொழில்நுட்பம் கட்டப்பட்ட, திறந்த Geoportal அமைப்புக்கள் ஒரு பொதுவான இடைமுகம் மூலம் "
+"தாழ்த்தப்பட்ட அடுக்குகள், வரைபடங்கள், மெட்டா, மற்றும் வளர்ச்சி ஆதாரங்கள் ஆயிரக்கணக்கான "
+"பகிர்ந்து கொள்ள வாய்ப்பு வழங்குகிறது.\n"
 
-#: services/views.py:273
+#: services/views.py:278
 msgid "This is an existing service"
 msgstr "இது ஏற்கனவே உள்ள சேவை"
 
-#: services/views.py:536 services/views.py:633 services/views.py:849
+#: services/views.py:541 services/views.py:638 services/views.py:706
+#: services/views.py:854
 msgid "Not provided"
 msgstr "வழங்கப்படும்"
 
-#: services/views.py:801
+#: services/views.py:806
 msgid "Could not find any layers in a compatible projection."
 msgstr "ஒரு இணக்கமான திட்ட எந்த அடுக்குகள் கண்டுபிடிக்க முடியவில்லை."
 
-#: services/views.py:946
+#: services/views.py:951
 #, python-format
 msgid ""
 "Could not find any layers in a compatible projection:                 The "
 "spatial id was: %(srs)s and the url %(url)s"
-msgstr "ஒரு இணக்கமான திட்ட எந்த அடுக்குகள் கண்டுபிடிக்க முடியவில்லை: வெளி ID இருந்தது: %(srs)s ங்கள் மற்றும் URL%(url)s ங்கள்"
+msgstr ""
+"ஒரு இணக்கமான திட்ட எந்த அடுக்குகள் கண்டுபிடிக்க முடியவில்லை: வெளி ID இருந்தது: "
+"%(srs)s ங்கள் மற்றும் URL%(url)s ங்கள்"
 
-#: services/views.py:1207
+#: services/views.py:1213
 msgid "You are not permitted to remove this service."
 msgstr "இந்த சேவை நீக்க அனுமதி இல்லை."
 
@@ -2601,7 +2859,6 @@ msgid "This Service contains the following layers"
 msgstr "இந்த சேவை பின்வரும் அடுக்குகளைக் கொண்டுள்ளன"
 
 #: services/templates/services/service_detail.html:110
-#: services/templates/services/service_list.html:29
 msgid "Manage"
 msgstr "நிர்வகிக்கவும்"
 
@@ -2613,8 +2870,13 @@ msgstr "திருத்த சேவை மெட்டாடேட்டா"
 msgid "Remove Service"
 msgstr "சேவை நீக்க"
 
-#: services/templates/services/service_edit.html:19
-#: templates/announcements/announcement_form.html:25
+#: services/templates/services/service_edit.html:15
+#, fuzzy
+msgid "Edit Service"
+msgstr "திருத்த சேவை மெட்டாடேட்டா"
+
+#: services/templates/services/service_edit.html:21
+#: templates/announcements/announcement_form.html:27
 msgid "Save"
 msgstr "சேமி"
 
@@ -2626,48 +2888,62 @@ msgstr "சேவை:"
 msgid "The following layers will soon be added to the data catalog:"
 msgstr "பின்வரும் அடுக்குகளைக் விரைவில் தரவு அட்டவணை சேர்க்கப்பட்டது:"
 
-#: services/templates/services/service_list.html:30
+#: services/templates/services/service_list.html:8
 msgid "Register a new Service"
 msgstr "ஒரு புதிய சேவை பதிவு"
 
-#: services/templates/services/service_register.html:21
+#: services/templates/services/service_register.html:13
+#, fuzzy
+msgid "Register New Service"
+msgstr "ஒரு புதிய சேவை பதிவு"
+
+#: services/templates/services/service_register.html:23
 msgid "Service has been created:"
 msgstr "சேவை உருவாக்கப்பட்ட:"
 
-#: services/templates/services/service_register.html:28
+#: services/templates/services/service_register.html:30
 msgid "The following layers will be imported"
 msgstr "பின்வரும் அடுக்குகளைக் இறக்குமதி"
 
-#: services/templates/services/service_remove.html:7
+#: services/templates/services/service_remove.html:8
+#, fuzzy
+msgid "Remove Remote Service"
+msgstr "சேவை நீக்க"
+
+#: services/templates/services/service_remove.html:12
 msgid "Are you sure you want to remove"
 msgstr "நீங்கள் நீக்க வேண்டும் என்பதில் உறுதியாக இருக்கிறீர்களா"
 
-#: social/signals.py:73
+#: social/signals.py:85
 msgid "created"
 msgstr "உருவாக்கப்பட்டுள்ளது"
 
-#: social/signals.py:74 social/tests.py:80
+#: social/signals.py:86 social/tests.py:80
 msgid "deleted"
 msgstr "அழிக்கப்பட்டுள்ளது"
 
-#: social/signals.py:77
+#: social/signals.py:89
 msgid "updated"
 msgstr "இயல்நிலைப்படுத்தப்பட்டுள்ளது"
 
-#: social/signals.py:82 social/tests.py:100
+#: social/signals.py:94 social/tests.py:100
 msgid "added a comment"
 msgstr "குறிப்பொன்று சேர்க்கப்பட்டுள்ளது"
 
-#: social/signals.py:84
+#: social/signals.py:96
 msgid "updated a comment"
 msgstr "குறிப்பொன்று இயல்நிலைப்படுத்தப்பட்டுள்ளது"
 
-#: social/signals.py:86 social/tests.py:54
+#: social/signals.py:98 social/tests.py:54
 msgid "uploaded"
 msgstr "உட்செலுத்தப்பட்டுள்ளது"
 
+#: social/templates/social/_activity_item.html:31
+msgid "ago"
+msgstr "முன்னர்"
+
 #: social/templates/social/activity_list.html:4
-#: social/templates/social/activity_list.html:16
+#: social/templates/social/activity_list.html:15
 msgid "Recent activity"
 msgstr "அண்மைய செயற்பாடு"
 
@@ -2684,7 +2960,9 @@ msgid ""
 "\n"
 "          You are not allowed to perform this operation.  \n"
 "      "
-msgstr "\nநீங்கள் இந்த அறுவை சிகிச்சை செய்ய அனுமதி."
+msgstr ""
+"\n"
+"நீங்கள் இந்த அறுவை சிகிச்சை செய்ய அனுமதி."
 
 #: templates/401.html:25
 msgid "Please verify that you are logged in as the correct user."
@@ -2701,15 +2979,18 @@ msgstr "பக்கத்தை காணவில்லை "
 #: templates/404.html:6
 msgid ""
 "\n"
-"      The page you requested does not exist.  Perhaps you are using an outdated bookmark?\n"
+"      The page you requested does not exist.  Perhaps you are using an "
+"outdated bookmark?\n"
 "  "
-msgstr "\nநீங்கள் கோரிய பக்கம் இல்லை. ஒருவேளை நீங்கள் ஒரு காலாவதியான புக்மார்க் பயன்படுத்துகிறீர்கள்?"
+msgstr ""
+"\n"
+"நீங்கள் கோரிய பக்கம் இல்லை. ஒருவேளை நீங்கள் ஒரு காலாவதியான புக்மார்க் பயன்படுத்துகிறீர்கள்?"
 
-#: templates/500.html:48 templates/base.html:56
+#: templates/500.html:48 templates/base.html:59
 msgid "People"
 msgstr "மக்கள் "
 
-#: templates/500.html:51 templates/base.html:59
+#: templates/500.html:51 templates/base.html:62
 msgid "Groups"
 msgstr "குழுக்கள்"
 
@@ -2718,64 +2999,42 @@ msgstr "குழுக்கள்"
 msgid "Search"
 msgstr "தேடுக "
 
-#: templates/500.html:77 templates/base.html:93
+#: templates/500.html:77 templates/base.html:199
 msgid "Recent Activity"
 msgstr "அண்மைய செயற்பாடு"
 
-#: templates/500.html:78 templates/base.html:94
+#: templates/500.html:78 templates/base.html:200
+#: templates/user_messages/inbox.html:15
 msgid "Inbox"
 msgstr "இன்பாக்ஸ்"
 
-#: templates/500.html:80 templates/base.html:96
-#: templates/announcements/announcement_list.html:6
-#: templates/announcements/announcement_list.html:13
-#: templates/announcements/announcement_list.html:20
-msgid "Announcements"
-msgstr "அறிவித்தல்கள் "
-
-#: templates/500.html:83 templates/base.html:99
-msgid "Remote Services"
-msgstr "தொலை சேவைகள்"
-
-#: templates/500.html:84 templates/base.html:100
-msgid "Invite User"
-msgstr "பயனர் அழைக்கவும்"
-
-#: templates/500.html:86 templates/base.html:102
-msgid "GeoServer"
-msgstr " ஜியொசேவர் "
-
-#: templates/500.html:89 templates/base.html:105
-msgid "Admin"
-msgstr "நிர்வாகம் "
-
-#: templates/500.html:92 templates/base.html:108
+#: templates/500.html:92 templates/base.html:217
 msgid "Help"
 msgstr "உதவி "
 
-#: templates/500.html:97 templates/base.html:113
+#: templates/500.html:97 templates/base.html:223
 #: templates/account/logout.html:6 templates/account/logout.html.py:12
 #: templates/account/logout.html:17
 msgid "Log out"
 msgstr "வெளியேறல் "
 
-#: templates/500.html:109 templates/base.html:125
+#: templates/500.html:109 templates/base.html:168 templates/base.html.py:169
 msgid "Username"
 msgstr "பயன்படுத்துனர் பெயர் "
 
-#: templates/500.html:113 templates/base.html:129
+#: templates/500.html:113 templates/base.html:172
 msgid "Password"
 msgstr "இரகசிய குறியீடு "
 
-#: templates/500.html:118 templates/base.html:134
+#: templates/500.html:118 templates/base.html:176
 msgid "Remember Me"
 msgstr "என்னை ஞாபகத்தில் வைத்திருங்கள் "
 
-#: templates/500.html:120 templates/base.html:119 templates/base.html.py:136
+#: templates/500.html:120 templates/base.html:93 templates/base.html.py:180
 msgid "Sign in"
 msgstr "உட்செல்லல் "
 
-#: templates/500.html:128 templates/base.html:77
+#: templates/500.html:128 templates/base.html:82
 msgid "Register"
 msgstr "பதிவசெய்தல் "
 
@@ -2786,30 +3045,52 @@ msgstr "இந்த பக்கம் ஏற்றுவதில் சிக
 #: templates/500.html:161
 msgid ""
 "\n"
-"          Please contact your GeoNode administrator (he may have received an email automatically if he configured it properly).\n"
-"          If you are the site administrator, enable debug mode to see the actual error and fix it or file an issue in <a href=\"http://github.com/GeoNode/geonode/issues\">GeoNode's issue tracker</a>\n"
+"          Please contact your GeoNode administrator (he may have received an "
+"email automatically if he configured it properly).\n"
+"          If you are the site administrator, enable debug mode to see the "
+"actual error and fix it or file an issue in <a href=\"http://github.com/"
+"GeoNode/geonode/issues\">GeoNode's issue tracker</a>\n"
 "          "
-msgstr "\nஉங்கள் GeoNode நிர்வாகியைத் தொடர்பு கொள்ளவும் (அவர் ஒழுங்காக அது கட்டமைக்கப்பட்ட என்றால் அவர் தானாக ஒரு மின்னஞ்சல் கிடைத்தது). நீங்கள் தளத்தில் நிர்வாகியாக இருந்தால், உண்மையான பிழை பார்க்க சரிசெய்வதற்கான முறையில் செயல்படுத்த மற்றும் அதை சரி அல்லது ஒரு பிரச்சினை தாக்கல் <a href=\"http://github.com/GeoNode/geonode/issues\">GeoNode பிரச்சினை பரிதாபகரமான</a>"
+msgstr ""
+"\n"
+"உங்கள் GeoNode நிர்வாகியைத் தொடர்பு கொள்ளவும் (அவர் ஒழுங்காக அது கட்டமைக்கப்பட்ட என்றால் "
+"அவர் தானாக ஒரு மின்னஞ்சல் கிடைத்தது). நீங்கள் தளத்தில் நிர்வாகியாக இருந்தால், உண்மையான "
+"பிழை பார்க்க சரிசெய்வதற்கான முறையில் செயல்படுத்த மற்றும் அதை சரி அல்லது ஒரு பிரச்சினை "
+"தாக்கல் <a href=\"http://github.com/GeoNode/geonode/issues\">GeoNode பிரச்சினை "
+"பரிதாபகரமான</a>"
 
-#: templates/500.html:182 templates/base.html:172
+#: templates/500.html:182 templates/base.html:129
 msgid "Powered by"
 msgstr "வலுவேற்றப்பட்டுள்ளது "
 
-#: templates/500.html:182 templates/base.html:172
+#: templates/500.html:182 templates/base.html:129
 msgid "GeoNode"
 msgstr "ஜியோநோட் "
 
-#: templates/500.html:182 templates/base.html:172
+#: templates/500.html:182 templates/base.html:129
 msgid "version"
 msgstr "பதிப்புரு "
 
-#: templates/500.html:183 templates/base.html:173
+#: templates/500.html:183 templates/base.html:130
 msgid "Developers"
 msgstr "டெவலப்பர்கள்"
 
-#: templates/_actions.html:4
-msgid "Add to Favorites"
-msgstr "விருப்பத்திற்குரியதில் சேர்க்க "
+#: templates/_actions.html:3
+msgid "Info"
+msgstr "தகவல் "
+
+#: templates/_actions.html:8
+msgid "Share"
+msgstr "பகிர்தல் "
+
+#: templates/_actions.html:10
+msgid "Ratings"
+msgstr "தரப்படுத்தல் "
+
+#: templates/_actions.html:13
+#, fuzzy
+msgid "GeoGig"
+msgstr "GeoGit"
 
 #: templates/_bulk_permissions_form.html:9
 msgid "Set permissions on selected resources"
@@ -2820,7 +3101,7 @@ msgstr "தேர்ந்தெடுத்த ஆதாரங்களை அ�
 msgid "Apply Changes"
 msgstr "மாற்றங்களை பிரயோகிக்குக "
 
-#: templates/_comments.html:17
+#: templates/_comments.html:17 templates/_comments.html.py:58
 msgid "Add Comment"
 msgstr "குறிப்பை சேர்க்கவம்"
 
@@ -2832,12 +3113,9 @@ msgstr "ஒரு கருத்தை சேர்க்க உள்நுழ
 msgid "By"
 msgstr "மூலம்"
 
-#: templates/_comments.html:49
-msgid "Add a Comment"
-msgstr "கருத்தொன்றை சேர்க்க "
-
-#: templates/_comments.html:60
-msgid "Submit Comments"
+#: templates/_comments.html:67
+#, fuzzy
+msgid "Submit Comment"
 msgstr "கருத்துக்களை வழங்குக"
 
 #: templates/_permissions.html:8
@@ -2878,9 +3156,10 @@ msgstr "யார் இந்த அடுக்கு பாணியை த�
 
 #: templates/_permissions.html:152
 msgid ""
-"Who can manage it? (update, delete, change permissions, publish/unpublish "
-"it)"
-msgstr "யார் அதை நிர்வகிக்க முடியும்? (மேம்படுத்தல், அது வெளியீட்டை / வெளியிட, மாற்றம் அனுமதிகள் நீக்க)"
+"Who can manage it? (update, delete, change permissions, publish/unpublish it)"
+msgstr ""
+"யார் அதை நிர்வகிக்க முடியும்? (மேம்படுத்தல், அது வெளியீட்டை / வெளியிட, மாற்றம் அனுமதிகள் "
+"நீக்க)"
 
 #: templates/_permissions_form.html:9
 msgid "Set permissions for this resource"
@@ -2898,11 +3177,16 @@ msgstr "குழுக்களை தேர்வு ..."
 msgid "About GeoNode"
 msgstr "GeoNode பற்றி"
 
-#: templates/about.html:9
+#: templates/about.html:10
 msgid "About GeoNode."
 msgstr "GeoNode பற்றி."
 
-#: templates/base.html:224
+#: templates/base.html:192
+#, fuzzy
+msgid "Profile Menu"
+msgstr "விபரத்திரட்டு "
+
+#: templates/base.html:258
 msgid "Type your search here ..."
 msgstr "இங்கே உங்கள் தேடலைத் தட்டச்சு ..."
 
@@ -2910,76 +3194,123 @@ msgstr "இங்கே உங்கள் தேடலைத் தட்டச
 msgid "Information for Developers"
 msgstr "விருத்தி செய்பவர்களுக்கான தகவல்கள் "
 
-#: templates/developer.html:9
+#: templates/developer.html:13
 msgid "Useful information for developers interested in GeoNode."
 msgstr "ஜியோநோட் இல் ஆர்வமுள்ள விருத்தி செய்பவர்களுக்கான பயனுள்ள தகவல்கள்"
 
-#: templates/developer.html:12
+#: templates/developer.html:14
 msgid ""
 "\n"
-"  <p><a href=\"http://geonode.org/\">GeoNode</a> is an open service built on open source software. We encourage you to build new applications using the components and resources it provides. This page is a starting point for developers interesting in taking full advantage of GeoNode. It also includes links to the project's source code so anyone can build and customize their own GeoNode. </p>\n"
+"    <p><a href=\"http://geonode.org/\">GeoNode</a> is an open service built "
+"on open source software. We encourage you to build new applications using "
+"the components and resources it provides. This page is a starting point for "
+"developers interesting in taking full advantage of GeoNode. It also includes "
+"links to the project's source code so anyone can build and customize their "
+"own GeoNode. </p>\n"
 "\n"
-"  <h4>GeoNode Software</h4>\n"
+"    <h3>GeoNode Software</h3>\n"
 "\n"
-"  <p>All the code that runs GeoNode is open source. The code is available at <a href=\"http://github.com/GeoNode/geonode\">http://github.com/GeoNode/geonode/</a>. The issue tracker for the project is at <a href=\"http://github.com/GeoNode/geonode/issues\">http://github.com/GeoNode/geonode/issues</a>.</p>\n"
+"    <p>All the code that runs GeoNode is open source. The code is available "
+"at <a href=\"http://github.com/GeoNode/geonode\">http://github.com/GeoNode/"
+"geonode/</a>. The issue tracker for the project is at <a href=\"http://"
+"github.com/GeoNode/geonode/issues\">http://github.com/GeoNode/geonode/"
+"issues</a>.</p>\n"
 "\n"
-"  <p>GeoNode is built using several open source projects, each with its own community. If you are interested in contributing new features to the GeoNode, we encourage you to do so by contributing to one of the projects on which it is built:</p>\n"
-"  <ul>\n"
-"    <li><a href=\"http://geoext.org\">GeoExt</a> - The JavaScript toolkit for rich web mapping applications</li>\n"
-"    <li><a href=\"http://geoserver.org\">GeoServer</a> - Standards based server for geospatial information</li>\n"
-"    <li><a href=\"http://geowebcache.org\">GeoWebCache</a> - Cache engine for WMS Tiles</li><li><a href=\"http://openlayers.org\">OpenLayers</a> - Pure JavaScript library powering the maps of GeoExt</li>\n"
-"    <li><a href=\"http://pycsw.org\">pycsw</a> - CSW metadata catalogue server</li>\n"
-"  </ul>\n"
+"    <p>GeoNode is built using several open source projects, each with its "
+"own community. If you are interested in contributing new features to the "
+"GeoNode, we encourage you to do so by contributing to one of the projects on "
+"which it is built:</p>\n"
+"    <ul>\n"
+"      <li><a href=\"http://geoext.org\">GeoExt</a> - The JavaScript toolkit "
+"for rich web mapping applications</li>\n"
+"      <li><a href=\"http://geoserver.org\">GeoServer</a> - Standards based "
+"server for geospatial information</li>\n"
+"      <li><a href=\"http://geowebcache.org\">GeoWebCache</a> - Cache engine "
+"for WMS Tiles</li><li><a href=\"http://openlayers.org\">OpenLayers</a> - "
+"Pure JavaScript library powering the maps of GeoExt</li>\n"
+"      <li><a href=\"http://pycsw.org\">pycsw</a> - CSW metadata catalogue "
+"server</li>\n"
+"    </ul>\n"
 "\n"
-"  <h4>What are OGC Services?</h4>\n"
-"  <p>The data in this application is served using open standards endorsed by the <a href=\"http://opengeospatial.org/\">Open Geospatial Consortium</a>; in particular, WMS (Web Map Service) is used for accessing maps, WFS (Web Feature Service) is used for accessing vector data, and WCS (Web Coverage Service) is used for accessing raster data.  WMC (Web Map Context Documents) is used for sharing maps. You can use these services in your own applications using libraries such as OpenLayers, GeoTools, and OGR (all of which are open-source software and available at zero cost).</p>\n"
+"    <h3>What are OGC Services?</h3>\n"
+"    <p>The data in this application is served using open standards endorsed "
+"by the <a href=\"http://opengeospatial.org/\">Open Geospatial Consortium</"
+"a>; in particular, WMS (Web Map Service) is used for accessing maps, WFS "
+"(Web Feature Service) is used for accessing vector data, and WCS (Web "
+"Coverage Service) is used for accessing raster data.  WMC (Web Map Context "
+"Documents) is used for sharing maps. You can use these services in your own "
+"applications using libraries such as OpenLayers, GeoTools, and OGR (all of "
+"which are open-source software and available at zero cost).</p>\n"
 "\n"
-"  <h4>What is GeoWebCache?</h4>\n"
-"  <p>GeoWebCache provides mapping tiles that are compatible with a number of mapping engines, including Google Maps, Bing Maps and OpenLayers. All the data hosted by GeoNode is also available through GeoWebCache. GeoWebCache improves on WMS by caching data and providing more responsive maps.</p>\n"
+"    <h3>What is GeoWebCache?</h3>\n"
+"    <p>GeoWebCache provides mapping tiles that are compatible with a number "
+"of mapping engines, including Google Maps, Bing Maps and OpenLayers. All the "
+"data hosted by GeoNode is also available through GeoWebCache. GeoWebCache "
+"improves on WMS by caching data and providing more responsive maps.</p>\n"
 "\n"
-"  <h4>OpenLayers Example Code</h4>\n"
+"    <h3>OpenLayers Example Code</h3>\n"
 "\n"
-"  <p>To include a GeoNode map layer in an OpenLayers map, first find the name for that layer. This is found in the layer's <code>name</code> field (not <code>title</code>) of the layer list. For this example, we will use the Nicaraguan political boundaries background layer, whose name is <code>risk:nicaragua_admin</code>. Then, create an instance of OpenLayers.Layer.WMS:</p>\n"
-"  <p><code>var geonodeLayer = new OpenLayers.Layer.WMS(\"GeoNode Risk Data\", \"http://demo.geonode.org/geoserver/wms\",{ layers: \"risk:nicaragua_admin\" });</code></p>\n"
+"    <p>To include a GeoNode map layer in an OpenLayers map, first find the "
+"name for that layer. This is found in the layer's <code>name</code> field "
+"(not <code>title</code>) of the layer list. For this example, we will use "
+"the Nicaraguan political boundaries background layer, whose name is "
+"<code>risk:nicaragua_admin</code>. Then, create an instance of OpenLayers."
+"Layer.WMS:</p>\n"
+"    <p><code>var geonodeLayer = new OpenLayers.Layer.WMS(\"GeoNode Risk Data"
+"\", \"http://demo.geonode.org/geoserver/wms\",{ layers: \"risk:"
+"nicaragua_admin\" });</code></p>\n"
 "\n"
-"  <h4>Google Maps Example Code</h4>\n"
-"  <p>To include a GeoNode map layer in a Google Map, include the layer namein the URL template.</p>\n"
-"  <p><code>var tilelayer =  new GTileLayer(null, null, null, {tileUrlTemplate: 'http://demo.geonode.org/geoserver/gwc/service/gmaps?layers=risk:nicaragua_admin&#38;zoom={Z}&#38;x={X}&#38;y={Y}', isPng:true, opacity:0.5 } );</code></p>\n"
+"    <h3>Google Maps Example Code</h3>\n"
+"    <p>To include a GeoNode map layer in a Google Map, include the layer "
+"namein the URL template.</p>\n"
+"    <p><code>var tilelayer =  new GTileLayer(null, null, null, "
+"{tileUrlTemplate: 'http://demo.geonode.org/geoserver/gwc/service/gmaps?"
+"layers=risk:nicaragua_admin&#38;zoom={Z}&#38;x={X}&#38;y={Y}', isPng:true, "
+"opacity:0.5 } );</code></p>\n"
 "\n"
-"  <h4>Shapefile/GeoJSON/GML Output</h4>\n"
-"  <p>To get data from the GeoNode web services use the WFS protocol. For example, to get the full Nicaraguan admin boundaries use:</p>\n"
-"  <p><code>http://demo.geonode.org/geoserver/wfs?request=GetFeature&#38;typeName=risk:nicaragua_admin&#38;outputformat=SHAPE-ZIP</code></p>\n"
-"  <p>Changing output format to <code>json</code>, <code>GML2</code>, <code>GML3</code>, or <code>csv</code> will get data in those formats. The WFS protocol also can handle more precise queries, specifying a bounding box or various spatial and non-spatial filters based on the attributes of the data.</p>\n"
+"    <h3>Shapefile/GeoJSON/GML Output</h3>\n"
+"    <p>To get data from the GeoNode web services use the WFS protocol. For "
+"example, to get the full Nicaraguan admin boundaries use:</p>\n"
+"    <p><code>http://demo.geonode.org/geoserver/wfs?request=GetFeature&#38;"
+"typeName=risk:nicaragua_admin&#38;outputformat=SHAPE-ZIP</code></p>\n"
+"    <p>Changing output format to <code>json</code>, <code>GML2</code>, "
+"<code>GML3</code>, or <code>csv</code> will get data in those formats. The "
+"WFS protocol also can handle more precise queries, specifying a bounding box "
+"or various spatial and non-spatial filters based on the attributes of the "
+"data.</p>\n"
 "\n"
-"  <h4>GeoTools Example Code</h4>\n"
-"  <p>Create a DataStore and extract a FeatureType from it, then run a Query. It is all documented on the wiki at <code>http://geotools.org/</code>.</p>\n"
+"    <h3>GeoTools Example Code</h3>\n"
+"    <p>Create a DataStore and extract a FeatureType from it, then run a "
+"Query. It is all documented on the wiki at <code>http://geotools.org/</code>."
+"</p>\n"
+"    "
 msgstr ""
 
-#: templates/developer.html:53
+#: templates/developer.html:55
 msgid "GeoNode's Web Services"
 msgstr "ஜியோநோட் இணையத்தள சேவைகள்"
 
-#: templates/developer.html:54
+#: templates/developer.html:56
 msgid "GeoNode's Web Services are available from the following URLs:"
 msgstr "பின்வரும் URL இல் ஜியோநோட் இணையத்தள சேவைகள காணப்படுகின்றன"
 
-#: templates/developer.html:57
+#: templates/developer.html:59
 msgid "Dynamic tiles via WMS:"
 msgstr "WMS ஊடான உயிர்பான படிமங்கள்"
 
-#: templates/developer.html:61
+#: templates/developer.html:63
 msgid "Vector data via WFS:"
 msgstr "WFS ஊடான நெறிய தரவூகள் "
 
-#: templates/developer.html:65
+#: templates/developer.html:67
 msgid "Raster data via WCS:"
 msgstr "WCS ஊடான பரவ தரவகள்"
 
-#: templates/developer.html:69
+#: templates/developer.html:71
 msgid "Metadata search via CSW:"
 msgstr "CSW ஊடான நுண் தரவ தேடல்கள் "
 
-#: templates/developer.html:73
+#: templates/developer.html:75
 msgid "Cached tiles via WMTS:"
 msgstr "படிமங்களை WMTS ஊடாக பதுக்குதல் "
 
@@ -2991,90 +3322,130 @@ msgstr "பாவனையாளர் வழிகாட்டி "
 msgid "GeoNode Help"
 msgstr "ஜியோநோட் உதவி "
 
-#: templates/help.html:9
-msgid ""
-"This page provides helpful information about how to use the GeoNode. You can"
-" use the sidebar links to navigate to what you want to know."
-msgstr "ஜியோநோட் ஐ எவ்வாறு பயன்படுத்துவது என்பது தொடர்பான பயனுள்ள தகவல்களை இப் பக்கம் வழங்குகின்றது. நீங்கள் அறியவிரும்புபவற்றை அவதானிப்பதற்கு அருகில்உள்ள இணைப்புக்களை பயன்படுத்துங்கள் "
-
 #: templates/help.html:12
 msgid ""
+"This page provides helpful information about how to use the GeoNode. You can "
+"use the sidebar links to navigate to what you want to know."
+msgstr ""
+"ஜியோநோட் ஐ எவ்வாறு பயன்படுத்துவது என்பது தொடர்பான பயனுள்ள தகவல்களை இப் பக்கம் "
+"வழங்குகின்றது. நீங்கள் அறியவிரும்புபவற்றை அவதானிப்பதற்கு அருகில்உள்ள இணைப்புக்களை "
+"பயன்படுத்துங்கள் "
+
+#: templates/help.html:14
+msgid ""
 "\n"
-"  <p>The GeoNode provides access to data sets and a map editing application allows users to browse existing maps and contribute their own.</p>\n"
+"    <p>The GeoNode provides access to data sets and a map editing "
+"application allows users to browse existing maps and contribute their own.</"
+"p>\n"
 "\n"
-"  <h4 id=\"browsing-data\">Browsing Layers</h4>\n"
-"  <p>The <a href=\"/layers\">Layers</a> tab allows you to browse data uploaded to this GeoNode.</p>\n"
-"  <p>All data can be downloaded in a variety of formats, for use in other applications.</p>\n"
+"    <h4 id=\"browsing-data\">Browsing Layers</h4>\n"
+"    <p>The <a href=\"/layers\">Layers</a> tab allows you to browse data "
+"uploaded to this GeoNode.</p>\n"
+"    <p>All data can be downloaded in a variety of formats, for use in other "
+"applications.</p>\n"
 "\n"
-"  <h4 id=\"developer-access\">Developer Access</h4>\n"
-"  <p>The <a href=\"/developer\"> Developer</a> page is the place for developers to get started building applications against the GeoNode. It includes instructions on using the web services, links to the source code of the GeoNode, and information about the open source projects used to create it.</p>\n"
+"    <h4 id=\"developer-access\">Developer Access</h4>\n"
+"    <p>The <a href=\"/developer\"> Developer</a> page is the place for "
+"developers to get started building applications against the GeoNode. It "
+"includes instructions on using the web services, links to the source code of "
+"the GeoNode, and information about the open source projects used to create "
+"it.</p>\n"
 "\n"
-"  <h4 id=\"browsing-maps\">Browsing Maps</h4>\n"
-"  <p>The GeoNode allows users to create and share maps with one another.</p>\n"
-"  <p>The <a href=\"/maps\">Maps</a> tab is a gateway to map exploration on GeoNode.  From here you can <strong>search for a map</strong> or <strong>create a map</strong>, which will open the <a href=\"/maps/new\">Map Composer</a>.</p>\n"
-"  <h5>Google Earth Mode</h5>\n"
-"  <p>Any map viewed in the interactive map editor can be seen in 3D mode with the Google Earth plugin. To switch to 3D mode select the Google Earth globe logo, the rightmost button on top toolbar. If you do not have the Google Earth plugin installed you will be prompted to install it.</p>\n"
+"    <h4 id=\"browsing-maps\">Browsing Maps</h4>\n"
+"    <p>The GeoNode allows users to create and share maps with one another.</"
+"p>\n"
+"    <p>The <a href=\"/maps\">Maps</a> tab is a gateway to map exploration on "
+"GeoNode.  From here you can <strong>search for a map</strong> or "
+"<strong>create a map</strong>, which will open the <a href=\"/maps/new\">Map "
+"Composer</a>.</p>\n"
+"    <h5>Google Earth Mode</h5>\n"
+"    <p>Any map viewed in the interactive map editor can be seen in 3D mode "
+"with the Google Earth plugin. To switch to 3D mode select the Google Earth "
+"globe logo, the rightmost button on top toolbar. If you do not have the "
+"Google Earth plugin installed you will be prompted to install it.</p>\n"
 "\n"
-"  <h4 id=\"creating-a-map\">Creating a Map</h4>\n"
-"  <p>To create a new map go to the <a href=\"/maps\">Contributed Maps</a> tab and click the <a href=\"/maps/new\">create your own map</a> link.</p>\n"
-"  <p>This will take you to the <a href=\"/maps/new\">Map Composer</a> with a base layer loaded.</p>\n"
-"  <p>To add data layers from the GeoNode click on the green plus button located below the layers tab on the left hand side of the screen. This will open a dialog listing all the layers available on the GeoNode.</p>\n"
-"  <p>To add layers to your map select them and hit the <strong>Add Layers</strong> button. When finished you may hit <strong>Done</strong> to close the dialog and go back to the map.</p>\n"
+"    <h4 id=\"creating-a-map\">Creating a Map</h4>\n"
+"    <p>To create a new map go to the <a href=\"/maps\">Contributed Maps</a> "
+"tab and click the <a href=\"/maps/new\">create your own map</a> link.</p>\n"
+"    <p>This will take you to the <a href=\"/maps/new\">Map Composer</a> with "
+"a base layer loaded.</p>\n"
+"    <p>To add data layers from the GeoNode click on the green plus button "
+"located below the layers tab on the left hand side of the screen. This will "
+"open a dialog listing all the layers available on the GeoNode.</p>\n"
+"    <p>To add layers to your map select them and hit the <strong>Add Layers</"
+"strong> button. When finished you may hit <strong>Done</strong> to close the "
+"dialog and go back to the map.</p>\n"
 "\n"
-"  <h5>Reordering and Removing Layers</h5>\n"
-"  <p>Change the display order of the layers listed in the data tab by simply dragging and dropping their names. The order in the map will be updated to reflect that. To turn a layer's visibility off simply uncheck it, and to remove it entirely select it and hit the red minus button.</p>\n"
+"    <h5>Reordering and Removing Layers</h5>\n"
+"    <p>Change the display order of the layers listed in the data tab by "
+"simply dragging and dropping their names. The order in the map will be "
+"updated to reflect that. To turn a layer's visibility off simply uncheck it, "
+"and to remove it entirely select it and hit the red minus button.</p>\n"
 "\n"
-"  <h5>Saving your map</h5>\n"
-"  <p>Once a suitable set of layers and zoom level has been found it's time to save it so others can see it.  Click the Save button--the left most icon on the top toolbar, an image of a map with a disk--on the top menu and fill out the title and abstract of the map.</p>\n"
+"    <h5>Saving your map</h5>\n"
+"    <p>Once a suitable set of layers and zoom level has been found it's time "
+"to save it so others can see it.  Click the Save button--the left most icon "
+"on the top toolbar, an image of a map with a disk--on the top menu and fill "
+"out the title and abstract of the map.</p>\n"
 "\n"
-"  <h4 id=\"exporting-a-map\">Exporting a Map</h4>\n"
-"  <p>Any map from the GeoNode can be embedded for use in another site or blog. To export a map:</p>\n"
-"  <ol>\n"
-"    <li>Select the from the list of maps on the community or map page and then hit the 'export map' button.</li> \n"
-"    <li>Choose your desired height and width for the widget in the wizard.</li> \n"
-"    <li>Copy the HTML snippet provided in the wizard to any HTML page or iFrame-supporting blog post.</li>\n"
-"  </ol>\n"
-"  <p>This will put an interactive widget showing you map in your web page or blog post.</p>\n"
-"  <p>Note that the <a href=\"/maps/new\">Map Composer</a> also has a button to export the map. Just be sure to save the map before exporting if there are changes that you want others to see. It exports the last saved version, not the last viewed version.</p>\n"
+"    <h4 id=\"exporting-a-map\">Exporting a Map</h4>\n"
+"    <p>Any map from the GeoNode can be embedded for use in another site or "
+"blog. To export a map:</p>\n"
+"    <ol>\n"
+"      <li>Select the from the list of maps on the community or map page and "
+"then hit the 'export map' button.</li> \n"
+"      <li>Choose your desired height and width for the widget in the wizard."
+"</li> \n"
+"      <li>Copy the HTML snippet provided in the wizard to any HTML page or "
+"iFrame-supporting blog post.</li>\n"
+"    </ol>\n"
+"    <p>This will put an interactive widget showing you map in your web page "
+"or blog post.</p>\n"
+"    <p>Note that the <a href=\"/maps/new\">Map Composer</a> also has a "
+"button to export the map. Just be sure to save the map before exporting if "
+"there are changes that you want others to see. It exports the last saved "
+"version, not the last viewed version.</p>\n"
 "\n"
-"  <h4 id=\"remixing-a-map\">Remixing a Map</h4>\n"
-"  <p>Any map available can serve as a starting point for a new map.</p>\n"
-"  <ol>\n"
-"    <li>Open the map in the Map Composer.</li>\n"
-"    <li>Add and remove layers as you like.</li>\n"
-"    <li>Pan and zoom to highlight the area of interest.</li>\n"
-"    <li><strong>IMPORTANT:</strong> Update the title, abstract, contact info and tags to reflect the new map.</li>\n"
-"    <li>Save the map.</li>\n"
-"  </ol>\n"
-"  <p>You will be able to see your new map when you search for it from the <a href=\"/maps\">Maps</a> tab.</p> \n"
-"  "
+"    <h4 id=\"remixing-a-map\">Remixing a Map</h4>\n"
+"    <p>Any map available can serve as a starting point for a new map.</p>\n"
+"    <ol>\n"
+"      <li>Open the map in the Map Composer.</li>\n"
+"      <li>Add and remove layers as you like.</li>\n"
+"      <li>Pan and zoom to highlight the area of interest.</li>\n"
+"      <li><strong>IMPORTANT:</strong> Update the title, abstract, contact "
+"info and tags to reflect the new map.</li>\n"
+"      <li>Save the map.</li>\n"
+"    </ol>\n"
+"    <p>You will be able to see your new map when you search for it from the "
+"<a href=\"/maps\">Maps</a> tab.</p> \n"
+"    "
 msgstr ""
 
-#: templates/help.html:65
+#: templates/help.html:66
 msgid "Sections"
 msgstr "பிரிவ "
 
-#: templates/help.html:66
+#: templates/help.html:67
 msgid "Browsing Layers"
 msgstr "படுகைகளை உலாருதல் "
 
-#: templates/help.html:67
+#: templates/help.html:68
 msgid "Developer Access"
 msgstr "விருத்தியாளர் நுழைவூ "
 
-#: templates/help.html:68
+#: templates/help.html:69
 msgid "Browsing Maps"
 msgstr "வரைபடங்களை உலாவருதல் "
 
-#: templates/help.html:69
+#: templates/help.html:70
 msgid "Creating a Map"
 msgstr "வரைபடங்களை உருவாக்குதல்  "
 
-#: templates/help.html:70
+#: templates/help.html:71
 msgid "Exporting a Map"
 msgstr "வரைபடங்களை ஏற்றுதல் "
 
-#: templates/help.html:71
+#: templates/help.html:72
 msgid "Remixing a Map"
 msgstr "வரைபடங்களை கூட்டுச்சேர்த்தல் "
 
@@ -3093,9 +3464,11 @@ msgstr "GeoNode தாழ்த்தப்பட்ட மற்றும் �
 
 #: templates/index.html:17
 msgid ""
-"If you have any questions about the software or service, join our <a "
-"href=\"https://groups.google.com/d/forum/geonode-users\">mailing list</a>."
-msgstr "நீங்கள் மென்பொருள் அல்லது சேவை பற்றி ஏதேனும் கேள்விகள் இருந்தால், எங்கள் சேர <a href=\"https://groups.google.com/d/forum/geonode-users\">அஞ்சல் பட்டியலில்</a> ."
+"If you have any questions about the software or service, join our <a href="
+"\"https://groups.google.com/d/forum/geonode-users\">mailing list</a>."
+msgstr ""
+"நீங்கள் மென்பொருள் அல்லது சேவை பற்றி ஏதேனும் கேள்விகள் இருந்தால், எங்கள் சேர <a href="
+"\"https://groups.google.com/d/forum/geonode-users\">அஞ்சல் பட்டியலில்</a> ."
 
 #: templates/index.html:18
 msgid "Need help?"
@@ -3105,53 +3478,97 @@ msgstr "உதவி தேவையா?"
 msgid "Getting Started"
 msgstr "தொடங்குதல்"
 
-#: templates/index.html:30 templates/index.html.py:37 templates/index.html:43
+#: templates/index.html:30 templates/index.html.py:36 templates/index.html:43
+#: templates/index.html.py:48
 msgid "No"
 msgstr "இல்லை"
 
 #: templates/index.html:30
+#: templates/notification/request_download_resourcebase/full.txt:7
+#, fuzzy
 msgid "Layer"
-msgstr "அடுக்கு"
+msgid_plural "Layers"
+msgstr[0] "அடுக்கு"
+msgstr[1] "அடுக்கு"
 
-#: templates/index.html:32
+#: templates/index.html:31
 msgid ""
 "Click to search for geospatial data published by other users, organizations "
 "and public sources. Download data in standard formats."
-msgstr "பிற பயனர்களின், அமைப்புக்கள் மற்றும் பொது ஆதாரங்கள் வெளியிடப்பட்ட தாழ்த்தப்பட்ட தேட கிளிக் செய்யவும். நிலையான வடிவங்களில் பதிவிறக்க தரவு."
+msgstr ""
+"பிற பயனர்களின், அமைப்புக்கள் மற்றும் பொது ஆதாரங்கள் வெளியிடப்பட்ட தாழ்த்தப்பட்ட தேட கிளிக் "
+"செய்யவும். நிலையான வடிவங்களில் பதிவிறக்க தரவு."
+
+#: templates/index.html:36
+#, fuzzy
+msgid "Map"
+msgid_plural "Maps"
+msgstr[0] "வரைபடம்"
+msgstr[1] "வரைபடம்"
 
 #: templates/index.html:37
-msgid "Map"
-msgstr "வரைபடம்"
-
-#: templates/index.html:38
 msgid ""
 "Data is available for browsing, aggregating and styling to generate maps "
 "which can be shared publicly or restricted to specific users only."
-msgstr "டேட்டா மட்டும் குறிப்பிட்ட செய்த பகிரப்பட்டுள்ளது அல்லது தடை முடியும் வரைபடங்களை உருவாக்குவதற்கு உலாவுதல், திரட்டுவதன் மற்றும் ஸ்டைலிங் கிடைக்கிறது."
+msgstr ""
+"டேட்டா மட்டும் குறிப்பிட்ட செய்த பகிரப்பட்டுள்ளது அல்லது தடை முடியும் வரைபடங்களை "
+"உருவாக்குவதற்கு உலாவுதல், திரட்டுவதன் மற்றும் ஸ்டைலிங் கிடைக்கிறது."
 
-#: templates/index.html:39
+#: templates/index.html:38
 msgid "Create maps"
 msgstr "வரைபடங்களை உருவாக்கவும்"
 
-#: templates/index.html:43
+#: templates/index.html:43 templates/index.html.py:48
+#: templates/notification/account_approve/full.txt:1
+#, fuzzy
 msgid "User"
-msgstr "பயன்படுத்துபவர்"
+msgid_plural "Users"
+msgstr[0] "பயன்படுத்துபவர்"
+msgstr[1] "பயன்படுத்துபவர்"
 
-#: templates/index.html:44
+#: templates/index.html:44 templates/index.html.py:49
 msgid ""
 "GeoNode allows registered users to easily upload geospatial data in several "
 "formats including shapefile and GeoTiff."
-msgstr "GeoNode பதிவு செய்த எளிதாக ஷேப்ஃபைல் மற்றும் GeoTiff உட்பட பல வடிவங்களில் தாழ்த்தப்பட்ட அப்லோடு செய்ய அனுமதிக்கிறது."
+msgstr ""
+"GeoNode பதிவு செய்த எளிதாக ஷேப்ஃபைல் மற்றும் GeoTiff உட்பட பல வடிவங்களில் தாழ்த்தப்பட்ட "
+"அப்லோடு செய்ய அனுமதிக்கிறது."
 
-#: templates/index.html:45
+#: templates/index.html:45 templates/index.html.py:50
 msgid "Share data"
 msgstr "பங்கு தரவு"
 
-#: templates/account/login.html:7 templates/account/login.html.py:24
+#: templates/account/admin_approval_sent.html:6
+#: templates/account/admin_approval_sent.html:9
+msgid "Account Pending Approval"
+msgstr ""
+
+#: templates/account/admin_approval_sent.html:11
+#, python-format
+msgid ""
+"We have sent the administrators a notice to approve your account associated "
+"with <b>%(email)s</b>. If the account is approved, you will receive a "
+"confirmation notice."
+msgstr ""
+
+#: templates/account/email_confirmation_sent.html:6
+#: templates/account/email_confirmation_sent.html:9
+#, fuzzy
+msgid "Confirm your email address"
+msgstr "%(site_name)s மின்னஞ்சல் முகவரியை உறுதிசெய்யவும்"
+
+#: templates/account/email_confirmation_sent.html:11
+#, python-format
+msgid ""
+"We have sent you an email to <b>%(email)s</b> for verification. Follow the "
+"link provided to finalize the signup process."
+msgstr ""
+
+#: templates/account/login.html:7 templates/account/login.html.py:25
 msgid "Log in"
 msgstr "உள்நுழைய"
 
-#: templates/account/login.html:12
+#: templates/account/login.html:11
 msgid "Log in to an existing account"
 msgstr "ஏற்கனவே கணக்கு உள்நுழைய"
 
@@ -3168,26 +3585,42 @@ msgid "Are you sure you want to log out?"
 msgstr "நீங்கள் வெளியேற்றுவோம் என்பதில் உறுதியாக இருக்கிறீர்களா?"
 
 #: templates/account/password_reset.html:8
-#: templates/account/password_reset.html:14
 msgid "Password reset"
 msgstr "கடவுச்சொல்லை மீட்டமை"
 
-#: templates/account/password_reset.html:15
-msgid ""
-"Forgotten your password? Enter your email address below, and we'll send you "
-"an email allowing you to reset it."
-msgstr "உங்கள் கடவுச்சொல்லை மறந்து விட்டீர்களா? கீழே உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும், மற்றும் நாம் நீங்கள் அது மீட்டமைக்க அனுமதிக்கும் நீங்கள் ஒரு மின்னஞ்சல் அனுப்புவோம்."
+#: templates/account/password_reset.html:14
+#, fuzzy
+msgid "Password Reset"
+msgstr "கடவுச்சொல்லை மீட்டமை"
 
-#: templates/account/password_reset.html:20
+#: templates/account/password_reset.html:18
+#, fuzzy
+msgid "Forgotten your password?"
+msgstr "உங்கள் கடவுச்சொல்லை மறந்து விட்டீர்களா?"
+
+#: templates/account/password_reset.html:19
+#, fuzzy
+msgid ""
+"Enter your email address below, and we'll send you an email allowing you to "
+"reset it."
+msgstr ""
+"உங்கள் கடவுச்சொல்லை மறந்து விட்டீர்களா? கீழே உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும், மற்றும் "
+"நாம் நீங்கள் அது மீட்டமைக்க அனுமதிக்கும் நீங்கள் ஒரு மின்னஞ்சல் அனுப்புவோம்."
+
+#: templates/account/password_reset.html:25
 msgid "Reset my password"
 msgstr "எனது கடவுச்சொல்லை மீட்டமை"
 
-#: templates/account/password_reset.html:25
+#: templates/account/password_reset.html:29
 #, python-format
 msgid ""
-"If you have any trouble resetting your password, contact us at <a "
-"href=\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</a>."
-msgstr "நீங்கள் உங்கள் கடவுச்சொல்லை மீட்டமைக்க எந்த பிரச்சனையும் இல்லை என்றால், எங்களை தொடர்பு <a href=\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</a>."
+"If you have any trouble resetting your password, contact us at <a href="
+"\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</"
+"a>."
+msgstr ""
+"நீங்கள் உங்கள் கடவுச்சொல்லை மீட்டமைக்க எந்த பிரச்சனையும் இல்லை என்றால், எங்களை தொடர்பு <a "
+"href=\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">"
+"%(THEME_ACCOUNT_CONTACT_EMAIL)s</a>."
 
 #: templates/account/signup.html:7 templates/account/signup.html.py:14
 #: templates/account/signup.html:22
@@ -3206,7 +3639,11 @@ msgid ""
 "To confirm this email address, go to %(activate_url)s\n"
 "\n"
 "If you did not sign up for this site, you can ignore this message.\n"
-msgstr "%(site_name)sகள் மீது ஒரு பயனர் இந்த மின்னஞ்சல் முகவரியை பயன்படுத்தி ஒரு கணக்கை உருவாக்கி உள்ளது. இந்த மின்னஞ்சல் முகவரியை உறுதிப்படுத்த, இந்த தளத்தில் நீங்கள் பதிவு செய்யவில்லை என்றால், நீங்கள் இந்த செய்தியை புறக்கணிக்க முடியாது %(activate_url)s சென்று.\n"
+msgstr ""
+"%(site_name)sகள் மீது ஒரு பயனர் இந்த மின்னஞ்சல் முகவரியை பயன்படுத்தி ஒரு கணக்கை "
+"உருவாக்கி உள்ளது. இந்த மின்னஞ்சல் முகவரியை உறுதிப்படுத்த, இந்த தளத்தில் நீங்கள் பதிவு "
+"செய்யவில்லை என்றால், நீங்கள் இந்த செய்தியை புறக்கணிக்க முடியாது %(activate_url)s "
+"சென்று.\n"
 
 #: templates/account/email/email_confirmation_subject.txt:1
 #, python-format
@@ -3216,11 +3653,17 @@ msgstr "%(site_name)s மின்னஞ்சல் முகவரியை �
 #: templates/account/email/password_reset.txt:1
 #, python-format
 msgid ""
-"You're receiving this email because you or someone else has requested a password for your user account at %(site_name)s.\n"
-"It can be safely ignored if you did not request a password reset. Click the link below to reset your password.\n"
+"You're receiving this email because you or someone else has requested a "
+"password for your user account at %(site_name)s.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password.\n"
 "\n"
 "%(password_reset_url)s\n"
-msgstr "நீங்கள் அல்லது வேறு %(site_name)s கள் உங்கள் பயனர் கணக்கில் ஒரு கடவுச்சொல்லை கோரியதால், நீங்கள் இந்த மின்னஞ்சல் பெறும். நீங்கள் ஒரு கடவுச்சொல்லை மீட்டமை விடுக்கவில்லை என்றால் அது பாதுகாப்பாக தவிர்க்கப்படலாம். உங்கள் கடவுச்சொல்லை மீட்டமைக்க கீழே உள்ள இணைப்பை கிளிக் செய்யவும். %(password_reset_url)s ங்கள்\n"
+msgstr ""
+"நீங்கள் அல்லது வேறு %(site_name)s கள் உங்கள் பயனர் கணக்கில் ஒரு கடவுச்சொல்லை கோரியதால், "
+"நீங்கள் இந்த மின்னஞ்சல் பெறும். நீங்கள் ஒரு கடவுச்சொல்லை மீட்டமை விடுக்கவில்லை என்றால் அது "
+"பாதுகாப்பாக தவிர்க்கப்படலாம். உங்கள் கடவுச்சொல்லை மீட்டமைக்க கீழே உள்ள இணைப்பை கிளிக் "
+"செய்யவும். %(password_reset_url)s ங்கள்\n"
 
 #: templates/account/email/password_reset_subject.txt:1
 #, python-format
@@ -3243,33 +3686,40 @@ msgstr "GeoNode தளம் நிர்வாகம்"
 msgid "GeoNode administration"
 msgstr "GeoNode நிர்வாகம்"
 
-#: templates/announcements/announcement_form.html:10
+#: templates/announcements/announcement_form.html:11
 msgid "Edit Announcement"
 msgstr "அறிவிப்பு திருத்த"
 
-#: templates/announcements/announcement_form.html:10
+#: templates/announcements/announcement_form.html:11
 msgid "Create Announcement"
 msgstr "அறிவிப்பு உருவாக்கவும்"
 
-#: templates/announcements/announcement_list.html:19
+#: templates/announcements/announcement_list.html:12
 msgid "New Announcement"
 msgstr "புதிய அறிவிப்பு"
 
-#: templates/announcements/announcement_list.html:31
+#: templates/announcements/announcement_list.html:21
+msgid "Level"
+msgstr ""
+
+#: templates/announcements/announcement_list.html:22
 msgid "Announcement"
 msgstr "அறிவிப்பு"
 
-#: templates/announcements/announcement_list.html:32
+#: templates/announcements/announcement_list.html:23
 msgid "Published From"
 msgstr "இருந்து வெளியிடப்பட்ட"
 
-#: templates/announcements/announcement_list.html:44
-#, python-format
+#: templates/announcements/announcement_list.html:38
+#, fuzzy, python-format
 msgid ""
 "\n"
-"                        Published from <b>%(publish_start)s</b> to <b>%(publish_end)s</b>.\n"
-"                        "
-msgstr "\n<b>%(publish_start)s</b> இருந்து <b>%(publish_end)s</b>"
+"          Published from <b>%(publish_start)s</b> to <b>%(publish_end)s</"
+"b>.\n"
+"          "
+msgstr ""
+"\n"
+"<b>%(publish_start)s</b> இருந்து <b>%(publish_end)s</b>"
 
 #: templates/announcements/detail.html:4
 #, python-format
@@ -3298,7 +3748,8 @@ msgid "Choose new Default"
 msgstr "புதிய இயல்புநிலை தேர்வு"
 
 #: templates/avatar/change.html:23
-msgid "Delete your avatars"
+#, fuzzy
+msgid "Delete Your Avatar"
 msgstr "உங்கள் அவதாரங்களை நீக்கு"
 
 #: templates/avatar/confirm_delete.html:6
@@ -3308,79 +3759,291 @@ msgstr "நீங்கள் நீக்க விரும்புகிற�
 #: templates/avatar/confirm_delete.html:9
 #, python-format
 msgid ""
-"You have no avatars to delete. Please <a "
-"href=\"%(avatar_change_url)s\">upload one</a> now."
-msgstr "நீங்கள் நீக்க அவதாரங்களை எதுவும் இல்லை. தயவு செய்து <a href=\"%(avatar_change_url)s\">ஒரு பதிவேற்ற</a> இப்போது."
+"You have no avatars to delete. Please <a href=\"%(avatar_change_url)s"
+"\">upload one</a> now."
+msgstr ""
+"நீங்கள் நீக்க அவதாரங்களை எதுவும் இல்லை. தயவு செய்து <a href=\"%(avatar_change_url)s"
+"\">ஒரு பதிவேற்ற</a> இப்போது."
 
 #: templates/avatar/confirm_delete.html:15
 msgid "Delete These"
 msgstr "இதனை அழிக்குக "
 
-#: templates/notification/base.html:16 templates/notification/notices.html:7
-#: templates/notification/notices.html:11
-msgid "Notices"
-msgstr "அறிவித்தல்  "
-
-#: templates/notification/base.html:17
-msgid "Notice settings"
-msgstr "அறிவித்தல் வடிவமைப்பு "
-
-#: templates/notification/base.html:18
-msgid "Observed objects"
-msgstr "பொருளை அவதானித்தல்  "
-
-#: templates/notification/notice_settings.html:5
-#: templates/notification/notice_settings.html:10
+#: templates/notification/notice_settings.html:8
+#: templates/notification/notice_settings.html:11
 msgid "Notification Settings"
 msgstr "அறிவிப்புச் செய்தல் வடிவமைப்பு "
 
 #: templates/notification/notice_settings.html:15
-msgid "Primary email"
-msgstr "ஆரம்ப மின்அஞ்சல் "
-
-#: templates/notification/notice_settings.html:17
-#, python-format
-msgid "change under <a href=\"%(email_url)s\">Account</a>"
-msgstr "இதன் கீழ் <a href=\"%(email_url)s\"> மாற்றுக கணக்கு</a>"
-
-#: templates/notification/notice_settings.html:21
-msgid "Note"
-msgstr "குறிப்பு  "
-
-#: templates/notification/notice_settings.html:22
 #, python-format
 msgid ""
-"You do not have a verified email address to which notices can be sent. You "
-"can add one by going to <a href=\"%(email_url)s\">Account</a>."
-msgstr "அறிவித்தலை அனுப்பிவைக்கும் வகையில் சரிபார்க்கப்பட்ட மின்அஞ்சல் முகவிரி ஒன்று உங்களுக்கு இல்லை. <a href=\"%(email_url)s\">Account</a> இற்கு செல்வதன் மூலம் நீங்கள் ஒன்றை சேர்ககலாம்"
+"\n"
+"        <p class=\"alert alert-warning\">\n"
+"            <span class=\"warning\">Note</span>:\n"
+"            You do not have a verified email address to which notices can be "
+"sent. <a href=\"%(email_url)s\">Add one</a> now.\n"
+"        </p>\n"
+"        "
+msgstr ""
 
-#: templates/notification/notice_settings.html:30
+#: templates/notification/notice_settings.html:27
 msgid "Notification Type"
 msgstr "அறிவித்தல் வகை "
 
-#: templates/notification/notice_settings.html:48
+#: templates/notification/notice_settings.html:52
 msgid "Change"
 msgstr "மாற்றம் "
 
-#: templates/notification/notices.html:16
-msgid "Mark all unseen notices seen"
-msgstr "பார்த்த அறிவித்தல்களை பார்க்காததென அடையாளமிடல்"
+#: templates/notification/account_active/full.txt:3
+msgid "Your account has been approved and is now active."
+msgstr ""
 
-#: templates/notification/notices.html:22
-msgid "MONTH_DAY_FORMAT"
-msgstr "மாதம்_நாள்_வடிவம்  "
+#: templates/notification/account_active/full.txt:5
+msgid "You can use the login form at"
+msgstr ""
 
-#: templates/notification/notices.html:33
-msgid "View Notice"
-msgstr "அறிவித்தலை பார்க்க "
+#: templates/notification/account_active/short.txt:3
+msgid "Your account is now active"
+msgstr ""
 
-#: templates/notification/notices.html:41
-msgid "No notices."
-msgstr "அறிவித்தல்கள் இல்லை"
+#: templates/notification/account_approve/full.txt:1
+msgid "has requested access to the site."
+msgstr ""
 
-#: templates/notification/single.html:6 templates/notification/single.html:9
-msgid "Notice"
-msgstr "அறிவித்தல் "
+#: templates/notification/account_approve/full.txt:1
+msgid ""
+"You can enable access by setting the user as active on the admin section"
+msgstr ""
+
+#: templates/notification/account_approve/short.txt:3
+msgid "A user has requested access to the site"
+msgstr ""
+
+#: templates/notification/document_comment/full.txt:3
+#, fuzzy
+msgid "A comment has been posted for the document"
+msgstr "இந்த ஆவணத்துக்கு உங்களுக்கு அனுமதியில்லை"
+
+#: templates/notification/document_comment/full.txt:3
+#: templates/notification/layer_comment/full.txt:3
+#: templates/notification/map_comment/full.txt:4
+msgid "by the user"
+msgstr ""
+
+#: templates/notification/document_comment/full.txt:5
+#: templates/notification/document_created/full.txt:6
+#: templates/notification/document_updated/full.txt:6
+msgid "You can visit the document's detail page here"
+msgstr ""
+
+#: templates/notification/document_comment/short.txt:3
+#, fuzzy
+msgid "A comment has been posted for a document"
+msgstr "இந்த ஆவணத்துக்கு உங்களுக்கு அனுமதியில்லை"
+
+#: templates/notification/document_created/full.txt:3
+#: templates/notification/document_rated/full.txt:3
+#: templates/notification/layer_created/full.txt:3
+#: templates/notification/layer_rated/full.txt:3
+#: templates/notification/map_created/full.txt:3
+#: templates/notification/map_rated/full.txt:3
+#: templates/notification/request_download_resourcebase/full.txt:3
+#, fuzzy
+msgid "The user"
+msgstr "பயனர்கள் தேர்வு ..."
+
+#: templates/notification/document_created/full.txt:3
+#, fuzzy
+msgid "uploaded the following document"
+msgstr "இந்த ஆவண மாற்றவும்"
+
+#: templates/notification/document_created/short.txt:3
+#, fuzzy
+msgid "A document has been uploaded"
+msgstr "ஒரு படுகை பதிவேற்றப்பட்டுள்ளது "
+
+#: templates/notification/document_deleted/full.txt:3
+#, fuzzy
+msgid "The following document was deleted"
+msgstr "பின்வரும் பயனர்களை:"
+
+#: templates/notification/document_deleted/full.txt:4
+#: templates/notification/document_rated/full.txt:6
+#: templates/notification/document_updated/full.txt:4
+#: templates/notification/layer_deleted/full.txt:4
+#: templates/notification/layer_rated/full.txt:6
+#: templates/notification/layer_updated/full.txt:4
+#: templates/notification/map_deleted/full.txt:4
+#: templates/notification/map_rated/full.txt:6
+#: templates/notification/map_updated/full.txt:4
+#, fuzzy
+msgid "owned by"
+msgstr "வலுவேற்றப்பட்டுள்ளது "
+
+#: templates/notification/document_deleted/short.txt:3
+#, fuzzy
+msgid "A document has been deleted"
+msgstr "சேவை உருவாக்கப்பட்ட:"
+
+#: templates/notification/document_rated/full.txt:4
+#: templates/notification/layer_rated/full.txt:4
+#: templates/notification/map_rated/full.txt:4
+#, fuzzy
+msgid "rated"
+msgstr "உருவாக்கப்பட்டுள்ளது"
+
+#: templates/notification/document_rated/full.txt:5
+#, fuzzy
+msgid "the following document"
+msgstr "பின்வரும் பயனர்களை:"
+
+#: templates/notification/document_rated/full.txt:8
+#: templates/notification/layer_comment/full.txt:5
+#: templates/notification/layer_created/full.txt:6
+#: templates/notification/layer_rated/full.txt:8
+#: templates/notification/layer_updated/full.txt:6
+msgid "You can visit the layer's detail page here"
+msgstr ""
+
+#: templates/notification/document_rated/short.txt:3
+#, fuzzy
+msgid "A document has been rated"
+msgstr "சேவை உருவாக்கப்பட்ட:"
+
+#: templates/notification/document_updated/full.txt:3
+#, fuzzy
+msgid "The following document was updated"
+msgstr "பின்வரும் பயனர்களை:"
+
+#: templates/notification/document_updated/short.txt:3
+#, fuzzy
+msgid "A document has been updated"
+msgstr "சேவை உருவாக்கப்பட்ட:"
+
+#: templates/notification/layer_comment/full.txt:3
+#, fuzzy
+msgid "A comment has been posted for the layer"
+msgstr "இந்த அடுக்கு ஆவணங்கள்"
+
+#: templates/notification/layer_comment/short.txt:3
+#, fuzzy
+msgid "A comment has been posted for a layer"
+msgstr "படுகை ஒன்று தரப்படுத்தப்பட்டுள்ளது  "
+
+#: templates/notification/layer_created/full.txt:3
+#, fuzzy
+msgid "uploaded the following layer"
+msgstr "இந்த வரைபடம் பின்வரும் படுகைகளை பயன்படுத்துகின்றது  "
+
+#: templates/notification/layer_created/short.txt:3
+#, fuzzy
+msgid "A new layer has been uploaded"
+msgstr "ஒரு படுகை பதிவேற்றப்பட்டுள்ளது "
+
+#: templates/notification/layer_deleted/full.txt:3
+#, fuzzy
+msgid "The following layer was deleted"
+msgstr "பின்வரும் அடுக்குகளைக் இறக்குமதி"
+
+#: templates/notification/layer_deleted/short.txt:3
+#, fuzzy
+msgid "A layer has been deleted"
+msgstr "படுகை ஒன்று குறிப்பிடப்பட்டுள்ளது "
+
+#: templates/notification/layer_rated/full.txt:5
+#, fuzzy
+msgid "the following layer"
+msgstr "பின்வரும் பயனர்களை:"
+
+#: templates/notification/layer_rated/short.txt:3
+#, fuzzy
+msgid "A layer has been rated"
+msgstr "சேவை உருவாக்கப்பட்ட:"
+
+#: templates/notification/layer_updated/full.txt:3
+#, fuzzy
+msgid "The following layer was updated"
+msgstr "பின்வரும் அடுக்குகளைக் இறக்குமதி"
+
+#: templates/notification/layer_updated/short.txt:3
+#, fuzzy
+msgid "A layer has been updated"
+msgstr "ஒரு படுகை பதிவேற்றப்பட்டுள்ளது "
+
+#: templates/notification/map_comment/full.txt:3
+#, fuzzy
+msgid "A comment has been posted for the map"
+msgstr "ஆவணங்கள் இந்த வரைபடத்துடன் தொடர்பானது"
+
+#: templates/notification/map_comment/full.txt:6
+#: templates/notification/map_created/full.txt:6
+#: templates/notification/map_rated/full.txt:8
+#: templates/notification/map_updated/full.txt:6
+msgid "You can visit the map's detail page here"
+msgstr ""
+
+#: templates/notification/map_comment/short.txt:3
+msgid "A comment has been posted for a map"
+msgstr ""
+
+#: templates/notification/map_created/full.txt:3
+#, fuzzy
+msgid "created the following map"
+msgstr "செயற்பாடு பின்வரும் வரைபடங்களை பாதிக்கும் "
+
+#: templates/notification/map_created/short.txt:3
+#, fuzzy
+msgid "A map has been created"
+msgstr "ஒரு வடைபடம் உருவாக்கப்பட்டது "
+
+#: templates/notification/map_deleted/full.txt:3
+#, fuzzy
+msgid "The following map was deleted"
+msgstr "பின்வரும் அடுக்குகளைக் இறக்குமதி"
+
+#: templates/notification/map_deleted/short.txt:3
+#, fuzzy
+msgid "A map has been deleted"
+msgstr "ஒரு வடைபடத்திற்கு குறிப்பிடப்பட்டுள்ளது "
+
+#: templates/notification/map_rated/full.txt:5
+#, fuzzy
+msgid "the following map"
+msgstr "பின்வரும் குழுக்கள்:"
+
+#: templates/notification/map_rated/short.txt:3
+#, fuzzy
+msgid "A map has been rated"
+msgstr "ஒரு வடைபடம் உருவாக்கப்பட்டது "
+
+#: templates/notification/map_updated/full.txt:3
+#, fuzzy
+msgid "The following map was updated"
+msgstr "பின்வரும் அடுக்குகளைக் இறக்குமதி"
+
+#: templates/notification/map_updated/short.txt:3
+#, fuzzy
+msgid "A map has been updated"
+msgstr "ஒரு வடைபடம் உருவாக்கப்பட்டது "
+
+#: templates/notification/request_download_resourcebase/full.txt:3
+#, fuzzy
+msgid "requested you to download this resource"
+msgstr "வளங்களுக்கு உரித்தான தரப்புக்கள்"
+
+#: templates/notification/request_download_resourcebase/full.txt:9
+#, fuzzy
+msgid "Document"
+msgstr "ஆவணங்கள் "
+
+#: templates/notification/request_download_resourcebase/full.txt:12
+msgid ""
+"Please go to resource page and assign the download permissions if you wish"
+msgstr ""
+
+#: templates/notification/request_download_resourcebase/short.txt:3
+msgid "A resource's download has been requested"
+msgstr ""
 
 #: templates/relationships/_list_connections.html:3
 #: templates/relationships/_manage_connections.html:6
@@ -3477,15 +4140,15 @@ msgstr "இந்த yyyy-mm-dd"
 msgid "Date ends before:"
 msgstr "முந்தைய தேதி முடிவடைகிறது:"
 
-#: templates/search/_search_content.html:10
+#: templates/search/_search_content.html:6
 msgid "Your selections"
 msgstr " உங்கள்  தெரிவு "
 
-#: templates/search/_search_content.html:11
+#: templates/search/_search_content.html:7
 msgid "Clear all filters"
 msgstr "அனைத்து வடிகட்டிகள் அழி"
 
-#: templates/search/_sort_filters.html:13
+#: templates/search/_sort_filters.html:15
 msgid "Set permissions"
 msgstr "அமை அனுமதிகள்"
 
@@ -3493,50 +4156,145 @@ msgstr "அமை அனுமதிகள்"
 msgid "Text"
 msgstr "உரை"
 
+#: templates/user_messages/_message_snippet.html:8
+msgid "With"
+msgstr "உடன் "
+
+#: templates/user_messages/_message_snippet.html:9
+msgid "Subject"
+msgstr "விடயம் "
+
+#: templates/user_messages/_message_snippet.html:10
+msgid "Last Sender"
+msgstr "இறுதியாக அனுப்பியவர்"
+
+#: templates/user_messages/_message_snippet.html:11
+msgid "Preview"
+msgstr "முன்காட்சி  "
+
+#: templates/user_messages/_message_snippet.html:12
+msgid "Delete?"
+msgstr "அழித்தல்?  "
+
+#: templates/user_messages/_message_snippet.html:29
+#: templates/user_messages/thread_detail.html:14
+#, fuzzy
+msgid "me"
+msgstr "முகப்பு "
+
 #: templates/user_messages/inbox.html:6
 msgid "Message Inbox"
 msgstr "தகவல் உள்பெட்டி "
 
-#: templates/user_messages/inbox.html:12
-msgid "With"
-msgstr "உடன் "
+#: templates/user_messages/inbox.html:11
+#, fuzzy
+msgid "Messages"
+msgstr "தகவல் உள்பெட்டி "
 
-#: templates/user_messages/inbox.html:13
-msgid "Subject"
-msgstr "விடயம் "
-
-#: templates/user_messages/inbox.html:14
-msgid "Last Sender"
-msgstr "இறுதியாக அனுப்பியவர்"
-
-#: templates/user_messages/inbox.html:15
-msgid "Preview"
-msgstr "முன்காட்சி  "
-
-#: templates/user_messages/inbox.html:16
-msgid "Delete?"
-msgstr "அழித்தல்?  "
-
-#: templates/user_messages/inbox.html:33
-#: templates/user_messages/thread_detail.html:14
-msgid "you"
-msgstr "நீங்கள் "
-
-#: templates/user_messages/inbox.html:55
-#: templates/user_messages/message_create.html:5
-#: templates/user_messages/message_create.html:8
+#: templates/user_messages/inbox.html:38
+#: templates/user_messages/message_create.html:6
+#: templates/user_messages/message_create.html:9
 msgid "Create Message"
 msgstr "தகவலை உருவாக்கல்  "
 
-#: templates/user_messages/message_create.html:14
+#: templates/user_messages/message_create.html:16
 msgid "Send message"
 msgstr "கொடுத்த தகவல்கள் "
 
-#: templates/user_messages/message_create.html:19
+#: templates/user_messages/message_create.html:22
 #: templates/user_messages/thread_detail.html:32
 msgid "Back to Inbox"
 msgstr "உள்பெட்டிக்கு திரும்புதல் "
 
-#: templates/user_messages/thread_detail.html:25
+#: templates/user_messages/thread_detail.html:26
 msgid "Send Reply"
 msgstr "சென்ற அறிவித்தல் "
+
+#~ msgid "Most shared"
+#~ msgstr "அதிகம் பகிரப்பட்டது "
+
+#~ msgid "from"
+#~ msgstr "இருந்து "
+
+#~ msgid "view"
+#~ msgstr "பார்வையிடல் "
+
+#~ msgid "Average rating"
+#~ msgstr "சராசரி மதிப்பீடு "
+
+#~ msgid "votes"
+#~ msgstr "வாக்குகள்"
+
+#~ msgid "You do not have permission to view this document"
+#~ msgstr "நீங்கள் இந்த ஆவணத்தைப் பார்க்க அனுமதி இல்லை"
+
+#~ msgid "Remote Thumbnail"
+#~ msgstr "தொலை சிறு"
+
+#~ msgid "Thumbnail"
+#~ msgstr "சிறு"
+
+#~ msgid "Group details"
+#~ msgstr "குழு விவரங்கள்"
+
+#~ msgid "Create a map"
+#~ msgstr "ஒரு வரைபடத்தை உருவாக்கு"
+
+#~ msgid "You do not have permission to view this layer"
+#~ msgstr "நீங்கள் இந்த அடுக்கு பார்வையிட அனுமதி இல்லை"
+
+#~ msgid "View"
+#~ msgstr "காண்க"
+
+#~ msgid "You do not have permission to view this map"
+#~ msgstr "நீங்கள் இந்த வரைபடத்தை பார்க்க அனுமதி இல்லை"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "விருப்பத்திற்குரியதில் சேர்க்க "
+
+#~ msgid "Add a Comment"
+#~ msgstr "கருத்தொன்றை சேர்க்க "
+
+#~ msgid "Notices"
+#~ msgstr "அறிவித்தல்  "
+
+#~ msgid "Notice settings"
+#~ msgstr "அறிவித்தல் வடிவமைப்பு "
+
+#~ msgid "Observed objects"
+#~ msgstr "பொருளை அவதானித்தல்  "
+
+#~ msgid "Primary email"
+#~ msgstr "ஆரம்ப மின்அஞ்சல் "
+
+#~ msgid "change under <a href=\"%(email_url)s\">Account</a>"
+#~ msgstr "இதன் கீழ் <a href=\"%(email_url)s\"> மாற்றுக கணக்கு</a>"
+
+#~ msgid "Note"
+#~ msgstr "குறிப்பு  "
+
+#~ msgid ""
+#~ "You do not have a verified email address to which notices can be sent. "
+#~ "You can add one by going to <a href=\"%(email_url)s\">Account</a>."
+#~ msgstr ""
+#~ "அறிவித்தலை அனுப்பிவைக்கும் வகையில் சரிபார்க்கப்பட்ட மின்அஞ்சல் முகவிரி ஒன்று உங்களுக்கு "
+#~ "இல்லை. <a href=\"%(email_url)s\">Account</a> இற்கு செல்வதன் மூலம் நீங்கள் ஒன்றை "
+#~ "சேர்ககலாம்"
+
+#~ msgid "Mark all unseen notices seen"
+#~ msgstr "பார்த்த அறிவித்தல்களை பார்க்காததென அடையாளமிடல்"
+
+#~ msgid "MONTH_DAY_FORMAT"
+#~ msgstr "மாதம்_நாள்_வடிவம்  "
+
+#~ msgid "View Notice"
+#~ msgstr "அறிவித்தலை பார்க்க "
+
+#~ msgid "No notices."
+#~ msgstr "அறிவித்தல்கள் இல்லை"
+
+#~ msgid "Notice"
+#~ msgstr "அறிவித்தல் "
+
+#~ msgid "you"
+#~ msgstr "நீங்கள் "
