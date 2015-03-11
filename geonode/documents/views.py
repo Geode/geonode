@@ -20,6 +20,7 @@ from geonode.base.models import TopicCategory, ResourceBase
 from geonode.documents.models import Document
 from geonode.documents.forms import DocumentForm, DocumentCreateForm, DocumentReplaceForm
 from geonode.documents.models import IMGTYPES
+from geonode.utils import build_social_links
 
 ALLOWED_DOC_TYPES = settings.ALLOWED_DOCUMENT_TYPES
 
@@ -80,18 +81,27 @@ def document_detail(request, docid):
         except:
             related = ''
 
-        if request.user != document.owner:
+        # Update count for popularity ranking,
+        # but do not includes admins or resource owners
+        if request.user != document.owner and not request.user.is_superuser:
             Document.objects.filter(id=document.id).update(popular_count=F('popular_count') + 1)
+
+        metadata = document.link_set.metadata().filter(
+            name__in=settings.DOWNLOAD_FORMATS_METADATA)
+
+        context_dict = {
+            'permissions_json': _perms_info_json(document),
+            'resource': document,
+            'metadata': metadata,
+            'imgtypes': IMGTYPES,
+            'related': related}
+
+        if settings.SOCIAL_ORIGINS:
+            context_dict["social_links"] = build_social_links(request, document)
 
         return render_to_response(
             "documents/document_detail.html",
-            RequestContext(
-                request,
-                {
-                    'permissions_json': _perms_info_json(document),
-                    'resource': document,
-                    'imgtypes': IMGTYPES,
-                    'related': related}))
+            RequestContext(request, context_dict))
 
 
 def document_download(request, docid):
@@ -110,6 +120,11 @@ def document_download(request, docid):
 class DocumentUploadView(CreateView):
     template_name = 'documents/document_upload.html'
     form_class = DocumentCreateForm
+
+    def get_context_data(self, **kwargs):
+        context = super(DocumentUploadView, self).get_context_data(**kwargs)
+        context['ALLOWED_DOC_TYPES'] = ALLOWED_DOC_TYPES
+        return context
 
     def form_valid(self, form):
         """
@@ -246,8 +261,7 @@ def document_metadata(
                 the_document.poc = new_poc
                 the_document.metadata_author = new_author
                 the_document.keywords.add(*new_keywords)
-                the_document.category = new_category
-                the_document.save()
+                Document.objects.filter(id=the_document.id).update(category=new_category)
                 return HttpResponseRedirect(
                     reverse(
                         'document_detail',

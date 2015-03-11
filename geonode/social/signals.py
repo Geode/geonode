@@ -35,6 +35,7 @@ from geonode.layers.models import Layer
 from geonode.maps.models import Map
 from geonode.documents.models import Document
 from geonode.people.models import Profile
+from geonode.tasks.email import send_queued_notifications
 
 logger = logging.getLogger(__name__)
 
@@ -156,14 +157,12 @@ if notification_app:
         """ Send a notification when a layer, map or document is created or
         updated
         """
-        if created:
-            notice_type_label = '%s_created' % instance.class_name.lower()
-            recipients = get_notification_recipients(notice_type_label)
-            notification.send(recipients, notice_type_label, {'resource': instance})
-        else:
-            notice_type_label = '%s_updated' % instance.class_name.lower()
-            recipients = get_notification_recipients(notice_type_label)
-            notification.send(recipients, notice_type_label, {'resource': instance})
+        notice_type_label = '%s_created' if created else '%s_updated'
+        notice_type_label = notice_type_label % instance.class_name.lower()
+        recipients = get_notification_recipients(notice_type_label)
+        notification.send(recipients, notice_type_label, {'resource': instance})
+
+        send_queued_notifications.delay()
 
     def notification_post_delete_resource(instance, sender, **kwargs):
         """ Send a notification when a layer, map or document is deleted
@@ -171,6 +170,7 @@ if notification_app:
         notice_type_label = '%s_deleted' % instance.class_name.lower()
         recipients = get_notification_recipients(notice_type_label)
         notification.send(recipients, notice_type_label, {'resource': instance})
+        send_queued_notifications.delay()
 
     def rating_post_save(instance, sender, created, **kwargs):
         """ Send a notification when rating a layer, map or document
@@ -178,6 +178,7 @@ if notification_app:
         notice_type_label = '%s_rated' % instance.content_object.class_name.lower()
         recipients = get_notification_recipients(notice_type_label, instance.user)
         notification.send(recipients, notice_type_label, {"instance": instance})
+        send_queued_notifications.delay()
 
     def comment_post_save(instance, sender, created, **kwargs):
         """ Send a notification when a comment to a layer, map or document has
@@ -186,6 +187,7 @@ if notification_app:
         notice_type_label = '%s_comment' % instance.content_object.class_name.lower()
         recipients = get_notification_recipients(notice_type_label, instance.author)
         notification.send(recipients, notice_type_label, {"instance": instance})
+        send_queued_notifications.delay()
 
     def get_notification_recipients(notice_type_label, exclude_user=None):
         """ Get notification recipients

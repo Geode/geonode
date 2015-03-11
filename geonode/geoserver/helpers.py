@@ -49,6 +49,7 @@ from django.contrib.contenttypes.models import ContentType
 from django.db.models.signals import pre_delete
 from django.template.loader import render_to_string
 from django.conf import settings
+from django.utils.translation import ugettext as _
 
 from dialogos.models import Comment
 from agon_ratings.models import OverallRating
@@ -661,13 +662,29 @@ def set_attributes(layer, overwrite=False):
         except Exception:
             attribute_map = []
 
+    # we need 3 more items for description, attribute_label and display_order
+    attribute_map_dict = {
+        'field': 0,
+        'ftype': 1,
+        'description': 2,
+        'label': 3,
+        'display_order': 4,
+    }
+    for attribute in attribute_map:
+        attribute.extend((None, None, 0))
+
     attributes = layer.attribute_set.all()
     # Delete existing attributes if they no longer exist in an updated layer
     for la in attributes:
         lafound = False
-        for field, ftype in attribute_map:
+        for attribute in attribute_map:
+            field, ftype, description, label, display_order = attribute
             if field == la.attribute:
                 lafound = True
+                # store description and attribute_label in attribute_map
+                attribute[attribute_map_dict['description']] = la.description
+                attribute[attribute_map_dict['label']] = la.attribute_label
+                attribute[attribute_map_dict['display_order']] = la.display_order
         if overwrite or not lafound:
             logger.debug(
                 "Going to delete [%s] for [%s]",
@@ -678,10 +695,13 @@ def set_attributes(layer, overwrite=False):
     # Add new layer attributes if they don't already exist
     if attribute_map is not None:
         iter = len(Attribute.objects.filter(layer=layer)) + 1
-        for field, ftype in attribute_map:
+        for attribute in attribute_map:
+            field, ftype, description, label, display_order = attribute
             if field is not None:
                 la, created = Attribute.objects.get_or_create(
-                    layer=layer, attribute=field, attribute_type=ftype)
+                    layer=layer, attribute=field, attribute_type=ftype,
+                    description=description, attribute_label=label,
+                    display_order=display_order)
                 if created:
                     if is_layer_attribute_aggregable(
                             layer.storeType,
@@ -699,7 +719,6 @@ def set_attributes(layer, overwrite=False):
                             la.sum = result['Sum']
                             la.unique_values = result['unique_values']
                             la.last_stats_updated = datetime.datetime.now()
-                    la.attribute_label = field.title()
                     la.visible = ftype.find("gml:") != 0
                     la.display_order = iter
                     la.save()
@@ -717,6 +736,7 @@ def set_styles(layer, gs_catalog):
     gs_layer = gs_catalog.get_layer(layer.name)
     default_style = gs_layer.default_style
     layer.default_style = save_style(default_style)
+    # FIXME: This should remove styles that are no longer valid
     style_set.append(layer.default_style)
 
     alt_styles = gs_layer.styles
@@ -921,12 +941,14 @@ def _create_db_featurestore(name, data, overwrite=False, charset="UTF-8"):
                               charset=charset)
         return ds, cat.get_resource(name, store=ds)
     except Exception:
-        # FIXME(Ariel): This is not a good idea, today there was a problem
-        # accessing postgis that caused add_data_to_store to fail,
-        # for the same reasons the call to delete_from_postgis below failed too
-        # I am commenting it out and filing it as issue #1058
-        # delete_from_postgis(name)
-        raise
+        msg = _("An exception occurred loading data to PostGIS")
+        msg += "- %s" % (sys.exc_info()[1])
+        try:
+            delete_from_postgis(name)
+        except Exception:
+            msg += _(" Additionally an error occured during database cleanup")
+            msg += "- %s" % (sys.exc_info()[1])
+        raise GeoNodeException(msg)
 
 
 def geoserver_upload(

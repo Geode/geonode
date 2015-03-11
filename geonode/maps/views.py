@@ -32,6 +32,7 @@ from django.utils.translation import ugettext as _
 from django.utils import simplejson as json
 from django.utils.html import strip_tags
 from django.db.models import F
+from django.views.decorators.clickjacking import xframe_options_exempt
 
 from geonode.layers.models import Layer
 from geonode.maps.models import Map, MapLayer, MapSnapshot
@@ -46,10 +47,12 @@ from geonode.maps.forms import MapForm
 from geonode.security.views import _perms_info_json
 from geonode.base.forms import CategoryForm
 from geonode.base.models import TopicCategory
+from geonode.tasks.deletion import delete_map
 
 from geonode.documents.models import get_related_documents
 from geonode.people.forms import ProfileForm
 from geonode.utils import num_encode, num_decode
+from geonode.utils import build_social_links
 
 if 'geonode.geoserver' in settings.INSTALLED_APPS:
     # FIXME: The post service providing the map_status object
@@ -99,7 +102,9 @@ def map_detail(request, mapid, snapshot=None, template='maps/map_detail.html'):
 
     map_obj = _resolve_map(request, mapid, 'base.view_resourcebase', _PERMISSION_MSG_VIEW)
 
-    if request.user != map_obj.owner:
+    # Update count for popularity ranking,
+    # but do not includes admins or resource owners
+    if request.user != map_obj.owner and not request.user.is_superuser:
         Map.objects.filter(id=map_obj.id).update(popular_count=F('popular_count') + 1)
 
     if snapshot is None:
@@ -109,13 +114,19 @@ def map_detail(request, mapid, snapshot=None, template='maps/map_detail.html'):
 
     config = json.dumps(config)
     layers = MapLayer.objects.filter(map=map_obj.id)
-    return render_to_response(template, RequestContext(request, {
+
+    context_dict = {
         'config': config,
         'resource': map_obj,
         'layers': layers,
         'permissions_json': _perms_info_json(map_obj),
         "documents": get_related_documents(map_obj),
-    }))
+    }
+
+    if settings.SOCIAL_ORIGINS:
+        context_dict["social_links"] = build_social_links(request, map_obj)
+
+    return render_to_response(template, RequestContext(request, context_dict))
 
 
 @login_required
@@ -232,14 +243,11 @@ def map_remove(request, mapid, template='maps/map_remove.html'):
         }))
 
     elif request.method == 'POST':
-        layers = map_obj.layer_set.all()
-        for layer in layers:
-            layer.delete()
-        map_obj.delete()
-
+        delete_map.delay(object_id=map_obj.id)
         return HttpResponseRedirect(reverse("maps_browse"))
 
 
+@xframe_options_exempt
 def map_embed(
         request,
         mapid=None,
@@ -828,7 +836,7 @@ def map_thumbnail(request, mapid):
 
             if not image:
                 return
-            filename = "map-%s-thumb.png" % map_obj.id
+            filename = "map-%s-thumb.png" % map_obj.uuid
             map_obj.save_thumbnail(filename, image)
 
             return HttpResponse('Thumbnail saved')

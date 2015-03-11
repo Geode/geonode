@@ -1,3 +1,581 @@
+geonode (2.4.0+beta22) trusty; urgency=high
+
+  [ capooti ]
+  * [111ace] In layer details page displaying the attributes label and description in place of WPS indicators when OGC WPS_ENABLED is set to False. By default, WPS_ENABLED is now set to False. Refs #1412
+  * [09c2ad] We always need to display label and description for layer attribute
+
+  [ Simone Dalmasso ]
+  * [ade9da] fix the wrong autocomplete box positioning in metadata pages
+
+  [ Jeffrey Johnson ]
+  * [2df84d] Initial work on describing GeoGig OSM functionality
+  * [d1f173] Added a new reference page on supported browsers and testing in IE
+
+  [ Simone Dalmasso ]
+  * [16c3a7] bump flake8 versions (2.2.5 seems to be available anymore) and fix pep8 violations
+
+  [ capooti ]
+  * [fba8d9] Removed the pyshp dependency, now using OGR
+
+  [ Simone Dalmasso ]
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Mon, 09 Feb 2015 15:34:03 +0000
+
+geonode (2.4.0+beta21) trusty; urgency=high
+
+  [ state-hiu ]
+  * [c515cc] Initial support for region filter
+  * [36fcb3] Collapsed on page load
+  * [3eebf4] removed binding
+  * [465c13] fixed count
+
+  [ menegon ]
+  * [606dd6] Added menegon to AUTHORS
+
+  [ Simone Dalmasso ]
+  * [8d0dd4] add pyshp to deb dependencies
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Fri, 06 Feb 2015 09:13:18 +0000
+
+geonode (2.4.0+beta20) trusty; urgency=high
+
+  [ Julien Collaer ]
+  * [503c96] adding an edit data link pointing to new map
+  * [4354fa] adding check to show edit data only when stortype is datastore"
+  * [84c74f] adding a check for the change_layer_data permission"
+
+  [ nathanhilbert ]
+  * [ec60bf] removed some required win_install_dep packages since wheels are now used
+
+  [ Julien Collaer ]
+  * [bb05ec] change_layer_data should be given to someone without change_resourcebase granted.
+
+  [ Paolo Pasquali ]
+  * [575922] Add some style to explore people page
+
+  [ capooti ]
+  * [bcf0b7] Fixes #1307 by avoiding invalid column names when uploading shapefiles
+
+  [ Julien Collaer ]
+  * [3d324e] changing links in homepage for registred and unregistred users
+
+  [ Simone Dalmasso ]
+  * [359692] add badges filter to respect the title search, fixes #1122
+  * [a80106] add conditional colon in search result
+
+  [ Nicolas Dufrane ]
+  * [d5328f] styler does not show up when not logged
+
+  [ capooti ]
+  * [11d54d] Now regex include "_"
+
+  [ nathanhilbert ]
+  * [5de107] added ms install instructions and scripts
+
+  [ Nathan Hilbert ]
+  * [8cd200] Update to readme for windows install build instructions
+
+  [ capooti ]
+  * [ffa5b9] Relaxing the regex for column names to include some more extra character such as #, :
+
+  [ Paolo Pasquali ]
+  * [e1ee2e] Truncate long title strings with ellipsis (CSS)
+
+  [ Simone Dalmasso ]
+  * [a12ebd] workaround for iso xml geoserver links
+
+  [ julien collaer ]
+  * [a32e21] latest sycing with transifex.com
+
+  [ Matteo Nastasi ]
+  * [f37500] refactored 'geonode.updateip' script to accomplish #1199 github issue
+
+  [ Geode Team ]
+  * [62252a] add required value
+
+  [ Simone Dalmasso ]
+  * [9a78cd] remove confusing id in edit doc metadata
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Thu, 05 Feb 2015 16:58:12 +0000
+
+geonode (2.4.0+beta19) trusty; urgency=high
+
+  [ Nicolas Dufrane ]
+  * [0e3955] Fix PEP8 Violations in Pavement.py #2002
+
+  [ Paolo Pasquali ]
+  * [a8e6df] Improve explore page for layers, maps and docs
+
+  [ eomwandho ]
+  * [c58ee4] Editing developer mode installation manual
+
+  [ Paolo Pasquali ]
+  * [5a760e] Fix IE9 45 rotation
+
+  [ eomwandho ]
+  * [b285d2] Added postgresql installation in devmode installtion
+
+  [ ilpise ]
+  * [757e8a] no create gropu button for no auth users
+
+  [ eomwandho ]
+  * [33826b] Added some titles to list
+
+  [ Jeffrey Johnson ]
+  * [c02e26] Remove print statements
+
+  [ ilpise ]
+  * [7426fe] fixed spaces
+
+  [ Simone Dalmasso ]
+  * [726264] add multi-select to grunt ad assets css
+  * [4b0bd4] remove the unneeded css rule for style manage page
+  * [f5892a] fix the legend update on layer detail page
+
+  [ Daniele Viganò ]
+  * [7f7a2d] Add SITEURL and CATALOGUE to local_settings.py.sample
+
+  [ Ariel Núñez ]
+  * [7dd349] Added incompatibility notice for IE users (before IE10)
+
+  [ Vivien Deparday ]
+  * [11a3e0] Update geoexplorer.txt
+
+  [ Simone Dalmasso ]
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Wed, 04 Feb 2015 16:30:08 +0000
+
+geonode (2.4.0+beta18) trusty; urgency=high
+
+  [ julien collaer ]
+  * [1275b8] refreshed from tx and compiled
+
+  [ capooti ]
+  * [a1481a] Added remote services sources in GXP
+
+  [ Paolo Pasquali ]
+  * [f22642] Add style to edit layer modal
+  * [568c3c] Close the edit layer modal when opening the styler
+  * [c6ca90] Add style to edit document modal
+  * [5c5ce2] Add style to edit map modal
+
+  [ julien collaer ]
+  * [43bf43] fr translations integrated'
+
+  [ ilpise ]
+  * [d8c3a3] moving the logo from file field to image field
+
+  [ Paolo Pasquali ]
+  * [028dc7] Remove html if group logo does not exist
+
+  [ menegon ]
+  * [4eeb1f] remove files and session if an upload error occurs
+  * [5b059f] added integration test in order to check if -uploaded- directory is clean
+
+  [ julien collaer ]
+  * [98ccb9] link added to accounts
+
+  [ Julien Collaer ]
+  * [c61274] Update contribute_to_translation.txt
+
+  [ nathanhilbert ]
+  * [07dfb5] Windows quick install update
+  * [5214a9] added some additional checks and messages for java_paths
+  * [23e4fb] adding logic to settings.py to check for GEOS and GDAL
+  * [01f604] updating based on PR #1996
+
+  [ state-hiu ]
+  * [9c8b45] CKAN Intents.  Added support for: date, caveats.
+  * [9c1c21] fix typo
+  * [c5e313] added jetty runner option to setup_geoserver
+  * [2975cd] Fix for document metadata links
+
+  [ Jeffrey Johnson ]
+  * [b6552f] Remove/rewrite some incredible stupidity from @jj0hns0n
+
+  [ capooti ]
+  * [3a6aad] Correctly set LOG_FILE in settings and handle the case where a LOG_FILE is not found
+
+  [ Ariel Núñez ]
+  * [495d2c] Added creation of geonode_data database.
+  * [86b6ad] Set 'geonode_data' as the 'datastore' for GeoServer
+
+  [ menegon ]
+  * [e4cf01] reverted changes
+
+  [ Ariel Núñez ]
+  * [cc8e35] Improved GeoServer performance
+
+  [ Jeffrey Johnson ]
+  * [a7c24c] Use the title in the Layer Style Manage page vs the name
+
+  [ Simone Dalmasso ]
+  * [b93fa0] rework the geoserver_pre_save signal to avoid upload every time, also fixes #1926
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Wed, 04 Feb 2015 11:40:40 +0000
+
+geonode (2.4.0+beta17) trusty; urgency=high
+
+  [ Tyler Garner ]
+  * [a21884] Minor profile page enhancements.  Fixes #1975.
+
+  [ Jeffrey Johnson ]
+  * [e34875] Add an inner try/except block when trying to clean up and delete_from_postgis. Closes #1058
+
+  [ Tyler Garner ]
+  * [c2e6b6] Bump `geonode-user-accounts` version to 1.0.10.  Fixes #1856.
+
+  [ Simone Dalmasso ]
+  * [d705ff] add missing comma
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Tue, 03 Feb 2015 16:33:57 +0000
+
+geonode (2.4.0+beta16) trusty; urgency=high
+
+  [ Tyler Garner ]
+  * [433cf0] Propagate exceptions from tasks when CELERY_ALWAYS_EAGER is True.
+  * [75d256] Catch exception when deleting a layer from a layer group.  Fixes #1671.
+
+  [ Simone Dalmasso ]
+  * [9dcab3] fix #1341
+
+  [ Tyler Garner ]
+  * [556698] Rename 'Profile Menu' to 'Menu'.  Fixes #1898.
+
+  [ Simone Dalmasso ]
+  * [7cbf3f] fadd back the print service to map detail, fixes #1779
+  * [ce7429] update keywords before layer form save, fixes #1196
+
+  [ Ariel Núñez ]
+  * [20a3a2] Added LOG_FILE to local_settings.py in packages
+
+  [ Simone Dalmasso ]
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Tue, 03 Feb 2015 15:26:42 +0000
+
+geonode (2.4.0+beta15) trusty; urgency=high
+
+  [ Paolo Pasquali ]
+  * [c92f17] Revert layers upload buttons to correct style
+  * [9eaeb7] Fix group logo image responsiveness in group list page
+
+  [ Jeffrey Johnson ]
+  * [27f372] Add config["queryable"] = True to the layer detail view so the Identify tool works. closes #1865
+
+  [ capooti ]
+  * [c4139d] Bumped geonode-user-messages 0.1.2
+
+  [ Jeffrey Johnson ]
+  * [f16853] Actually get a user with importlayers. Closes #1953
+
+  [ Paolo Pasquali ]
+  * [f7d05f] Some improvements in people layout and style
+
+  [ Simone Dalmasso ]
+  * [2b946b] add option to specify remote services name, partially helps for #1961
+
+  [ Daniele Viganò ]
+  * [2ba7b5] Users should not be able to edit other users profile
+
+  [ Jeffrey Johnson ]
+  * [b7373f] Moving test_configure_time to geonode.upload.tests.integration and re-enabling. The tests in geonode.upload.tests.integration are not currently run. @ischneider has proposed to replace this entire module Closes #1767
+
+  [ Simone Dalmasso ]
+  * [990c88] make groups selection by title in permissions widget, fixes #1961
+
+  [ Ariel Núñez ]
+  * [27e341] Added a context field to UploadSession
+  * [85e5c3] Better information on the traceback
+  * [0723a2] Added a LOG_FILE key to OGC_SERVER
+  * [90378a] Removed help fields on UploadSession
+
+  [ Jeffrey Johnson ]
+  * [1f4650] Fix up some imports in the upload integration tests
+
+  [ Ariel Núñez ]
+  * [80a593] Better error reporting
+
+  [ Simone Dalmasso ]
+  * [60b4f7] fix pep8
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Tue, 03 Feb 2015 11:50:19 +0000
+
+geonode (2.4.0+beta14) trusty; urgency=high
+
+  [ Allan Oware ]
+  * [d4d668] modified about page
+
+  [ d3netxer ]
+  * [ee28e4] fixed #1803
+
+  [ state-hiu ]
+  * [871e53] quick pep8 fix
+  * [12efdf] support for local geoserver binary
+
+  [ machakux ]
+  * [f21944] Fix image references in translation contribution docs
+
+  [ Simone Dalmasso ]
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Tue, 03 Feb 2015 09:00:45 +0000
+
+geonode (2.4.0+beta13) trusty; urgency=high
+
+  [ Paolo Pasquali ]
+  * [310a6c] Fix #1960
+
+  [ Simone Dalmasso ]
+  * [7737d4] disable html5 mode in explorer in search
+  * [284206] disable notification by default
+
+  [ Jeffrey Johnson ]
+  * [12c995] Dont use ^ in autocomplete (this means starts with)
+
+  [ Paolo Pasquali ]
+  * [666036] Add links to homepage facets. And some padding improvements. Fix #1901
+  * [ca486f] Remove text-center class from homepage
+
+  [ capooti ]
+  * [7a71de] Hack to fix #1932
+
+  [ Paolo Pasquali ]
+  * [881c43] Add some profile layout fixes
+
+  [ capooti ]
+  * [9fccf0] Removing stale links when updating layers. Fixes #1090
+  * [6818a9] Making flake8 happy
+
+  [ Simone Dalmasso ]
+  * [97493c] fixes #1888
+
+  [ Tyler Garner ]
+  * [e1c1ab] Include step to install `sphinx_rtd_theme` when building docs.
+
+  [ capooti ]
+  * [1b769b] Fixes #1966
+
+  [ Simone Dalmasso ]
+  * [84e8cd] obscure thumbnail urls
+
+  [ capooti ]
+  * [944446] Reading THEME_ACCOUNT_CONTACT_EMAIL in context processor
+
+  [ Paolo Pasquali ]
+  * [c2ec51] General minor layout improvements
+
+  [ Jeffrey Johnson ]
+  * [f0828e] Check if the store.type is None before checking its value
+
+  [ Paolo Pasquali ]
+  * [6a93e3] Fix form width
+
+  [ Simone Dalmasso ]
+  * [2dc741] add back the print middleware for private layers fixes #765
+
+  [ Jeffrey Johnson ]
+  * [c1c5cc] Delete geoservers store (deleting the postgis table) when doing layer replace (fixes #1860)
+
+  [ capooti ]
+  * [67f28d] Bumped geonode-avatar 2.1.4
+
+  [ Simone Dalmasso ]
+  * [5f1f81] add default configurable permissions for anonymous user
+
+  [ Jeffrey Johnson ]
+  * [6189f7] Add new logic to detect changing layer types (raster/vector) when replacing layers vs letting geonode handle this
+  * [06aac1] Use 400 error code vs 500
+
+  [ Simone Dalmasso ]
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Mon, 02 Feb 2015 17:21:05 +0000
+
+geonode (2.4.0+beta12) trusty; urgency=high
+
+  [ state-hiu ]
+  * [ef373f] Initial support for Share with CKAN (HDX as prototype)
+  * [936b0b] Disable CKAN by default
+  * [51342f] PEP8 fixes
+
+  [ Tyler Garner ]
+  * [129000] Enable XFrameOptionsMiddleware for clickjacking prevention.
+
+  [ state-hiu ]
+  * [a069c7] Do not include admins in view counts
+  * [0e39c0] layout changes for group members and avatar change
+
+  [ Stefano Menegon ]
+  * [c20130] Fixed issue with non ASCII characters
+
+  [ state-hiu ]
+  * [6fc90a] Fix #1847; anonymoususer fix; layout fixes
+
+  [ Daniele Viganò ]
+  * [b2246b] Fix the README contained in the zip file created by a map download
+
+  [ Simone Dalmasso ]
+  * [e002a3] use link to docs in readme for installation devmode
+  * [67b61b] fix link
+
+  [ menegon ]
+  * [27057b] improved layer_acls performaces
+
+  [ John Jediny ]
+  * [c85974] Adding blank extra_tab block
+
+  [ menegon ]
+  * [edb815] PEP8 fixes
+  * [2fb7d8] used set operations - as suggested by @ischneider
+  * [f3385a] fixed test_layer_acls issue
+
+  [ Geode Team ]
+  * [4634b5] research user-group insensitive and exclude AnonymousUser
+  * [9fbd6b] fix pep8
+
+  [ state-hiu ]
+  * [76e43b] Fix dropdown; Prevent duplicate group members
+
+  [ Simone Dalmasso ]
+  * [a3472c] compile css
+
+  [ state-hiu ]
+  * [30b305] added documentation to settings.txt
+  * [2114cb] fixes fakepath issue on document upload
+  * [785a73] category links to search; more info button
+
+  [ Simone Dalmasso ]
+  * [94ebf1] simplify notifications
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Mon, 02 Feb 2015 10:22:57 +0000
+
+geonode (2.4.0+beta11) trusty; urgency=high
+
+  [ state-hiu ]
+  * [153fdd] Social Origins List; SOCIAL_BUTTONS fallbacks to False
+  * [f941e2] PEP8 Fixes; Documented settings.SOCIAL_ORIGINS
+  * [a60b7a] Refractor.  Added function to utils.py
+
+  [ Jeffrey Johnson ]
+  * [cf24b5] Added John Jediny (nepanode) to contributors.
+  * [02f724] Adding slack config to travis.yml
+
+  [ George Silva ]
+  * [340d6e] Fix bug that causes paver_start to fail on windows.
+
+  [ Geode Team ]
+  * [bf2353] add perm choice for #1922
+  * [4e5c81] replace is_layer_list by is_layer
+
+  [ capooti ]
+  * [9e0b8d] This fixes #1908
+  * [9519d3] Oops, forgot about the display_order in previous commit
+  * [e74388] Default value for display order cannot be null
+  * [5a3d35] Added an integration test for set_attributes, used by updatelayers
+
+  [ Tyler Garner ]
+  * [65e191] Minor improvements to the `groups` tests.
+
+  [ state-hiu ]
+  * [e1ce41] Fix #1849
+  * [986a9d] Fix #1934
+  * [63726b] PEP8 Fix
+  * [1300c6] Activity Filters (All, Layers, Maps, Comments)
+  * [bcc714] PEP8 Fixes
+
+  [ Simone Dalmasso ]
+  * [e79ce7] add celery to debian dependencies
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Fri, 23 Jan 2015 13:55:26 +0000
+
+geonode (2.4.0+beta10) trusty; urgency=high
+
+  [ Mila Frerichs ]
+  * [996276] Add foreground option to startup script to start django in foreground
+  * [889056] Add Dockerfile and fig for easier developement/deployment
+
+  [ Ariel Nunez ]
+
+ -- Ariel Nunez <ingenieroariel@gmail.com>  Thu, 15 Jan 2015 10:10:36 -0500
+
+geonode (2.4.0+beta9) trusty; urgency=high
+
+  [ Tom Kralidis ]
+  * [143a06] update pycsw docs ref [ci skip]
+
+  [ Tyler Garner ]
+  * [8bb675] Bump Django to 1.6.10.
+
+  [ Ariel Nunez ]
+
+ -- Ariel Nunez <ingenieroariel@gmail.com>  Thu, 15 Jan 2015 10:09:39 -0500
+
+geonode (2.4.0+beta8) trusty; urgency=high
+
+  [ Simone Dalmasso ]
+  * [c8f5f5] add initial thumbnail logic
+  * [b63a85] add thumbnail to map save
+  * [79d6d4] cleanup map thumbnails files on regen
+  * [63c5c4] formalize thumb name
+
+  [ Ariel Nunez ]
+  * [fe1e18] Fixed short version of account requested
+  * [c4cb6d] Renamed capital PNG to png in docs
+  * [fe5b5f] Renamed capital PNG to png in docs
+
+  [ Tom Kralidis ]
+  * [e62edb] add CSW bbox query test
+
+  [ Simone Dalmasso ]
+  * [b64467] simplify thumbnail management
+  * [1fef11] save layer only once
+  * [af42b6] fix tests and folder creation
+  * [227934] Save the remote thumbnail url on layer load
+  * [ae6eea] move the create logic in helpers
+  * [007573] make the http_client not tied to gs
+
+  [ Paolo Pasquali ]
+  * [608773] Change the profile dropdown in bootstrap modal
+
+  [ Tyler Garner ]
+  * [c13513] Return the user's full name in the resolve_user and layer_acls views.
+
+  [ Paolo Pasquali ]
+  * [52bf1d] Add links to profile page
+
+  [ Tyler Garner ]
+  * [f7f9c7] Update skip_unadvertised logic to not run when advertised is "false".
+
+  [ Ariel Núñez ]
+  * [12b3fb] Update ec2.py
+
+  [ Tyler Garner ]
+  * [5a89f6] Update the upload progress bar to use bootstrap 3 class names.  Fixes #1797.
+  * [595a8f] Bump django-forms-bootstrap to 3.0.1 for bootstrap 3 classes.
+  * [112222] Minor style improvements and code cleanup.
+  * [b1e95a] Fix autopep8 shenanigans in the url routes.
+  * [f1f783] Improve upload button styles.
+  * [e27326] Improve style of the attribute table on the layer metadata route.
+
+  [ George Silva ]
+  * [e00168] corrigindo algumas traduções.
+
+  [ Tyler Garner ]
+  * [9b82d7] Use client-side polling (instead of server-side) polling when using the importer upload.
+
+  [ menegon ]
+  * [8ab593] fixed the pluralization of translated strings
+
+  [ Tyler Garner ]
+  * [c38352] Fix a bug where clicking 'Clear' on the upload page would fail to clear the actual files.
+  * [b44281] Use a single paver task to execute all of the tests.
+  * [91a9c1] Fix a broken url on the upload layer page.
+  * [b4e47a] Rename GeoGit to GeoGig.
+  * [1000ca] Initial celery integration.
+  * [fb2973] Use an SLD's name instead of text from a name element when saving styles in GeoNode.
+
+  [ Simone Dalmasso ]
+
+ -- Simone Dalmasso <simone.dalmasso@gmail.com>  Wed, 14 Jan 2015 07:30:09 +0000
+
 geonode (2.4.0+beta7) trusty; urgency=high
 
   [ Ariel Nunez ]

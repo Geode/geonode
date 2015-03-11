@@ -9,6 +9,7 @@ from guardian.shortcuts import get_objects_for_user
 
 from geonode.base.models import ResourceBase
 from geonode.base.models import TopicCategory
+from geonode.base.models import Region
 from geonode.layers.models import Layer
 from geonode.maps.models import Map
 from geonode.documents.models import Document
@@ -30,12 +31,13 @@ FILTER_TYPES = {
 
 class TypeFilteredResource(ModelResource):
 
-    """ Common resource used to apply faceting to categories and keywords
-    based on the type passed as query parameter in the form
+    """ Common resource used to apply faceting to categories, keywords, and
+    regions based on the type passed as query parameter in the form
     type:layer/map/document"""
     count = fields.IntegerField()
 
     type_filter = None
+    title_filter = None
 
     def dehydrate_count(self, bundle):
         raise Exception('dehydrate_count not implemented in the child class')
@@ -48,6 +50,9 @@ class TypeFilteredResource(ModelResource):
             self.type_filter = FILTER_TYPES[filters['type']]
         else:
             self.type_filter = None
+        if 'title__icontains' in filters:
+            self.title_filter = filters['title__icontains']
+
         return orm_filters
 
 
@@ -67,14 +72,17 @@ class TagResource(TypeFilteredResource):
         if settings.RESOURCE_PUBLISHING:
             resources = resources.filter(is_published=True)
 
+        if self.title_filter:
+            resources = resources.filter(title__icontains=self.title_filter)
         resources_ids = resources.values_list('id', flat=True)
 
+        tags = bundle.obj.taggit_taggeditem_items
         if self.type_filter:
             ctype = ContentType.objects.get_for_model(self.type_filter)
-            count = bundle.obj.taggit_taggeditem_items.filter(
+            count = tags.filter(
                 content_type=ctype).filter(object_id__in=resources_ids).count()
         else:
-            count = bundle.obj.taggit_taggeditem_items.filter(object_id__in=resources_ids).count()
+            count = tags.filter(object_id__in=resources_ids).count()
 
         return count
 
@@ -84,6 +92,41 @@ class TagResource(TypeFilteredResource):
         allowed_methods = ['get']
         filtering = {
             'slug': ALL,
+        }
+
+
+class RegionResource(TypeFilteredResource):
+
+    """Regions api"""
+
+    def dehydrate_count(self, bundle):
+        count = 0
+        if settings.SKIP_PERMS_FILTER:
+            resources = ResourceBase.published.all()
+        else:
+            resources = get_objects_for_user(
+                bundle.request.user,
+                'base.view_resourcebase'
+            )
+        if settings.RESOURCE_PUBLISHING:
+            resources = resources.filter(is_published=True)
+
+        resources_ids = resources.values_list('id', flat=True)
+
+        if self.type_filter:
+            count = bundle.obj.resourcebase_set.filter(
+                id__in=resources_ids).instance_of(self.type_filter).count()
+        else:
+            count = bundle.obj.resourcebase_set.filter(id__in=resources_ids).count()
+
+        return count
+
+    class Meta:
+        queryset = Region.objects.all().order_by('name')
+        resource_name = 'regions'
+        allowed_methods = ['get']
+        filtering = {
+            'name': ALL,
         }
 
 
@@ -97,6 +140,8 @@ class TopicCategoryResource(TypeFilteredResource):
             resources = resources.filter(is_published=True)
         if self.type_filter:
             resources = resources.instance_of(self.type_filter)
+        if self.title_filter:
+            resources = resources.filter(title__icontains=self.title_filter)
         if not settings.SKIP_PERMS_FILTER:
             permitted = get_objects_for_user(
                 bundle.request.user,

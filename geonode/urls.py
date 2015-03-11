@@ -23,6 +23,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.conf.urls.static import static
 from geonode.sitemap import LayerSitemap, MapSitemap
 from django.views.generic import TemplateView
+from django.contrib import admin
 
 import geonode.proxy.urls
 
@@ -32,7 +33,7 @@ import autocomplete_light
 
 # Setup Django Admin
 autocomplete_light.autodiscover()
-from django.contrib import admin
+
 admin.autodiscover()
 
 js_info_dict = {
@@ -73,7 +74,6 @@ urlpatterns = patterns('',
                        (r'^ratings/', include('agon_ratings.urls')),
                        (r'^activity/', include('actstream.urls')),
                        (r'^announcements/', include('announcements.urls')),
-                       (r'^notifications/', include('notification.urls')),
                        (r'^messages/', include('user_messages.urls')),
                        (r'^social/', include('geonode.social.urls')),
                        (r'^security/', include('geonode.security.urls')),
@@ -110,6 +110,11 @@ if 'geonode.geoserver' in settings.INSTALLED_APPS:
                             # Upload views
                             (r'^upload/', include('geonode.upload.urls')),
                             (r'^gs/', include('geonode.geoserver.urls')),
+                            )
+
+if 'notification' in settings.INSTALLED_APPS:
+    urlpatterns += patterns('',
+                            (r'^notifications/', include('notification.urls')),
                             )
 
 # Set up proxy

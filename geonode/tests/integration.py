@@ -23,11 +23,12 @@ import datetime
 import urllib2
 import base64
 import time
+import logging
+import gisdata
 
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
 from django.core.management import call_command
-from django.test import Client
 from django.test import LiveServerTestCase as TestCase
 from django.core.urlresolvers import reverse
 from django.contrib.staticfiles.templatetags import staticfiles
@@ -46,19 +47,16 @@ from geonode.layers.utils import (
 )
 from geonode.tests.utils import check_layer, get_web_page
 
-from geonode.geoserver.helpers import cascading_delete
+from geonode.geoserver.helpers import cascading_delete, set_attributes
 # FIXME(Ariel): Uncomment these when #1767 is fixed
 # from geonode.geoserver.helpers import get_time_info
 # from geonode.geoserver.helpers import get_wms
 # from geonode.geoserver.helpers import set_time_info
 from geonode.geoserver.signals import gs_catalog
 
-import gisdata
-
 
 LOGIN_URL = "/accounts/login/"
 
-import logging
 logging.getLogger("south").setLevel(logging.INFO)
 
 
@@ -103,8 +101,7 @@ class NormalUserTest(TestCase):
         his own layer despite not being a site administrator.
         """
 
-        client = Client()
-        client.login(username='norman', password='norman')
+        self.client.login(username='norman', password='norman')
 
         # TODO: Would be nice to ensure the name is available before
         # running the test...
@@ -119,7 +116,7 @@ class NormalUserTest(TestCase):
         )
 
         url = reverse('layer_metadata', args=[saved_layer.service_typename])
-        resp = client.get(url)
+        resp = self.client.get(url)
         self.assertEquals(resp.status_code, 200)
 
 
@@ -514,9 +511,8 @@ class GeoNodeMapTest(TestCase):
         """Regression-test for failures caused by zero-width bounding boxes"""
         thefile = os.path.join(gisdata.VECTOR_DATA, 'single_point.shp')
         uploaded = file_upload(thefile, overwrite=True)
-        client = Client()
-        client.login(username='norman', password='norman')
-        resp = client.get(uploaded.get_absolute_url())
+        self.client.login(username='norman', password='norman')
+        resp = self.client.get(uploaded.get_absolute_url())
         self.assertEquals(resp.status_code, 200)
 
     def test_layer_replace(self):
@@ -530,14 +526,13 @@ class GeoNodeMapTest(TestCase):
         raster_file = os.path.join(gisdata.RASTER_DATA, 'test_grid.tif')
         raster_layer = file_upload(raster_file, overwrite=True)
 
-        c = Client()
-        c.login(username='admin', password='admin')
+        self.client.login(username='admin', password='admin')
 
         # test the program can determine the original layer in raster type
         raster_replace_url = reverse(
             'layer_replace', args=[
                 raster_layer.service_typename])
-        response = c.get(raster_replace_url)
+        response = self.client.get(raster_replace_url)
         self.assertEquals(response.status_code, 200)
         self.assertEquals(response.context['is_featuretype'], False)
 
@@ -545,17 +540,17 @@ class GeoNodeMapTest(TestCase):
         vector_replace_url = reverse(
             'layer_replace', args=[
                 vector_layer.service_typename])
-        response = c.get(vector_replace_url)
+        response = self.client.get(vector_replace_url)
         self.assertEquals(response.status_code, 200)
         self.assertEquals(response.context['is_featuretype'], True)
 
         # test replace a vector with a raster
-        response = c.post(
+        response = self.client.post(
             vector_replace_url, {
                 'base_file': open(
                     raster_file, 'rb')})
         # TODO: This should really return a 400 series error with the json dict
-        self.assertEquals(response.status_code, 500)
+        self.assertEquals(response.status_code, 400)
         response_dict = json.loads(response.content)
         self.assertEquals(response_dict['success'], False)
 
@@ -569,11 +564,13 @@ class GeoNodeMapTest(TestCase):
         layer_shx = open(layer_path + '.shx', 'rb')
         layer_prj = open(layer_path + '.prj', 'rb')
 
-        response = c.post(vector_replace_url, {'base_file': layer_base,
-                                               'dbf_file': layer_dbf,
-                                               'shx_file': layer_shx,
-                                               'prj_file': layer_prj
-                                               })
+        response = self.client.post(
+            vector_replace_url,
+            {'base_file': layer_base,
+             'dbf_file': layer_dbf,
+             'shx_file': layer_shx,
+             'prj_file': layer_prj
+             })
         self.assertEquals(response.status_code, 200)
         response_dict = json.loads(response.content)
         self.assertEquals(response_dict['success'], True)
@@ -589,14 +586,16 @@ class GeoNodeMapTest(TestCase):
         self.assertNotEqual(vector_layer.bbox_y1, new_vector_layer.bbox_y1)
 
         # test an invalid user without layer replace permission
-        c.logout()
-        c.login(username='norman', password='norman')
+        self.client.logout()
+        self.client.login(username='norman', password='norman')
 
-        response = c.post(vector_replace_url, {'base_file': layer_base,
-                                               'dbf_file': layer_dbf,
-                                               'shx_file': layer_shx,
-                                               'prj_file': layer_prj
-                                               })
+        response = self.client.post(
+            vector_replace_url,
+            {'base_file': layer_base,
+             'dbf_file': layer_dbf,
+             'shx_file': layer_shx,
+             'prj_file': layer_prj
+             })
         self.assertEquals(response.status_code, 401)
 
 
@@ -709,14 +708,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 </sld:StyledLayerDescriptor>"""
 
         # user without change_layer_style cannot edit it
-        c = Client()
-        c.login(username='norman', password='norman')
-        response = c.put(url, sld, content_type='application/vnd.ogc.sld+xml')
+        self.client.login(username='norman', password='norman')
+        response = self.client.put(url, sld, content_type='application/vnd.ogc.sld+xml')
         self.assertEquals(response.status_code, 401)
 
         # user with change_layer_style can edit it
         assign_perm('change_layer_style', norman, layer)
-        response = c.put(url, sld, content_type='application/vnd.ogc.sld+xml')
+        response = self.client.put(url, sld, content_type='application/vnd.ogc.sld+xml')
         self.assertEquals(response.status_code, 200)
 
         # Clean up and completely delete the layer
@@ -785,48 +783,6 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             # Clean up and completely delete the layer
             layer.delete()
 
-#    #FIXME(Ariel): Logged this as ticket  #1767
-#    def test_configure_time(self):
-#        # make sure it's not there (and configured)
-#        cascading_delete(gs_catalog, 'boxes_with_end_date')
-#
-#        def get_wms_timepositions():
-#            metadata = get_wms().contents['geonode:boxes_with_end_date']
-#            self.assertTrue(metadata is not None)
-#            return metadata.timepositions
-#
-#        thefile = os.path.join(
-#            gisdata.GOOD_DATA, 'time', 'boxes_with_end_date.shp'
-#        )
-#        uploaded = file_upload(thefile, overwrite=True)
-#        check_layer(uploaded)
-#        # initial state is no positions or info
-#        self.assertTrue(get_wms_timepositions() is None)
-#        self.assertTrue(get_time_info(uploaded) is None)
-#
-#        # enable using interval and single attribute
-#        set_time_info(uploaded, 'date', None, 'DISCRETE_INTERVAL', 3, 'days')
-#        self.assertEquals(
-#            ['2000-03-01T00:00:00.000Z/2000-06-08T00:00:00.000Z/P3D'],
-#            get_wms_timepositions()
-#        )
-#        self.assertEquals(
-#            {'end_attribute': None, 'presentation': 'DISCRETE_INTERVAL',
-#             'attribute': 'date', 'enabled': True, 'precision_value': '3',
-#             'precision_step': 'days'},
-#            get_time_info(uploaded)
-#        )
-#
-#        # disable but configure to use enddate attribute in list
-#        set_time_info(uploaded, 'date', 'enddate', 'LIST', None, None, enabled=False)
-#        # verify disabled
-#        self.assertTrue(get_wms_timepositions() is None)
-#        # test enabling now
-#        info = get_time_info(uploaded)
-#        info['enabled'] = True
-#        set_time_info(uploaded, **info)
-#        self.assertEquals(100, len(get_wms_timepositions()))
-
 
 class GeoNodeThumbnailTest(TestCase):
 
@@ -843,8 +799,7 @@ class GeoNodeThumbnailTest(TestCase):
         """Test the layer save method generates a thumbnail link
         """
 
-        client = Client()
-        client.login(username='norman', password='norman')
+        self.client.login(username='norman', password='norman')
 
         # TODO: Would be nice to ensure the name is available before
         # running the test...
@@ -865,8 +820,7 @@ class GeoNodeThumbnailTest(TestCase):
     def test_map_thumbnail(self):
         """Test the map save method generates a thumbnail link
         """
-        client = Client()
-        client.login(username='norman', password='norman')
+        self.client.login(username='norman', password='norman')
 
         # TODO: Would be nice to ensure the name is available before
         # running the test...
@@ -909,8 +863,7 @@ class GeoNodeMapPrintTest(TestCase):
             # STEP 1: Import a layer
             from geonode.maps.models import Map
 
-            client = Client()
-            client.login(username='norman', password='norman')
+            self.client.login(username='norman', password='norman')
 
             # TODO: Would be nice to ensure the name is available before
             # running the test...
@@ -933,12 +886,12 @@ class GeoNodeMapPrintTest(TestCase):
                     saved_layer.service_typename])
 
             # check is accessible while logged in
-            resp = client.get(url)
+            resp = self.client.get(url)
             self.assertEquals(resp.status_code, 200)
 
             # check is inaccessible when not logged in
-            client.logout()
-            resp = client.get(url)
+            self.client.logout()
+            resp = self.client.get(url)
             self.assertEquals(resp.status_code, 302)
 
             # STEP 2: Create a Map with that layer
@@ -973,11 +926,53 @@ class GeoNodeMapPrintTest(TestCase):
                 'srs': 'EPSG:900913',
                 'units': 'm'}
 
-            client.post(print_url, post_payload)
+            self.client.post(print_url, post_payload)
 
             # Test the layer is still inaccessible as non authenticated
-            resp = client.get(url)
+            resp = self.client.get(url)
             self.assertEquals(resp.status_code, 302)
 
         else:
             pass
+
+
+class GeoNodeGeoServerSync(TestCase):
+
+    """Tests GeoNode/GeoServer syncronization
+    """
+
+    def setUp(self):
+        call_command('loaddata', 'people_data', verbosity=0)
+
+    def tearDown(self):
+        pass
+
+    def test_set_attributes(self):
+        """Test attributes syncronization
+        """
+
+        # upload a shapefile
+        shp_file = os.path.join(
+            gisdata.VECTOR_DATA,
+            'san_andres_y_providencia_poi.shp')
+        layer = file_upload(shp_file)
+
+        # set attributes for resource
+        for attribute in layer.attribute_set.all():
+            attribute.attribute_label = '%s_label' % attribute.attribute
+            attribute.description = '%s_description' % attribute.attribute
+            attribute.save()
+
+        # sync the attributes with GeoServer
+        set_attributes(layer)
+
+        # tests if everything is synced properly
+        for attribute in layer.attribute_set.all():
+            self.assertEquals(
+                attribute.attribute_label,
+                '%s_label' % attribute.attribute
+            )
+            self.assertEquals(
+                attribute.description,
+                '%s_description' % attribute.attribute
+            )
