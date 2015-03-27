@@ -69,6 +69,10 @@ from geonode.layers.utils import layer_type, get_files
 from geonode.layers.models import Layer, Attribute, Style
 from geonode.layers.enumerations import LAYER_ATTRIBUTE_NUMERIC_DATA_TYPES
 
+DEF_STYLE = {"point" : "point_style",
+             "line" : "line_style",
+             "polygon" : "polygon_style",
+             "raster" : "raster_style"}
 
 logger = logging.getLogger(__name__)
 
@@ -1110,8 +1114,13 @@ def geoserver_upload(
         sld = get_sld_for(publishing)
 
     if sld is not None:
+        style_name = name
+        if style_name in DEF_STYLE:
+            msg = ('This name %s are a default style name' %(name))
+            logger.warn(msg)
+            style_name = DEF_STYLE[name]
         try:
-            cat.create_style(name, sld)
+            cat.create_style(style_name, sld)
         except geoserver.catalog.ConflictingDataError as e:
             msg = ('There was already a style named %s in GeoServer, '
                    'cannot overwrite: "%s"' % (name, str(e)))
@@ -1119,7 +1128,7 @@ def geoserver_upload(
             e.args = (msg,)
 
         # FIXME: Should we use the fully qualified typename?
-        publishing.default_style = cat.get_style(name)
+        publishing.default_style = cat.get_style(style_name)
         cat.save(publishing)
 
     # Step 10. Create the Django record for the layer
